@@ -11,7 +11,7 @@ import Signup from './pages/Signup.js';
 import './App.css';
 
 function App() {
-  const [username, setUsername] = useState(null);
+  const [username, setUsername] = useState('TejasRaghuram');
 
   return (
     <UserContext.Provider value={{ username: username, setUsername: setUsername }}>

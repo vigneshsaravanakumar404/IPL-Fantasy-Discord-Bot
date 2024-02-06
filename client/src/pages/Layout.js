@@ -5,33 +5,34 @@ import Logo from './../images/Logo.png';
 import './../styles/Layout.css';
 
 function Navbar() {
-    const { username, setUsername } = useContext(UserContext);
+    const user = useContext(UserContext);
     const navigate = useNavigate();
 
-    if(username != null)
+    if(user.username != null)
     {
         return(
             <div>
-                <p>{ username }</p>
+                <div id='layout-navbar'>
+                    <img id='layout-navbar-logo' src={Logo} alt=''/>
+                    <p class='layout-navbar-link' onClick={() => {
+                        navigate('/');
+                    }}>Home</p>
+                    <p class='layout-navbar-link' onClick={() => {
+                        navigate('/players');
+                    }}>Player Rankings</p>
+                    <button id='layout-logout' onClick={() => {
+                        user.setUsername(null);
+                        navigate('login');
+                    }}>Log Out</button>
+                </div>
+                <div id='layout-buffer'/>
             </div>
         );
     }
     else
     {
         return(
-            <div id='layout-navbar'>
-                <img id='layout-navbar-logo' src={Logo} alt=''/>
-                <p class='layout-navbar-link' onClick={() => {
-                    navigate('/');
-                }}>Home</p>
-                <p class='layout-navbar-link' onClick={() => {
-                    navigate('/players');
-                }}>Player Rankings</p>
-                <button id='layout-logout' onClick={() => {
-                    setUsername(null);
-                    navigate('login');
-                }}>Log Out</button>
-            </div>
+            <div/>
         );
     }
 }
@@ -46,7 +47,6 @@ function Layout() {
     return(
         <div>
             <Navbar/>
-            <div id='layout-buffer'/>
             <Outlet/>
             <Footer/>
         </div>
