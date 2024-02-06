@@ -48,6 +48,37 @@
 }
 
 #layout-footer {
+    padding-left: 20px;
+    padding-right: 20px;
     color: darkgray;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    #layout-navbar {
+        height: 50px;
+    }
+
+    #layout-navbar-logo {
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .layout-navbar-link {
+        margin-left: 20px;
+        bottom: 10px;
+    }
+
+    #layout-logout {
+        width: 80px;
+        margin-left: calc(100vw - 90px);
+        bottom: 37.5px;
+    }
+
+    #layout-buffer {
+        height: 50px;
+    }
+
 }
