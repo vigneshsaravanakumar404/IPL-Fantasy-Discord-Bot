@@ -3,14 +3,13 @@ import Unknown from './../images/Unknown.png';
 import './../styles/Players.css';
 
 function Player(props) {
-    var image = "https://scores.iplt20.com/ipl/playerimages/" + props.name.replaceAll(' ', '%20') + '.png';
+    const [image, setImage] = useState(Unknown);
 
     const check = new Image();
-    check.src = image;
-    if(!check.complete)
-    {
-        image = Unknown;
-    }
+    check.src = "https://scores.iplt20.com/ipl/playerimages/" + props.name.replaceAll(' ', '%20') + '.png';
+    check.onload = () => {
+        setImage(check.src);
+    };
 
     return(
         <div class='player-body'>
