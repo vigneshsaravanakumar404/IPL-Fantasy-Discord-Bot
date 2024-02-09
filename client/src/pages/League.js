@@ -21,6 +21,8 @@ function User(props) {
 function League() {
     const params = useParams();
 
+    // make sure league exists
+
     return(
         <div id='league-content'>
             <h1>{params.league}</h1>

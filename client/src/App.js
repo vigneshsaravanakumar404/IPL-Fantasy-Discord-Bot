@@ -20,7 +20,7 @@ function App() {
           <Route path='/' element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path=':league' element={<League/>}/>
-            <Route path=':league/:user' element={<User/>}/>
+            <Route path=':league/:username' element={<User/>}/>
             <Route path='players' element={<Players/>}/>
             <Route path='login' element={<Login/>}/>
             <Route path='signup' element={<Signup/>}/>
