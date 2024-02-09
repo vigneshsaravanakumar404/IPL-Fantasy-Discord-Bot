@@ -21,29 +21,11 @@
     border-radius: 30px;
 }
 
-.player-rank-body-mobile {
-    width: 60px;
-    height: 60px;
-    margin-left: 10px;
-    margin-top: 20px;
-    display: inline-block;
-    background-color: rgb(230, 230, 230);
-    border-radius: 30px;
-}
-
 .player-rank {
     position: relative;
     top: 15px;
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
-}
-
-.player-rank-mobile {
-    position: relative;
-    top: 17.5px;
-    text-align: center;
-    font-size: 18px;
     font-weight: bold;
 }
 
@@ -61,15 +43,6 @@
     font-weight: bold;
 }
 
-.player-name-mobile {
-    margin-left: 15px;
-    position: relative;
-    top: 20px;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-}
-
 .player-points {
     margin-left: calc(100% - 100px);
     position: relative;
@@ -79,11 +52,44 @@
     font-weight: bold;
 }
 
-.player-points-mobile {
-    margin-left: calc(100% - 60px);
-    position: relative;
-    bottom: 40px;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
+@media (max-width: 768px) {
+
+    .player-rank-body {
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 20px;
+        position: relative;
+        top: 0px;
+        display: inline-block;
+        background-color: rgb(230, 230, 230);
+        border-radius: 30px;
+    }
+
+    .player-rank {
+        position: relative;
+        top: 17.5px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .player-name {
+        margin-left: 15px;
+        position: relative;
+        top: 20px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .player-points {
+        margin-left: calc(100% - 60px);
+        position: relative;
+        bottom: 40px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
 }
