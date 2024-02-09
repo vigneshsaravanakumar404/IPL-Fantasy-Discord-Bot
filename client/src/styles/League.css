@@ -51,3 +51,32 @@
 #league-content {
     padding: 25px;
 }
+
+@media (max-width: 768px) {
+
+    .league-user-rank-body {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 30px;
+        top: 0px;
+    }
+
+    .league-user-rank {
+        top: 10px;
+        font-size: 16px;
+    }
+
+    .league-user-name {
+        margin-left: 15px;
+        top: 10px;
+        font-size: 16px;
+    }
+
+    .league-user-points {
+        margin-left: calc(100% - 60px);
+        bottom: 30px;
+        font-size: 16px;
+    }
+
+}
