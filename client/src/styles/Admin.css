@@ -1,0 +1,68 @@
+.admin-fixture
+{
+    margin-top: 15px;
+}
+
+.admin-match
+{
+    text-align: center;
+}
+
+.admin-add
+{
+    width: 100px;
+    height: 35px;
+    margin-left: calc(50vw - 90px);
+    color: white;
+    background-color: darkorange;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.admin-add:hover 
+{
+    background-color: rgb(210, 110, 0);
+    cursor: pointer;
+}
+
+#admin-content
+{
+    padding: 25px;
+}
+
+#admin-prompt {
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#admin-password {
+    width: 260px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#admin-submit {
+    width: 100px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: darkorange;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#admin-submit:hover {
+    background-color: rgb(210, 110, 0);
+    cursor: pointer;
+}
+
+#admin-portal {
+    padding: 15px;
+}

@@ -8,6 +8,7 @@ import User from './pages/User.js';
 import Players from './pages/Players.js';
 import Login from './pages/Login.js';
 import Signup from './pages/Signup.js';
+import Admin from './pages/Admin.js';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path='players' element={<Players/>}/>
             <Route path='login' element={<Login/>}/>
             <Route path='signup' element={<Signup/>}/>
+            <Route path='admin' element={<Admin/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
