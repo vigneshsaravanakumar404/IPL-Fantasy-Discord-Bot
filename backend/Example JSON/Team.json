@@ -1,0 +1,48 @@
+{
+  "teamName": "Chennai Super Kings",
+  "ownerUsername": "vigneshsaravanakumar",
+  "points": 5679,
+  "mostWickets": {
+    "bowler": "Jasprit Bumrah",
+    "wickets": 90,
+    "highestInLeauge": false
+  },
+  "mostDots": {
+    "bowler": "Rashid Khan",
+    "dots": 100,
+    "highestInLeauge": true
+  },
+
+  "players": [
+    {
+      "name": "Virat Kohli",
+      "role": "Batsman",
+      "country": "India",
+      "points": 100
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "role": "Bowler",
+      "country": "India",
+      "points": 90
+    },
+    {
+      "name": "Kane Williamson",
+      "role": "Batsman",
+      "country": "New Zealand",
+      "points": 95
+    },
+    {
+      "name": "Rashid Khan",
+      "role": "Bowler",
+      "country": "Afghanistan",
+      "points": 85
+    },
+    {
+      "name": "Jos Buttler",
+      "role": "Wicketkeeper",
+      "country": "England",
+      "points": 80
+    }
+  ]
+}

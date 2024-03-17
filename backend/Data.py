@@ -1,4 +1,3 @@
-# 
 # Batters
 O = [["DP Conway", False, 0, 0, False, False, 0, 0],
      ["David Warner", False, 0, 0, False, False, 0, 0],

@@ -2,15 +2,12 @@
 from Functions import format_batter_table, format_bowler_table, clear, create_team
 from requests import get
 from Data import O, W, B, A, S, P
+from flask import *
+
 
 # Variables
 BATTING_DATA_SOURCE = "https://www.espncricinfo.com/records/tournament/averages-batting/indian-premier-league-2023-15129"
 BOWLING_DATA_SOURCE = "https://www.espncricinfo.com/records/tournament/bowling-most-wickets-career/indian-premier-league-2023-15129"
-
-#! Main
-clear()
-print("\033[91mIPL Fantasy Points Calculator:\033[0m\n")
-
 
 #! Batting Calculations
 print("\033[92mBatting Calculations...\033[0m")
