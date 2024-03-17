@@ -1,0 +1,13 @@
+Players
+- Generate Player Reports
+
+Team
+- Generate Team Reports (Combine all player reports & some team stats)
+- Team Stats: Total Points, Maxes won, Rank, Player leaderboard ranked by points scored
+- Create the teams and assign players to them
+
+League
+- Generate League Leaderboards
+- League Stats: Which team has won which maxes
+- Have Link to Team Reports
+- Calculate Maxes won
