@@ -1,11 +1,11 @@
 # Imports
-from Functions import clear, get_team_data, get_4_5_plus_wickets
+from Functions import clear, get_team_data, get_4_5_plus_wickets, combine_stats
 from pprint import pprint
 import json
 
 
 # Variables
-TEST_TEAM_URLS = ["https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343"]
+TEST_TEAM_URLS = ["https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343", "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4344"]
 TEAM_URLS = [
     "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343",
     "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4344",
@@ -29,13 +29,15 @@ clear()
 print("\033[92mGetting Data\033[0m")
 
 TEAM_DATA = json.dumps([get_team_data(team_url) for team_url in TEAM_URLS])
+TEAM_DATA = json.dumps(combine_stats(TEAM_DATA))
 FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
 
 # Store the data in a JSON file
-with open("data.json", "w") as file:
+with open("backend\Example JSON\data.json", "w") as file:
     file.write(TEAM_DATA)
 
-# print("\n\n")
+with open("backend\Example JSON\data_combined.json", "w") as file:
+    file.write(TEAM_DATA)
 
-
+print("\n\n")
 

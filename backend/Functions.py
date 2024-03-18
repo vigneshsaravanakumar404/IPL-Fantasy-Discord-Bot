@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from os import system, name
-from pprint import pprint
+import json
 from requests import get
 
 # General Source by team: https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343
@@ -135,8 +135,37 @@ def get_4_5_plus_wickets(url: str):
         }
 
     return wicket_data
+
 def clear():
     """
     Clears the console screen.
     """
     system('cls' if name == 'nt' else 'clear')
+
+def combine_stats(json_data):
+    combined_stats = {}
+
+    # Parse JSON string into a Python dictionary
+    data = json.loads(json_data)
+
+    # Iterate through each team
+    for team in data:
+        # Iterate through batting statistics of each player in the team
+        for player, batting_stats in team['batting'].items():
+            # If the player is not already in the combined stats, add them
+            if player not in combined_stats:
+                combined_stats[player] = {'batting': {}, 'bowling': {}}
+            
+            # Add batting stats for the player
+            combined_stats[player]['batting'] = batting_stats
+        
+        # Iterate through bowling statistics of each player in the team
+        for player, bowling_stats in team['bowling'].items():
+            # If the player is not already in the combined stats, add them
+            if player not in combined_stats:
+                combined_stats[player] = {'batting': {}, 'bowling': {}}
+            
+            # Add bowling stats for the player
+            combined_stats[player]['bowling'] = bowling_stats
+    
+    return combined_stats
