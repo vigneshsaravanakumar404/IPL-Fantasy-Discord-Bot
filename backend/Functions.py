@@ -321,8 +321,8 @@ def compute_points(player):
     # TODO: Include Maxes
         
     # TODO: Include Position Points (double for bowlers/batters, vc/captain, etc.)
-    total += player["batting"]["St"] * 50
-    total += player["batting"]["Ct"] * 25
+    total += player["bowling"]["St"] * 50
+    total += player["bowling"]["Ct"] * 25
     total = batting + bowling
 
     return (total, None)
