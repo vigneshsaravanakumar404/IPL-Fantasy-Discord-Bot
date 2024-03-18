@@ -143,11 +143,12 @@ def clear():
     """
     system('cls' if name == 'nt' else 'clear')
 
-def combine_stats(json_data):
+def combine_stats(json_data, additional_data):
     combined_stats = {}
 
     # Parse JSON string into a Python dictionary
     data = json.loads(json_data)
+    additional_stats = json.loads(additional_data)
 
     # Iterate through each team
     for team in data:
@@ -155,7 +156,7 @@ def combine_stats(json_data):
         for player, batting_stats in team['batting'].items():
             # If the player is not already in the combined stats, add them
             if player not in combined_stats:
-                combined_stats[player] = {'batting': {}, 'bowling': {}}
+                combined_stats[player] = {'batting': {}, 'bowling': {}, '4s': 0, '5s': 0}
             
             # Add batting stats for the player
             combined_stats[player]['batting'] = batting_stats
@@ -164,9 +165,44 @@ def combine_stats(json_data):
         for player, bowling_stats in team['bowling'].items():
             # If the player is not already in the combined stats, add them
             if player not in combined_stats:
-                combined_stats[player] = {'batting': {}, 'bowling': {}}
+                combined_stats[player] = {'batting': {}, 'bowling': {}, '4s': 0, '5s': 0}
             
             # Add bowling stats for the player
+            combined_stats[player]['bowling'] = bowling_stats
+    
+    # Process additional data
+    for player, stats in additional_stats.items():
+        # Remove information in parenthesis
+        player_name = player.split(' (')[0]
+
+        # If the player is not already in the combined stats, add them
+        if player_name not in combined_stats:
+            combined_stats[player_name] = {'batting': {}, 'bowling': {}, '4s': 0, '5s': 0}
+        
+        # Update 4 and 5 wicket hauls
+        combined_stats[player_name]['4s'] = stats.get('4', 0)
+        combined_stats[player_name]['5s'] = stats.get('5', 0)
+
+    return combined_stats
+    
+    # Parse JSON data
+    combined_stats = {}
+    data = json.loads(json_data)
+
+    for team in data:
+        
+        # Combine batting stats
+        for player, batting_stats in team['batting'].items():
+            if player not in combined_stats:
+                combined_stats[player] = {'batting': {}, 'bowling': {}}
+            
+            combined_stats[player]['batting'] = batting_stats
+        
+        # Combine bowling stats
+        for player, bowling_stats in team['bowling'].items():
+            if player not in combined_stats:
+                combined_stats[player] = {'batting': {}, 'bowling': {}}
+            
             combined_stats[player]['bowling'] = bowling_stats
     
     return combined_stats
