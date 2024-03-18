@@ -45,9 +45,6 @@ def format_batter_table(html_data: str):
 
     return player_data
 
-# Missing: Dot Balls, 6s, Hat-Tricks
-# Get 4s from: https://www.espncricinfo.com/records/tournament/bowling-most-4wi-career/indian-premier-league-2023-15129
-# Get 5s from: https://www.espncricinfo.com/records/tournament/bowling-most-5wi-career/indian-premier-league-2023-15129
 def format_bowler_table(html_data: str):
     """
     Parses the HTML data and extracts information from the bowler table.
@@ -119,7 +116,25 @@ def get_team_data(url: str):
         "bowling": format_bowler_table(str(bowling_table))
     }
 
+def get_4_5_plus_wickets(url: str):
 
+    # Parse HTML data
+    response = get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    table_body = soup.find('tbody')
+
+    # Extract table rows
+    wicket_data = {}
+    for row in table_body.find_all('tr'):
+        player_info = [cell.text.strip() for cell in row.find_all('td')]
+        player_name = player_info[0]
+        wicket_data[player_name] = {
+            "Player": player_name,
+            "4": int(player_info[13]) if player_info[13] != '-' else player_info[13],
+            "5": int(player_info[14]) if player_info[14] != '-' else player_info[14],
+        }
+
+    return wicket_data
 def clear():
     """
     Clears the console screen.
