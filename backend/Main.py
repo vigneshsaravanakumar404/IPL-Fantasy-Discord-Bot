@@ -1,6 +1,5 @@
 # Imports
 from Functions import clear, get_team_data, get_4_5_plus_wickets, combine_stats
-from pprint import pprint
 import json
 
 
@@ -21,19 +20,38 @@ TEAM_URLS = [
 FOURFIVE_PLUS_WICKETS_URL = "https://www.espncricinfo.com/records/tournament/bowling-most-5wi-career/indian-premier-league-2023-15129"
 TEAM_DATA = json.dumps([])  # Serialize the TEAM_DATA variable as JSON
 
-# #! Start
-# clear()
+#! Start
+clear()
 
-# #! Get Data
-# #? Missing: Dot Balls, 6+ Wickets, Hat-Tricks
-# print("\033[92mGetting Data\033[0m")
+
+
+
+#! Get Data 
+#? Missing: Dot Balls, 6+ Wickets, Hat-Tricks
+print("\033[92mGetting Data\033[0m")
 
 FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
-FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
 TEAM_DATA = json.dumps([get_team_data(team_url) for team_url in TEAM_URLS])
+
+print("\n")
+
+
+
+
+#! Parse Data
+print("\033[92mParsing Data\033[0m")
+
+FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
 TEAM_DATA = json.dumps(combine_stats(TEAM_DATA, FOURFIVE_WICKET_DATA))
 
-# Store the data in a JSON file
+print("\n")
+
+#! Compute
+print("\033[92mComputing Data\033[0m")
+
+
+
+#* Debugging
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(TEAM_DATA)
 
