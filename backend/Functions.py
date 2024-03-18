@@ -90,6 +90,7 @@ def format_bowler_table(html_data: str):
 
     return player_data
 
+
 def get_team_data(url: str):
     """
     Fetches the batting and bowling data for a team.
