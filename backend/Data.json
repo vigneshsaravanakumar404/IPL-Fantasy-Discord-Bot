@@ -1,0 +1,151 @@
+[
+  {
+    "Owner": "Viggy",
+    "Squad": [
+      {
+        "old_name": "Faf du Plessis",
+        "new_name": "F du Plessis",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "RCB",
+        "Position": "VC"
+      },
+      {
+        "old_name": "Jos Buttler",
+        "new_name": "JC Buttler",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "RR",
+        "Position": "VC"
+      },
+      {
+        "old_name": "Prabhsimran Singh",
+        "new_name": "Prabhsimran Singh",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "PBKS",
+        "Position": ""
+      },
+      {
+        "old_name": "Nitish Rana",
+        "new_name": "N Rana",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "KKR",
+        "Position": ""
+      },
+      {
+        "old_name": "Rahul Tripathi",
+        "new_name": "RA Tripathi",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "SRH",
+        "Position": ""
+      },
+      {
+        "old_name": "Abdul Samad",
+        "new_name": "Abdul Samad",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "SRH",
+        "Position": ""
+      },
+      {
+        "old_name": "Mahesh Theekshana",
+        "new_name": "M Theekshana",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "CSK",
+        "Position": ""
+      },
+      {
+        "old_name": "Piyush Chawla",
+        "new_name": "PP Chawla",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "MI",
+        "Position": ""
+      },
+      {
+        "old_name": "Karn Sharma",
+        "new_name": "KS Sharma",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "RCB",
+        "Position": ""
+      },
+      {
+        "old_name": "Mayank Markande",
+        "new_name": "M Markande",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "SRH",
+        "Position": ""
+      },
+      {
+        "old_name": "Rashid Khan",
+        "new_name": "Rashid Khan",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "GT",
+        "Position": ""
+      },
+      {
+        "old_name": "Shivam Dube",
+        "new_name": "S Dube",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "CSK",
+        "Position": ""
+      },
+      {
+        "old_name": "Vijay Shankar",
+        "new_name": "V Shankar",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "GT",
+        "Position": ""
+      },
+      {
+        "old_name": "Atharva Taide",
+        "new_name": "A Taide",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "PBKS",
+        "Position": ""
+      },
+      {
+        "old_name": "Matheesha Pathirana",
+        "new_name": "M Pathirana",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "CSK",
+        "Position": ""
+      },
+      {
+        "old_name": "Naveen-ul-Haq",
+        "new_name": "Naveen-ul-Haq",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "LSG",
+        "Position": ""
+      },
+      {
+        "old_name": "Tushar Deshpande",
+        "new_name": "TU Deshpande",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "CSK",
+        "Position": ""
+      },
+      {
+        "old_name": "Khaleel Ahmed",
+        "new_name": "KK Ahmed",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "DC",
+        "Position": ""
+      }
+    ]
+  }
+]

@@ -18,7 +18,8 @@ TEAM_URLS = [
     "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=5143"
 ]
 FOURFIVE_PLUS_WICKETS_URL = "https://www.espncricinfo.com/records/tournament/bowling-most-5wi-career/indian-premier-league-2023-15129"
-DATA = json.dumps([])  # Serialize the TEAM_DATA variable as JSON
+DATA = json.dumps([])
+EXTRA_DATA = json.loads(open("backend\Data.json").read())
 
 #! Start
 clear()
@@ -43,21 +44,48 @@ print("\033[92mParsing Data\033[0m")
 
 FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
 DATA = json.dumps(combine_stats(DATA, FOURFIVE_WICKET_DATA))
+DATA = json.loads(DATA)
+
+for owner in EXTRA_DATA:
+    for player in owner["Squad"]:
+        if player["new_name"] in DATA:
+            DATA[player["new_name"]].update({
+                "Owner": owner["Owner"],
+                "old_name": player["old_name"],
+                "isBowler": player["isBowler"],
+                "isBatsman": player["isBatsman"],
+                "Team": player["Team"],
+                "Position": player["Position"]
+            })
+        else:
+            DATA[player["new_name"]] = {
+                "Owner": owner["Owner"],
+                "old_name": player["old_name"],
+                "isBowler": player["isBowler"],
+                "isBatsman": player["isBatsman"],
+                "Team": player["Team"]
+            }
+
+
 
 print("\n")
 
 #! Compute
 print("\033[92mComputing Data\033[0m")
 
-DATA = json.loads(DATA)
 for player in DATA:
+    # TODO: Include Maxes
+    #TODO: Add 6+ wickets and hat-tricks and dots
     temp = compute_points(DATA[player])
     DATA[player]["points"] = temp[0]
-    DATA[player]["position"] = temp[1]
 print("\n")
+
+# print the points for the player F du Plessis
+pprint(DATA["F du Plessis"]["points"])
 
 
 #* Debugging
 DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
+

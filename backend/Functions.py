@@ -186,7 +186,6 @@ def combine_stats(json_data, additional_data):
             combined_stats[player]["bowling"]["4"] = 0
             combined_stats[player]["bowling"]["5"] = 0
 
-            #TODO: Add 6+ wickets and hat-tricks and dots
             combined_stats[player]["bowling"]["6"] = 0
             combined_stats[player]["bowling"]["dots"] = 0
             combined_stats[player]["bowling"]["Hat-Tricks"] = 0
@@ -257,9 +256,7 @@ def compute_points(player):
         bowling += 2000
     elif player["bowling"]["Wkts"] > 15:
         bowling += 1000
-
-    # TODO: Include Maxes
-    
+ 
     # Batting Points
     batting = 0
 
@@ -318,9 +315,16 @@ def compute_points(player):
     elif player["batting"]["Runs"] > 300:
         batting += 250
 
-    # TODO: Include Maxes
-        
-    # TODO: Include Position Points (double for bowlers/batters, vc/captain, etc.)
+
+    if player.get("isBowler") == True:
+        batting *= 2
+    if player.get("isBatsman") == True:
+        bowling *= 2
+    if player.get("Position") == "VC":
+        batting *= 1.5
+    if player.get("Position") == "C":
+        batting *= 2
+
     total += player["bowling"]["St"] * 50
     total += player["bowling"]["Ct"] * 25
     total = batting + bowling
