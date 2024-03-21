@@ -1,7 +1,33 @@
 from bs4 import BeautifulSoup
 from os import system, name
-import json
+from json import loads
 from requests import get
+
+
+CATEGORY_MAXES = {
+    "yellow_batting": [0, ""],
+    "green_batting": [0, ""],
+    "cyan_batting": [0, ""],
+    "yellow_bowling": [0, ""],
+    "purple_bowling": [0, ""],
+    "green_bowling": [0, ""],
+}
+GLOBAL_MAXES = {
+    "NO": [0, ""],
+    "Runs": [0, ""],
+    "Ave": [0, ""],
+    "SR": [0, ""],
+    "100": [0, ""],
+    "50": [0, ""],
+    "0": [0, ""],
+    "4s": [0, ""],
+    "6s": [0, ""],
+    "Wkts": [0, ""],
+    "dots": [0, ""],
+    "Mdns": [0, ""],
+    "Econ": [0, ""],
+    "Ave": [0, ""],
+}
 
 
 def format_batter_table(html_data: str):
@@ -161,8 +187,8 @@ def combine_stats(json_data, additional_data):
     combined_stats = {}
 
     # Parse JSON
-    data = json.loads(json_data)
-    additional_stats = json.loads(additional_data)
+    data = loads(json_data)
+    additional_stats = loads(additional_data)
 
     for team in data:
 
@@ -172,7 +198,7 @@ def combine_stats(json_data, additional_data):
                 combined_stats[player] = {"batting": {}, "bowling": {}}
 
             combined_stats[player]["batting"] = batting_stats
-            combined_stats[player]["batting"]["boundaries"] = batting_stats["4s"] + batting_stats["6s"]
+            combined_stats[player]["batting"]["boundaries"] = batting_stats["4s"]
 
             combined_stats[player]["points"] = 0
             combined_stats[player]["position"] = ""
@@ -180,7 +206,15 @@ def combine_stats(json_data, additional_data):
         # Bowling
         for player, bowling_stats in team["bowling"].items():
             if player not in combined_stats:
-                combined_stats[player] = {"batting": {}, "bowling": {}, "4": 0, "5": 0, "6": 0, "dots": 0, "Hat-Tricks": 0}
+                combined_stats[player] = {
+                    "batting": {},
+                    "bowling": {},
+                    "4": 0,
+                    "5": 0,
+                    "6": 0,
+                    "dots": 0,
+                    "Hat-Tricks": 0,
+                }
 
             combined_stats[player]["bowling"] = bowling_stats
             combined_stats[player]["bowling"]["4"] = 0
@@ -190,20 +224,28 @@ def combine_stats(json_data, additional_data):
             combined_stats[player]["bowling"]["dots"] = 0
             combined_stats[player]["bowling"]["Hat-Tricks"] = 0
 
-
     # Process additional data
     for player, stats in additional_stats.items():
         player_name = player.split(" (")[0]
 
         # If the player is not already in the combined stats, add them
         if player_name not in combined_stats:
-            combined_stats[player_name] = {"batting": {}, "bowling": {}, "4": 0, "5": 0, "6": 0, "dots": 0, "Hat-Tricks": 0}
+            combined_stats[player_name] = {
+                "batting": {},
+                "bowling": {},
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "dots": 0,
+                "Hat-Tricks": 0,
+            }
 
         # Update 4 and 5 wicket hauls
         combined_stats[player_name]["bowling"]["4"] = stats.get("4", 0)
         combined_stats[player_name]["bowling"]["5"] = stats.get("5", 0)
 
     return combined_stats
+
 
 def compute_points(player):
 
@@ -213,122 +255,175 @@ def compute_points(player):
     bowling = 0
 
     # Yellow
-    bowling += player["bowling"]["Wkts"] * 50
-    bowling += player["bowling"]["dots"] * 50
-    bowling += player["bowling"]["4"] * 250
-    bowling += player["bowling"]["5"] * 500
-    bowling += player["bowling"]["6"] * 1000
-    bowling += player["bowling"]["Mdns"] * 150
+    yellow_bowling = 0
+    yellow_bowling += player["bowling"]["Wkts"] * 50
+    yellow_bowling += player["bowling"]["dots"] * 50
+    yellow_bowling += player["bowling"]["4"] * 250
+    yellow_bowling += player["bowling"]["5"] * 500
+    yellow_bowling += player["bowling"]["6"] * 1000
+    yellow_bowling += player["bowling"]["Mdns"] * 150
+    update_max_category("yellow_bowling", yellow_bowling, player)
 
     # Purple
+    purple_bowling = 0
     if player["bowling"]["Overs"] > 5:
         if player["bowling"]["Econ"] > 11:
-            bowling -= 500
+            purple_bowling -= 500
         elif player["bowling"]["Econ"] > 10:
-            bowling -= 400
+            purple_bowling -= 400
         elif player["bowling"]["Econ"] > 9:
-            bowling -= 200
+            purple_bowling -= 200
         elif player["bowling"]["Econ"] > 8:
-            bowling -= 100
+            purple_bowling -= 100
         elif player["bowling"]["Econ"] > 6:
-            bowling += 100
+            purple_bowling += 100
         elif player["bowling"]["Econ"] > 5:
-            bowling += 250
+            purple_bowling += 250
         elif player["bowling"]["Econ"] > 4:
-            bowling += 500
+            purple_bowling += 500
         elif player["bowling"]["Econ"] > 3:
-            bowling += 800
+            purple_bowling += 800
         elif player["bowling"]["Econ"] > 2:
-            bowling += 1200
+            purple_bowling += 1200
         elif player["bowling"]["Econ"] > 1:
-            bowling += 1500
+            purple_bowling += 1500
         else:
-            bowling += 2000
-    
+            purple_bowling += 2000
+    update_max_category("purple_bowling", purple_bowling, player)
+
     # Green
+    green_bowling = 0
     if player["bowling"]["Wkts"] > 35:
-        bowling += 5000
+        green_bowling += 5000
     elif player["bowling"]["Wkts"] > 30:
-        bowling += 4000
+        green_bowling += 4000
     elif player["bowling"]["Wkts"] > 25:
-        bowling += 3000
+        green_bowling += 3000
     elif player["bowling"]["Wkts"] > 20:
-        bowling += 2000
+        green_bowling += 2000
     elif player["bowling"]["Wkts"] > 15:
-        bowling += 1000
- 
+        green_bowling += 1000
+    update_max_category("green_bowling", green_bowling, player)
+
     # Batting Points
     batting = 0
 
     # Yellow
-    batting += player["batting"]["Runs"] * 2
-    batting += player["batting"]["boundaries"] * 4
-    batting += player["batting"]["6s"] * 8
-    batting += player["batting"]["0"] * -6
-    batting += player["batting"]["50"] * 50
-    batting += player["batting"]["100"] * 100
+    yellow_batting = 0
+    yellow_batting += player["batting"]["Runs"] * 2
+    yellow_batting += player["batting"]["boundaries"] * 4
+    yellow_batting += player["batting"]["6s"] * 8
+    yellow_batting += player["batting"]["0"] * -6
+    yellow_batting += player["batting"]["50"] * 50
+    yellow_batting += player["batting"]["100"] * 100
+    update_max_category("yellow_batting", yellow_batting, player)
 
     # Green
+    green_batting = 0
     if player["batting"]["BF"] > 500:
         if player["batting"]["SR"] > 200:
-            batting += 1000
+            green_batting += 1000
         elif player["batting"]["SR"] > 175:
-            batting += 800
+            green_batting += 800
         elif player["batting"]["SR"] > 150:
-            batting += 600
+            green_batting += 600
         elif player["batting"]["SR"] > 125:
-            batting += 400
+            green_batting += 400
         elif player["batting"]["SR"] > 100:
-            batting += 200
+            green_batting += 200
         elif player["batting"]["SR"] < 75:
-            batting -= 200
+            green_batting -= 200
         elif player["batting"]["SR"] < 50:
-            batting -= 300
+            green_batting -= 300
         elif player["batting"]["SR"] < 25:
-            batting -= 500
+            green_batting -= 500
         else:
-            batting -= 100
-    
+            green_batting -= 100
+    update_max_category("green_batting", green_batting, player)
+
     # Cyan
+    cyan_batting = 0
     if player["batting"]["Runs"] > 850:
-        batting += 5000
+        cyan_batting += 5000
     elif player["batting"]["Runs"] > 800:
-        batting += 4500
+        cyan_batting += 4500
     elif player["batting"]["Runs"] > 750:
-        batting += 4000
+        cyan_batting += 4000
     elif player["batting"]["Runs"] > 700:
-        batting += 3500
+        cyan_batting += 3500
     elif player["batting"]["Runs"] > 650:
-        batting += 3000
+        cyan_batting += 3000
     elif player["batting"]["Runs"] > 600:
-        batting += 2500
+        cyan_batting += 2500
     elif player["batting"]["Runs"] > 550:
-        batting += 2000
+        cyan_batting += 2000
     elif player["batting"]["Runs"] > 500:
-        batting += 1500
+        cyan_batting += 1500
     elif player["batting"]["Runs"] > 450:
-        batting += 1000
+        cyan_batting += 1000
     elif player["batting"]["Runs"] > 400:
-        batting += 750
+        cyan_batting += 750
     elif player["batting"]["Runs"] > 350:
-        batting += 500
+        cyan_batting += 500
     elif player["batting"]["Runs"] > 300:
-        batting += 250
+        cyan_batting += 250
+    update_max_category("cyan_batting", cyan_batting, player)
 
-
-    if player.get("isBowler") == True:
-        batting *= 2
-    if player.get("isBatsman") == True:
-        bowling *= 2
-    if player.get("Position") == "VC":
-        batting *= 1.5
-    if player.get("Position") == "C":
-        batting *= 2
-
+    # Sub Total
+    update_maxes(player)
     total += player["bowling"]["St"] * 50
     total += player["bowling"]["Ct"] * 25
-    total = batting + bowling
+    batting = yellow_batting + green_batting + cyan_batting
+    bowling = yellow_bowling + purple_bowling + green_bowling
 
-    return (total, None)
-    
+    # Position Points
+    if (player.get("isBowler") == True) and batting > 0:
+        batting *= 2
+    if (player.get("isBatsman") == True) and bowling > 0:
+        bowling *= 2
+    if (player.get("isBowler") == True) and batting < 0:
+        batting /= 2
+    if (player.get("isBatsman") == True) and bowling < 0:
+        bowling /= 2
+    if player.get("Position") == "VC":
+        total *= 1.5
+    if player.get("Position") == "C":
+        total *= 2
 
+    total += batting + bowling
+
+    return total
+
+
+def update_max_category(category, value, player):
+    current_max = CATEGORY_MAXES.get(category, [0, ""])[0]
+    if value > current_max:
+        CATEGORY_MAXES[category] = [value, player.get("Owner")]
+
+
+def update_maxes(player):
+
+    batting_stats = ["NO", "Runs", "Ave", "SR", "100", "50", "0", "4s", "6s"]
+    bowling_stats = ["Wkts", "dots", "Mdns", "Econ", "Ave"]
+
+    for stat in batting_stats:
+        current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+        player_stat = player["batting"][stat]
+
+        if player_stat > current_max:
+            GLOBAL_MAXES[stat] = [
+                player_stat,
+                player.get("Team", ""),
+                player["bowling"]["Player"],
+            ]
+
+    for stat in bowling_stats:
+        current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+        player_stat = player["bowling"][stat]
+
+        if player_stat > current_max:
+            GLOBAL_MAXES[stat] = [
+                player_stat,
+                player.get("Team", ""),
+                player["bowling"]["Player"],
+            ]

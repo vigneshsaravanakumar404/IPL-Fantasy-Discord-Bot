@@ -15,7 +15,7 @@
             "0": 1,
             "4s": 77,
             "6s": 18,
-            "boundaries": 95
+            "boundaries": 77
         },
         "bowling": {
             "Player": "DP Conway",
@@ -39,7 +39,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 5162,
+        "points": 5240,
         "position": ""
     },
     "RD Gaikwad": {
@@ -58,7 +58,7 @@
             "0": 0,
             "4s": 46,
             "6s": 30,
-            "boundaries": 76
+            "boundaries": 46
         },
         "bowling": {
             "Player": "RD Gaikwad",
@@ -82,7 +82,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 3924,
+        "points": 4229,
         "position": ""
     },
     "S Dube": {
@@ -101,7 +101,7 @@
             "0": 0,
             "4s": 12,
             "6s": 35,
-            "boundaries": 47
+            "boundaries": 12
         },
         "bowling": {
             "Player": "S Dube",
@@ -125,7 +125,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2204,
+        "points": 2214,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Shivam Dube",
@@ -150,7 +150,7 @@
             "0": 0,
             "4s": 24,
             "6s": 16,
-            "boundaries": 40
+            "boundaries": 24
         },
         "bowling": {
             "Player": "AM Rahane",
@@ -174,7 +174,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1290,
+        "points": 1426,
         "position": ""
     },
     "MS Dhoni": {
@@ -193,7 +193,7 @@
             "0": 1,
             "4s": 3,
             "6s": 10,
-            "boundaries": 13
+            "boundaries": 3
         },
         "bowling": {
             "Player": "MS Dhoni",
@@ -217,7 +217,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 334,
+        "points": 1619,
         "position": ""
     },
     "RA Jadeja": {
@@ -236,7 +236,7 @@
             "0": 0,
             "4s": 11,
             "6s": 9,
-            "boundaries": 20
+            "boundaries": 11
         },
         "bowling": {
             "Player": "RA Jadeja",
@@ -260,7 +260,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2632,
+        "points": 2821,
         "position": ""
     },
     "MM Ali": {
@@ -279,7 +279,7 @@
             "0": 0,
             "4s": 12,
             "6s": 6,
-            "boundaries": 18
+            "boundaries": 12
         },
         "bowling": {
             "Player": "MM Ali",
@@ -303,7 +303,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 918,
+        "points": 994,
         "position": ""
     },
     "AT Rayudu": {
@@ -322,7 +322,7 @@
             "0": 1,
             "4s": 10,
             "6s": 9,
-            "boundaries": 19
+            "boundaries": 10
         },
         "bowling": {
             "Player": "AT Rayudu",
@@ -346,7 +346,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 458,
+        "points": 472,
         "position": ""
     },
     "BA Stokes": {
@@ -389,7 +389,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 38,
+        "points": 1088,
         "position": ""
     },
     "MJ Santner": {
@@ -432,7 +432,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 254,
+        "points": 279,
         "position": ""
     },
     "DL Chahar": {
@@ -475,7 +475,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 552,
+        "points": 577,
         "position": ""
     },
     "Akash Singh": {
@@ -518,7 +518,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 50,
+        "points": 75,
         "position": ""
     },
     "TU Deshpande": {
@@ -561,7 +561,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2850,
+        "points": 2900,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Tushar Deshpande",
@@ -653,7 +653,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -50,
+        "points": -25,
         "position": ""
     },
     "M Pathirana": {
@@ -696,7 +696,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2050,
+        "points": 2150,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Matheesha Pathirana",
@@ -745,7 +745,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 0,
+        "points": 25,
         "position": ""
     },
     "M Theekshana": {
@@ -788,7 +788,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 800,
+        "points": 875,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Mahesh Theekshana",
@@ -813,7 +813,7 @@
             "0": 2,
             "4s": 69,
             "6s": 10,
-            "boundaries": 79
+            "boundaries": 69
         },
         "bowling": {
             "Player": "DA Warner",
@@ -837,7 +837,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 3216,
+        "points": 3351,
         "position": ""
     },
     "RR Rossouw": {
@@ -856,7 +856,7 @@
             "0": 2,
             "4s": 17,
             "6s": 11,
-            "boundaries": 28
+            "boundaries": 17
         },
         "bowling": {
             "Player": "RR Rossouw",
@@ -880,7 +880,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 656,
+        "points": 687,
         "position": ""
     },
     "AR Patel": {
@@ -899,7 +899,7 @@
             "0": 0,
             "4s": 21,
             "6s": 15,
-            "boundaries": 36
+            "boundaries": 21
         },
         "bowling": {
             "Player": "AR Patel",
@@ -923,7 +923,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1530,
+        "points": 1645,
         "position": ""
     },
     "PD Salt": {
@@ -942,7 +942,7 @@
             "0": 2,
             "4s": 24,
             "6s": 10,
-            "boundaries": 34
+            "boundaries": 24
         },
         "bowling": {
             "Player": "PD Salt",
@@ -966,7 +966,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 740,
+        "points": 825,
         "position": ""
     },
     "MK Pandey": {
@@ -985,7 +985,7 @@
             "0": 2,
             "4s": 15,
             "6s": 3,
-            "boundaries": 18
+            "boundaries": 15
         },
         "bowling": {
             "Player": "MK Pandey",
@@ -1009,7 +1009,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 454,
+        "points": 517,
         "position": ""
     },
     "RV Patel": {
@@ -1028,7 +1028,7 @@
             "0": 0,
             "4s": 3,
             "6s": 1,
-            "boundaries": 4
+            "boundaries": 3
         },
         "bowling": {
             "Player": "RV Patel",
@@ -1052,7 +1052,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 122,
+        "points": 143,
         "position": ""
     },
     "P Dubey": {
@@ -1138,7 +1138,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 808,
+        "points": 858,
         "position": ""
     },
     "MR Marsh": {
@@ -1157,7 +1157,7 @@
             "0": 2,
             "4s": 11,
             "6s": 7,
-            "boundaries": 18
+            "boundaries": 11
         },
         "bowling": {
             "Player": "MR Marsh",
@@ -1181,7 +1181,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1072,
+        "points": 1119,
         "position": ""
     },
     "Aman Hakim Khan": {
@@ -1200,7 +1200,7 @@
             "0": 1,
             "4s": 7,
             "6s": 6,
-            "boundaries": 13
+            "boundaries": 7
         },
         "bowling": {
             "Player": "Aman Hakim Khan",
@@ -1224,7 +1224,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 364,
+        "points": 565,
         "position": ""
     },
     "PP Shaw": {
@@ -1243,7 +1243,7 @@
             "0": 2,
             "4s": 16,
             "6s": 1,
-            "boundaries": 17
+            "boundaries": 16
         },
         "bowling": {
             "Player": "PP Shaw",
@@ -1267,7 +1267,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 326,
+        "points": 347,
         "position": ""
     },
     "SN Khan": {
@@ -1286,7 +1286,7 @@
             "0": 0,
             "4s": 4,
             "6s": 1,
-            "boundaries": 5
+            "boundaries": 4
         },
         "bowling": {
             "Player": "SN Khan",
@@ -1310,7 +1310,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 134,
+        "points": 180,
         "position": ""
     },
     "Lalit Yadav": {
@@ -1353,7 +1353,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 64,
+        "points": 189,
         "position": ""
     },
     "A Nortje": {
@@ -1396,7 +1396,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 392,
+        "points": 442,
         "position": ""
     },
     "PK Garg": {
@@ -1458,7 +1458,7 @@
             "0": 0,
             "4s": 1,
             "6s": 2,
-            "boundaries": 3
+            "boundaries": 1
         },
         "bowling": {
             "Player": "Abishek Porel",
@@ -1482,7 +1482,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 94,
+        "points": 186,
         "position": ""
     },
     "YV Dhull": {
@@ -1525,7 +1525,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 36,
+        "points": 86,
         "position": ""
     },
     "C Sakariya": {
@@ -1654,7 +1654,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -36,
+        "points": 39,
         "position": ""
     },
     "Mustafizur Rahman": {
@@ -1783,7 +1783,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 550,
+        "points": 600,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Khaleel Ahmed",
@@ -1808,7 +1808,7 @@
             "0": 1,
             "4s": 85,
             "6s": 33,
-            "boundaries": 118
+            "boundaries": 85
         },
         "bowling": {
             "Player": "Shubman Gill",
@@ -1832,7 +1832,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 8610,
+        "points": 11628,
         "position": ""
     },
     "B Sai Sudharsan": {
@@ -1851,7 +1851,7 @@
             "0": 0,
             "4s": 33,
             "6s": 12,
-            "boundaries": 45
+            "boundaries": 33
         },
         "bowling": {
             "Player": "B Sai Sudharsan",
@@ -1875,7 +1875,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1650,
+        "points": 1652,
         "position": ""
     },
     "V Shankar": {
@@ -1894,7 +1894,7 @@
             "0": 0,
             "4s": 27,
             "6s": 15,
-            "boundaries": 42
+            "boundaries": 27
         },
         "bowling": {
             "Player": "V Shankar",
@@ -1918,7 +1918,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1290,
+        "points": 1280,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Vijay Shankar",
@@ -1943,7 +1943,7 @@
             "0": 2,
             "4s": 8,
             "6s": 13,
-            "boundaries": 21
+            "boundaries": 8
         },
         "bowling": {
             "Player": "Rashid Khan",
@@ -1967,7 +1967,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 4736,
+        "points": 4934,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Rashid Khan",
@@ -1992,7 +1992,7 @@
             "0": 1,
             "4s": 18,
             "6s": 13,
-            "boundaries": 31
+            "boundaries": 18
         },
         "bowling": {
             "Player": "DA Miller",
@@ -2016,7 +2016,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 740,
+        "points": 963,
         "position": ""
     },
     "HH Pandya": {
@@ -2035,7 +2035,7 @@
             "0": 0,
             "4s": 26,
             "6s": 15,
-            "boundaries": 41
+            "boundaries": 26
         },
         "bowling": {
             "Player": "HH Pandya",
@@ -2059,7 +2059,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1276,
+        "points": 1416,
         "position": ""
     },
     "WP Saha": {
@@ -2078,7 +2078,7 @@
             "0": 2,
             "4s": 47,
             "6s": 8,
-            "boundaries": 55
+            "boundaries": 47
         },
         "bowling": {
             "Player": "WP Saha",
@@ -2102,7 +2102,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1614,
+        "points": 1907,
         "position": ""
     },
     "R Tewatia": {
@@ -2121,7 +2121,7 @@
             "0": 0,
             "4s": 3,
             "6s": 7,
-            "boundaries": 10
+            "boundaries": 3
         },
         "bowling": {
             "Player": "R Tewatia",
@@ -2145,7 +2145,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 270,
+        "points": 442,
         "position": ""
     },
     "A Manohar": {
@@ -2164,7 +2164,7 @@
             "0": 0,
             "4s": 6,
             "6s": 7,
-            "boundaries": 13
+            "boundaries": 6
         },
         "bowling": {
             "Player": "A Manohar",
@@ -2188,7 +2188,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 336,
+        "points": 408,
         "position": ""
     },
     "MD Shanaka": {
@@ -2207,7 +2207,7 @@
             "0": 1,
             "4s": 2,
             "6s": 1,
-            "boundaries": 3
+            "boundaries": 2
         },
         "bowling": {
             "Player": "MD Shanaka",
@@ -2231,7 +2231,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 66,
+        "points": 112,
         "position": ""
     },
     "Noor Ahmad": {
@@ -2274,7 +2274,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1914,
+        "points": 1964,
         "position": ""
     },
     "Mohammed Shami": {
@@ -2317,7 +2317,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 4608,
+        "points": 5733,
         "position": ""
     },
     "DG Nalkande": {
@@ -2403,7 +2403,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 168,
+        "points": 218,
         "position": ""
     },
     "JB Little": {
@@ -2446,7 +2446,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 250,
+        "points": 375,
         "position": ""
     },
     "MM Sharma": {
@@ -2489,7 +2489,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 5250,
+        "points": 5400,
         "position": ""
     },
     "KS Williamson": {
@@ -2575,7 +2575,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 0,
+        "points": 25,
         "position": ""
     },
     "Yash Dayal": {
@@ -2618,7 +2618,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -400,
+        "points": -375,
         "position": ""
     },
     "RK Singh": {
@@ -2637,7 +2637,7 @@
             "0": 0,
             "4s": 31,
             "6s": 29,
-            "boundaries": 60
+            "boundaries": 31
         },
         "bowling": {
             "Player": "RK Singh",
@@ -2661,7 +2661,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2620,
+        "points": 2704,
         "position": ""
     },
     "JJ Roy": {
@@ -2680,7 +2680,7 @@
             "0": 0,
             "4s": 36,
             "6s": 12,
-            "boundaries": 48
+            "boundaries": 36
         },
         "bowling": {
             "Player": "JJ Roy",
@@ -2704,7 +2704,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 958,
+        "points": 960,
         "position": ""
     },
     "N Rana": {
@@ -2723,7 +2723,7 @@
             "0": 0,
             "4s": 39,
             "6s": 20,
-            "boundaries": 59
+            "boundaries": 39
         },
         "bowling": {
             "Player": "N Rana",
@@ -2747,7 +2747,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2222,
+        "points": 2217,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Nitish Rana",
@@ -2772,7 +2772,7 @@
             "0": 1,
             "4s": 32,
             "6s": 21,
-            "boundaries": 53
+            "boundaries": 32
         },
         "bowling": {
             "Player": "VR Iyer",
@@ -2796,7 +2796,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2132,
+        "points": 2123,
         "position": ""
     },
     "D Wiese": {
@@ -2815,7 +2815,7 @@
             "0": 0,
             "4s": 0,
             "6s": 3,
-            "boundaries": 3
+            "boundaries": 0
         },
         "bowling": {
             "Player": "D Wiese",
@@ -2839,7 +2839,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 78,
+        "points": 116,
         "position": ""
     },
     "Rahmanullah Gurbaz": {
@@ -2858,7 +2858,7 @@
             "0": 2,
             "4s": 17,
             "6s": 15,
-            "boundaries": 32
+            "boundaries": 17
         },
         "bowling": {
             "Player": "Rahmanullah Gurbaz",
@@ -2882,7 +2882,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 790,
+        "points": 980,
         "position": ""
     },
     "AD Russell": {
@@ -2901,7 +2901,7 @@
             "0": 1,
             "4s": 13,
             "6s": 18,
-            "boundaries": 31
+            "boundaries": 13
         },
         "bowling": {
             "Player": "AD Russell",
@@ -2925,7 +2925,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 566,
+        "points": 644,
         "position": ""
     },
     "N Jagadeesan": {
@@ -2944,7 +2944,7 @@
             "0": 1,
             "4s": 14,
             "6s": 1,
-            "boundaries": 15
+            "boundaries": 14
         },
         "bowling": {
             "Player": "N Jagadeesan",
@@ -2968,7 +2968,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 240,
+        "points": 261,
         "position": ""
     },
     "SN Thakur": {
@@ -2987,7 +2987,7 @@
             "0": 2,
             "4s": 13,
             "6s": 4,
-            "boundaries": 17
+            "boundaries": 13
         },
         "bowling": {
             "Player": "SN Thakur",
@@ -3011,7 +3011,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 314,
+        "points": 398,
         "position": ""
     },
     "AS Roy": {
@@ -3054,7 +3054,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 102,
+        "points": 152,
         "position": ""
     },
     "UT Yadav": {
@@ -3097,7 +3097,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -108,
+        "points": 967,
         "position": ""
     },
     "Mandeep Singh": {
@@ -3116,7 +3116,7 @@
             "0": 1,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "Mandeep Singh",
@@ -3140,7 +3140,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 34,
+        "points": 30,
         "position": ""
     },
     "Litton Das": {
@@ -3202,7 +3202,7 @@
             "0": 3,
             "4s": 2,
             "6s": 1,
-            "boundaries": 3
+            "boundaries": 2
         },
         "bowling": {
             "Player": "SP Narine",
@@ -3226,7 +3226,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 694,
+        "points": 715,
         "position": ""
     },
     "CV Varun": {
@@ -3269,7 +3269,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2052,
+        "points": 2152,
         "position": ""
     },
     "Harshit Rana": {
@@ -3312,7 +3312,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 144,
+        "points": 194,
         "position": ""
     },
     "VG Arora": {
@@ -3355,7 +3355,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 56,
+        "points": 131,
         "position": ""
     },
     "LH Ferguson": {
@@ -3546,7 +3546,7 @@
             "0": 0,
             "4s": 10,
             "6s": 8,
-            "boundaries": 18
+            "boundaries": 10
         },
         "bowling": {
             "Player": "Q de Kock",
@@ -3570,7 +3570,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 472,
+        "points": 540,
         "position": ""
     },
     "KL Rahul": {
@@ -3589,7 +3589,7 @@
             "0": 0,
             "4s": 28,
             "6s": 4,
-            "boundaries": 32
+            "boundaries": 28
         },
         "bowling": {
             "Player": "KL Rahul",
@@ -3613,7 +3613,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 808,
+        "points": 892,
         "position": ""
     },
     "MP Stoinis": {
@@ -3632,7 +3632,7 @@
             "0": 2,
             "4s": 28,
             "6s": 27,
-            "boundaries": 55
+            "boundaries": 28
         },
         "bowling": {
             "Player": "MP Stoinis",
@@ -3656,7 +3656,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2190,
+        "points": 2182,
         "position": ""
     },
     "PN Mankad": {
@@ -3675,7 +3675,7 @@
             "0": 1,
             "4s": 12,
             "6s": 2,
-            "boundaries": 14
+            "boundaries": 12
         },
         "bowling": {
             "Player": "PN Mankad",
@@ -3699,7 +3699,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 302,
+        "points": 344,
         "position": ""
     },
     "N Pooran": {
@@ -3718,7 +3718,7 @@
             "0": 2,
             "4s": 26,
             "6s": 26,
-            "boundaries": 52
+            "boundaries": 26
         },
         "bowling": {
             "Player": "N Pooran",
@@ -3742,7 +3742,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1720,
+        "points": 1916,
         "position": ""
     },
     "KR Mayers": {
@@ -3761,7 +3761,7 @@
             "0": 2,
             "4s": 38,
             "6s": 22,
-            "boundaries": 60
+            "boundaries": 38
         },
         "bowling": {
             "Player": "KR Mayers",
@@ -3785,7 +3785,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1762,
+        "points": 1724,
         "position": ""
     },
     "A Badoni": {
@@ -3804,7 +3804,7 @@
             "0": 0,
             "4s": 13,
             "6s": 12,
-            "boundaries": 25
+            "boundaries": 13
         },
         "bowling": {
             "Player": "A Badoni",
@@ -3828,7 +3828,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 722,
+        "points": 724,
         "position": ""
     },
     "A Mishra": {
@@ -3871,7 +3871,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 496,
+        "points": 546,
         "position": ""
     },
     "KH Pandya": {
@@ -3890,7 +3890,7 @@
             "0": 3,
             "4s": 15,
             "6s": 6,
-            "boundaries": 21
+            "boundaries": 15
         },
         "bowling": {
             "Player": "KH Pandya",
@@ -3914,7 +3914,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1040,
+        "points": 1216,
         "position": ""
     },
     "Naveen-ul-Haq": {
@@ -3957,7 +3957,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 730,
+        "points": 780,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Naveen-ul-Haq",
@@ -3982,7 +3982,7 @@
             "0": 0,
             "4s": 2,
             "6s": 5,
-            "boundaries": 7
+            "boundaries": 2
         },
         "bowling": {
             "Player": "K Gowtham",
@@ -4006,7 +4006,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 440,
+        "points": 545,
         "position": ""
     },
     "MA Wood": {
@@ -4025,7 +4025,7 @@
             "0": 0,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "MA Wood",
@@ -4049,7 +4049,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1138,
+        "points": 1184,
         "position": ""
     },
     "M Vohra": {
@@ -4154,7 +4154,7 @@
             "0": 0,
             "4s": 3,
             "6s": 2,
-            "boundaries": 5
+            "boundaries": 3
         },
         "bowling": {
             "Player": "DJ Hooda",
@@ -4178,7 +4178,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 204,
+        "points": 446,
         "position": ""
     },
     "Ravi Bishnoi": {
@@ -4221,7 +4221,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1944,
+        "points": 2169,
         "position": ""
     },
     "KS Sharma": {
@@ -4485,7 +4485,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 200,
+        "points": 250,
         "position": ""
     },
     "Yash Thakur": {
@@ -4528,7 +4528,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 450,
+        "points": 475,
         "position": ""
     },
     "C Green": {
@@ -4547,7 +4547,7 @@
             "0": 0,
             "4s": 40,
             "6s": 22,
-            "boundaries": 62
+            "boundaries": 40
         },
         "bowling": {
             "Player": "C Green",
@@ -4571,7 +4571,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2628,
+        "points": 2665,
         "position": ""
     },
     "SA Yadav": {
@@ -4590,7 +4590,7 @@
             "0": 1,
             "4s": 65,
             "6s": 28,
-            "boundaries": 93
+            "boundaries": 65
         },
         "bowling": {
             "Player": "SA Yadav",
@@ -4614,7 +4614,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 4650,
+        "points": 4688,
         "position": ""
     },
     "NT Tilak Varma": {
@@ -4633,7 +4633,7 @@
             "0": 0,
             "4s": 26,
             "6s": 23,
-            "boundaries": 49
+            "boundaries": 26
         },
         "bowling": {
             "Player": "NT Tilak Varma",
@@ -4657,7 +4657,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1366,
+        "points": 1374,
         "position": ""
     },
     "Ishan Kishan": {
@@ -4676,7 +4676,7 @@
             "0": 0,
             "4s": 54,
             "6s": 18,
-            "boundaries": 72
+            "boundaries": 54
         },
         "bowling": {
             "Player": "Ishan Kishan",
@@ -4700,7 +4700,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2490,
+        "points": 2818,
         "position": ""
     },
     "N Wadhera": {
@@ -4719,7 +4719,7 @@
             "0": 1,
             "4s": 23,
             "6s": 12,
-            "boundaries": 35
+            "boundaries": 23
         },
         "bowling": {
             "Player": "N Wadhera",
@@ -4743,7 +4743,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 812,
+        "points": 864,
         "position": ""
     },
     "TH David": {
@@ -4762,7 +4762,7 @@
             "0": 2,
             "4s": 12,
             "6s": 15,
-            "boundaries": 27
+            "boundaries": 12
         },
         "bowling": {
             "Player": "TH David",
@@ -4786,7 +4786,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 678,
+        "points": 868,
         "position": ""
     },
     "HR Shokeen": {
@@ -4829,7 +4829,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 12,
+        "points": 87,
         "position": ""
     },
     "RG Sharma": {
@@ -4848,7 +4848,7 @@
             "0": 2,
             "4s": 35,
             "6s": 17,
-            "boundaries": 52
+            "boundaries": 35
         },
         "bowling": {
             "Player": "RG Sharma",
@@ -4872,7 +4872,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1346,
+        "points": 1303,
         "position": ""
     },
     "AS Tendulkar": {
@@ -4891,7 +4891,7 @@
             "0": 0,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "AS Tendulkar",
@@ -4915,7 +4915,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -12,
+        "points": -16,
         "position": ""
     },
     "PP Chawla": {
@@ -4934,7 +4934,7 @@
             "0": 1,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "PP Chawla",
@@ -4958,7 +4958,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 3120,
+        "points": 3137,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Piyush Chawla",
@@ -5026,7 +5026,7 @@
             "0": 0,
             "4s": 2,
             "6s": 2,
-            "boundaries": 4
+            "boundaries": 2
         },
         "bowling": {
             "Player": "Vishnu Vinod",
@@ -5050,7 +5050,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 106,
+        "points": 98,
         "position": ""
     },
     "Arshad Khan": {
@@ -5069,7 +5069,7 @@
             "0": 0,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "Arshad Khan",
@@ -5093,7 +5093,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -202,
+        "points": -156,
         "position": ""
     },
     "K Kartikeya": {
@@ -5136,7 +5136,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 166,
+        "points": 191,
         "position": ""
     },
     "CJ Jordan": {
@@ -5179,7 +5179,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -88,
+        "points": -63,
         "position": ""
     },
     "JP Behrendorff": {
@@ -5222,7 +5222,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 512,
+        "points": 562,
         "position": ""
     },
     "JC Archer": {
@@ -5265,7 +5265,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -92,
+        "points": -67,
         "position": ""
     },
     "R Goyal": {
@@ -5308,7 +5308,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 0,
+        "points": 25,
         "position": ""
     },
     "D Jansen": {
@@ -5351,7 +5351,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 50,
+        "points": 100,
         "position": ""
     },
     "A Madhwal": {
@@ -5437,7 +5437,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -50,
+        "points": -25,
         "position": ""
     },
     "S Dhawan": {
@@ -5456,7 +5456,7 @@
             "0": 1,
             "4s": 49,
             "6s": 12,
-            "boundaries": 61
+            "boundaries": 49
         },
         "bowling": {
             "Player": "S Dhawan",
@@ -5480,7 +5480,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1730,
+        "points": 1782,
         "position": ""
     },
     "LS Livingstone": {
@@ -5499,7 +5499,7 @@
             "0": 0,
             "4s": 20,
             "6s": 19,
-            "boundaries": 39
+            "boundaries": 20
         },
         "bowling": {
             "Player": "LS Livingstone",
@@ -5523,7 +5523,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 566,
+        "points": 590,
         "position": ""
     },
     "Sikandar Raza": {
@@ -5542,7 +5542,7 @@
             "0": 0,
             "4s": 10,
             "6s": 6,
-            "boundaries": 16
+            "boundaries": 10
         },
         "bowling": {
             "Player": "Sikandar Raza",
@@ -5566,7 +5566,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 390,
+        "points": 491,
         "position": ""
     },
     "SM Curran": {
@@ -5585,7 +5585,7 @@
             "0": 0,
             "4s": 20,
             "6s": 13,
-            "boundaries": 33
+            "boundaries": 20
         },
         "bowling": {
             "Player": "SM Curran",
@@ -5609,7 +5609,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 938,
+        "points": 1011,
         "position": ""
     },
     "A Taide": {
@@ -5628,7 +5628,7 @@
             "0": 1,
             "4s": 20,
             "6s": 6,
-            "boundaries": 26
+            "boundaries": 20
         },
         "bowling": {
             "Player": "A Taide",
@@ -5652,7 +5652,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 618,
+        "points": 719,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Atharva Taide",
@@ -5677,7 +5677,7 @@
             "0": 2,
             "4s": 38,
             "6s": 19,
-            "boundaries": 57
+            "boundaries": 38
         },
         "bowling": {
             "Player": "Prabhsimran Singh",
@@ -5701,7 +5701,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1734,
+        "points": 1683,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Prabhsimran Singh",
@@ -5726,7 +5726,7 @@
             "0": 0,
             "4s": 8,
             "6s": 3,
-            "boundaries": 11
+            "boundaries": 8
         },
         "bowling": {
             "Player": "Harpreet Singh",
@@ -5750,7 +5750,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 220,
+        "points": 233,
         "position": ""
     },
     "JM Sharma": {
@@ -5769,7 +5769,7 @@
             "0": 1,
             "4s": 22,
             "6s": 21,
-            "boundaries": 43
+            "boundaries": 22
         },
         "bowling": {
             "Player": "JM Sharma",
@@ -5793,7 +5793,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1202,
+        "points": 1293,
         "position": ""
     },
     "PBB Rajapaksa": {
@@ -5812,7 +5812,7 @@
             "0": 1,
             "4s": 6,
             "6s": 2,
-            "boundaries": 8
+            "boundaries": 6
         },
         "bowling": {
             "Player": "PBB Rajapaksa",
@@ -5836,7 +5836,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 234,
+        "points": 226,
         "position": ""
     },
     "M Shahrukh Khan": {
@@ -5855,7 +5855,7 @@
             "0": 0,
             "4s": 13,
             "6s": 9,
-            "boundaries": 22
+            "boundaries": 13
         },
         "bowling": {
             "Player": "M Shahrukh Khan",
@@ -5879,7 +5879,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 472,
+        "points": 611,
         "position": ""
     },
     "MW Short": {
@@ -5898,7 +5898,7 @@
             "0": 0,
             "4s": 15,
             "6s": 4,
-            "boundaries": 19
+            "boundaries": 15
         },
         "bowling": {
             "Player": "MW Short",
@@ -5922,7 +5922,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 342,
+        "points": 401,
         "position": ""
     },
     "R Dhawan": {
@@ -5941,7 +5941,7 @@
             "0": 0,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "R Dhawan",
@@ -5965,7 +5965,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 6,
+        "points": 27,
         "position": ""
     },
     "Harpreet Brar": {
@@ -5984,7 +5984,7 @@
             "0": 1,
             "4s": 5,
             "6s": 2,
-            "boundaries": 7
+            "boundaries": 5
         },
         "bowling": {
             "Player": "Harpreet Brar",
@@ -6008,7 +6008,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 492,
+        "points": 534,
         "position": ""
     },
     "NT Ellis": {
@@ -6051,7 +6051,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 546,
+        "points": 571,
         "position": ""
     },
     "RD Chahar": {
@@ -6094,7 +6094,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 488,
+        "points": 588,
         "position": ""
     },
     "K Rabada": {
@@ -6180,7 +6180,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1654,
+        "points": 1679,
         "position": ""
     },
     "Mohit Rathee": {
@@ -6285,7 +6285,7 @@
             "0": 1,
             "4s": 82,
             "6s": 26,
-            "boundaries": 108
+            "boundaries": 82
         },
         "bowling": {
             "Player": "YBK Jaiswal",
@@ -6309,7 +6309,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 4734,
+        "points": 4830,
         "position": ""
     },
     "SO Hetmyer": {
@@ -6328,7 +6328,7 @@
             "0": 0,
             "4s": 12,
             "6s": 23,
-            "boundaries": 35
+            "boundaries": 12
         },
         "bowling": {
             "Player": "SO Hetmyer",
@@ -6352,7 +6352,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 972,
+        "points": 1155,
         "position": ""
     },
     "SV Samson": {
@@ -6371,7 +6371,7 @@
             "0": 2,
             "4s": 25,
             "6s": 24,
-            "boundaries": 49
+            "boundaries": 25
         },
         "bowling": {
             "Player": "SV Samson",
@@ -6395,7 +6395,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1750,
+        "points": 1879,
         "position": ""
     },
     "JC Buttler": {
@@ -6414,7 +6414,7 @@
             "0": 5,
             "4s": 42,
             "6s": 14,
-            "boundaries": 56
+            "boundaries": 42
         },
         "bowling": {
             "Player": "JC Buttler",
@@ -6438,7 +6438,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2685.0,
+        "points": 2071.5,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Jos Buttler",
@@ -6463,7 +6463,7 @@
             "0": 0,
             "4s": 31,
             "6s": 6,
-            "boundaries": 37
+            "boundaries": 31
         },
         "bowling": {
             "Player": "D Padikkal",
@@ -6487,7 +6487,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 818,
+        "points": 894,
         "position": ""
     },
     "DC Jurel": {
@@ -6506,7 +6506,7 @@
             "0": 1,
             "4s": 11,
             "6s": 9,
-            "boundaries": 20
+            "boundaries": 11
         },
         "bowling": {
             "Player": "DC Jurel",
@@ -6530,7 +6530,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 450,
+        "points": 439,
         "position": ""
     },
     "TA Boult": {
@@ -6549,7 +6549,7 @@
             "0": 0,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "TA Boult",
@@ -6573,7 +6573,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1048,
+        "points": 2169,
         "position": ""
     },
     "R Parag": {
@@ -6592,7 +6592,7 @@
             "0": 0,
             "4s": 4,
             "6s": 5,
-            "boundaries": 9
+            "boundaries": 4
         },
         "bowling": {
             "Player": "R Parag",
@@ -6616,7 +6616,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 232,
+        "points": 237,
         "position": ""
     },
     "R Ashwin": {
@@ -6635,7 +6635,7 @@
             "0": 2,
             "4s": 5,
             "6s": 3,
-            "boundaries": 8
+            "boundaries": 5
         },
         "bowling": {
             "Player": "R Ashwin",
@@ -6659,7 +6659,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 978,
+        "points": 991,
         "position": ""
     },
     "JE Root": {
@@ -6702,7 +6702,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 24,
+        "points": 74,
         "position": ""
     },
     "JO Holder": {
@@ -6721,7 +6721,7 @@
             "0": 1,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "JO Holder",
@@ -6745,7 +6745,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 30,
+        "points": 101,
         "position": ""
     },
     "A Zampa": {
@@ -6831,7 +6831,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -56,
+        "points": -31,
         "position": ""
     },
     "Sandeep Sharma": {
@@ -6874,7 +6874,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 404,
+        "points": 504,
         "position": ""
     },
     "Abdul Basith": {
@@ -7003,7 +7003,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2950,
+        "points": 2975,
         "position": ""
     },
     "OC McCoy": {
@@ -7194,7 +7194,7 @@
             "0": 0,
             "4s": 60,
             "6s": 36,
-            "boundaries": 96
+            "boundaries": 60
         },
         "bowling": {
             "Player": "F du Plessis",
@@ -7218,7 +7218,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 9048.0,
+        "points": 8000.5,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Faf du Plessis",
@@ -7243,7 +7243,7 @@
             "0": 1,
             "4s": 65,
             "6s": 16,
-            "boundaries": 81
+            "boundaries": 65
         },
         "bowling": {
             "Player": "V Kohli",
@@ -7267,7 +7267,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 4724,
+        "points": 4985,
         "position": ""
     },
     "GJ Maxwell": {
@@ -7286,7 +7286,7 @@
             "0": 2,
             "4s": 29,
             "6s": 31,
-            "boundaries": 60
+            "boundaries": 29
         },
         "bowling": {
             "Player": "GJ Maxwell",
@@ -7310,7 +7310,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 1976,
+        "points": 1952,
         "position": ""
     },
     "Anuj Rawat": {
@@ -7329,7 +7329,7 @@
             "0": 0,
             "4s": 6,
             "6s": 4,
-            "boundaries": 10
+            "boundaries": 6
         },
         "bowling": {
             "Player": "Anuj Rawat",
@@ -7353,7 +7353,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 254,
+        "points": 313,
         "position": ""
     },
     "MG Bracewell": {
@@ -7372,7 +7372,7 @@
             "0": 0,
             "4s": 6,
             "6s": 1,
-            "boundaries": 7
+            "boundaries": 6
         },
         "bowling": {
             "Player": "MG Bracewell",
@@ -7396,7 +7396,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 352,
+        "points": 373,
         "position": ""
     },
     "Akash Deep": {
@@ -7415,7 +7415,7 @@
             "0": 0,
             "4s": 2,
             "6s": 1,
-            "boundaries": 3
+            "boundaries": 2
         },
         "bowling": {
             "Player": "Akash Deep",
@@ -7439,7 +7439,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 104,
+        "points": 125,
         "position": ""
     },
     "MK Lomror": {
@@ -7458,7 +7458,7 @@
             "0": 1,
             "4s": 9,
             "6s": 8,
-            "boundaries": 17
+            "boundaries": 9
         },
         "bowling": {
             "Player": "MK Lomror",
@@ -7482,7 +7482,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 446,
+        "points": 514,
         "position": ""
     },
     "PW Hasaranga": {
@@ -7544,7 +7544,7 @@
             "0": 1,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "V Vyshak",
@@ -7568,7 +7568,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 82,
+        "points": 103,
         "position": ""
     },
     "KD Karthik": {
@@ -7587,7 +7587,7 @@
             "0": 4,
             "4s": 13,
             "6s": 5,
-            "boundaries": 18
+            "boundaries": 13
         },
         "bowling": {
             "Player": "KD Karthik",
@@ -7611,7 +7611,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 368,
+        "points": 648,
         "position": ""
     },
     "Shahbaz Ahmed": {
@@ -7630,7 +7630,7 @@
             "0": 0,
             "4s": 3,
             "6s": 1,
-            "boundaries": 4
+            "boundaries": 3
         },
         "bowling": {
             "Player": "Shahbaz Ahmed",
@@ -7654,7 +7654,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -342,
+        "points": -221,
         "position": ""
     },
     "SS Prabhudessai": {
@@ -7673,7 +7673,7 @@
             "0": 1,
             "4s": 1,
             "6s": 2,
-            "boundaries": 3
+            "boundaries": 1
         },
         "bowling": {
             "Player": "SS Prabhudessai",
@@ -7697,7 +7697,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 92,
+        "points": 159,
         "position": ""
     },
     "HV Patel": {
@@ -7716,7 +7716,7 @@
             "0": 1,
             "4s": 0,
             "6s": 1,
-            "boundaries": 1
+            "boundaries": 0
         },
         "bowling": {
             "Player": "HV Patel",
@@ -7740,7 +7740,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 518,
+        "points": 564,
         "position": ""
     },
     "WD Parnell": {
@@ -7783,7 +7783,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 254,
+        "points": 354,
         "position": ""
     },
     "KV Sharma": {
@@ -7869,7 +7869,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2046,
+        "points": 2146,
         "position": ""
     },
     "DJ Willey": {
@@ -7912,7 +7912,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 486,
+        "points": 511,
         "position": ""
     },
     "KM Jadhav": {
@@ -7955,7 +7955,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 28,
+        "points": 53,
         "position": ""
     },
     "JR Hazlewood": {
@@ -8103,7 +8103,7 @@
             "0": 0,
             "4s": 9,
             "6s": 2,
-            "boundaries": 11
+            "boundaries": 9
         },
         "bowling": {
             "Player": "Vivrant Sharma",
@@ -8127,7 +8127,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 248,
+        "points": 240,
         "position": ""
     },
     "H Klaasen": {
@@ -8146,7 +8146,7 @@
             "0": 0,
             "4s": 32,
             "6s": 25,
-            "boundaries": 57
+            "boundaries": 32
         },
         "bowling": {
             "Player": "H Klaasen",
@@ -8170,7 +8170,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2274,
+        "points": 2299,
         "position": ""
     },
     "Abdul Samad": {
@@ -8189,7 +8189,7 @@
             "0": 0,
             "4s": 10,
             "6s": 11,
-            "boundaries": 21
+            "boundaries": 10
         },
         "bowling": {
             "Player": "Abdul Samad",
@@ -8213,7 +8213,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 510,
+        "points": 566,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Abdul Samad",
@@ -8238,7 +8238,7 @@
             "0": 0,
             "4s": 29,
             "6s": 6,
-            "boundaries": 35
+            "boundaries": 29
         },
         "bowling": {
             "Player": "MA Agarwal",
@@ -8262,7 +8262,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 778,
+        "points": 904,
         "position": ""
     },
     "Anmolpreet Singh": {
@@ -8281,7 +8281,7 @@
             "0": 0,
             "4s": 15,
             "6s": 2,
-            "boundaries": 17
+            "boundaries": 15
         },
         "bowling": {
             "Player": "Anmolpreet Singh",
@@ -8305,7 +8305,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 294,
+        "points": 311,
         "position": ""
     },
     "RA Tripathi": {
@@ -8324,7 +8324,7 @@
             "0": 1,
             "4s": 29,
             "6s": 10,
-            "boundaries": 39
+            "boundaries": 29
         },
         "bowling": {
             "Player": "RA Tripathi",
@@ -8348,7 +8348,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 826,
+        "points": 836,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Rahul Tripathi",
@@ -8373,7 +8373,7 @@
             "0": 1,
             "4s": 18,
             "6s": 8,
-            "boundaries": 26
+            "boundaries": 18
         },
         "bowling": {
             "Player": "AK Markram",
@@ -8397,7 +8397,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 658,
+        "points": 901,
         "position": ""
     },
     "HC Brook": {
@@ -8416,7 +8416,7 @@
             "0": 3,
             "4s": 23,
             "6s": 4,
-            "boundaries": 27
+            "boundaries": 23
         },
         "bowling": {
             "Player": "HC Brook",
@@ -8440,7 +8440,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 602,
+        "points": 661,
         "position": ""
     },
     "Abhishek Sharma": {
@@ -8459,7 +8459,7 @@
             "0": 1,
             "4s": 28,
             "6s": 6,
-            "boundaries": 34
+            "boundaries": 28
         },
         "bowling": {
             "Player": "Abhishek Sharma",
@@ -8483,7 +8483,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 430,
+        "points": 506,
         "position": ""
     },
     "Umran Malik": {
@@ -8502,7 +8502,7 @@
             "0": 1,
             "4s": 1,
             "6s": 2,
-            "boundaries": 3
+            "boundaries": 1
         },
         "bowling": {
             "Player": "Umran Malik",
@@ -8526,7 +8526,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": -90,
+        "points": 927,
         "position": ""
     },
     "Washington Sundar": {
@@ -8569,7 +8569,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 194,
+        "points": 244,
         "position": ""
     },
     "B Kumar": {
@@ -8612,7 +8612,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 2450,
+        "points": 2525,
         "position": ""
     },
     "M Jansen": {
@@ -8655,7 +8655,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 544,
+        "points": 619,
         "position": ""
     },
     "AU Rashid": {
@@ -8674,7 +8674,7 @@
             "0": 0,
             "4s": 2,
             "6s": 1,
-            "boundaries": 3
+            "boundaries": 2
         },
         "bowling": {
             "Player": "AU Rashid",
@@ -8698,7 +8698,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 264,
+        "points": 260,
         "position": ""
     },
     "Sanvir Singh": {
@@ -8717,7 +8717,7 @@
             "0": 0,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "Sanvir Singh",
@@ -8741,7 +8741,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 38,
+        "points": 34,
         "position": ""
     },
     "GD Phillips": {
@@ -8760,7 +8760,7 @@
             "0": 1,
             "4s": 2,
             "6s": 4,
-            "boundaries": 6
+            "boundaries": 2
         },
         "bowling": {
             "Player": "GD Phillips",
@@ -8784,7 +8784,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 178,
+        "points": 187,
         "position": ""
     },
     "M Markande": {
@@ -8803,7 +8803,7 @@
             "0": 0,
             "4s": 2,
             "6s": 1,
-            "boundaries": 3
+            "boundaries": 2
         },
         "bowling": {
             "Player": "M Markande",
@@ -8827,7 +8827,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 824,
+        "points": 841,
         "position": "",
         "Owner": "Viggy",
         "old_name": "Mayank Markande",
@@ -8852,7 +8852,7 @@
             "0": 0,
             "4s": 1,
             "6s": 1,
-            "boundaries": 2
+            "boundaries": 1
         },
         "bowling": {
             "Player": "AJ Hosein",
@@ -8876,7 +8876,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 98,
+        "points": 94,
         "position": ""
     },
     "Fazalhaq Farooqi": {
@@ -8919,7 +8919,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 102,
+        "points": 127,
         "position": ""
     },
     "MJ Dagar": {
@@ -9048,7 +9048,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 300,
+        "points": 375,
         "position": ""
     },
     "K Nitish Kumar Reddy": {
@@ -9091,7 +9091,7 @@
             "dots": 0,
             "Hat-Tricks": 0
         },
-        "points": 0,
+        "points": 25,
         "position": ""
     }
 }
