@@ -1,11 +1,6 @@
-Backend:
+Backend: 
+- Import Dots
 
-- Calculate doubling/tripling points for player's position
-- Calculate points for player having global max
-- Calculate team points for player having max
-- Database updating stuff
-- Set up manual entry system for 6+ wickets, dot balls, hattricks
 
 Frontend:
-
--
+- Populate Backend Data

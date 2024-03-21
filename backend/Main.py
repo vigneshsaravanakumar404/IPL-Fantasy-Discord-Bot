@@ -32,24 +32,23 @@ FOURFIVE_PLUS_WICKETS_URL = "https://www.espncricinfo.com/records/tournament/bow
 DATA = json.dumps([])
 EXTRA_DATA = json.loads(open("backend\Data.json").read())
 
-# * Start
+#* Start
 clear()
-# * Finish
+#* Finish
 
 
-# * Get Data
+#* Get Data
 # ? Missing: Dot Balls, 6+ Wickets, Hat-Tricks
 print("\033[92mGetting Data\033[0m")
 
 FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
 DATA = json.dumps([get_team_data(team_url) for team_url in TEAM_URLS])
-# * Finish
+#* Finish
 
 
-# * Parse Data
+#* Parse Data
 print("\033[92mParsing Data\033[0m")
 
-# TODO: Add 6+ wickets and hat-tricks and dots
 FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
 DATA = json.dumps(combine_stats(DATA, FOURFIVE_WICKET_DATA))
 DATA = json.loads(DATA)
@@ -75,15 +74,17 @@ for owner in EXTRA_DATA:
                 "isBatsman": player["isBatsman"],
                 "Team": player["Team"],
             }
-# * Finish
+#* Finish
 
 
-# * Compute
+#* Compute
 print("\033[92mComputing Data\033[0m")
 
 # General Points
 for player in DATA:
     DATA[player]["points"] = compute_points(DATA[player])
+
+# Maxes
 for max in GLOBAL_MAXES:
     if max == "0":
         DATA[GLOBAL_MAXES[max][2]]["points"] -= 1000
@@ -91,15 +92,22 @@ for max in GLOBAL_MAXES:
     if len(GLOBAL_MAXES[max]) > 2:
         DATA[GLOBAL_MAXES[max][2]]["points"] += 1000
         print(f"Added 1000 to {GLOBAL_MAXES[max][2]}")
-# TODO: Award team's global max categories
 
-# * Finish
+BONUS_POINTS_TO_TEAM = {}
+for category, bonus_data in CATEGORY_MAXES.items():
+    bonus_points, team = bonus_data
+    if team not in BONUS_POINTS_TO_TEAM:
+        BONUS_POINTS_TO_TEAM[team] = 0
+    BONUS_POINTS_TO_TEAM[team] += bonus_points
+BONUS_POINTS_TO_TEAM.pop(None)
+#* Finish
 
+#! Populate BONUS_POINTS_TO_TEAM, DATA to DB
 
-#! Debugging
+"""# Debugging
 DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-pprint(CATEGORY_MAXES)
-pprint(GLOBAL_MAXES)
+pprint(BONUS_POINTS_TO_TEAM)
+"""
