@@ -313,7 +313,6 @@ def compute_points(player):
     report += f"  - 6s: {yellow_6s} x 1000 = {yellow_6s * 1000}\n"
     report += f"  - Maidens: {yellow_mdns} x 150 = {yellow_mdns * 150}\n"
     report += f"  - Hat-Tricks: {yellow_HT} x 2000 = {yellow_HT * 2000}\n"
-    update_max_category("yellow_bowling", yellow_bowling, player)
 
     # Purple
     purple_bowling = 0
@@ -353,7 +352,6 @@ def compute_points(player):
         else:
             purple_bowling += 2000
             report += f"  - Economy: {econ:.2f} -> 2000\n"
-        update_max_category("purple_bowling", purple_bowling, player)
 
     # Green
     green_bowling = 0
@@ -369,7 +367,6 @@ def compute_points(player):
     elif wkts > 15:
         green_bowling += 1000
     report += f"  - Wickets: {wkts}\n"
-    update_max_category("green_bowling", green_bowling, player)
 
     # Batting Points
     batting = 0
@@ -402,7 +399,6 @@ def compute_points(player):
     report += f"  - Zeros: {zeros} x -6 = {zeros * -6}\n"
     report += f"  - Fifties: {fifties} x 50 = {fifties * 50}\n"
     report += f"  - Centuries: {centuries} x 100 = {centuries * 100}\n"
-    update_max_category("yellow_batting", yellow_batting, player)
 
     # Green
     green_batting = 0
@@ -436,7 +432,6 @@ def compute_points(player):
         else:
             green_batting -= 100
             report += f"  - Strike Rate: {sr:.2f} -> -100\n"
-    update_max_category("green_batting", green_batting, player)
 
     # Cyan
     cyan_batting = 0
@@ -464,7 +459,6 @@ def compute_points(player):
         cyan_batting += 500
     elif runs > 300:
         cyan_batting += 250
-    update_max_category("cyan_batting", cyan_batting, player)
 
     # Sub Total
     update_maxes(player)
@@ -508,23 +502,6 @@ def compute_points(player):
             file.write(report)
 
     return total
-
-
-def update_max_category(category, value, player):
-    """
-    Update the maximum value for a given category and the owner of the player with that maximum value.
-
-    Parameters:
-    - category (str): The category for which the maximum value needs to be updated.
-    - value (int): The new value to be compared with the current maximum value.
-    - player (dict): The player object containing information about the player.
-
-    Returns:
-    None
-    """
-    current_max = CATEGORY_MAXES.get(category, [0, ""])[0]
-    if value > current_max:
-        CATEGORY_MAXES[category] = [value, player.get("Owner")]
 
 
 def update_maxes(player):

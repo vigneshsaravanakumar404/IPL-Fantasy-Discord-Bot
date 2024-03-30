@@ -5634,3 +5634,541 @@ Total Points: 0, Owner: Kaushal
 
 
 
+Player: Deepak Chahar, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 21.66
+  - Wickets: 3 x 50 = 150
+  - Dots: 21 x 5 = 105
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 8.12 -> -100
+  - Wickets: 3
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 8.0
+
+Total Points: 2321.0, Owner: Kaushal
+
+
+
+Player: Anrich Nortje, Team: DC, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 48.00
+  - Wickets: 1 x 50 = 50
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 1
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 4.0
+
+Total Points: 4890.0, Owner: Kaushal
+
+
+
+Player: Sai Sudharsan, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 41.00
+  - Runs: 82 x 2 = 164
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 117.14 -> 200
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 70, Overs Bowled: 0.0
+
+Total Points: 4496.0, Owner: Kaushal
+
+
+
+Player: Rinku Singh, Team: KKR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 28.00
+  - Runs: 28 x 2 = 56
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 140.00 -> 400
+Other (100):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 4 x 25 = 100
+  - MOM: 0 x 100 = 0
+Balls Faced: 20, Overs Bowled: 0.0
+
+Total Points: 3368.0, Owner: Kaushal
+
+
+
+Player: Suyash Sharma, Team: KKR, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 3 x 5 = 15
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 2.0
+
+Total Points: 40, Owner: Kaushal
+
+
+
+Player: KL Rahul, Team: LSG, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 36.50
+  - Runs: 73 x 2 = 146
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 3 x 8 = 24
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 137.73 -> 400
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+  - MOM: 0 x 100 = 0
+Balls Faced: 53, Overs Bowled: 0.0
+
+Total Points: 8680.0, Owner: Kaushal
+
+
+
+Player: Krunal Pandya, Team: LSG, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 6.42 -> 100
+  - Wickets: 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 46 x 2 = 92
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 170.37 -> 600
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Balls Faced: 27, Overs Bowled: 7.0
+
+Total Points: 849, Owner: Kaushal
+
+
+
+Player: Gerald Coetzee, Team: MI, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 28.00
+  - Wickets: 3 x 50 = 150
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 10.50 -> -400
+  - Wickets: 3
+Batting Points:
+  - Average: 1.00
+  - Runs: 1 x 2 = 2
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 3, Overs Bowled: 8.0
+
+Total Points: 2804.0, Owner: Kaushal
+
+
+
+Player: Liam Livingstone, Team: PBKS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 83.00
+  - Runs: 83 x 2 = 166
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 162.74 -> 600
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 51, Overs Bowled: 0.0
+
+Total Points: 9134.0, Owner: Kaushal
+
+
+
+Player: Jitesh Sharma, Team: PBKS, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 14.00
+  - Runs: 42 x 2 = 84
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 110.52 -> 200
+Other (125):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 5 x 25 = 125
+  - MOM: 0 x 100 = 0
+Balls Faced: 38, Overs Bowled: 0.0
+
+Total Points: 1837.0, Owner: Kaushal
+
+
+
+Player: Rahul Chahar, Team: PBKS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 45.50
+  - Wickets: 2 x 50 = 100
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 11.37 -> -500
+  - Wickets: 2
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 8.0
+
+Total Points: 4215.0, Owner: Kaushal
+
+
+
+Player: Sanju Samson, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 97.00
+  - Runs: 97 x 2 = 194
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 146.96 -> 400
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+  - MOM: 0 x 100 = 0
+Balls Faced: 66, Overs Bowled: 0.0
+
+Total Points: 10466.0, Owner: Kaushal
+
+
+
+Player: Dhruv Jurel, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 40.00
+  - Runs: 40 x 2 = 80
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 166.66 -> 600
+Other (75):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 3 x 25 = 75
+  - MOM: 0 x 100 = 0
+Balls Faced: 24, Overs Bowled: 0.0
+
+Total Points: 4779.0, Owner: Kaushal
+
+
+
+Player: Cameron Green, Team: RCB, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 26.50
+  - Wickets: 2 x 50 = 100
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 8.83 -> -100
+  - Wickets: 2
+Batting Points:
+  - Average: 18.00
+  - Runs: 54 x 2 = 108
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 112.50 -> 200
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+  - MOM: 0 x 100 = 0
+Balls Faced: 48, Overs Bowled: 6.0
+
+Total Points: 7341.0, Owner: Kaushal
+
+
+
+Player: Abhishek Sharma, Team: SRH, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 47.50
+  - Runs: 95 x 2 = 190
+  - Boundaries: 7 x 4 = 28
+  - Sixes: 9 x 8 = 72
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 226.19 -> 1000
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Balls Faced: 42, Overs Bowled: 0.0
+
+Total Points: 6115.0, Owner: Kaushal
+
+
+
+Player: Bhuvneshwar Kumar, Team: SRH, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 14 x 5 = 70
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 13.00 -> -500
+  - Wickets: 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 8.0
+
+Total Points: -430, Owner: Kaushal
+
+
+
+Player: Abhinav Manohar, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
+Player: Mohammad Nabi, Team: MI, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Wickets: 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Balls Faced: 0, Overs Bowled: 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
