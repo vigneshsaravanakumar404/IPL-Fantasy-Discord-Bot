@@ -9,9 +9,9 @@
         "isBatsman": true,
         "Team": "RCB",
         "Position": "C",
-        "MOM": 100,
-        "6+": 100,
-        "HT": 100
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Jos Buttler",

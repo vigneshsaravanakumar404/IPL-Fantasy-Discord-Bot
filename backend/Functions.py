@@ -524,9 +524,9 @@ def update_maxes(player):
         None
     """
 
-    batting_stats = ["NO", "Runs", "Ave", "SR",
+    batting_stats = ["NO", "Runs", "Ave",
                      "100", "50", "0", "4s", "6s", "HS"]
-    bowling_stats = ["Wkts", "dots", "Mdns", "Econ", "Ave"]
+    bowling_stats = ["Wkts", "dots", "Mdns", "Ave"]
 
     if "batting" in player:
         for stat in batting_stats:
@@ -540,13 +540,34 @@ def update_maxes(player):
                     player.get("bowling", {}).get("Player", ""),
                 ]
 
-    for stat in bowling_stats:
-        current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
-        player_stat = player.get("bowling", {}).get(stat, 0)
+        current_max = GLOBAL_MAXES.get("SR", [0, ""])[0]
+        player_sr = player.get("batting", {}).get("SR", 0)
+        player_bf = player.get("batting", {}).get("BF", 0)
+        if player_sr > current_max and player_bf > 15:
+            GLOBAL_MAXES["SR"] = [
+                player_sr,
+                player.get("Team", ""),
+                player.get("bowling", {}).get("Player", ""),
+            ]
+    if "bowling" in player:
+        for stat in bowling_stats:
+            current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+            player_stat = player.get("bowling", {}).get(stat, 0)
 
-        if player_stat > current_max:
-            GLOBAL_MAXES[stat] = [
-                player_stat,
+            if player_stat > current_max:
+                GLOBAL_MAXES[stat] = [
+                    player_stat,
+                    player.get("Team", ""),
+                    player.get("bowling", {}).get("Player", ""),
+                ]
+
+        current_max = GLOBAL_MAXES.get("Econ", [0, ""])[0]
+        player_econ = player.get("bowling", {}).get("Econ", 0)
+        player_overs = player.get("bowling", {}).get("Overs", 0)
+
+        if player_econ < current_max and player_overs > 5:
+            GLOBAL_MAXES["Econ"] = [
+                player_econ,
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
