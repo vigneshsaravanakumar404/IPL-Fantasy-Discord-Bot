@@ -292,6 +292,8 @@ def compute_points(player):
     yellow_6s = player.get("6+", 0)
     yellow_HT = player.get("HT", 0)
     yellow_mdns = player.get("bowling", {}).get("Mdns", 0)
+    yellow_ave = player.get("bowling", {}).get("Ave", 0)
+
     yellow_bowling += yellow_wkts * 50
     yellow_bowling += yellow_dots * 5
     yellow_bowling += yellow_4s * 250
@@ -299,6 +301,11 @@ def compute_points(player):
     yellow_bowling += yellow_6s * 1000
     yellow_bowling += yellow_HT * 2000
     yellow_bowling += yellow_mdns * 150
+
+    # TODO: Adjust formula
+    yellow_bowling += yellow_ave * 100
+    report += f"  - Average: {yellow_ave:.2f}\n"
+
     report += f"  - Wickets: {yellow_wkts} x 50 = {yellow_wkts * 50}\n"
     report += f"  - Dots: {yellow_dots} x 5 = {yellow_dots * 5}\n"
     report += f"  - 4s: {yellow_4s} x 250 = {yellow_4s * 250}\n"
@@ -376,12 +383,19 @@ def compute_points(player):
     zeros = player.get("batting", {}).get("0", 0)
     fifties = player.get("batting", {}).get("50", 0)
     centuries = player.get("batting", {}).get("100", 0)
+    ave = player.get("batting", {}).get("Ave", 0)
+
     yellow_batting += runs * 2
     yellow_batting += boundaries * 4
     yellow_batting += sixes * 8
     yellow_batting += zeros * -6
     yellow_batting += fifties * 50
     yellow_batting += centuries * 100
+
+    # TODO: Adjust formula
+    yellow_batting += ave * 100
+    report += f"  - Average: {ave:.2f}\n"
+
     report += f"  - Runs: {runs} x 2 = {runs * 2}\n"
     report += f"  - Boundaries: {boundaries} x 4 = {boundaries * 4}\n"
     report += f"  - Sixes: {sixes} x 8 = {sixes * 8}\n"

@@ -2,11 +2,11 @@ Backend:
 - Generate Player Reports
 - Generate Team Reports
 - Team Total Maxes
-- Bowling average
+- Batting/Bowling average
 - Ties in maxes
 
 Data
 - Add MOM Data
 
 Frontend:
-- Populate Backend Data
+- Integrate with tejas's Code
