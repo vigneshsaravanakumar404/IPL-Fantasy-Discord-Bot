@@ -271,48 +271,78 @@ def compute_points(player):
         int: The total points earned by the player.
 
     """
+    # Variables
     total = 0
+    name = player.get("old_name")
+    isBowler = player.get("isBowler")
+    isBatsman = player.get("isBatsman")
+    team = player.get("Team")
+    report = f"Player: {name}, Team: {team}, isBowler: {isBowler}, isBatsman: {isBatsman}\n"
 
     # Bowling Points
     bowling = 0
+    report += "Bowling Points:\n"
 
     # Yellow
     yellow_bowling = 0
-    yellow_bowling += player.get("bowling", {}).get("Wkts", 0) * 50
-    yellow_bowling += player.get("bowling", {}).get("dots", 0) * 5
-    yellow_bowling += player.get("bowling", {}).get("4", 0) * 250
-    yellow_bowling += player.get("bowling", {}).get("5", 0) * 500
-    yellow_bowling += player.get("bowling", {}).get("6", 0) * 1000
-    yellow_bowling += player.get("bowling", {}).get("Mdns", 0) * 150
+    yellow_wkts = player.get("bowling", {}).get("Wkts", 0)
+    yellow_dots = player.get("bowling", {}).get("dots", 0)
+    yellow_4s = player.get("bowling", {}).get("4", 0)
+    yellow_5s = player.get("bowling", {}).get("5", 0)
+    yellow_6s = player.get("bowling", {}).get("6", 0)
+    yellow_mdns = player.get("bowling", {}).get("Mdns", 0)
+    yellow_bowling += yellow_wkts * 50
+    yellow_bowling += yellow_dots * 5
+    yellow_bowling += yellow_4s * 250
+    yellow_bowling += yellow_5s * 500
+    yellow_bowling += yellow_6s * 1000
+    yellow_bowling += yellow_mdns * 150
+    report += f"  - Wickets: {yellow_wkts} x 50 = {yellow_wkts * 50}\n"
+    report += f"  - Dots: {yellow_dots} x 5 = {yellow_dots * 5}\n"
+    report += f"  - 4s: {yellow_4s} x 250 = {yellow_4s * 250}\n"
+    report += f"  - 5s: {yellow_5s} x 500 = {yellow_5s * 500}\n"
+    report += f"  - 6s: {yellow_6s} x 1000 = {yellow_6s * 1000}\n"
+    report += f"  - Maidens: {yellow_mdns} x 150 = {yellow_mdns * 150}\n"
     update_max_category("yellow_bowling", yellow_bowling, player)
 
     # Purple
     purple_bowling = 0
-    econ = player.get("bowling", {}).get("Econ", maxsize)
+    econ = player.get("bowling", {}).get("Econ", float('inf'))
     overs = player.get("bowling", {}).get("Overs", 0)
     if overs > 5:
         if econ > 11:
             purple_bowling -= 500
+            report += f"  - Economy: {econ:.2f} -> -500\n"
         elif econ > 10:
             purple_bowling -= 400
+            report += f"  - Economy: {econ:.2f} -> -400\n"
         elif econ > 9:
             purple_bowling -= 200
+            report += f"  - Economy: {econ:.2f} -> -200\n"
         elif econ > 8:
             purple_bowling -= 100
+            report += f"  - Economy: {econ:.2f} -> -100\n"
         elif econ > 6:
             purple_bowling += 100
+            report += f"  - Economy: {econ:.2f} -> 100\n"
         elif econ > 5:
             purple_bowling += 250
+            report += f"  - Economy: {econ:.2f} -> 250\n"
         elif econ > 4:
             purple_bowling += 500
+            report += f"  - Economy: {econ:.2f} -> 500\n"
         elif econ > 3:
             purple_bowling += 800
+            report += f"  - Economy: {econ:.2f} -> 800\n"
         elif econ > 2:
             purple_bowling += 1200
+            report += f"  - Economy: {econ:.2f} -> 1200\n"
         elif econ > 1:
             purple_bowling += 1500
+            report += f"  - Economy: {econ:.2f} -> 1500\n"
         else:
             purple_bowling += 2000
+            report += f"  - Economy: {econ:.2f} -> 2000\n"
     update_max_category("purple_bowling", purple_bowling, player)
 
     # Green
@@ -328,49 +358,71 @@ def compute_points(player):
         green_bowling += 2000
     elif wkts > 15:
         green_bowling += 1000
+    report += f"  - Wickets: {wkts}\n"
     update_max_category("green_bowling", green_bowling, player)
 
     # Batting Points
     batting = 0
+    report += "Batting Points:\n"
 
     # Yellow
     yellow_batting = 0
-    yellow_batting += player.get("batting", {}).get("Runs", 0) * 2
-    yellow_batting += player.get("batting", {}).get("boundaries", 0) * 4
-    yellow_batting += player.get("batting", {}).get("6s", 0) * 8
-    yellow_batting += player.get("batting", {}).get("0", 0) * -6
-    yellow_batting += player.get("batting", {}).get("50", 0) * 50
-    yellow_batting += player.get("batting", {}).get("100", 0) * 100
+    runs = player.get("batting", {}).get("Runs", 0)
+    boundaries = player.get("batting", {}).get("boundaries", 0)
+    sixes = player.get("batting", {}).get("6s", 0)
+    zeros = player.get("batting", {}).get("0", 0)
+    fifties = player.get("batting", {}).get("50", 0)
+    centuries = player.get("batting", {}).get("100", 0)
+    yellow_batting += runs * 2
+    yellow_batting += boundaries * 4
+    yellow_batting += sixes * 8
+    yellow_batting += zeros * -6
+    yellow_batting += fifties * 50
+    yellow_batting += centuries * 100
+    report += f"  - Runs: {runs} x 2 = {runs * 2}\n"
+    report += f"  - Boundaries: {boundaries} x 4 = {boundaries * 4}\n"
+    report += f"  - Sixes: {sixes} x 8 = {sixes * 8}\n"
+    report += f"  - Zeros: {zeros} x -6 = {zeros * -6}\n"
+    report += f"  - Fifties: {fifties} x 50 = {fifties * 50}\n"
+    report += f"  - Centuries: {centuries} x 100 = {centuries * 100}\n"
     update_max_category("yellow_batting", yellow_batting, player)
 
     # Green
     green_batting = 0
     bf = player.get("batting", {}).get("BF", 0)
     sr = player.get("batting", {}).get("SR", 0)
-    if bf > 500:
+    if bf > 15:
         if sr > 200:
             green_batting += 1000
+            report += f"  - Strike Rate: {sr:.2f} -> 1000\n"
         elif sr > 175:
             green_batting += 800
+            report += f"  - Strike Rate: {sr:.2f} -> 800\n"
         elif sr > 150:
             green_batting += 600
+            report += f"  - Strike Rate: {sr:.2f} -> 600\n"
         elif sr > 125:
             green_batting += 400
+            report += f"  - Strike Rate: {sr:.2f} -> 400\n"
         elif sr > 100:
             green_batting += 200
+            report += f"  - Strike Rate: {sr:.2f} -> 200\n"
         elif sr < 75:
             green_batting -= 200
+            report += f"  - Strike Rate: {sr:.2f} -> -200\n"
         elif sr < 50:
             green_batting -= 300
+            report += f"  - Strike Rate: {sr:.2f} -> -300\n"
         elif sr < 25:
             green_batting -= 500
+            report += f"  - Strike Rate: {sr:.2f} -> -500\n"
         else:
             green_batting -= 100
+            report += f"  - Strike Rate: {sr:.2f} -> -100\n"
     update_max_category("green_batting", green_batting, player)
 
     # Cyan
     cyan_batting = 0
-    runs = player.get("batting", {}).get("Runs", 0)
     if runs > 850:
         cyan_batting += 5000
     elif runs > 800:
@@ -399,26 +451,43 @@ def compute_points(player):
 
     # Sub Total
     update_maxes(player)
-    total += player.get("bowling", {}).get("St", 0) * 50
-    total += player.get("bowling", {}).get("Ct", 0) * 25
+    st = player.get("bowling", {}).get("St", 0)
+    ct = player.get("bowling", {}).get("Ct", 0)
+    report += f"Other ({(st * 50) + (ct * 25)}):\n  - Stumpings: {st} x 50 = {st * 50}\n  - Catches: {ct} x 25 = {ct * 25}\n"
+    report += f"Balls Faced: {bf}, Overs Bowled: {player.get('bowling', {}).get('Overs', 0)}\n"
+
+    fielding = (st * 50) + (ct * 25)
     batting = yellow_batting + green_batting + cyan_batting
     bowling = yellow_bowling + purple_bowling + green_bowling
 
     # Position Points
     if player.get("isBowler") == True and batting > 0:
         batting *= 2
-    if player.get("isBatsman") == True and bowling > 0:
+    elif player.get("isBatsman") == True and bowling > 0:
         bowling *= 2
-    if player.get("isBowler") == True and batting < 0:
+    elif player.get("isBowler") == True and batting < 0:
         batting /= 2
-    if player.get("isBatsman") == True and bowling < 0:
+    elif player.get("isBatsman") == True and bowling < 0:
         bowling /= 2
+
+    # Total Points
+    total = batting + bowling + fielding
+
+    # C/VC Points
     if player.get("Position") == "VC":
         total *= 1.5
-    if player.get("Position") == "C":
+    elif player.get("Position") == "C":
         total *= 2
 
-    total += batting + bowling
+    report += f"\nTotal Points: {total}, Owner: {player.get('Owner')}\n\n\n\n"
+
+    #! Write to file
+    if player.get("Owner") == "Viggy":
+        with open("backend\Reports\Viggy.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "Kaushal":
+        with open("backend\Reports\Kaushal.txt", "a") as file:
+            file.write(report)
 
     return total
 
@@ -477,3 +546,5 @@ def update_maxes(player):
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
+
+    # TODO: Add 1000 points to teams

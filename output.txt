@@ -1,0 +1,1313 @@
+Player: Deepak Chahar, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 3 x 50 = 150
+  - Dots: 21 x 5 = 105
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.12 -> -100
+  - Wickets: 3
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 155, Owner: Kaushal
+
+
+
+Player: Anrich Nortje, Team: DC, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 1 x 50 = 50
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 1
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 90, Owner: Kaushal
+
+
+
+Player: Sai Sudharsan, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 82 x 2 = 164
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 196, Owner: Kaushal
+
+
+
+Player: Rinku Singh, Team: KKR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 28 x 2 = 56
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (100):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 4 x 25 = 100
+
+Total Points: 168, Owner: Kaushal
+
+
+
+Player: Suyash Sharma, Team: KKR, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 3 x 5 = 15
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 40, Owner: Kaushal
+
+
+
+Player: KL Rahul, Team: LSG, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 73 x 2 = 146
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 3 x 8 = 24
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 340, Owner: Kaushal
+
+
+
+Player: Krunal Pandya, Team: LSG, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 6.42 -> 100
+  - Wickets: 0
+Batting Points:
+  - Runs: 46 x 2 = 92
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 249, Owner: Kaushal
+
+
+
+Player: Gerald Coetzee, Team: MI, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 3 x 50 = 150
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 10.50 -> -400
+  - Wickets: 3
+Batting Points:
+  - Runs: 1 x 2 = 2
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: -196, Owner: Kaushal
+
+
+
+Player: Liam Livingstone, Team: PBKS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 83 x 2 = 166
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 234, Owner: Kaushal
+
+
+
+Player: Jitesh Sharma, Team: PBKS, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 42 x 2 = 84
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (125):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 5 x 25 = 125
+
+Total Points: 237, Owner: Kaushal
+
+
+
+Player: Rahul Chahar, Team: PBKS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 11.37 -> -500
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: -335, Owner: Kaushal
+
+
+
+Player: Sanju Samson, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 97 x 2 = 194
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 366, Owner: Kaushal
+
+
+
+Player: Dhruv Jurel, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 40 x 2 = 80
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (75):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 3 x 25 = 75
+
+Total Points: 179, Owner: Kaushal
+
+
+
+Player: Cameron Green, Team: RCB, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.83 -> -100
+  - Wickets: 2
+Batting Points:
+  - Runs: 54 x 2 = 108
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 269.0, Owner: Kaushal
+
+
+
+Player: Abhishek Sharma, Team: SRH, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 95 x 2 = 190
+  - Boundaries: 7 x 4 = 28
+  - Sixes: 9 x 8 = 72
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 365, Owner: Kaushal
+
+
+
+Player: Bhuvneshwar Kumar, Team: SRH, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 14 x 5 = 70
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 13.00 -> -500
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: -430, Owner: Kaushal
+
+
+
+Player: Abhinav Manohar, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
+Player: Mohammad Nabi, Team: MI, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
+Player: Deepak Chahar, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 3 x 50 = 150
+  - Dots: 21 x 5 = 105
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.12 -> -100
+  - Wickets: 3
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 155, Owner: Kaushal
+
+
+
+Player: Anrich Nortje, Team: DC, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 1 x 50 = 50
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 1
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 90, Owner: Kaushal
+
+
+
+Player: Sai Sudharsan, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 82 x 2 = 164
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 196, Owner: Kaushal
+
+
+
+Player: Rinku Singh, Team: KKR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 28 x 2 = 56
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (100):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 4 x 25 = 100
+
+Total Points: 168, Owner: Kaushal
+
+
+
+Player: Suyash Sharma, Team: KKR, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 3 x 5 = 15
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 40, Owner: Kaushal
+
+
+
+Player: KL Rahul, Team: LSG, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 73 x 2 = 146
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 3 x 8 = 24
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 340, Owner: Kaushal
+
+
+
+Player: Krunal Pandya, Team: LSG, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 6.42 -> 100
+  - Wickets: 0
+Batting Points:
+  - Runs: 46 x 2 = 92
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 249, Owner: Kaushal
+
+
+
+Player: Gerald Coetzee, Team: MI, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 3 x 50 = 150
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 10.50 -> -400
+  - Wickets: 3
+Batting Points:
+  - Runs: 1 x 2 = 2
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: -196, Owner: Kaushal
+
+
+
+Player: Liam Livingstone, Team: PBKS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 83 x 2 = 166
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 234, Owner: Kaushal
+
+
+
+Player: Jitesh Sharma, Team: PBKS, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 42 x 2 = 84
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (125):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 5 x 25 = 125
+
+Total Points: 237, Owner: Kaushal
+
+
+
+Player: Rahul Chahar, Team: PBKS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 8 x 5 = 40
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 11.37 -> -500
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: -335, Owner: Kaushal
+
+
+
+Player: Sanju Samson, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 97 x 2 = 194
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 366, Owner: Kaushal
+
+
+
+Player: Dhruv Jurel, Team: RR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 40 x 2 = 80
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (75):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 3 x 25 = 75
+
+Total Points: 179, Owner: Kaushal
+
+
+
+Player: Cameron Green, Team: RCB, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 10 x 5 = 50
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.83 -> -100
+  - Wickets: 2
+Batting Points:
+  - Runs: 54 x 2 = 108
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 269.0, Owner: Kaushal
+
+
+
+Player: Abhishek Sharma, Team: SRH, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 95 x 2 = 190
+  - Boundaries: 7 x 4 = 28
+  - Sixes: 9 x 8 = 72
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 365, Owner: Kaushal
+
+
+
+Player: Bhuvneshwar Kumar, Team: SRH, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 14 x 5 = 70
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 13.00 -> -500
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: -430, Owner: Kaushal
+
+
+
+Player: Abhinav Manohar, Team: GT, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
+Player: Mohammad Nabi, Team: MI, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Kaushal
+
+
+
+Player: Shivam Dube, Team: CSK, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 85 x 2 = 170
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 6 x 8 = 48
+  - Zeros: 0 x -6 = 0
+  - Fifties: 1 x 50 = 50
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 292, Owner: Viggy
+
+
+
+Player: Tushar Deshpande, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 22 x 5 = 110
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.50 -> -100
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 135, Owner: Viggy
+
+
+
+Player: Matheesha Pathirana, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 1 x 50 = 50
+  - Dots: 13 x 5 = 65
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 1
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 115, Owner: Viggy
+
+
+
+Player: Mahesh Theekshana, Team: CSK, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Viggy
+
+
+
+Player: Khaleel Ahmed, Team: DC, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 3 x 50 = 150
+  - Dots: 21 x 5 = 105
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 8.37 -> -100
+  - Wickets: 3
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 155, Owner: Viggy
+
+
+
+Player: Vijay Shankar, Team: GT, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 18 x 2 = 36
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 69, Owner: Viggy
+
+
+
+Player: Rashid Khan, Team: GT, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 9.00 -> -100
+  - Wickets: 2
+Batting Points:
+  - Runs: 5 x 2 = 10
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 35, Owner: Viggy
+
+
+
+Player: Nitish Rana, Team: KKR, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 9 x 2 = 18
+  - Boundaries: 1 x 4 = 4
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 22, Owner: Viggy
+
+
+
+Player: Naveen-ul-Haq, Team: LSG, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 10.50 -> -400
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: -250, Owner: Viggy
+
+
+
+Player: Piyush Chawla, Team: MI, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 5 x 5 = 25
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 1 x -6 = -6
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 122.0, Owner: Viggy
+
+
+
+Player: Prabhsimran Singh, Team: PBKS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 70 x 2 = 140
+  - Boundaries: 8 x 4 = 32
+  - Sixes: 4 x 8 = 32
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 204, Owner: Viggy
+
+
+
+Player: Jos Buttler, Team: RR, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 22 x 2 = 44
+  - Boundaries: 2 x 4 = 8
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (50):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+
+Total Points: 127.0, Owner: Viggy
+
+
+
+Player: Faf du Plessis, Team: RCB, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 46 x 2 = 92
+  - Boundaries: 8 x 4 = 32
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 132, Owner: Viggy
+
+
+
+Player: Karn Sharma, Team: RCB, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 1 x 50 = 50
+  - Dots: 4 x 5 = 20
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 1
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 70, Owner: Viggy
+
+
+
+Player: Rahul Tripathi, Team: SRH, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 20 x 2 = 40
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: 73, Owner: Viggy
+
+
+
+Player: Abdul Samad, Team: SRH, isBowler: False, isBatsman: True
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 15 x 2 = 30
+  - Boundaries: 1 x 4 = 4
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 42, Owner: Viggy
+
+
+
+Player: Mayank Markande, Team: SRH, isBowler: True, isBatsman: False
+Bowling Points:
+  - Wickets: 2 x 50 = 100
+  - Dots: 15 x 5 = 75
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Economy: 11.37 -> -500
+  - Wickets: 2
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (25):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+
+Total Points: -300, Owner: Viggy
+
+
+
+Player: Atharva Taide, Team: PBKS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Wickets: 0
+Batting Points:
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+Other (0):
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+
+Total Points: 0, Owner: Viggy
+
+
+

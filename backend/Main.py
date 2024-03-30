@@ -10,6 +10,7 @@ from Functions import (
 )
 import json
 from bs4 import BeautifulSoup
+from time import time
 from pprint import pprint
 
 # Variables
@@ -35,8 +36,8 @@ clear()
 
 
 # * Get Data
-# ? Missing: Dot Balls, 6+ Wickets, Hat-Tricks
-print("\033[92mGetting Data\033[0m")
+start = time()
+print("\033[92mGetting Data\033[0m", end=" ")
 
 FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
 DATA = json.dumps([get_team_data(team_url) for team_url in TEAM_URLS])
@@ -54,11 +55,13 @@ with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
                 "\n", "").replace("  ", "").replace("PBKS", "").replace("DC", "").replace("CSK", "").replace("MI", "").replace("KKR", "").replace("RR", "").replace("RCB", "").replace("SRH", ""))
         if len(row_list) > 0:
             DOTS[row_list[1]] = row_list[7]
+print(f" - {round(time() - start, 3):.3f}s")
 # * Finish
 
 
 # * Parse Data
-print("\033[92mParsing Data\033[0m")
+start = time()
+print("\033[92mParsing Data\033[0m", end=" ")
 
 FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
 DATA = json.dumps(combine_stats(DATA, FOURFIVE_WICKET_DATA))
@@ -91,11 +94,13 @@ for owner in EXTRA_DATA:
                 player["old_name"], 0))
         except:
             pass
+print(f" - {round(time() - start, 3):.3f}s")
 # * Finish
 
 
 # * Compute
-print("\033[92mComputing Data\033[0m")
+start = time()
+print("\033[92mComputing Data\033[0m", end=" ")
 
 # General Points
 for player in DATA:
@@ -122,11 +127,13 @@ for category, bonus_data in CATEGORY_MAXES.items():
     BONUS_POINTS_TO_TEAM[team][category] = bonus_points
     BONUS_POINTS_TO_TEAM[team]["category"] = category
     BONUS_POINTS_TO_TEAM[team]["points"] += 1000
+print(f" - {round(time() - start, 3):.3f}s")
 # * Finish
 
 
 # * Leaderboard
-print("\033[92mLeaderboard\033[0m")
+start = time()
+print("\033[92mLeaderboard\033[0m - 0.000s")
 leaderboard = {"Kaushal": 0, "Viggy": 0}
 
 for player in DATA:
@@ -144,14 +151,11 @@ for owner, points in sorted_leaderboard:
 # * Finish
 
 
-# TODO: Populate BONUS_POINTS_TO_TEAM, DATA to DB
-
-
-# * Debugging
+# ! Debugging
 DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
 # pprint(BONUS_POINTS_TO_TEAM)
 # pprint(GLOBAL_MAXES)
-# * Finish
+# ! Finish
