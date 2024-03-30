@@ -2,6 +2,14 @@ Backend:
 - Generate Player Reports
 - Generate Team Reports
 - 6+ Wickets, Hat-Tricks, Man of the Match
+- max sr needs at least 15 balls
+- min econ needs at least 5 overs
+- MOM, 6+, hattrick
+- Team Total Maxes
+- Bowling 
+
+Data
+- Add MOM Data
 
 Frontend:
 - Populate Backend Data

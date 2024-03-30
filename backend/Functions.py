@@ -14,20 +14,20 @@ CATEGORY_MAXES = {
     "green_bowling": [0, ""],
 }
 GLOBAL_MAXES = {
-    "NO": [0, ""],
-    "Runs": [0, ""],
-    "Ave": [0, ""],
-    "SR": [0, ""],
-    "100": [0, ""],
-    "50": [0, ""],
-    "0": [0, ""],
-    "4s": [0, ""],
-    "6s": [0, ""],
-    "Wkts": [0, ""],
-    "dots": [0, ""],
-    "Mdns": [0, ""],
-    "Econ": [0, ""],
-    "Ave": [0, ""],
+    "NO": [0, []],
+    "Runs": [0, []],
+    "Ave": [0, []],
+    "SR": [0, []],
+    "100": [0, []],
+    "50": [0, []],
+    "0": [0, []],
+    "4s": [0, []],
+    "6s": [0, []],
+    "Wkts": [0, []],
+    "dots": [0, []],
+    "Mdns": [0, []],
+    "Econ": [0, []],
+    "Ave": [0, []],
 }
 
 
@@ -289,13 +289,15 @@ def compute_points(player):
     yellow_dots = player.get("bowling", {}).get("dots", 0)
     yellow_4s = player.get("bowling", {}).get("4", 0)
     yellow_5s = player.get("bowling", {}).get("5", 0)
-    yellow_6s = player.get("bowling", {}).get("6", 0)
+    yellow_6s = player.get("6+", 0)
+    yellow_HT = player.get("HT", 0)
     yellow_mdns = player.get("bowling", {}).get("Mdns", 0)
     yellow_bowling += yellow_wkts * 50
     yellow_bowling += yellow_dots * 5
     yellow_bowling += yellow_4s * 250
     yellow_bowling += yellow_5s * 500
     yellow_bowling += yellow_6s * 1000
+    yellow_bowling += yellow_HT * 2000
     yellow_bowling += yellow_mdns * 150
     report += f"  - Wickets: {yellow_wkts} x 50 = {yellow_wkts * 50}\n"
     report += f"  - Dots: {yellow_dots} x 5 = {yellow_dots * 5}\n"
@@ -303,6 +305,7 @@ def compute_points(player):
     report += f"  - 5s: {yellow_5s} x 500 = {yellow_5s * 500}\n"
     report += f"  - 6s: {yellow_6s} x 1000 = {yellow_6s * 1000}\n"
     report += f"  - Maidens: {yellow_mdns} x 150 = {yellow_mdns * 150}\n"
+    report += f"  - Hat-Tricks: {yellow_HT} x 2000 = {yellow_HT * 2000}\n"
     update_max_category("yellow_bowling", yellow_bowling, player)
 
     # Purple
@@ -343,7 +346,7 @@ def compute_points(player):
         else:
             purple_bowling += 2000
             report += f"  - Economy: {econ:.2f} -> 2000\n"
-    update_max_category("purple_bowling", purple_bowling, player)
+        update_max_category("purple_bowling", purple_bowling, player)
 
     # Green
     green_bowling = 0
@@ -453,10 +456,11 @@ def compute_points(player):
     update_maxes(player)
     st = player.get("bowling", {}).get("St", 0)
     ct = player.get("bowling", {}).get("Ct", 0)
-    report += f"Other ({(st * 50) + (ct * 25)}):\n  - Stumpings: {st} x 50 = {st * 50}\n  - Catches: {ct} x 25 = {ct * 25}\n"
+    mom = player.get("MOM", 0)
+    report += f"Other ({(st * 50) + (ct * 25)}):\n  - Stumpings: {st} x 50 = {st * 50}\n  - Catches: {ct} x 25 = {ct * 25}\n  - MOM: {mom} x 100 = {mom * 100}\n"
     report += f"Balls Faced: {bf}, Overs Bowled: {player.get('bowling', {}).get('Overs', 0)}\n"
 
-    fielding = (st * 50) + (ct * 25)
+    other = (st * 50) + (ct * 25) + (mom * 100)
     batting = yellow_batting + green_batting + cyan_batting
     bowling = yellow_bowling + purple_bowling + green_bowling
 
@@ -471,7 +475,7 @@ def compute_points(player):
         bowling /= 2
 
     # Total Points
-    total = batting + bowling + fielding
+    total = batting + bowling + other
 
     # C/VC Points
     if player.get("Position") == "VC":

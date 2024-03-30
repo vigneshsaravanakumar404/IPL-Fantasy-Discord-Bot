@@ -77,7 +77,10 @@ for owner in EXTRA_DATA:
                     "isBowler": player["isBowler"],
                     "isBatsman": player["isBatsman"],
                     "Team": player["Team"],
-                    "Position": player["Position"]
+                    "Position": player["Position"],
+                    "MOM": player["MOM"],
+                    "6+": player["6+"],
+                    "HT": player["HT"],
                 }
             )
 
@@ -88,6 +91,9 @@ for owner in EXTRA_DATA:
                 "isBowler": player["isBowler"],
                 "isBatsman": player["isBatsman"],
                 "Team": player["Team"],
+                "MOM": player["MOM"],
+                "6+": player["6+"],
+                "HT": player["HT"],
             }
         try:
             DATA[player["new_name"]]["bowling"]["dots"] = int(DOTS.get(
@@ -156,6 +162,6 @@ DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-# pprint(BONUS_POINTS_TO_TEAM)
-# pprint(GLOBAL_MAXES)
+pprint(BONUS_POINTS_TO_TEAM)
+pprint(GLOBAL_MAXES)
 # ! Finish

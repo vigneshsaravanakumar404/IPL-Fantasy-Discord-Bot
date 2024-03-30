@@ -8,7 +8,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "RCB",
-        "Position": "C"
+        "Position": "C",
+        "MOM": 100,
+        "6+": 100,
+        "HT": 100
       },
       {
         "old_name": "Jos Buttler",
@@ -16,7 +19,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "RR",
-        "Position": "VC"
+        "Position": "VC",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Prabhsimran Singh",
@@ -24,7 +30,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "PBKS",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Nitish Rana",
@@ -32,7 +41,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "KKR",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Rahul Tripathi",
@@ -40,7 +52,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "SRH",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Abdul Samad",
@@ -48,7 +63,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "SRH",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Mahesh Theekshana",
@@ -56,7 +74,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "CSK",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Piyush Chawla",
@@ -64,7 +85,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "MI",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Karn Sharma",
@@ -72,7 +96,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "RCB",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Mayank Markande",
@@ -80,7 +107,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "SRH",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Rashid Khan",
@@ -88,7 +118,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "GT",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Shivam Dube",
@@ -96,7 +129,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "CSK",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Vijay Shankar",
@@ -104,7 +140,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "GT",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Atharva Taide",
@@ -112,7 +151,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "PBKS",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Matheesha Pathirana",
@@ -120,7 +162,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "CSK",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Naveen-ul-Haq",
@@ -128,7 +173,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "LSG",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Tushar Deshpande",
@@ -136,7 +184,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "CSK",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Khaleel Ahmed",
@@ -144,7 +195,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "DC",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       }
     ]
   },
@@ -157,7 +211,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "LSG",
-        "Position": "C"
+        "Position": "C",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Sanju Samson",
@@ -165,7 +222,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "RR",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Dhruv Jurel",
@@ -173,7 +233,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "RR",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Jitesh Sharma",
@@ -181,7 +244,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "PBKS",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Sai Sudharsan",
@@ -189,7 +255,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "GT",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Abhinav Manohar",
@@ -197,7 +266,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "GT",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Rinku Singh",
@@ -205,7 +277,10 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "KKR",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Rahul Chahar",
@@ -213,7 +288,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "PBKS",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Suyash Sharma",
@@ -221,7 +299,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "KKR",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Liam Livingstone",
@@ -229,7 +310,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "PBKS",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Cameron Green",
@@ -237,7 +321,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "RCB",
-        "Position": "VC"
+        "Position": "VC",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Mohammad Nabi",
@@ -245,7 +332,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "MI",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Krunal Pandya",
@@ -253,7 +343,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "LSG",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Abhishek Sharma",
@@ -261,7 +354,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "SRH",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Gerald Coetzee",
@@ -269,7 +365,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "MI",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Anrich Nortje",
@@ -277,7 +376,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "DC",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Deepak Chahar",
@@ -285,7 +387,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "CSK",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       },
       {
         "old_name": "Bhuvneshwar Kumar",
@@ -293,7 +398,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "SRH",
-        "Position": ""
+        "Position": "",
+        "MOM": 0,
+        "6+": 0,
+        "HT": 0
       }
     ]
   }
