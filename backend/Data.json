@@ -8,7 +8,7 @@
         "isBowler": false,
         "isBatsman": true,
         "Team": "RCB",
-        "Position": "VC"
+        "Position": "C"
       },
       {
         "old_name": "Jos Buttler",
@@ -68,7 +68,7 @@
       },
       {
         "old_name": "Karn Sharma",
-        "new_name": "KS Sharma",
+        "new_name": "KV Sharma",
         "isBowler": true,
         "isBatsman": false,
         "Team": "RCB",
@@ -144,6 +144,155 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "DC",
+        "Position": ""
+      }
+    ]
+  },
+  {
+    "Owner": "Kaushal",
+    "Squad": [
+      {
+        "old_name": "KL Rahul",
+        "new_name": "KL Rahul",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "LSG",
+        "Position": "C"
+      },
+      {
+        "old_name": "Sanju Samson",
+        "new_name": "SV Samson",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "RR",
+        "Position": ""
+      },
+      {
+        "old_name": "Dhruv Jurel",
+        "new_name": "DC Jurel",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "RR",
+        "Position": ""
+      },
+      {
+        "old_name": "Jitesh Sharma",
+        "new_name": "JM Sharma",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "PBKS",
+        "Position": ""
+      },
+      {
+        "old_name": "Sai Sudharsan",
+        "new_name": "B Sai Sudharsan",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "GT",
+        "Position": ""
+      },
+      {
+        "old_name": "Abhinav Manohar",
+        "new_name": "A Manohar",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "GT",
+        "Position": ""
+      },
+      {
+        "old_name": "Rinku Singh",
+        "new_name": "RK Singh",
+        "isBowler": false,
+        "isBatsman": true,
+        "Team": "KKR",
+        "Position": ""
+      },
+      {
+        "old_name": "Rahul Chahar",
+        "new_name": "RD Chahar",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "PBKS",
+        "Position": ""
+      },
+      {
+        "old_name": "Suyash Sharma",
+        "new_name": "Suyash Sharma",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "KKR",
+        "Position": ""
+      },
+      {
+        "old_name": "Liam Livingstone",
+        "new_name": "LS Livingstone",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "PBKS",
+        "Position": ""
+      },
+      {
+        "old_name": "Cameron Green",
+        "new_name": "C Green",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "RCB",
+        "Position": "VC"
+      },
+      {
+        "old_name": "Mohammad Nabi",
+        "new_name": "Mohammad Nabi",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "MI",
+        "Position": ""
+      },
+      {
+        "old_name": "Krunal Pandya",
+        "new_name": "KH Pandya",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "LSG",
+        "Position": ""
+      },
+      {
+        "old_name": "Abhishek Sharma",
+        "new_name": "Abhishek Sharma",
+        "isBowler": false,
+        "isBatsman": false,
+        "Team": "SRH",
+        "Position": ""
+      },
+      {
+        "old_name": "Gerald Coetzee",
+        "new_name": "G Coetzee",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "MI",
+        "Position": ""
+      },
+      {
+        "old_name": "Anrich Nortje",
+        "new_name": "A Nortje",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "DC",
+        "Position": ""
+      },
+      {
+        "old_name": "Deepak Chahar",
+        "new_name": "DL Chahar",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "CSK",
+        "Position": ""
+      },
+      {
+        "old_name": "Bhuvneshwar Kumar",
+        "new_name": "B Kumar",
+        "isBowler": true,
+        "isBatsman": false,
+        "Team": "SRH",
         "Position": ""
       }
     ]

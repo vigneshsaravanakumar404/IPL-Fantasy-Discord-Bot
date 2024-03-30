@@ -9,44 +9,55 @@ from Functions import (
     GLOBAL_MAXES,
 )
 import json
+from bs4 import BeautifulSoup
 from pprint import pprint
 
 # Variables
-TEST_TEAM_URLS = [
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4344",
-]
 TEAM_URLS = [
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4343",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4344",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=6904",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4341",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=6903",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4346",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4342",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4345",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=4340",
-    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2023-15129?team=5143",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4343",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4344",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=6904",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4341",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=6903",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4346",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4342",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4345",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=4340",
+    "https://www.espncricinfo.com/records/tournament/averages-batting-bowling-by-team/indian-premier-league-2024-15940?team=5143",
 ]
-FOURFIVE_PLUS_WICKETS_URL = "https://www.espncricinfo.com/records/tournament/bowling-most-5wi-career/indian-premier-league-2023-15129"
+FOURFIVE_PLUS_WICKETS_URL = "https://www.espncricinfo.com/records/tournament/bowling-most-5wi-career/indian-premier-league-2024-15940?team=4343"
 DATA = json.dumps([])
 EXTRA_DATA = json.loads(open("backend\Data.json").read())
 
-#* Start
+# * Start
 clear()
-#* Finish
+# * Finish
 
 
-#* Get Data
+# * Get Data
 # ? Missing: Dot Balls, 6+ Wickets, Hat-Tricks
 print("\033[92mGetting Data\033[0m")
 
 FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
 DATA = json.dumps([get_team_data(team_url) for team_url in TEAM_URLS])
-#* Finish
+DOTS = {}
+
+with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
+    soup = BeautifulSoup(file, "html.parser")
+    table_body = soup.find("tbody")
+    DOTS = {}
+
+    for row in table_body.find_all("tr"):
+        row_list = []
+        for cell in row.find_all("td"):
+            row_list.append(cell.text.strip().replace(
+                "\n", "").replace("  ", "").replace("PBKS", "").replace("DC", "").replace("CSK", "").replace("MI", "").replace("KKR", "").replace("RR", "").replace("RCB", "").replace("SRH", ""))
+        if len(row_list) > 0:
+            DOTS[row_list[1]] = row_list[7]
+# * Finish
 
 
-#* Parse Data
+# * Parse Data
 print("\033[92mParsing Data\033[0m")
 
 FOURFIVE_WICKET_DATA = json.dumps(FOURFIVE_WICKET_DATA)
@@ -63,9 +74,10 @@ for owner in EXTRA_DATA:
                     "isBowler": player["isBowler"],
                     "isBatsman": player["isBatsman"],
                     "Team": player["Team"],
-                    "Position": player["Position"],
+                    "Position": player["Position"]
                 }
             )
+
         else:
             DATA[player["new_name"]] = {
                 "Owner": owner["Owner"],
@@ -74,10 +86,15 @@ for owner in EXTRA_DATA:
                 "isBatsman": player["isBatsman"],
                 "Team": player["Team"],
             }
-#* Finish
+        try:
+            DATA[player["new_name"]]["bowling"]["dots"] = int(DOTS.get(
+                player["old_name"], 0))
+        except:
+            pass
+# * Finish
 
 
-#* Compute
+# * Compute
 print("\033[92mComputing Data\033[0m")
 
 # General Points
@@ -86,28 +103,55 @@ for player in DATA:
 
 # Maxes
 for max in GLOBAL_MAXES:
+    category = GLOBAL_MAXES[max][0]
     if max == "0":
         DATA[GLOBAL_MAXES[max][2]]["points"] -= 1000
-        print(f"Subtracted 1000 from {GLOBAL_MAXES[max][2]}")
+        DATA[GLOBAL_MAXES[max][2]]["category"] = category
     if len(GLOBAL_MAXES[max]) > 2:
         DATA[GLOBAL_MAXES[max][2]]["points"] += 1000
-        print(f"Added 1000 to {GLOBAL_MAXES[max][2]}")
+        DATA[GLOBAL_MAXES[max][2]]["category"] = category
 
 BONUS_POINTS_TO_TEAM = {}
 for category, bonus_data in CATEGORY_MAXES.items():
     bonus_points, team = bonus_data
+
     if team not in BONUS_POINTS_TO_TEAM:
-        BONUS_POINTS_TO_TEAM[team] = 0
-    BONUS_POINTS_TO_TEAM[team] += bonus_points
-BONUS_POINTS_TO_TEAM.pop(None)
-#* Finish
+        BONUS_POINTS_TO_TEAM[team] = {}
+        BONUS_POINTS_TO_TEAM[team]["points"] = 0
 
-#! Populate BONUS_POINTS_TO_TEAM, DATA to DB
+    BONUS_POINTS_TO_TEAM[team][category] = bonus_points
+    BONUS_POINTS_TO_TEAM[team]["category"] = category
+    BONUS_POINTS_TO_TEAM[team]["points"] += 1000
+# * Finish
 
-"""# Debugging
+
+# * Leaderboard
+print("\033[92mLeaderboard\033[0m")
+leaderboard = {"Kaushal": 0, "Viggy": 0}
+
+for player in DATA:
+    if "Owner" in DATA[player] and DATA[player]["Owner"] in leaderboard:
+        leaderboard[DATA[player]["Owner"]] += DATA[player]["points"]
+
+sorted_leaderboard = sorted(
+    leaderboard.items(), key=lambda x: x[1], reverse=True)
+rank = 1
+
+print("{:<10s} {:<10s} {:<10s}".format("Rank", "Owner", "Points"))
+for owner, points in sorted_leaderboard:
+    print("{:<10d} {:<10s} {:<10d}".format(rank, owner, int(points)))
+    rank += 1
+# * Finish
+
+
+# TODO: Populate BONUS_POINTS_TO_TEAM, DATA to DB
+
+
+# * Debugging
 DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-pprint(BONUS_POINTS_TO_TEAM)
-"""
+# pprint(BONUS_POINTS_TO_TEAM)
+# pprint(GLOBAL_MAXES)
+# * Finish
