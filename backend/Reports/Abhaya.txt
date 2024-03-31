@@ -8,7 +8,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 6.00 -> 250
+  - Economy: 7.00 -> 100
 Batting Points:
   - Average: 32.00
   - Runs: 32 x 2 = 64
@@ -23,15 +23,16 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 676.0
- - Bowling: 250
+ - Bowling: 100
   - Other: 0
-Balls Faced: 20, Overs Bowled: 6.0
-Multipliers
-Total Points: 926.0, Owner: ABHAYA
+Balls Faced: 20, Overs Bowled: 7.0
+Multipliers  - Captain x 2
+
+Total Points: 1552.0, Owner: ABHAYA
 
 
 
-Player: Sameer Rizvi, Team: ABHAYA, isBowler: False, isBatsman: True
+Player: Sameer Rizvi, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -62,7 +63,7 @@ Total Points: 69.0, Owner: ABHAYA
 
 
 
-Player: RK Bhui, Team: ABHAYA, isBowler: False, isBatsman: True
+Player: RK Bhui, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -124,7 +125,7 @@ Total Points: 50.0, Owner: ABHAYA
 
 
 
-Player: Shubman Gill, Team: ABHAYA, isBowler: False, isBatsman: True
+Player: Shubman Gill, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -151,8 +152,9 @@ Sub Totals:
  - Bowling: 0
   - Other: 25
 Balls Faced: 55, Overs Bowled: 0.0
-Multipliers
-Total Points: 619.0, Owner: ABHAYA
+Multipliers  - Vice Captain x 1.5
+
+Total Points: 928.5, Owner: ABHAYA
 
 
 
@@ -211,14 +213,14 @@ Batting Points:
   - Strike Rate: 188.46 -> 800
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 946.0
  - Bowling: 200.0
-  - Other: 0
+  - Other: 100
 Balls Faced: 26, Overs Bowled: 8.0
 Multipliers
-Total Points: 1146.0, Owner: ABHAYA
+Total Points: 1246.0, Owner: ABHAYA
 
 
 
@@ -474,7 +476,7 @@ Total Points: 0, Owner: ABHAYA
 
 
 
-Player: AJ Turner, Team: ABHAYA, isBowler: False, isBatsman: True
+Player: AJ Turner, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -505,7 +507,7 @@ Total Points: 0, Owner: ABHAYA
 
 
 
-Player: Harpreet Singh, Team: ABHAYA, isBowler: False, isBatsman: True
+Player: Harpreet Singh, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

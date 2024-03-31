@@ -96,7 +96,7 @@ Total Points: -42.0, Owner: ISHAAN
 
 
 
-Player: NT Tilak Varma, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: NT Tilak Varma, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -128,7 +128,7 @@ Total Points: 946.0, Owner: ISHAAN
 
 
 
-Player: RG Sharma, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: RG Sharma, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -155,8 +155,9 @@ Sub Totals:
  - Bowling: 0
   - Other: 25
 Balls Faced: 41, Overs Bowled: 0.0
-Multipliers
-Total Points: 827.0, Owner: ISHAAN
+Multipliers  - Captain x 2
+
+Total Points: 1654.0, Owner: ISHAAN
 
 
 
@@ -289,7 +290,7 @@ Total Points: -350.0, Owner: ISHAAN
 
 
 
-Player: SO Hetmyer, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: SO Hetmyer, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -347,8 +348,9 @@ Sub Totals:
  - Bowling: -100.0
   - Other: 0
 Balls Faced: 0, Overs Bowled: 7.0
-Multipliers
-Total Points: -100.0, Owner: ISHAAN
+Multipliers  - Vice Captain x 1.5
+
+Total Points: -150.0, Owner: ISHAAN
 
 
 
@@ -384,7 +386,7 @@ Total Points: 250.0, Owner: ISHAAN
 
 
 
-Player: MA Agarwal, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: MA Agarwal, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -478,7 +480,7 @@ Total Points: 0, Owner: ISHAAN
 
 
 
-Player: Ashutosh Sharma, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: Ashutosh Sharma, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -509,7 +511,7 @@ Total Points: 0, Owner: ISHAAN
 
 
 
-Player: N Wadhera, Team: ISHAAN, isBowler: False, isBatsman: True
+Player: N Wadhera, Team: ISHAAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

@@ -9,9 +9,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Vishnu Vinod",
@@ -20,9 +20,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "K Rabada",
@@ -31,9 +31,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Kuldeep Yadav",
@@ -42,9 +42,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Sandeep Sharma",
@@ -53,9 +53,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Madhwal",
@@ -64,9 +64,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Harshit Rana",
@@ -75,9 +75,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Noor Ahmad",
@@ -86,9 +86,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Yash Thakur",
@@ -97,64 +97,64 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DA Miller",
         "new_name": "DA Miller",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MK Pandey",
         "new_name": "MK Pandey",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RD Gaikwad",
         "new_name": "RD Gaikwad",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARAV",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "TH David",
         "new_name": "TH David",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARAV",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Shubham Dubey",
         "new_name": "Shubham Dubey",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AR Patel",
@@ -163,9 +163,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "K Gowtham",
@@ -174,9 +174,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MR Marsh",
@@ -185,9 +185,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Ravindra",
@@ -196,9 +196,9 @@
         "isBatsman": false,
         "Team": "AARAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -212,9 +212,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "WP Saha",
@@ -223,9 +223,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Avesh Khan",
@@ -234,9 +234,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Harpreet Brar",
@@ -245,9 +245,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Umran Malik",
@@ -256,9 +256,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MA Starc",
@@ -266,10 +266,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "AARNAV",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MM Sharma",
@@ -278,9 +278,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Sai Kishore",
@@ -289,9 +289,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Swapnil Singh",
@@ -300,64 +300,64 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KS Williamson",
         "new_name": "KS Williamson",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Shahrukh Khan",
         "new_name": "M Shahrukh Khan",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "S Dhawan",
         "new_name": "S Dhawan",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SA Yadav",
         "new_name": "SA Yadav",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "V Kohli",
         "new_name": "V Kohli",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "AARNAV",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MP Stoinis",
@@ -366,9 +366,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MJ Santner",
@@ -377,9 +377,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Washington Sundar",
@@ -388,9 +388,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Sikandar Raza",
@@ -399,9 +399,9 @@
         "isBatsman": false,
         "Team": "AARNAV",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -415,9 +415,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KS Rathore",
@@ -426,9 +426,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MS Wade",
@@ -437,9 +437,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "I Sharma",
@@ -448,9 +448,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Siddharth",
@@ -459,9 +459,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mujeeb Ur Rahman",
@@ -470,9 +470,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Ashwin",
@@ -481,9 +481,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SN Thakur",
@@ -492,9 +492,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "UT Yadav",
@@ -503,9 +503,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mukesh Choudhary",
@@ -514,64 +514,64 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Shubman Gill",
         "new_name": "Shubman Gill",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ABHAYA",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AJ Turner",
         "new_name": "AJ Turner",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Harpreet Singh",
         "new_name": "Harpreet Singh",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RK Bhui",
         "new_name": "RK Bhui",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Sameer Rizvi",
         "new_name": "Sameer Rizvi",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RA Jadeja",
@@ -579,10 +579,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "ABHAYA",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SP Narine",
@@ -591,9 +591,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "TK Curran",
@@ -602,9 +602,9 @@
         "isBatsman": false,
         "Team": "ABHAYA",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -618,9 +618,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MS Dhoni",
@@ -629,9 +629,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "JJ Bumrah",
@@ -639,10 +639,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "ARYAN",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "CV Varun",
@@ -651,9 +651,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AS Joseph",
@@ -662,9 +662,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KR Sen",
@@ -673,9 +673,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MJ Dagar",
@@ -684,9 +684,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mukesh Kumar",
@@ -695,75 +695,75 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DA Warner",
         "new_name": "DA Warner",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "D Padikkal",
         "new_name": "D Padikkal",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "PP Shaw",
         "new_name": "PP Shaw",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SS Iyer",
         "new_name": "SS Iyer",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Badoni",
         "new_name": "A Badoni",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "PD Salt",
         "new_name": "PD Salt",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AD Russell",
@@ -772,9 +772,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MK Lomror",
@@ -783,9 +783,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "PJ Cummins",
@@ -794,9 +794,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SM Curran",
@@ -805,9 +805,9 @@
         "isBatsman": false,
         "Team": "ARYAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -821,9 +821,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "JM Bairstow",
@@ -832,9 +832,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "HV Patel",
@@ -843,9 +843,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "J Yadav",
@@ -854,9 +854,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mohsin Khan",
@@ -865,9 +865,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "TA Boult",
@@ -875,10 +875,10 @@
         "isBowler": true,
         "isBatsman": false,
         "Team": "ISHAAN",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "YS Chahal",
@@ -887,9 +887,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SH Johnson",
@@ -898,75 +898,75 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MA Agarwal",
         "new_name": "MA Agarwal",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RG Sharma",
         "new_name": "RG Sharma",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SO Hetmyer",
         "new_name": "SO Hetmyer",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Ashutosh Sharma",
         "new_name": "Ashutosh Sharma",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "N Wadhera",
         "new_name": "N Wadhera",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "NT Tilak Varma",
         "new_name": "NT Tilak Varma",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "HH Pandya",
@@ -975,9 +975,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Jansen",
@@ -986,9 +986,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MM Ali",
@@ -997,9 +997,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Tewatia",
@@ -1008,9 +1008,9 @@
         "isBatsman": false,
         "Team": "ISHAAN",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -1024,9 +1024,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DC Jurel",
@@ -1035,9 +1035,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "JM Sharma",
@@ -1046,9 +1046,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Nortje",
@@ -1057,9 +1057,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "B Kumar",
@@ -1068,9 +1068,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DL Chahar",
@@ -1079,9 +1079,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RD Chahar",
@@ -1090,9 +1090,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "G Coetzee",
@@ -1101,9 +1101,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Suyash Sharma",
@@ -1112,53 +1112,53 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KL Rahul",
         "new_name": "KL Rahul",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "KAUSHAL",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Manohar",
         "new_name": "A Manohar",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "B Sai Sudharsan",
         "new_name": "B Sai Sudharsan",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RK Singh",
         "new_name": "RK Singh",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Abhishek Sharma",
@@ -1167,9 +1167,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KH Pandya",
@@ -1178,9 +1178,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "LS Livingstone",
@@ -1189,9 +1189,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mohammad Nabi",
@@ -1200,9 +1200,9 @@
         "isBatsman": false,
         "Team": "KAUSHAL",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "C Green",
@@ -1210,10 +1210,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "KAUSHAL",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -1227,9 +1227,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Abishek Porel",
@@ -1238,9 +1238,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SD Hope",
@@ -1249,9 +1249,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "T Stubbs",
@@ -1260,9 +1260,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "JD Unadkat",
@@ -1271,9 +1271,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mustafizur Rahman",
@@ -1282,9 +1282,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KT Maphaka",
@@ -1293,9 +1293,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "L Wood",
@@ -1304,9 +1304,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "MP Yadav",
@@ -1315,9 +1315,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "N Burger",
@@ -1326,9 +1326,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "SZ Mulani",
@@ -1337,9 +1337,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "V Vyshak",
@@ -1348,9 +1348,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Yash Dayal",
@@ -1359,53 +1359,53 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Raghuvanshi",
         "new_name": "A Raghuvanshi",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "D Brevis",
         "new_name": "D Brevis",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Naman Dhir",
         "new_name": "Naman Dhir",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Ramandeep Singh",
         "new_name": "Ramandeep Singh",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AK Markram",
@@ -1414,9 +1414,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AS Roy",
@@ -1425,9 +1425,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Parag",
@@ -1436,9 +1436,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Shahbaz Ahmed",
@@ -1447,9 +1447,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Azmatullah Omarzai",
@@ -1458,9 +1458,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Shepherd",
@@ -1469,9 +1469,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Shashank Singh",
@@ -1480,9 +1480,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Sumit Kumar",
@@ -1491,9 +1491,9 @@
         "isBatsman": false,
         "Team": "NONE",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -1507,9 +1507,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Rahmanullah Gurbaz",
@@ -1518,9 +1518,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Mishra",
@@ -1529,9 +1529,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Arshdeep Singh",
@@ -1540,9 +1540,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Mohammed Siraj",
@@ -1551,9 +1551,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Ravi Bishnoi",
@@ -1562,9 +1562,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "T Natarajan",
@@ -1573,9 +1573,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AS Tendulkar",
@@ -1584,64 +1584,64 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "AM Rahane",
         "new_name": "AM Rahane",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RM Patidar",
         "new_name": "RM Patidar",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "YBK Jaiswal",
         "new_name": "YBK Jaiswal",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "TEJAS",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "R Powell",
         "new_name": "R Powell",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "TM Head",
         "new_name": "TM Head",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DJ Hooda",
@@ -1650,9 +1650,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "GJ Maxwell",
@@ -1660,10 +1660,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "TEJAS",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Lalit Yadav",
@@ -1672,9 +1672,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "VR Iyer",
@@ -1683,9 +1683,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "DJ Mitchell",
@@ -1694,9 +1694,9 @@
         "isBatsman": false,
         "Team": "TEJAS",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       }
     ]
   },
@@ -1710,9 +1710,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Prabhsimran Singh",
@@ -1721,9 +1721,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KV Sharma",
@@ -1732,9 +1732,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "KK Ahmed",
@@ -1743,9 +1743,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Markande",
@@ -1754,9 +1754,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "PP Chawla",
@@ -1765,9 +1765,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Pathirana",
@@ -1776,9 +1776,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "M Theekshana",
@@ -1787,9 +1787,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Naveen-ul-Haq",
@@ -1798,9 +1798,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "TU Deshpande",
@@ -1809,53 +1809,53 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Abdul Samad",
         "new_name": "Abdul Samad",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "F du Plessis",
         "new_name": "F du Plessis",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "VIGGY",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "C",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "N Rana",
         "new_name": "N Rana",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "RA Tripathi",
         "new_name": "RA Tripathi",
         "isBowler": false,
-        "isBatsman": true,
+        "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "Rashid Khan",
@@ -1863,10 +1863,10 @@
         "isBowler": false,
         "isBatsman": false,
         "Team": "VIGGY",
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": "VC",
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "S Dube",
@@ -1875,9 +1875,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "1",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "V Shankar",
@@ -1886,9 +1886,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": "0",
+        "6+": "0",
+        "HT": "0"
       },
       {
         "old_name": "A Taide",
@@ -1897,9 +1897,9 @@
         "isBatsman": false,
         "Team": "VIGGY",
         "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "MOM": null,
+        "6+": null,
+        "HT": null
       }
     ]
   }

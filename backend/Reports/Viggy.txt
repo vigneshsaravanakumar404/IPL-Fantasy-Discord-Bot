@@ -19,20 +19,20 @@ Batting Points:
   - Strike Rate: 166.66 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 892.0
  - Bowling: 0
-  - Other: 0
+  - Other: 100
 Balls Faced: 51, Overs Bowled: 0.0
 Multipliers
-Total Points: 892.0, Owner: VIGGY
+Total Points: 992.0, Owner: VIGGY
 
 
 
 Player: TU Deshpande, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 34.00
+  - Average: 38.00
   - Wickets: 2 x 50 = 100
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -40,7 +40,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.50 -> -100
+  - Economy: 7.60 -> 100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -54,17 +54,17 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 0.0
+ - Bowling: 200.0
   - Other: 25
-Balls Faced: 0, Overs Bowled: 8.0
+Balls Faced: 0, Overs Bowled: 10.0
 Multipliers
-Total Points: 25.0, Owner: VIGGY
+Total Points: 225.0, Owner: VIGGY
 
 
 
 Player: M Pathirana, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 29.00
+  - Average: 32.00
   - Wickets: 1 x 50 = 50
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -87,7 +87,7 @@ Sub Totals:
   - Batting: 0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 4.0
+Balls Faced: 0, Overs Bowled: 4.3
 Multipliers
 Total Points: 50.0, Owner: VIGGY
 
@@ -215,12 +215,13 @@ Sub Totals:
  - Bowling: 50.0
   - Other: 75
 Balls Faced: 5, Overs Bowled: 12.0
-Multipliers
-Total Points: 135.0, Owner: VIGGY
+Multipliers  - Vice Captain x 1.5
+
+Total Points: 202.5, Owner: VIGGY
 
 
 
-Player: N Rana, Team: VIGGY, isBowler: False, isBatsman: True
+Player: N Rana, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -379,7 +380,7 @@ Total Points: 2.0, Owner: VIGGY
 
 
 
-Player: F du Plessis, Team: VIGGY, isBowler: False, isBatsman: True
+Player: F du Plessis, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -406,8 +407,9 @@ Sub Totals:
  - Bowling: 0
   - Other: 0
 Balls Faced: 36, Overs Bowled: 0.0
-Multipliers
-Total Points: 532.0, Owner: VIGGY
+Multipliers  - Captain x 2
+
+Total Points: 1064.0, Owner: VIGGY
 
 
 
@@ -442,7 +444,7 @@ Total Points: 50.0, Owner: VIGGY
 
 
 
-Player: Abdul Samad, Team: VIGGY, isBowler: False, isBatsman: True
+Player: Abdul Samad, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -474,7 +476,7 @@ Total Points: 945.0, Owner: VIGGY
 
 
 
-Player: RA Tripathi, Team: VIGGY, isBowler: False, isBatsman: True
+Player: RA Tripathi, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

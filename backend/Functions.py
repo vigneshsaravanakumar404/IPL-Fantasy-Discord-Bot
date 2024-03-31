@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from os import system, name
 from json import loads
 from requests import get
-from sys import maxsize
+from os import listdir, path, remove
 
 
 GLOBAL_MAXES = {
@@ -212,6 +212,12 @@ def clear():
     """
     system("cls" if name == "nt" else "clear")
 
+    files = listdir("backend\Reports")
+    for file in files:
+        file_path = path.join("backend\Reports", file)
+        if path.isfile(file_path):
+            remove(file_path)
+
 
 def combine_stats(json_data, additional_data):
     """
@@ -316,8 +322,8 @@ def compute_points(player):
     yellow_dots = player.get("bowling", {}).get("dots", 0)
     yellow_4s = player.get("bowling", {}).get("4", 0)
     yellow_5s = player.get("bowling", {}).get("5", 0)
-    yellow_6s = player.get("6+", 0)
-    yellow_HT = player.get("HT", 0)
+    yellow_6s = int(player.get("6+", 0) or 0)
+    yellow_HT = int(player.get("HT", 0) or 0)
     yellow_mdns = player.get("bowling", {}).get("Mdns", 0)
     yellow_ave = player.get("bowling", {}).get("Ave", 0)
 
@@ -507,7 +513,7 @@ def compute_points(player):
     update_maxes(player)
     st = player.get("bowling", {}).get("St", 0)
     ct = player.get("bowling", {}).get("Ct", 0)
-    mom = player.get("MOM", 0)
+    mom = int(player.get("MOM", 0) or 0)
     report += f"  - Stumpings: {st} x 50 = {st * 50}\n"
     report += f"  - Catches: {ct} x 25 = {ct * 25}\n"
     report += f"  - MOM: {mom} x 100 = {mom * 100}\n"

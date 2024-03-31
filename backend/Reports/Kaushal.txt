@@ -1,6 +1,6 @@
 Player: DL Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 21.66
+  - Average: 33.00
   - Wickets: 3 x 50 = 150
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -8,7 +8,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.12 -> -100
+  - Economy: 9.00 -> -100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -24,7 +24,7 @@ Sub Totals:
   - Batting: 0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 8.0
+Balls Faced: 0, Overs Bowled: 11.0
 Multipliers
 Total Points: 50.0, Owner: KAUSHAL
 
@@ -61,7 +61,7 @@ Total Points: 50.0, Owner: KAUSHAL
 
 
 
-Player: B Sai Sudharsan, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: B Sai Sudharsan, Team: KAUSHAL, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -82,18 +82,18 @@ Batting Points:
   - Strike Rate: 119.81 -> 200
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 510.0
  - Bowling: 0
-  - Other: 0
+  - Other: 100
 Balls Faced: 106, Overs Bowled: 0.0
 Multipliers
-Total Points: 510.0, Owner: KAUSHAL
+Total Points: 610.0, Owner: KAUSHAL
 
 
 
-Player: RK Singh, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: RK Singh, Team: KAUSHAL, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -156,7 +156,7 @@ Total Points: 40, Owner: KAUSHAL
 
 
 
-Player: KL Rahul, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: KL Rahul, Team: KAUSHAL, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -183,8 +183,9 @@ Sub Totals:
  - Bowling: 0
   - Other: 50
 Balls Faced: 53, Overs Bowled: 0.0
-Multipliers
-Total Points: 690.0, Owner: KAUSHAL
+Multipliers  - Captain x 2
+
+Total Points: 1380.0, Owner: KAUSHAL
 
 
 
@@ -371,14 +372,14 @@ Batting Points:
   - Strike Rate: 146.96 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 716.0
  - Bowling: 0
-  - Other: 50
+  - Other: 150
 Balls Faced: 66, Overs Bowled: 0.0
 Multipliers
-Total Points: 766.0, Owner: KAUSHAL
+Total Points: 866.0, Owner: KAUSHAL
 
 
 
@@ -442,8 +443,9 @@ Sub Totals:
  - Bowling: 0.0
   - Other: 50
 Balls Faced: 48, Overs Bowled: 6.0
-Multipliers
-Total Points: 394.0, Owner: KAUSHAL
+Multipliers  - Vice Captain x 1.5
+
+Total Points: 591.0, Owner: KAUSHAL
 
 
 
@@ -468,14 +470,14 @@ Batting Points:
   - Strike Rate: 200.00 -> 800
   - Stumpings: 0 x 50 = 0
   - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 1222.0
  - Bowling: 0
-  - Other: 50
+  - Other: 150
 Balls Faced: 62, Overs Bowled: 0.0
 Multipliers
-Total Points: 1272.0, Owner: KAUSHAL
+Total Points: 1372.0, Owner: KAUSHAL
 
 
 
@@ -511,7 +513,7 @@ Total Points: -400, Owner: KAUSHAL
 
 
 
-Player: A Manohar, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: A Manohar, Team: KAUSHAL, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

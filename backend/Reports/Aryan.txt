@@ -29,7 +29,7 @@ Total Points: 75, Owner: ARYAN
 
 
 
-Player: DA Warner, Team: ARYAN, isBowler: False, isBatsman: True
+Player: DA Warner, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -40,24 +40,56 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 39.00
-  - Runs: 78 x 2 = 156
-  - Boundaries: 8 x 4 = 32
-  - Sixes: 5 x 8 = 40
+  - Average: 56.50
+  - Runs: 113 x 2 = 226
+  - Boundaries: 12 x 4 = 48
+  - Sixes: 7 x 8 = 56
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 141.81 -> 400
+  - Strike Rate: 146.75 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 628.0
+  - Batting: 730.0
  - Bowling: 0
   - Other: 25
-Balls Faced: 55, Overs Bowled: 0.0
+Balls Faced: 77, Overs Bowled: 0.0
+Multipliers  - Captain x 2
+
+Total Points: 1510.0, Owner: ARYAN
+
+
+
+Player: PP Shaw, Team: ARYAN, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 24 x 2 = 48
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 64
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 15, Overs Bowled: 0.0
 Multipliers
-Total Points: 653.0, Owner: ARYAN
+Total Points: 64, Owner: ARYAN
 
 
 
@@ -92,7 +124,7 @@ Total Points: 90.0, Owner: ARYAN
 
 
 
-Player: PD Salt, Team: ARYAN, isBowler: False, isBatsman: True
+Player: PD Salt, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -124,7 +156,7 @@ Total Points: 703.0, Owner: ARYAN
 
 
 
-Player: SS Iyer, Team: ARYAN, isBowler: False, isBatsman: True
+Player: SS Iyer, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -178,14 +210,14 @@ Batting Points:
   - Strike Rate: 256.00 -> 1000
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 1246
  - Bowling: 100.0
-  - Other: 0
+  - Other: 100
 Balls Faced: 25, Overs Bowled: 6.0
 Multipliers
-Total Points: 1346.0, Owner: ARYAN
+Total Points: 1446.0, Owner: ARYAN
 
 
 
@@ -221,7 +253,7 @@ Total Points: -425.0, Owner: ARYAN
 
 
 
-Player: A Badoni, Team: ARYAN, isBowler: False, isBatsman: True
+Player: A Badoni, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -252,7 +284,7 @@ Total Points: 18.0, Owner: ARYAN
 
 
 
-Player: D Padikkal, Team: ARYAN, isBowler: False, isBatsman: True
+Player: D Padikkal, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -311,8 +343,9 @@ Sub Totals:
   - Other: 0
 Balls Faced: 1, Overs Bowled: 8.0
 Multipliers  - Batting x 2
+  - Vice Captain x 1.5
 
-Total Points: 254.0, Owner: ARYAN
+Total Points: 381.0, Owner: ARYAN
 
 
 
@@ -338,14 +371,14 @@ Batting Points:
   - Strike Rate: 132.30 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 660.0
  - Bowling: 100.0
-  - Other: 25
+  - Other: 125
 Balls Faced: 65, Overs Bowled: 8.0
 Multipliers
-Total Points: 785.0, Owner: ARYAN
+Total Points: 885.0, Owner: ARYAN
 
 
 
@@ -509,37 +542,6 @@ Total Points: 379.0, Owner: ARYAN
 
 
 Player: KR Sen, Team: ARYAN, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 0
- - Bowling: 0
-  - Other: 0
-Balls Faced: 0, Overs Bowled: 0
-Multipliers
-Total Points: 0, Owner: ARYAN
-
-
-
-Player: PP Shaw, Team: ARYAN, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

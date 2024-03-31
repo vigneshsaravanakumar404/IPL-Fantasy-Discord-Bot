@@ -14,8 +14,9 @@ current_squad = []
 for row in data:
     try:
         owner = row['OWNER']
+        status = row['STATUS']
     except KeyError:
-        print("ERROR: 'OWNER' column not found in the CSV file.")
+        print("ERROR: 'OWNER' or 'STATUS' column not found in the CSV file.")
         print("Row:", row)
         continue
 
@@ -25,16 +26,22 @@ for row in data:
         current_owner = owner
         current_squad = []
 
+    position = ""
+    if status == 'C':
+        position = 'C'
+    elif status == 'VC':
+        position = 'VC'
+
     player = {
         "old_name": row['NAME'],
         "new_name": row['NAME'],
         "isBowler": row['ISBOWLER'].lower() == 'true',
         "isBatsman": row['ISBATSMAN'].lower() == 'true',
         "Team": owner,
-        "Position": "",
-        "MOM": 0,
-        "6+": 0,
-        "HT": 0
+        "Position": position,
+        "MOM": int(row['MOM']),
+        "6+": int(row['6+']),
+        "HT": int(row['HT'])
     }
     current_squad.append(player)
 
@@ -44,6 +51,6 @@ if current_owner:
 
 # Convert the output to JSON and print
 output_json = json.dumps(output, indent=2)
-output = "backend\Data.json"
-with open(output, 'w') as file:
+output_file = "backend\Data.json"
+with open(output_file, 'w') as file:
     file.write(output_json)

@@ -30,7 +30,7 @@ Total Points: 366.0, Owner: TEJAS
 
 
 
-Player: AM Rahane, Team: TEJAS, isBowler: False, isBatsman: True
+Player: AM Rahane, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -190,7 +190,7 @@ Total Points: 145.0, Owner: TEJAS
 
 
 
-Player: YBK Jaiswal, Team: TEJAS, isBowler: False, isBatsman: True
+Player: YBK Jaiswal, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -217,8 +217,9 @@ Sub Totals:
  - Bowling: 0
   - Other: 0
 Balls Faced: 19, Overs Bowled: 0.0
-Multipliers
-Total Points: 682.0, Owner: TEJAS
+Multipliers  - Captain x 2
+
+Total Points: 1364.0, Owner: TEJAS
 
 
 
@@ -249,12 +250,13 @@ Sub Totals:
  - Bowling: 100.0
   - Other: 25
 Balls Faced: 25, Overs Bowled: 4.0
-Multipliers
-Total Points: 401.0, Owner: TEJAS
+Multipliers  - Vice Captain x 1.5
+
+Total Points: 601.5, Owner: TEJAS
 
 
 
-Player: RM Patidar, Team: TEJAS, isBowler: False, isBatsman: True
+Player: RM Patidar, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -350,7 +352,7 @@ Total Points: 1615.0, Owner: TEJAS
 
 
 
-Player: TM Head, Team: TEJAS, isBowler: False, isBatsman: True
+Player: TM Head, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -506,7 +508,7 @@ Total Points: 0, Owner: TEJAS
 
 
 
-Player: R Powell, Team: TEJAS, isBowler: False, isBatsman: True
+Player: R Powell, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

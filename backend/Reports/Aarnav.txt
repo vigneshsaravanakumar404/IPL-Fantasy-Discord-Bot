@@ -83,14 +83,14 @@ Batting Points:
   - Centuries: 0 x 100 = 0
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 0
  - Bowling: 400.0
-  - Other: 25
+  - Other: 125
 Balls Faced: 0, Overs Bowled: 12.0
 Multipliers
-Total Points: 425.0, Owner: AARNAV
+Total Points: 525.0, Owner: AARNAV
 
 
 
@@ -122,8 +122,9 @@ Sub Totals:
   - Other: 25
 Balls Faced: 3, Overs Bowled: 8.0
 Multipliers  - Batting x 2
+  - Vice Captain x 1.5
 
-Total Points: -443, Owner: AARNAV
+Total Points: -664.5, Owner: AARNAV
 
 
 
@@ -191,7 +192,7 @@ Total Points: 485.0, Owner: AARNAV
 
 
 
-Player: S Dhawan, Team: AARNAV, isBowler: False, isBatsman: True
+Player: S Dhawan, Team: AARNAV, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -288,7 +289,7 @@ Total Points: 210.0, Owner: AARNAV
 
 
 
-Player: V Kohli, Team: AARNAV, isBowler: False, isBatsman: True
+Player: V Kohli, Team: AARNAV, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -309,14 +310,15 @@ Batting Points:
   - Strike Rate: 141.40 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 3 x 25 = 75
-  - MOM: 0 x 100 = 0
+  - MOM: 1 x 100 = 100
 Sub Totals:
   - Batting: 978.0
  - Bowling: 0
-  - Other: 75
+  - Other: 175
 Balls Faced: 128, Overs Bowled: 0.0
-Multipliers
-Total Points: 1053.0, Owner: AARNAV
+Multipliers  - Captain x 2
+
+Total Points: 2306.0, Owner: AARNAV
 
 
 
@@ -413,7 +415,7 @@ Total Points: 0, Owner: AARNAV
 
 
 
-Player: KS Williamson, Team: AARNAV, isBowler: False, isBatsman: True
+Player: KS Williamson, Team: AARNAV, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -444,7 +446,7 @@ Total Points: 0, Owner: AARNAV
 
 
 
-Player: M Shahrukh Khan, Team: AARNAV, isBowler: False, isBatsman: True
+Player: M Shahrukh Khan, Team: AARNAV, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -475,7 +477,7 @@ Total Points: 0, Owner: AARNAV
 
 
 
-Player: SA Yadav, Team: AARNAV, isBowler: False, isBatsman: True
+Player: SA Yadav, Team: AARNAV, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

@@ -1,15 +1,10 @@
 Backend:
-
 - Seperate Player Reports from computation
 - Generate Team Reports
 - Award Player Maxes
 - Team Total Maxes
 - Ties in maxes
-
-Data
-
-- Add MOM Data
+- Set Wicket keepers as batsmen
 
 Frontend:
-
 - Integrate with tejas's Code
