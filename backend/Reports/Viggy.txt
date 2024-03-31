@@ -1,998 +1,4 @@
-Player: Shivam Dube, Team: CSK, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 85 x 2 = 170
-  - Boundaries: 6 x 4 = 24
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 166.66 -> 600
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 51, Overs Bowled: 0.0
-
-Total Points: 892, Owner: Viggy
-
-
-
-Player: Tushar Deshpande, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 22 x 5 = 110
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.50 -> -100
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: 135, Owner: Viggy
-
-
-
-Player: Matheesha Pathirana, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 1 x 50 = 50
-  - Dots: 13 x 5 = 65
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 4.0
-
-Total Points: 115, Owner: Viggy
-
-
-
-Player: Mahesh Theekshana, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 4.0
-
-Total Points: 0, Owner: Viggy
-
-
-
-Player: Khaleel Ahmed, Team: DC, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 3 x 50 = 150
-  - Dots: 21 x 5 = 105
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.37 -> -100
-  - Wickets: 3
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: 155, Owner: Viggy
-
-
-
-Player: Vijay Shankar, Team: GT, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 18 x 2 = 36
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 105.88 -> 200
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 17, Overs Bowled: 0.0
-
-Total Points: 269, Owner: Viggy
-
-
-
-Player: Rashid Khan, Team: GT, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 9.00 -> -100
-  - Wickets: 2
-Batting Points:
-  - Runs: 5 x 2 = 10
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 5, Overs Bowled: 8.0
-
-Total Points: 35, Owner: Viggy
-
-
-
-Player: Nitish Rana, Team: KKR, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 9 x 2 = 18
-  - Boundaries: 1 x 4 = 4
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 11, Overs Bowled: 0.0
-
-Total Points: 22, Owner: Viggy
-
-
-
-Player: Naveen-ul-Haq, Team: LSG, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.50 -> -400
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (50):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: -250, Owner: Viggy
-
-
-
-Player: Piyush Chawla, Team: MI, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 5 x 5 = 25
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 1 x -6 = -6
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 1, Overs Bowled: 5.0
-
-Total Points: 122.0, Owner: Viggy
-
-
-
-Player: Prabhsimran Singh, Team: PBKS, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 70 x 2 = 140
-  - Boundaries: 8 x 4 = 32
-  - Sixes: 4 x 8 = 32
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 170.73 -> 600
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 41, Overs Bowled: 0.0
-
-Total Points: 804, Owner: Viggy
-
-
-
-Player: Jos Buttler, Team: RR, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 22 x 2 = 44
-  - Boundaries: 2 x 4 = 8
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 88.00 -> -100
-Other (50):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Balls Faced: 25, Overs Bowled: 0.0
-
-Total Points: 3.0, Owner: Viggy
-
-
-
-Player: Faf du Plessis, Team: RCB, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 100 x 1000 = 100000
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 100 x 2000 = 200000
-  - Wickets: 0
-Batting Points:
-  - Runs: 46 x 2 = 92
-  - Boundaries: 8 x 4 = 32
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 127.77 -> 400
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 100 x 100 = 10000
-Balls Faced: 36, Overs Bowled: 0.0
-
-Total Points: 1221064, Owner: Viggy
-
-
-
-Player: Karn Sharma, Team: RCB, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 1 x 50 = 50
-  - Dots: 4 x 5 = 20
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 2.0
-
-Total Points: 70, Owner: Viggy
-
-
-
-Player: Rahul Tripathi, Team: SRH, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 20 x 2 = 40
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 100.00 -> -100
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 20, Overs Bowled: 0.0
-
-Total Points: -27, Owner: Viggy
-
-
-
-Player: Abdul Samad, Team: SRH, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 15 x 2 = 30
-  - Boundaries: 1 x 4 = 4
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 11, Overs Bowled: 0.0
-
-Total Points: 42, Owner: Viggy
-
-
-
-Player: Mayank Markande, Team: SRH, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 15 x 5 = 75
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 11.37 -> -500
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: -300, Owner: Viggy
-
-
-
-Player: Atharva Taide, Team: PBKS, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 0
-
-Total Points: 0, Owner: Viggy
-
-
-
-Player: Shivam Dube, Team: CSK, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 85 x 2 = 170
-  - Boundaries: 6 x 4 = 24
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 166.66 -> 600
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 51, Overs Bowled: 0.0
-
-Total Points: 892, Owner: Viggy
-
-
-
-Player: Tushar Deshpande, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 22 x 5 = 110
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.50 -> -100
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: 135, Owner: Viggy
-
-
-
-Player: Matheesha Pathirana, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 1 x 50 = 50
-  - Dots: 13 x 5 = 65
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 4.0
-
-Total Points: 115, Owner: Viggy
-
-
-
-Player: Mahesh Theekshana, Team: CSK, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 4.0
-
-Total Points: 0, Owner: Viggy
-
-
-
-Player: Khaleel Ahmed, Team: DC, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 3 x 50 = 150
-  - Dots: 21 x 5 = 105
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.37 -> -100
-  - Wickets: 3
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: 155, Owner: Viggy
-
-
-
-Player: Vijay Shankar, Team: GT, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 18 x 2 = 36
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 105.88 -> 200
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 17, Overs Bowled: 0.0
-
-Total Points: 269, Owner: Viggy
-
-
-
-Player: Rashid Khan, Team: GT, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 9.00 -> -100
-  - Wickets: 2
-Batting Points:
-  - Runs: 5 x 2 = 10
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 5, Overs Bowled: 8.0
-
-Total Points: 35, Owner: Viggy
-
-
-
-Player: Nitish Rana, Team: KKR, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 9 x 2 = 18
-  - Boundaries: 1 x 4 = 4
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 11, Overs Bowled: 0.0
-
-Total Points: 22, Owner: Viggy
-
-
-
-Player: Naveen-ul-Haq, Team: LSG, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.50 -> -400
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (50):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: -250, Owner: Viggy
-
-
-
-Player: Piyush Chawla, Team: MI, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 5 x 5 = 25
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 1 x -6 = -6
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 1, Overs Bowled: 5.0
-
-Total Points: 122.0, Owner: Viggy
-
-
-
-Player: Prabhsimran Singh, Team: PBKS, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 70 x 2 = 140
-  - Boundaries: 8 x 4 = 32
-  - Sixes: 4 x 8 = 32
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 170.73 -> 600
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 41, Overs Bowled: 0.0
-
-Total Points: 804, Owner: Viggy
-
-
-
-Player: Jos Buttler, Team: RR, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 22 x 2 = 44
-  - Boundaries: 2 x 4 = 8
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 88.00 -> -100
-Other (50):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Balls Faced: 25, Overs Bowled: 0.0
-
-Total Points: 3.0, Owner: Viggy
-
-
-
-Player: Faf du Plessis, Team: RCB, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 46 x 2 = 92
-  - Boundaries: 8 x 4 = 32
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 127.77 -> 400
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 36, Overs Bowled: 0.0
-
-Total Points: 1064, Owner: Viggy
-
-
-
-Player: Karn Sharma, Team: RCB, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 1 x 50 = 50
-  - Dots: 4 x 5 = 20
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 2.0
-
-Total Points: 70, Owner: Viggy
-
-
-
-Player: Rahul Tripathi, Team: SRH, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 20 x 2 = 40
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 100.00 -> -100
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 20, Overs Bowled: 0.0
-
-Total Points: -27, Owner: Viggy
-
-
-
-Player: Abdul Samad, Team: SRH, isBowler: False, isBatsman: True
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 15 x 2 = 30
-  - Boundaries: 1 x 4 = 4
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 11, Overs Bowled: 0.0
-
-Total Points: 42, Owner: Viggy
-
-
-
-Player: Mayank Markande, Team: SRH, isBowler: True, isBatsman: False
-Bowling Points:
-  - Wickets: 2 x 50 = 100
-  - Dots: 15 x 5 = 75
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 11.37 -> -500
-  - Wickets: 2
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (25):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
-
-Total Points: -300, Owner: Viggy
-
-
-
-Player: Atharva Taide, Team: PBKS, isBowler: False, isBatsman: False
-Bowling Points:
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 0
-
-Total Points: 0, Owner: Viggy
-
-
-
-Player: Shivam Dube, Team: CSK, isBowler: False, isBatsman: False
+Player: S Dube, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1002,7 +8,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 85.00
   - Runs: 85 x 2 = 170
@@ -1012,28 +17,30 @@ Batting Points:
   - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
   - Strike Rate: 166.66 -> 600
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 892.0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 51, Overs Bowled: 0.0
+Multipliers
+Total Points: 892.0, Owner: VIGGY
 
-Total Points: 9392.0, Owner: Viggy
 
 
-
-Player: Tushar Deshpande, Team: CSK, isBowler: True, isBatsman: False
+Player: TU Deshpande, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 34.00
   - Wickets: 2 x 50 = 100
-  - Dots: 22 x 5 = 110
+  - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
   - Economy: 8.50 -> -100
-  - Wickets: 2
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1042,27 +49,29 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (25):
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0.0
+  - Other: 25
 Balls Faced: 0, Overs Bowled: 8.0
+Multipliers
+Total Points: 25.0, Owner: VIGGY
 
-Total Points: 3535.0, Owner: Viggy
 
 
-
-Player: Matheesha Pathirana, Team: CSK, isBowler: True, isBatsman: False
+Player: M Pathirana, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 29.00
   - Wickets: 1 x 50 = 50
-  - Dots: 13 x 5 = 65
+  - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1071,17 +80,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 50.0
+  - Other: 0
 Balls Faced: 0, Overs Bowled: 4.0
+Multipliers
+Total Points: 50.0, Owner: VIGGY
 
-Total Points: 3015.0, Owner: Viggy
 
 
-
-Player: Mahesh Theekshana, Team: CSK, isBowler: True, isBatsman: False
+Player: M Theekshana, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1091,7 +103,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1100,28 +111,30 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 0, Overs Bowled: 4.0
+Multipliers
+Total Points: 0, Owner: VIGGY
 
-Total Points: 0, Owner: Viggy
 
 
-
-Player: Khaleel Ahmed, Team: DC, isBowler: True, isBatsman: False
+Player: KK Ahmed, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 22.33
   - Wickets: 3 x 50 = 150
-  - Dots: 21 x 5 = 105
+  - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
   - Economy: 8.37 -> -100
-  - Wickets: 3
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1130,17 +143,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 50.0
+  - Other: 0
 Balls Faced: 0, Overs Bowled: 8.0
+Multipliers
+Total Points: 50.0, Owner: VIGGY
 
-Total Points: 2388.0, Owner: Viggy
 
 
-
-Player: Vijay Shankar, Team: GT, isBowler: False, isBatsman: False
+Player: V Shankar, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1150,38 +166,39 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
-  - Average: 18.00
-  - Runs: 18 x 2 = 36
-  - Boundaries: 0 x 4 = 0
+  - Average: 32.00
+  - Runs: 32 x 2 = 64
+  - Boundaries: 2 x 4 = 8
   - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 105.88 -> 200
-Other (25):
+  - Strike Rate: 114.28 -> 200
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
-Balls Faced: 17, Overs Bowled: 0.0
+Sub Totals:
+  - Batting: 280.0
+ - Bowling: 0
+  - Other: 25
+Balls Faced: 28, Overs Bowled: 0.0
+Multipliers
+Total Points: 305.0, Owner: VIGGY
 
-Total Points: 2069.0, Owner: Viggy
 
 
-
-Player: Rashid Khan, Team: GT, isBowler: False, isBatsman: False
+Player: Rashid Khan, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 36.00
-  - Wickets: 2 x 50 = 100
+  - Average: 35.00
+  - Wickets: 3 x 50 = 150
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 9.00 -> -100
-  - Wickets: 2
+  - Economy: 8.75 -> -100
 Batting Points:
   - Average: 5.00
   - Runs: 5 x 2 = 10
@@ -1190,17 +207,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (25):
   - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
+  - Catches: 3 x 25 = 75
   - MOM: 0 x 100 = 0
-Balls Faced: 5, Overs Bowled: 8.0
+Sub Totals:
+  - Batting: 10.0
+ - Bowling: 50.0
+  - Other: 75
+Balls Faced: 5, Overs Bowled: 12.0
+Multipliers
+Total Points: 135.0, Owner: VIGGY
 
-Total Points: 4135.0, Owner: Viggy
 
 
-
-Player: Nitish Rana, Team: KKR, isBowler: False, isBatsman: True
+Player: N Rana, Team: VIGGY, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1210,7 +230,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 9.00
   - Runs: 9 x 2 = 18
@@ -1219,17 +238,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 22.0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 11, Overs Bowled: 0.0
+Multipliers
+Total Points: 22.0, Owner: VIGGY
 
-Total Points: 922.0, Owner: Viggy
 
 
-
-Player: Naveen-ul-Haq, Team: LSG, isBowler: True, isBatsman: False
+Player: Naveen-ul-Haq, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 42.00
   - Wickets: 2 x 50 = 100
@@ -1240,7 +262,6 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
   - Economy: 10.50 -> -400
-  - Wickets: 2
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1249,27 +270,29 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (50):
   - Stumpings: 0 x 50 = 0
   - Catches: 2 x 25 = 50
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: -300.0
+  - Other: 50
 Balls Faced: 0, Overs Bowled: 8.0
+Multipliers
+Total Points: -250.0, Owner: VIGGY
 
-Total Points: 3950.0, Owner: Viggy
 
 
-
-Player: Piyush Chawla, Team: MI, isBowler: True, isBatsman: False
+Player: PP Chawla, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 32.50
   - Wickets: 2 x 50 = 100
-  - Dots: 5 x 5 = 25
+  - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 2
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1278,17 +301,21 @@ Batting Points:
   - Zeros: 1 x -6 = -6
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: -6
+ - Bowling: 100.0
+  - Other: 0
 Balls Faced: 1, Overs Bowled: 5.0
+Multipliers  - Batting / 2
 
-Total Points: 3372.0, Owner: Viggy
+Total Points: 97.0, Owner: VIGGY
 
 
 
-Player: Prabhsimran Singh, Team: PBKS, isBowler: False, isBatsman: False
+Player: Prabhsimran Singh, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1298,7 +325,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 23.33
   - Runs: 70 x 2 = 140
@@ -1308,17 +334,20 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Strike Rate: 170.73 -> 600
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 804.0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 41, Overs Bowled: 0.0
+Multipliers
+Total Points: 804.0, Owner: VIGGY
 
-Total Points: 3137.0, Owner: Viggy
 
 
-
-Player: Jos Buttler, Team: RR, isBowler: False, isBatsman: False
+Player: JC Buttler, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1328,7 +357,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 11.00
   - Runs: 22 x 2 = 44
@@ -1338,17 +366,20 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Strike Rate: 88.00 -> -100
-Other (50):
   - Stumpings: 0 x 50 = 0
   - Catches: 2 x 25 = 50
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: -48.0
+ - Bowling: 0
+  - Other: 50
 Balls Faced: 25, Overs Bowled: 0.0
+Multipliers
+Total Points: 2.0, Owner: VIGGY
 
-Total Points: 1653.0, Owner: Viggy
 
 
-
-Player: Faf du Plessis, Team: RCB, isBowler: False, isBatsman: True
+Player: F du Plessis, Team: VIGGY, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1358,7 +389,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 15.33
   - Runs: 46 x 2 = 92
@@ -1368,27 +398,29 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Strike Rate: 127.77 -> 400
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 532.0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 36, Overs Bowled: 0.0
+Multipliers
+Total Points: 532.0, Owner: VIGGY
 
-Total Points: 4130.0, Owner: Viggy
 
 
-
-Player: Karn Sharma, Team: RCB, isBowler: True, isBatsman: False
+Player: KV Sharma, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 24.00
   - Wickets: 1 x 50 = 50
-  - Dots: 4 x 5 = 20
+  - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 1
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1397,17 +429,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 50.0
+  - Other: 0
 Balls Faced: 0, Overs Bowled: 2.0
+Multipliers
+Total Points: 50.0, Owner: VIGGY
 
-Total Points: 2470.0, Owner: Viggy
 
 
-
-Player: Rahul Tripathi, Team: SRH, isBowler: False, isBatsman: True
+Player: Abdul Samad, Team: VIGGY, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1417,7 +452,38 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
+Batting Points:
+  - Average: 22.00
+  - Runs: 44 x 2 = 88
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 176.00 -> 800
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 920.0
+ - Bowling: 0
+  - Other: 25
+Balls Faced: 25, Overs Bowled: 0.0
+Multipliers
+Total Points: 945.0, Owner: VIGGY
+
+
+
+Player: RA Tripathi, Team: VIGGY, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
   - Average: 20.00
   - Runs: 20 x 2 = 40
@@ -1427,57 +493,30 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Strike Rate: 100.00 -> -100
-Other (25):
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: -52.0
+ - Bowling: 0
+  - Other: 25
 Balls Faced: 20, Overs Bowled: 0.0
+Multipliers
+Total Points: -27.0, Owner: VIGGY
 
-Total Points: 1973.0, Owner: Viggy
 
 
-
-Player: Abdul Samad, Team: SRH, isBowler: False, isBatsman: True
+Player: M Markande, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
+  - Average: 41.33
+  - Wickets: 3 x 50 = 150
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
-Batting Points:
-  - Average: 15.00
-  - Runs: 15 x 2 = 30
-  - Boundaries: 1 x 4 = 4
-  - Sixes: 1 x 8 = 8
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-Other (0):
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Balls Faced: 11, Overs Bowled: 0.0
-
-Total Points: 1542.0, Owner: Viggy
-
-
-
-Player: Mayank Markande, Team: SRH, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 45.50
-  - Wickets: 2 x 50 = 100
-  - Dots: 15 x 5 = 75
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 11.37 -> -500
-  - Wickets: 2
+  - Economy: 11.27 -> -500
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1486,17 +525,20 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (25):
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
-Balls Faced: 0, Overs Bowled: 8.0
+Sub Totals:
+  - Batting: 0
+ - Bowling: -350.0
+  - Other: 25
+Balls Faced: 0, Overs Bowled: 11.0
+Multipliers
+Total Points: -325.0, Owner: VIGGY
 
-Total Points: 4250.0, Owner: Viggy
 
 
-
-Player: Atharva Taide, Team: PBKS, isBowler: False, isBatsman: False
+Player: A Taide, Team: VIGGY, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -1506,7 +548,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Wickets: 0
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -1515,13 +556,16 @@ Batting Points:
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-Other (0):
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
 Balls Faced: 0, Overs Bowled: 0
-
-Total Points: 0, Owner: Viggy
+Multipliers
+Total Points: 0, Owner: VIGGY
 
 
 

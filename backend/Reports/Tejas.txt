@@ -1,38 +1,6 @@
-Player: DL Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: DJ Mitchell, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 21.66
-  - Wickets: 3 x 50 = 150
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.12 -> -100
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 0
- - Bowling: 50.0
-  - Other: 0
-Balls Faced: 0, Overs Bowled: 8.0
-Multipliers
-Total Points: 50.0, Owner: KAUSHAL
-
-
-
-Player: A Nortje, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 48.00
+  - Average: 18.00
   - Wickets: 1 x 50 = 50
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -41,27 +9,28 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
+  - Average: 46.00
+  - Runs: 46 x 2 = 92
+  - Boundaries: 2 x 4 = 8
+  - Sixes: 2 x 8 = 16
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
+  - Strike Rate: 121.05 -> 200
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 0
+  - Batting: 316.0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 4.0
+Balls Faced: 38, Overs Bowled: 2.0
 Multipliers
-Total Points: 50.0, Owner: KAUSHAL
+Total Points: 366.0, Owner: TEJAS
 
 
 
-Player: B Sai Sudharsan, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: AM Rahane, Team: TEJAS, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -72,123 +41,28 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 42.33
-  - Runs: 127 x 2 = 254
-  - Boundaries: 10 x 4 = 40
+  - Average: 19.50
+  - Runs: 39 x 2 = 78
+  - Boundaries: 0 x 4 = 0
   - Sixes: 2 x 8 = 16
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 119.81 -> 200
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 510.0
- - Bowling: 0
-  - Other: 0
-Balls Faced: 106, Overs Bowled: 0.0
-Multipliers
-Total Points: 510.0, Owner: KAUSHAL
-
-
-
-Player: RK Singh, Team: KAUSHAL, isBowler: False, isBatsman: True
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 28.00
-  - Runs: 28 x 2 = 56
-  - Boundaries: 3 x 4 = 12
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 140.00 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 4 x 25 = 100
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 468.0
- - Bowling: 0
-  - Other: 100
-Balls Faced: 20, Overs Bowled: 0.0
-Multipliers
-Total Points: 568.0, Owner: KAUSHAL
-
-
-
-Player: Suyash Sharma, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 3 x 5 = 15
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
+  - Strike Rate: 125.80 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 0
- - Bowling: 15
-  - Other: 25
-Balls Faced: 0, Overs Bowled: 2.0
-Multipliers
-Total Points: 40, Owner: KAUSHAL
-
-
-
-Player: KL Rahul, Team: KAUSHAL, isBowler: False, isBatsman: True
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 36.50
-  - Runs: 73 x 2 = 146
-  - Boundaries: 5 x 4 = 20
-  - Sixes: 3 x 8 = 24
-  - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 137.73 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 640.0
+  - Batting: 494.0
  - Bowling: 0
-  - Other: 50
-Balls Faced: 53, Overs Bowled: 0.0
+  - Other: 25
+Balls Faced: 31, Overs Bowled: 0.0
 Multipliers
-Total Points: 690.0, Owner: KAUSHAL
+Total Points: 519.0, Owner: TEJAS
 
 
 
-Player: KH Pandya, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: VR Iyer, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -198,95 +72,29 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 6.42 -> 100
 Batting Points:
-  - Average: 0.00
-  - Runs: 46 x 2 = 92
+  - Average: 28.50
+  - Runs: 57 x 2 = 114
   - Boundaries: 4 x 4 = 16
-  - Sixes: 2 x 8 = 16
+  - Sixes: 4 x 8 = 32
   - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
+  - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 170.37 -> 600
+  - Strike Rate: 162.85 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 724
- - Bowling: 100
-  - Other: 25
-Balls Faced: 27, Overs Bowled: 7.0
-Multipliers
-Total Points: 849, Owner: KAUSHAL
-
-
-
-Player: G Coetzee, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 28.00
-  - Wickets: 3 x 50 = 150
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.50 -> -400
-Batting Points:
-  - Average: 1.00
-  - Runs: 1 x 2 = 2
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 2.0
- - Bowling: -250.0
-  - Other: 0
-Balls Faced: 3, Overs Bowled: 8.0
-Multipliers  - Batting x 2
-
-Total Points: -246.0, Owner: KAUSHAL
-
-
-
-Player: LS Livingstone, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 83.00
-  - Runs: 83 x 2 = 166
-  - Boundaries: 5 x 4 = 20
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 162.74 -> 600
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 834.0
+  - Batting: 812.0
  - Bowling: 0
-  - Other: 0
-Balls Faced: 51, Overs Bowled: 0.0
+  - Other: 25
+Balls Faced: 35, Overs Bowled: 0.0
 Multipliers
-Total Points: 834.0, Owner: KAUSHAL
+Total Points: 837.0, Owner: TEJAS
 
 
 
-Player: JM Sharma, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: DJ Hooda, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -297,38 +105,70 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 14.00
-  - Runs: 42 x 2 = 84
-  - Boundaries: 3 x 4 = 12
+  - Average: 26.00
+  - Runs: 26 x 2 = 52
+  - Boundaries: 2 x 4 = 8
   - Sixes: 2 x 8 = 16
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 110.52 -> 200
   - Stumpings: 0 x 50 = 0
-  - Catches: 5 x 25 = 125
+  - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 312.0
+  - Batting: 76.0
  - Bowling: 0
-  - Other: 125
-Balls Faced: 38, Overs Bowled: 0.0
+  - Other: 0
+Balls Faced: 13, Overs Bowled: 0.0
 Multipliers
-Total Points: 437.0, Owner: KAUSHAL
+Total Points: 76.0, Owner: TEJAS
 
 
 
-Player: RD Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: Ravi Bishnoi, Team: TEJAS, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 45.50
-  - Wickets: 2 x 50 = 100
+  - Average: 63.00
+  - Wickets: 1 x 50 = 50
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 11.37 -> -500
+  - Economy: 9.00 -> -100
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 1 x -6 = -6
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: -6
+ - Bowling: -50.0
+  - Other: 0
+Balls Faced: 1, Overs Bowled: 7.0
+Multipliers  - Batting / 2
+
+Total Points: -53.0, Owner: TEJAS
+
+
+
+Player: Arshdeep Singh, Team: TEJAS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 24.50
+  - Wickets: 4 x 50 = 200
+  - Dots: 29 x 5 = 145
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 9.48 -> -200
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -338,19 +178,19 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
+  - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: -400.0
-  - Other: 25
-Balls Faced: 0, Overs Bowled: 8.0
+ - Bowling: 145.0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 10.2
 Multipliers
-Total Points: -375.0, Owner: KAUSHAL
+Total Points: 145.0, Owner: TEJAS
 
 
 
-Player: SV Samson, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: YBK Jaiswal, Team: TEJAS, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -361,62 +201,30 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 97.00
-  - Runs: 97 x 2 = 194
-  - Boundaries: 6 x 4 = 24
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 146.96 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 716.0
- - Bowling: 0
-  - Other: 50
-Balls Faced: 66, Overs Bowled: 0.0
-Multipliers
-Total Points: 766.0, Owner: KAUSHAL
-
-
-
-Player: DC Jurel, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 40.00
-  - Runs: 40 x 2 = 80
+  - Average: 14.50
+  - Runs: 29 x 2 = 58
   - Boundaries: 4 x 4 = 16
   - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 166.66 -> 600
+  - Strike Rate: 152.63 -> 600
   - Stumpings: 0 x 50 = 0
-  - Catches: 3 x 25 = 75
+  - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 704.0
+  - Batting: 682.0
  - Bowling: 0
-  - Other: 75
-Balls Faced: 24, Overs Bowled: 0.0
+  - Other: 0
+Balls Faced: 19, Overs Bowled: 0.0
 Multipliers
-Total Points: 779.0, Owner: KAUSHAL
+Total Points: 682.0, Owner: TEJAS
 
 
 
-Player: C Green, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: GJ Maxwell, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 26.50
+  - Average: 18.00
   - Wickets: 2 x 50 = 100
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -424,30 +232,29 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.83 -> -100
 Batting Points:
-  - Average: 18.00
-  - Runs: 54 x 2 = 108
-  - Boundaries: 5 x 4 = 20
-  - Sixes: 2 x 8 = 16
-  - Zeros: 0 x -6 = 0
+  - Average: 10.33
+  - Runs: 31 x 2 = 62
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 1 x 8 = 8
+  - Zeros: 1 x -6 = -6
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 112.50 -> 200
+  - Strike Rate: 124.00 -> 200
   - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 344.0
- - Bowling: 0.0
-  - Other: 50
-Balls Faced: 48, Overs Bowled: 6.0
+  - Batting: 276.0
+ - Bowling: 100.0
+  - Other: 25
+Balls Faced: 25, Overs Bowled: 4.0
 Multipliers
-Total Points: 394.0, Owner: KAUSHAL
+Total Points: 401.0, Owner: TEJAS
 
 
 
-Player: Abhishek Sharma, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: RM Patidar, Team: TEJAS, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -458,64 +265,128 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 41.33
-  - Runs: 124 x 2 = 248
-  - Boundaries: 9 x 4 = 36
-  - Sixes: 11 x 8 = 88
+  - Average: 7.00
+  - Runs: 21 x 2 = 42
+  - Boundaries: 1 x 4 = 4
+  - Sixes: 1 x 8 = 8
+  - Zeros: 1 x -6 = -6
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 84.00 -> -100
+  - Stumpings: 0 x 50 = 0
+  - Catches: 2 x 25 = 50
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: -52.0
+ - Bowling: 0
+  - Other: 50
+Balls Faced: 25, Overs Bowled: 0.0
+Multipliers
+Total Points: -2.0, Owner: TEJAS
+
+
+
+Player: Mohammed Siraj, Team: TEJAS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 55.00
+  - Wickets: 2 x 50 = 100
+  - Dots: 24 x 5 = 120
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 10.00 -> -200
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 20.0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 11.0
+Multipliers
+Total Points: 20.0, Owner: TEJAS
+
+
+
+Player: H Klaasen, Team: TEJAS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 83.50
+  - Runs: 167 x 2 = 334
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 17 x 8 = 136
+  - Zeros: 0 x -6 = 0
+  - Fifties: 2 x 50 = 100
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 219.73 -> 1000
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 1590.0
+ - Bowling: 0
+  - Other: 25
+Balls Faced: 76, Overs Bowled: 0.0
+Multipliers
+Total Points: 1615.0, Owner: TEJAS
+
+
+
+Player: TM Head, Team: TEJAS, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 40.50
+  - Runs: 81 x 2 = 162
+  - Boundaries: 12 x 4 = 48
+  - Sixes: 3 x 8 = 24
   - Zeros: 0 x -6 = 0
   - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 200.00 -> 800
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 1222.0
- - Bowling: 0
-  - Other: 50
-Balls Faced: 62, Overs Bowled: 0.0
-Multipliers
-Total Points: 1272.0, Owner: KAUSHAL
-
-
-
-Player: B Kumar, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.91 -> -400
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
+  - Strike Rate: 213.15 -> 1000
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 0
- - Bowling: -400
+  - Batting: 1284.0
+ - Bowling: 0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 12.0
+Balls Faced: 38, Overs Bowled: 0.0
 Multipliers
-Total Points: -400, Owner: KAUSHAL
+Total Points: 1284.0, Owner: TEJAS
 
 
 
-Player: A Manohar, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: T Natarajan, Team: TEJAS, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
+  - Average: 10.66
+  - Wickets: 3 x 50 = 150
+  - Dots: 9 x 5 = 45
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
@@ -534,15 +405,15 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 0
+ - Bowling: 195.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 0
+Balls Faced: 0, Overs Bowled: 4.0
 Multipliers
-Total Points: 0, Owner: KAUSHAL
+Total Points: 195.0, Owner: TEJAS
 
 
 
-Player: Mohammad Nabi, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: Rahmanullah Gurbaz, Team: TEJAS, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -569,7 +440,131 @@ Sub Totals:
   - Other: 0
 Balls Faced: 0, Overs Bowled: 0
 Multipliers
-Total Points: 0, Owner: KAUSHAL
+Total Points: 0, Owner: TEJAS
+
+
+
+Player: A Mishra, Team: TEJAS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: TEJAS
+
+
+
+Player: AS Tendulkar, Team: TEJAS, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: TEJAS
+
+
+
+Player: R Powell, Team: TEJAS, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: TEJAS
+
+
+
+Player: Lalit Yadav, Team: TEJAS, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: TEJAS
 
 
 

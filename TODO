@@ -1,11 +1,15 @@
-Backend: 
-- Generate Player Reports
+Backend:
+
+- Seperate Player Reports from computation
 - Generate Team Reports
+- Award Player Maxes
 - Team Total Maxes
 - Ties in maxes
 
 Data
+
 - Add MOM Data
 
 Frontend:
+
 - Integrate with tejas's Code

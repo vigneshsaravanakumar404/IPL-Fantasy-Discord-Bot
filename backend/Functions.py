@@ -5,14 +5,6 @@ from requests import get
 from sys import maxsize
 
 
-CATEGORY_MAXES = {
-    "yellow_batting": [0, ""],
-    "green_batting": [0, ""],
-    "cyan_batting": [0, ""],
-    "yellow_bowling": [0, ""],
-    "purple_bowling": [0, ""],
-    "green_bowling": [0, ""],
-}
 GLOBAL_MAXES = {
     "NO": [0, []],
     "Runs": [0, []],
@@ -28,6 +20,41 @@ GLOBAL_MAXES = {
     "Mdns": [0, []],
     "Econ": [0, []],
     "Ave": [0, []],
+    "ct": [0, []],
+    "st": [0, []],
+    "MOM": [0, []],
+}
+TEMPLATE = {
+    "NO": 0,
+    "Runs": 0,
+    "AveBowling": 0,
+    "SR": 0,
+    "100": 0,
+    "50": 0,
+    "0": 0,
+    "4s": 0,
+    "6s": 0,
+    "Wkts": 0,
+    "dots": 0,
+    "Mdns": 0,
+    "Econ": 0,
+    "AveBatting": 0,
+    "AveSR": 0,
+    "AveEcon": 0,
+    "ct": 0,
+    "st": 0,
+    "MOM": 0,
+    "6+": 0,
+}
+TEAM_TOTALS = {
+    "AARAV": TEMPLATE,
+    "AARNAV": TEMPLATE,
+    "ABHAYA": TEMPLATE,
+    "ARYAN": TEMPLATE,
+    "ISHAAN": TEMPLATE,
+    "KAUSHAL": TEMPLATE,
+    "TEJAS": TEMPLATE,
+    "VIGGY": TEMPLATE,
 }
 
 
@@ -303,7 +330,7 @@ def compute_points(player):
     yellow_bowling += yellow_mdns * 150
 
     # TODO: Adjust formula
-    yellow_bowling += yellow_ave * 100
+    yellow_bowling += yellow_ave * 0
     report += f"  - Average: {yellow_ave:.2f}\n"
 
     report += f"  - Wickets: {yellow_wkts} x 50 = {yellow_wkts * 50}\n"
@@ -358,15 +385,19 @@ def compute_points(player):
     wkts = player.get("bowling", {}).get("Wkts", 0)
     if wkts > 35:
         green_bowling += 5000
+        report += f"  - Wickets: {wkts} -> 5000\n"
     elif wkts > 30:
         green_bowling += 4000
+        report += f"  - Wickets: {wkts} -> 4000\n"
     elif wkts > 25:
         green_bowling += 3000
+        report += f"  - Wickets: {wkts} -> 3000\n"
     elif wkts > 20:
         green_bowling += 2000
+        report += f"  - Wickets: {wkts} -> 2000\n"
     elif wkts > 15:
         green_bowling += 1000
-    report += f"  - Wickets: {wkts}\n"
+        report += f"  - Wickets: {wkts} -> 1000\n"
 
     # Batting Points
     batting = 0
@@ -390,7 +421,7 @@ def compute_points(player):
     yellow_batting += centuries * 100
 
     # TODO: Adjust formula
-    yellow_batting += ave * 100
+    yellow_batting += ave * 0
     report += f"  - Average: {ave:.2f}\n"
 
     report += f"  - Runs: {runs} x 2 = {runs * 2}\n"
@@ -437,50 +468,71 @@ def compute_points(player):
     cyan_batting = 0
     if runs > 850:
         cyan_batting += 5000
+        report += f"  - Runs: {runs} -> 5000\n"
     elif runs > 800:
         cyan_batting += 4500
+        report += f"  - Runs: {runs} -> 4500\n"
     elif runs > 750:
         cyan_batting += 4000
+        report += f"  - Runs: {runs} -> 4000\n"
     elif runs > 700:
         cyan_batting += 3500
+        report += f"  - Runs: {runs} -> 3500\n"
     elif runs > 650:
         cyan_batting += 3000
+        report += f"  - Runs: {runs} -> 3000\n"
     elif runs > 600:
         cyan_batting += 2500
+        report += f"  - Runs: {runs} -> 2500\n"
     elif runs > 550:
         cyan_batting += 2000
+        report += f"  - Runs: {runs} -> 2000\n"
     elif runs > 500:
         cyan_batting += 1500
+        report += f"  - Runs: {runs} -> 1500\n"
     elif runs > 450:
         cyan_batting += 1000
+        report += f"  - Runs: {runs} -> 1000\n"
     elif runs > 400:
         cyan_batting += 750
+        report += f"  - Runs: {runs} -> 750\n"
     elif runs > 350:
         cyan_batting += 500
+        report += f"  - Runs: {runs} -> 500\n"
     elif runs > 300:
         cyan_batting += 250
+        report += f"  - Runs: {runs} -> 250\n"
 
     # Sub Total
     update_maxes(player)
     st = player.get("bowling", {}).get("St", 0)
     ct = player.get("bowling", {}).get("Ct", 0)
     mom = player.get("MOM", 0)
-    report += f"Other ({(st * 50) + (ct * 25)}):\n  - Stumpings: {st} x 50 = {st * 50}\n  - Catches: {ct} x 25 = {ct * 25}\n  - MOM: {mom} x 100 = {mom * 100}\n"
-    report += f"Balls Faced: {bf}, Overs Bowled: {player.get('bowling', {}).get('Overs', 0)}\n"
+    report += f"  - Stumpings: {st} x 50 = {st * 50}\n"
+    report += f"  - Catches: {ct} x 25 = {ct * 25}\n"
+    report += f"  - MOM: {mom} x 100 = {mom * 100}\n"
 
     other = (st * 50) + (ct * 25) + (mom * 100)
     batting = yellow_batting + green_batting + cyan_batting
     bowling = yellow_bowling + purple_bowling + green_bowling
 
+    report += f"Sub Totals:\n  - Batting: {batting}\n - Bowling: {bowling}\n  - Other: {other}\n"
+    report += f"Balls Faced: {bf}, Overs Bowled: {player.get('bowling', {}).get('Overs', 0)}\n"
+    report += "Multipliers"
+
     # Position Points
     if player.get("isBowler") == True and batting > 0:
         batting *= 2
+        report += "  - Batting x 2\n"
     elif player.get("isBatsman") == True and bowling > 0:
         bowling *= 2
+        report += "  - Bowling x 2\n"
     elif player.get("isBowler") == True and batting < 0:
         batting /= 2
+        report += "  - Batting / 2\n"
     elif player.get("isBatsman") == True and bowling < 0:
         bowling /= 2
+        report += "  - Bowling / 2\n"
 
     # Total Points
     total = batting + bowling + other
@@ -488,19 +540,38 @@ def compute_points(player):
     # C/VC Points
     if player.get("Position") == "VC":
         total *= 1.5
+        report += "  - Vice Captain x 1.5\n"
     elif player.get("Position") == "C":
         total *= 2
+        report += "  - Captain x 2\n"
 
     report += f"\nTotal Points: {total}, Owner: {player.get('Owner')}\n\n\n\n"
 
     #! Write to file
-    if player.get("Owner") == "Viggy":
-        with open("backend\Reports\Viggy.txt", "a") as file:
+    if player.get("Owner") == "AARAV":
+        with open("backend\Reports\Aarav.txt", "a") as file:
             file.write(report)
-    elif player.get("Owner") == "Kaushal":
+    elif player.get("Owner") == "AARNAV":
+        with open("backend\Reports\Aarnav.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "ABHAYA":
+        with open("backend\Reports\Abhaya.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "ARYAN":
+        with open("backend\Reports\Aryan.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "ISHAAN":
+        with open("backend\Reports\Ishaan.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "KAUSHAL":
         with open("backend\Reports\Kaushal.txt", "a") as file:
             file.write(report)
-
+    elif player.get("Owner") == "TEJAS":
+        with open("backend\Reports\Tejas.txt", "a") as file:
+            file.write(report)
+    elif player.get("Owner") == "VIGGY":
+        with open("backend\Reports\Viggy.txt", "a") as file:
+            file.write(report)
     return total
 
 
@@ -518,6 +589,7 @@ def update_maxes(player):
     batting_stats = ["NO", "Runs", "Ave",
                      "100", "50", "0", "4s", "6s", "HS"]
     bowling_stats = ["Wkts", "dots", "Mdns", "Ave"]
+    other_stats = ["ct", "st", "MOM"]
 
     if "batting" in player:
         for stat in batting_stats:

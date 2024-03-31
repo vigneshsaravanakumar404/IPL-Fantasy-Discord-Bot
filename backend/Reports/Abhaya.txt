@@ -1,38 +1,101 @@
-Player: DL Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: RA Jadeja, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 21.66
-  - Wickets: 3 x 50 = 150
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.12 -> -100
+  - Economy: 6.00 -> 250
 Batting Points:
+  - Average: 32.00
+  - Runs: 32 x 2 = 64
+  - Boundaries: 1 x 4 = 4
+  - Sixes: 1 x 8 = 8
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 160.00 -> 600
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 676.0
+ - Bowling: 250
+  - Other: 0
+Balls Faced: 20, Overs Bowled: 6.0
+Multipliers
+Total Points: 926.0, Owner: ABHAYA
+
+
+
+Player: Sameer Rizvi, Team: ABHAYA, isBowler: False, isBatsman: True
+Bowling Points:
   - Average: 0.00
-  - Runs: 0 x 2 = 0
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 14.00
+  - Runs: 14 x 2 = 28
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 2 x 8 = 16
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 1 x 25 = 25
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 44.0
+ - Bowling: 0
+  - Other: 25
+Balls Faced: 6, Overs Bowled: 0.0
+Multipliers
+Total Points: 69.0, Owner: ABHAYA
+
+
+
+Player: RK Bhui, Team: ABHAYA, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 1.50
+  - Runs: 3 x 2 = 6
   - Boundaries: 0 x 4 = 0
   - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
+  - Zeros: 1 x -6 = -6
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 0
- - Bowling: 50.0
+  - Batting: 0.0
+ - Bowling: 0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 8.0
+Balls Faced: 9, Overs Bowled: 0.0
 Multipliers
-Total Points: 50.0, Owner: KAUSHAL
+Total Points: 0.0, Owner: ABHAYA
 
 
 
-Player: A Nortje, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: I Sharma, Team: ABHAYA, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 48.00
+  - Average: 16.00
   - Wickets: 1 x 50 = 50
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -55,108 +118,13 @@ Sub Totals:
   - Batting: 0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 4.0
-Multipliers
-Total Points: 50.0, Owner: KAUSHAL
-
-
-
-Player: B Sai Sudharsan, Team: KAUSHAL, isBowler: False, isBatsman: True
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 42.33
-  - Runs: 127 x 2 = 254
-  - Boundaries: 10 x 4 = 40
-  - Sixes: 2 x 8 = 16
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 119.81 -> 200
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 510.0
- - Bowling: 0
-  - Other: 0
-Balls Faced: 106, Overs Bowled: 0.0
-Multipliers
-Total Points: 510.0, Owner: KAUSHAL
-
-
-
-Player: RK Singh, Team: KAUSHAL, isBowler: False, isBatsman: True
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 28.00
-  - Runs: 28 x 2 = 56
-  - Boundaries: 3 x 4 = 12
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 140.00 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 4 x 25 = 100
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 468.0
- - Bowling: 0
-  - Other: 100
-Balls Faced: 20, Overs Bowled: 0.0
-Multipliers
-Total Points: 568.0, Owner: KAUSHAL
-
-
-
-Player: Suyash Sharma, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 3 x 5 = 15
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 0
- - Bowling: 15
-  - Other: 25
 Balls Faced: 0, Overs Bowled: 2.0
 Multipliers
-Total Points: 40, Owner: KAUSHAL
+Total Points: 50.0, Owner: ABHAYA
 
 
 
-Player: KL Rahul, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: Shubman Gill, Team: ABHAYA, isBowler: False, isBatsman: True
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -167,63 +135,30 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 36.50
-  - Runs: 73 x 2 = 146
+  - Average: 25.00
+  - Runs: 75 x 2 = 150
   - Boundaries: 5 x 4 = 20
   - Sixes: 3 x 8 = 24
   - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 137.73 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 640.0
- - Bowling: 0
-  - Other: 50
-Balls Faced: 53, Overs Bowled: 0.0
-Multipliers
-Total Points: 690.0, Owner: KAUSHAL
-
-
-
-Player: KH Pandya, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 6.42 -> 100
-Batting Points:
-  - Average: 0.00
-  - Runs: 46 x 2 = 92
-  - Boundaries: 4 x 4 = 16
-  - Sixes: 2 x 8 = 16
-  - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 170.37 -> 600
+  - Strike Rate: 136.36 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 724
- - Bowling: 100
+  - Batting: 594.0
+ - Bowling: 0
   - Other: 25
-Balls Faced: 27, Overs Bowled: 7.0
+Balls Faced: 55, Overs Bowled: 0.0
 Multipliers
-Total Points: 849, Owner: KAUSHAL
+Total Points: 619.0, Owner: ABHAYA
 
 
 
-Player: G Coetzee, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: UT Yadav, Team: ABHAYA, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 28.00
+  - Average: 28.66
   - Wickets: 3 x 50 = 150
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -231,192 +166,32 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.50 -> -400
+  - Economy: 10.75 -> -400
 Batting Points:
-  - Average: 1.00
-  - Runs: 1 x 2 = 2
+  - Average: 0.00
+  - Runs: 10 x 2 = 20
   - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 2.0
- - Bowling: -250.0
-  - Other: 0
-Balls Faced: 3, Overs Bowled: 8.0
-Multipliers  - Batting x 2
-
-Total Points: -246.0, Owner: KAUSHAL
-
-
-
-Player: LS Livingstone, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 83.00
-  - Runs: 83 x 2 = 166
-  - Boundaries: 5 x 4 = 20
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 162.74 -> 600
-  - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 834.0
- - Bowling: 0
-  - Other: 0
-Balls Faced: 51, Overs Bowled: 0.0
-Multipliers
-Total Points: 834.0, Owner: KAUSHAL
-
-
-
-Player: JM Sharma, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 14.00
-  - Runs: 42 x 2 = 84
-  - Boundaries: 3 x 4 = 12
-  - Sixes: 2 x 8 = 16
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 110.52 -> 200
-  - Stumpings: 0 x 50 = 0
-  - Catches: 5 x 25 = 125
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 312.0
- - Bowling: 0
-  - Other: 125
-Balls Faced: 38, Overs Bowled: 0.0
-Multipliers
-Total Points: 437.0, Owner: KAUSHAL
-
-
-
-Player: RD Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
-Bowling Points:
-  - Average: 45.50
-  - Wickets: 2 x 50 = 100
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 11.37 -> -500
-Batting Points:
-  - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
-  - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
-  - Centuries: 0 x 100 = 0
-  - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 0
- - Bowling: -400.0
-  - Other: 25
-Balls Faced: 0, Overs Bowled: 8.0
-Multipliers
-Total Points: -375.0, Owner: KAUSHAL
-
-
-
-Player: SV Samson, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 97.00
-  - Runs: 97 x 2 = 194
-  - Boundaries: 6 x 4 = 24
-  - Sixes: 6 x 8 = 48
-  - Zeros: 0 x -6 = 0
-  - Fifties: 1 x 50 = 50
-  - Centuries: 0 x 100 = 0
-  - Strike Rate: 146.96 -> 400
-  - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
-  - MOM: 0 x 100 = 0
-Sub Totals:
-  - Batting: 716.0
- - Bowling: 0
-  - Other: 50
-Balls Faced: 66, Overs Bowled: 0.0
-Multipliers
-Total Points: 766.0, Owner: KAUSHAL
-
-
-
-Player: DC Jurel, Team: KAUSHAL, isBowler: False, isBatsman: False
-Bowling Points:
-  - Average: 0.00
-  - Wickets: 0 x 50 = 0
-  - Dots: 0 x 5 = 0
-  - 4s: 0 x 250 = 0
-  - 5s: 0 x 500 = 0
-  - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
-  - Hat-Tricks: 0 x 2000 = 0
-Batting Points:
-  - Average: 40.00
-  - Runs: 40 x 2 = 80
-  - Boundaries: 4 x 4 = 16
   - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 166.66 -> 600
   - Stumpings: 0 x 50 = 0
-  - Catches: 3 x 25 = 75
+  - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 704.0
- - Bowling: 0
-  - Other: 75
-Balls Faced: 24, Overs Bowled: 0.0
-Multipliers
-Total Points: 779.0, Owner: KAUSHAL
+  - Batting: 28
+ - Bowling: -250.0
+  - Other: 0
+Balls Faced: 11, Overs Bowled: 8.0
+Multipliers  - Batting x 2
+
+Total Points: -194.0, Owner: ABHAYA
 
 
 
-Player: C Green, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: SP Narine, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 26.50
+  - Average: 29.50
   - Wickets: 2 x 50 = 100
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -424,30 +199,30 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.83 -> -100
+  - Economy: 7.37 -> 100
 Batting Points:
-  - Average: 18.00
-  - Runs: 54 x 2 = 108
-  - Boundaries: 5 x 4 = 20
-  - Sixes: 2 x 8 = 16
+  - Average: 24.50
+  - Runs: 49 x 2 = 98
+  - Boundaries: 2 x 4 = 8
+  - Sixes: 5 x 8 = 40
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 112.50 -> 200
+  - Strike Rate: 188.46 -> 800
   - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
+  - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 344.0
- - Bowling: 0.0
-  - Other: 50
-Balls Faced: 48, Overs Bowled: 6.0
+  - Batting: 946.0
+ - Bowling: 200.0
+  - Other: 0
+Balls Faced: 26, Overs Bowled: 8.0
 Multipliers
-Total Points: 394.0, Owner: KAUSHAL
+Total Points: 1146.0, Owner: ABHAYA
 
 
 
-Player: Abhishek Sharma, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: Q de Kock, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -458,28 +233,28 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 41.33
-  - Runs: 124 x 2 = 248
-  - Boundaries: 9 x 4 = 36
-  - Sixes: 11 x 8 = 88
+  - Average: 29.00
+  - Runs: 58 x 2 = 116
+  - Boundaries: 6 x 4 = 24
+  - Sixes: 2 x 8 = 16
   - Zeros: 0 x -6 = 0
   - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 200.00 -> 800
+  - Strike Rate: 134.88 -> 400
   - Stumpings: 0 x 50 = 0
-  - Catches: 2 x 25 = 50
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 1222.0
+  - Batting: 606.0
  - Bowling: 0
-  - Other: 50
-Balls Faced: 62, Overs Bowled: 0.0
+  - Other: 25
+Balls Faced: 43, Overs Bowled: 0.0
 Multipliers
-Total Points: 1272.0, Owner: KAUSHAL
+Total Points: 631.0, Owner: ABHAYA
 
 
 
-Player: B Kumar, Team: KAUSHAL, isBowler: True, isBatsman: False
+Player: M Siddharth, Team: ABHAYA, isBowler: True, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -489,7 +264,6 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 10.91 -> -400
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -503,15 +277,49 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: -400
+ - Bowling: 0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 12.0
+Balls Faced: 0, Overs Bowled: 2.0
 Multipliers
-Total Points: -400, Owner: KAUSHAL
+Total Points: 0, Owner: ABHAYA
 
 
 
-Player: A Manohar, Team: KAUSHAL, isBowler: False, isBatsman: True
+Player: R Ashwin, Team: ABHAYA, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 65.00
+  - Wickets: 1 x 50 = 50
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 9.28 -> -200
+Batting Points:
+  - Average: 29.00
+  - Runs: 29 x 2 = 58
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 3 x 8 = 24
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Strike Rate: 152.63 -> 600
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 682.0
+ - Bowling: -150.0
+  - Other: 0
+Balls Faced: 19, Overs Bowled: 7.0
+Multipliers  - Batting x 2
+
+Total Points: 1214.0, Owner: ABHAYA
+
+
+
+Player: KS Rathore, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -538,11 +346,11 @@ Sub Totals:
   - Other: 0
 Balls Faced: 0, Overs Bowled: 0
 Multipliers
-Total Points: 0, Owner: KAUSHAL
+Total Points: 0, Owner: ABHAYA
 
 
 
-Player: Mohammad Nabi, Team: KAUSHAL, isBowler: False, isBatsman: False
+Player: MS Wade, Team: ABHAYA, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0
@@ -569,7 +377,193 @@ Sub Totals:
   - Other: 0
 Balls Faced: 0, Overs Bowled: 0
 Multipliers
-Total Points: 0, Owner: KAUSHAL
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: Mujeeb Ur Rahman, Team: ABHAYA, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: SN Thakur, Team: ABHAYA, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: Mukesh Choudhary, Team: ABHAYA, isBowler: True, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: AJ Turner, Team: ABHAYA, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: Harpreet Singh, Team: ABHAYA, isBowler: False, isBatsman: True
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
+
+
+
+Player: TK Curran, Team: ABHAYA, isBowler: False, isBatsman: False
+Bowling Points:
+  - Average: 0.00
+  - Wickets: 0 x 50 = 0
+  - Dots: 0 x 5 = 0
+  - 4s: 0 x 250 = 0
+  - 5s: 0 x 500 = 0
+  - 6s: 0 x 1000 = 0
+  - Maidens: 0 x 150 = 0
+  - Hat-Tricks: 0 x 2000 = 0
+Batting Points:
+  - Average: 0.00
+  - Runs: 0 x 2 = 0
+  - Boundaries: 0 x 4 = 0
+  - Sixes: 0 x 8 = 0
+  - Zeros: 0 x -6 = 0
+  - Fifties: 0 x 50 = 0
+  - Centuries: 0 x 100 = 0
+  - Stumpings: 0 x 50 = 0
+  - Catches: 0 x 25 = 0
+  - MOM: 0 x 100 = 0
+Sub Totals:
+  - Batting: 0
+ - Bowling: 0
+  - Other: 0
+Balls Faced: 0, Overs Bowled: 0
+Multipliers
+Total Points: 0, Owner: ABHAYA
 
 
 

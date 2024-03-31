@@ -1,17 +1,16 @@
 # Imports
+import json
+from bs4 import BeautifulSoup
+from time import time
+from pprint import pprint
 from Functions import (
     clear,
     get_team_data,
     get_4_5_plus_wickets,
     combine_stats,
     compute_points,
-    CATEGORY_MAXES,
     GLOBAL_MAXES,
 )
-import json
-from bs4 import BeautifulSoup
-from time import time
-from pprint import pprint
 
 # Variables
 TEAM_URLS = [
@@ -122,17 +121,9 @@ for max in GLOBAL_MAXES:
         DATA[GLOBAL_MAXES[max][2]]["points"] += 1000
         DATA[GLOBAL_MAXES[max][2]]["category"] = category
 
-BONUS_POINTS_TO_TEAM = {}
-for category, bonus_data in CATEGORY_MAXES.items():
-    bonus_points, team = bonus_data
+# Team Maxes
+TEAM_MAXES = {}
 
-    if team not in BONUS_POINTS_TO_TEAM:
-        BONUS_POINTS_TO_TEAM[team] = {}
-        BONUS_POINTS_TO_TEAM[team]["points"] = 0
-
-    BONUS_POINTS_TO_TEAM[team][category] = bonus_points
-    BONUS_POINTS_TO_TEAM[team]["category"] = category
-    BONUS_POINTS_TO_TEAM[team]["points"] += 1000
 print(f" - {round(time() - start, 3):.3f}s")
 # * Finish
 
@@ -140,7 +131,8 @@ print(f" - {round(time() - start, 3):.3f}s")
 # * Leaderboard
 start = time()
 print("\033[92mLeaderboard\033[0m - 0.000s")
-leaderboard = {"Kaushal": 0, "Viggy": 0}
+leaderboard = {"AARAV": 0, "AARNAV": 0, "ABHAYA": 0, "ARYAN": 0,
+               "ISHAAN": 0, "KAUSHAL": 0, "TEJAS": 0, "VIGGY": 0}
 
 for player in DATA:
     if "Owner" in DATA[player] and DATA[player]["Owner"] in leaderboard:
@@ -150,7 +142,7 @@ sorted_leaderboard = sorted(
     leaderboard.items(), key=lambda x: x[1], reverse=True)
 rank = 1
 
-print("{:<10s} {:<10s} {:<10s}".format("Rank", "Owner", "Points"))
+print("\n{:<10s} {:<10s} {:<10s}".format("Rank", "Owner", "Points"))
 for owner, points in sorted_leaderboard:
     print("{:<10d} {:<10s} {:<10d}".format(rank, owner, int(points)))
     rank += 1
@@ -162,6 +154,5 @@ DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-pprint(BONUS_POINTS_TO_TEAM)
-pprint(GLOBAL_MAXES)
+# pprint(GLOBAL_MAXES)
 # ! Finish
