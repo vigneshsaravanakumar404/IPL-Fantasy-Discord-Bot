@@ -40,25 +40,25 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 56.50
-  - Runs: 113 x 2 = 226
-  - Boundaries: 12 x 4 = 48
-  - Sixes: 7 x 8 = 56
+  - Average: 64.00
+  - Runs: 128 x 2 = 256
+  - Boundaries: 13 x 4 = 52
+  - Sixes: 8 x 8 = 64
   - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
+  - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 146.75 -> 400
+  - Strike Rate: 147.12 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 730.0
+  - Batting: 822.0
  - Bowling: 0
   - Other: 25
-Balls Faced: 77, Overs Bowled: 0.0
+Balls Faced: 87, Overs Bowled: 0.0
 Multipliers  - Captain x 2
 
-Total Points: 1510.0, Owner: ARYAN
+Total Points: 1694.0, Owner: ARYAN
 
 
 
@@ -74,22 +74,23 @@ Bowling Points:
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
   - Average: 0.00
-  - Runs: 24 x 2 = 48
+  - Runs: 34 x 2 = 68
   - Boundaries: 4 x 4 = 16
-  - Sixes: 0 x 8 = 0
+  - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
+  - Strike Rate: 154.54 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 64
+  - Batting: 692
  - Bowling: 0
   - Other: 0
-Balls Faced: 15, Overs Bowled: 0.0
+Balls Faced: 22, Overs Bowled: 0.0
 Multipliers
-Total Points: 64, Owner: ARYAN
+Total Points: 692, Owner: ARYAN
 
 
 

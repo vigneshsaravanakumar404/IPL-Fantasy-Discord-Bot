@@ -154,5 +154,5 @@ DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-# pprint(GLOBAL_MAXES)
+pprint(GLOBAL_MAXES)
 # ! Finish

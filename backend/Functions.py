@@ -18,10 +18,10 @@ GLOBAL_MAXES = {
     "Wkts": [0, []],
     "dots": [0, []],
     "Mdns": [0, []],
-    "Econ": [0, []],
+    "Econ": [float('inf'), []],
     "Ave": [0, []],
-    "ct": [0, []],
-    "st": [0, []],
+    "Ct": [0, []],
+    "St": [0, []],
     "MOM": [0, []],
 }
 TEMPLATE = {
@@ -41,8 +41,8 @@ TEMPLATE = {
     "AveBatting": 0,
     "AveSR": 0,
     "AveEcon": 0,
-    "ct": 0,
-    "st": 0,
+    "Ct": 0,
+    "St": 0,
     "MOM": 0,
     "6+": 0,
 }
@@ -510,7 +510,6 @@ def compute_points(player):
         report += f"  - Runs: {runs} -> 250\n"
 
     # Sub Total
-    update_maxes(player)
     st = player.get("bowling", {}).get("St", 0)
     ct = player.get("bowling", {}).get("Ct", 0)
     mom = int(player.get("MOM", 0) or 0)
@@ -578,6 +577,8 @@ def compute_points(player):
     elif player.get("Owner") == "VIGGY":
         with open("backend\Reports\Viggy.txt", "a") as file:
             file.write(report)
+
+    update_maxes(player)
     return total
 
 
@@ -595,7 +596,7 @@ def update_maxes(player):
     batting_stats = ["NO", "Runs", "Ave",
                      "100", "50", "0", "4s", "6s", "HS"]
     bowling_stats = ["Wkts", "dots", "Mdns", "Ave"]
-    other_stats = ["ct", "st", "MOM"]
+    other_stats = ["Ct", "St", "MOM"]
 
     if "batting" in player:
         for stat in batting_stats:
@@ -630,13 +631,27 @@ def update_maxes(player):
                     player.get("bowling", {}).get("Player", ""),
                 ]
 
-        current_max = GLOBAL_MAXES.get("Econ", [0, ""])[0]
+        current_min = GLOBAL_MAXES.get("Econ", [0, ""])[0]
         player_econ = player.get("bowling", {}).get("Econ", 0)
         player_overs = player.get("bowling", {}).get("Overs", 0)
 
-        if player_econ < current_max and player_overs > 5:
+        if player_econ < current_min and player_overs > 5:
             GLOBAL_MAXES["Econ"] = [
                 player_econ,
+                player.get("Team", ""),
+                player.get("bowling", {}).get("Player", ""),
+            ]
+
+    for stat in other_stats:
+        current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+        player_stat = int(player.get(stat, 0) or 0)
+
+        from pprint import pprint
+        pprint(player)
+
+        if player_stat > current_max:
+            GLOBAL_MAXES[stat] = [
+                player_stat,
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
