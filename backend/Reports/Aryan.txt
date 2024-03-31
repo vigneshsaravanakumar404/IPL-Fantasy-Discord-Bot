@@ -10,22 +10,23 @@ Bowling Points:
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
   - Average: 0.00
-  - Runs: 0 x 2 = 0
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 0 x 8 = 0
+  - Runs: 37 x 2 = 74
+  - Boundaries: 4 x 4 = 16
+  - Sixes: 3 x 8 = 24
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
+  - Strike Rate: 231.25 -> 1000
   - Stumpings: 0 x 50 = 0
-  - Catches: 3 x 25 = 75
+  - Catches: 4 x 25 = 100
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 0
+  - Batting: 1114
  - Bowling: 0
-  - Other: 75
-Balls Faced: 0, Overs Bowled: 0.0
+  - Other: 100
+Balls Faced: 16, Overs Bowled: 0.0
 Multipliers
-Total Points: 75, Owner: ARYAN
+Total Points: 1214, Owner: ARYAN
 
 
 
@@ -40,25 +41,25 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 64.00
-  - Runs: 128 x 2 = 256
+  - Average: 43.33
+  - Runs: 130 x 2 = 260
   - Boundaries: 13 x 4 = 52
   - Sixes: 8 x 8 = 64
   - Zeros: 0 x -6 = 0
   - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 147.12 -> 400
+  - Strike Rate: 144.44 -> 400
   - Stumpings: 0 x 50 = 0
-  - Catches: 1 x 25 = 25
+  - Catches: 2 x 25 = 50
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 822.0
+  - Batting: 826.0
  - Bowling: 0
-  - Other: 25
-Balls Faced: 87, Overs Bowled: 0.0
+  - Other: 50
+Balls Faced: 90, Overs Bowled: 0.0
 Multipliers  - Captain x 2
 
-Total Points: 1694.0, Owner: ARYAN
+Total Points: 1752.0, Owner: ARYAN
 
 
 
@@ -73,37 +74,38 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 0.00
-  - Runs: 34 x 2 = 68
+  - Average: 43.00
+  - Runs: 43 x 2 = 86
   - Boundaries: 4 x 4 = 16
-  - Sixes: 1 x 8 = 8
+  - Sixes: 2 x 8 = 16
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 154.54 -> 600
+  - Strike Rate: 159.25 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 692
+  - Batting: 718.0
  - Bowling: 0
   - Other: 0
-Balls Faced: 22, Overs Bowled: 0.0
+Balls Faced: 27, Overs Bowled: 0.0
 Multipliers
-Total Points: 692, Owner: ARYAN
+Total Points: 718.0, Owner: ARYAN
 
 
 
 Player: Mukesh Kumar, Team: ARYAN, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 49.00
-  - Wickets: 1 x 50 = 50
-  - Dots: 8 x 5 = 40
+  - Average: 17.50
+  - Wickets: 4 x 50 = 200
+  - Dots: 16 x 5 = 80
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 10.00 -> -200
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -117,11 +119,11 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 90.0
+ - Bowling: 80.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 4.0
+Balls Faced: 0, Overs Bowled: 7.0
 Multipliers
-Total Points: 90.0, Owner: ARYAN
+Total Points: 80.0, Owner: ARYAN
 
 
 

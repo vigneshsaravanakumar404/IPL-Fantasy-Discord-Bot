@@ -1,29 +1,13 @@
 from bs4 import BeautifulSoup
-from os import system, name
+from Constants import DATA, FOURFIVE_PLUS_WICKETS_URL, TEAM_URLS, LEADERBOARD, PLAYER_MAXES, TEAM_MAXES
+import Constants
 from json import loads
 from requests import get
 from os import listdir, path, remove
+from json import dumps
+from pprint import pprint
 
 
-GLOBAL_MAXES = {
-    "NO": [0, []],
-    "Runs": [0, []],
-    "Ave": [0, []],
-    "SR": [0, []],
-    "100": [0, []],
-    "50": [0, []],
-    "0": [0, []],
-    "4s": [0, []],
-    "6s": [0, []],
-    "Wkts": [0, []],
-    "dots": [0, []],
-    "Mdns": [0, []],
-    "Econ": [float('inf'), []],
-    "Ave": [0, []],
-    "Ct": [0, []],
-    "St": [0, []],
-    "MOM": [0, []],
-}
 TEMPLATE = {
     "NO": 0,
     "Runs": 0,
@@ -210,7 +194,7 @@ def clear():
     """
     Clears the console screen.
     """
-    system("cls" if name == "nt" else "clear")
+    # system("cls" if name == "nt" else "clear")
 
     files = listdir("backend\Reports")
     for file in files:
@@ -600,60 +584,142 @@ def update_maxes(player):
 
     if "batting" in player:
         for stat in batting_stats:
-            current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+            current_max = PLAYER_MAXES.get(stat, [0, ""])[0]
             player_stat = player.get("batting", {}).get(stat, 0)
 
             if player_stat > current_max:
-                GLOBAL_MAXES[stat] = [
+                PLAYER_MAXES[stat] = [
                     player_stat,
                     player.get("Team", ""),
                     player.get("bowling", {}).get("Player", ""),
                 ]
 
-        current_max = GLOBAL_MAXES.get("SR", [0, ""])[0]
+        current_max = PLAYER_MAXES.get("SR", [0, ""])[0]
         player_sr = player.get("batting", {}).get("SR", 0)
         player_bf = player.get("batting", {}).get("BF", 0)
         if player_sr > current_max and player_bf > 15:
-            GLOBAL_MAXES["SR"] = [
+            PLAYER_MAXES["SR"] = [
                 player_sr,
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
     if "bowling" in player:
         for stat in bowling_stats:
-            current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+            current_max = PLAYER_MAXES.get(stat, [0, ""])[0]
             player_stat = player.get("bowling", {}).get(stat, 0)
 
             if player_stat > current_max:
-                GLOBAL_MAXES[stat] = [
+                PLAYER_MAXES[stat] = [
                     player_stat,
                     player.get("Team", ""),
                     player.get("bowling", {}).get("Player", ""),
                 ]
 
-        current_min = GLOBAL_MAXES.get("Econ", [0, ""])[0]
+        current_min = PLAYER_MAXES.get("Econ", [0, ""])[0]
         player_econ = player.get("bowling", {}).get("Econ", 0)
         player_overs = player.get("bowling", {}).get("Overs", 0)
 
         if player_econ < current_min and player_overs > 5:
-            GLOBAL_MAXES["Econ"] = [
+            PLAYER_MAXES["Econ"] = [
                 player_econ,
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
 
     for stat in other_stats:
-        current_max = GLOBAL_MAXES.get(stat, [0, ""])[0]
+        current_max = PLAYER_MAXES.get(stat, [0, ""])[0]
         player_stat = int(player.get(stat, 0) or 0)
 
-        from pprint import pprint
-        pprint(player)
 
         if player_stat > current_max:
-            GLOBAL_MAXES[stat] = [
+            PLAYER_MAXES[stat] = [
                 player_stat,
                 player.get("Team", ""),
                 player.get("bowling", {}).get("Player", ""),
             ]
 
     # TODO: Add 1000 points to teams
+
+def update():
+    # Variables
+    FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
+    FOURFIVE_WICKET_DATA = dumps(FOURFIVE_WICKET_DATA)
+    DATA = dumps([])
+    DATA = dumps([get_team_data(team_url) for team_url in TEAM_URLS])
+    EXTRA_DATA = loads(open("backend\Data.json").read())
+    DATA = dumps(combine_stats(DATA, FOURFIVE_WICKET_DATA))
+    DATA = loads(DATA) 
+    
+    DOTS = {}
+    with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
+        soup = BeautifulSoup(file, "html.parser")
+        table_body = soup.find("tbody")
+        DOTS = {}
+
+        for row in table_body.find_all("tr"):
+            row_list = []
+            for cell in row.find_all("td"):
+                row_list.append(cell.text.strip().replace(
+                    "\n", "").replace("  ", "").replace("PBKS", "").replace("DC", "").replace("CSK", "").replace("MI", "").replace("KKR", "").replace("RR", "").replace("RCB", "").replace("SRH", ""))
+            if len(row_list) > 0:
+                DOTS[row_list[1]] = row_list[7]
+
+    for owner in EXTRA_DATA:
+        for player in owner["Squad"]:
+            if player["new_name"] in DATA:
+                DATA[player["new_name"]].update(
+                    {
+                        "Owner": owner["Owner"],
+                        "old_name": player["old_name"],
+                        "isBowler": player["isBowler"],
+                        "isBatsman": player["isBatsman"],
+                        "Team": player["Team"],
+                        "Position": player["Position"],
+                        "MOM": player["MOM"],
+                        "6+": player["6+"],
+                        "HT": player["HT"],
+                    }
+                )
+
+            else:
+                DATA[player["new_name"]] = {
+                    "Owner": owner["Owner"],
+                    "old_name": player["old_name"],
+                    "isBowler": player["isBowler"],
+                    "isBatsman": player["isBatsman"],
+                    "Team": player["Team"],
+                    "MOM": player["MOM"],
+                    "6+": player["6+"],
+                    "HT": player["HT"],
+                }
+            try:
+                DATA[player["new_name"]]["bowling"]["dots"] = int(DOTS.get(
+                    player["old_name"], 0))
+            except:
+                pass
+
+    # General Points
+    for player in DATA:
+        DATA[player]["points"] = compute_points(DATA[player])
+
+    # Maxes
+    for max in PLAYER_MAXES:
+        category = PLAYER_MAXES[max][0]
+        if max == "0":
+            DATA[PLAYER_MAXES[max][2]]["points"] -= 1000
+            DATA[PLAYER_MAXES[max][2]]["category"] = category
+        if len(PLAYER_MAXES[max]) > 2:
+            DATA[PLAYER_MAXES[max][2]]["points"] += 1000
+            DATA[PLAYER_MAXES[max][2]]["category"] = category
+    
+    #TODO: Award Global Max Points To Players
+    #TODO: Team Maxes
+
+    for player in DATA:
+        if "Owner" in DATA[player] and DATA[player]["Owner"] in Constants.LEADERBOARD:
+            Constants.LEADERBOARD[DATA[player]["Owner"]] += DATA[player]["points"]
+
+    Constants.LEADERBOARD = sorted(Constants.LEADERBOARD.items(), key=lambda x: x[1], reverse=True)
+
+    return DATA, Constants.LEADERBOARD, PLAYER_MAXES, TEAM_MAXES
+

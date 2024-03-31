@@ -9,30 +9,30 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 85.00
-  - Runs: 85 x 2 = 170
-  - Boundaries: 6 x 4 = 24
+  - Average: 51.50
+  - Runs: 103 x 2 = 206
+  - Boundaries: 7 x 4 = 28
   - Sixes: 6 x 8 = 48
   - Zeros: 0 x -6 = 0
   - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 166.66 -> 600
+  - Strike Rate: 151.47 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 1 x 100 = 100
 Sub Totals:
-  - Batting: 892.0
+  - Batting: 932.0
  - Bowling: 0
   - Other: 100
-Balls Faced: 51, Overs Bowled: 0.0
+Balls Faced: 68, Overs Bowled: 0.0
 Multipliers
-Total Points: 992.0, Owner: VIGGY
+Total Points: 1032.0, Owner: VIGGY
 
 
 
 Player: TU Deshpande, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 38.00
+  - Average: 46.00
   - Wickets: 2 x 50 = 100
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -40,7 +40,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 7.60 -> 100
+  - Economy: 7.66 -> 100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -56,7 +56,7 @@ Sub Totals:
   - Batting: 0
  - Bowling: 200.0
   - Other: 25
-Balls Faced: 0, Overs Bowled: 10.0
+Balls Faced: 0, Overs Bowled: 12.0
 Multipliers
 Total Points: 225.0, Owner: VIGGY
 
@@ -64,14 +64,15 @@ Total Points: 225.0, Owner: VIGGY
 
 Player: M Pathirana, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 32.00
-  - Wickets: 1 x 50 = 50
+  - Average: 15.00
+  - Wickets: 4 x 50 = 200
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 7.50 -> 100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -81,15 +82,15 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 50.0
-  - Other: 0
-Balls Faced: 0, Overs Bowled: 4.3
+ - Bowling: 300.0
+  - Other: 25
+Balls Faced: 0, Overs Bowled: 8.0
 Multipliers
-Total Points: 50.0, Owner: VIGGY
+Total Points: 325.0, Owner: VIGGY
 
 
 
@@ -126,15 +127,15 @@ Total Points: 0, Owner: VIGGY
 
 Player: KK Ahmed, Team: VIGGY, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 22.33
-  - Wickets: 3 x 50 = 150
+  - Average: 17.60
+  - Wickets: 5 x 50 = 250
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
-  - Maidens: 0 x 150 = 0
+  - Maidens: 1 x 150 = 150
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 8.37 -> -100
+  - Economy: 7.33 -> 100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -144,15 +145,15 @@ Batting Points:
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
   - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 50.0
-  - Other: 0
-Balls Faced: 0, Overs Bowled: 8.0
+ - Bowling: 500.0
+  - Other: 25
+Balls Faced: 0, Overs Bowled: 12.0
 Multipliers
-Total Points: 50.0, Owner: VIGGY
+Total Points: 525.0, Owner: VIGGY
 
 
 

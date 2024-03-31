@@ -1,4 +1,4 @@
-Backend:
+Data:
 - Seperate Player Reports from computation
 - Generate Team Reports
 - Award Player Maxes
@@ -6,5 +6,10 @@ Backend:
 - Ties in maxes
 - Set Wicket keepers as batsmen
 
-Frontend:
-- Integrate with tejas's Code
+Improve Embeds:
+- Refresh
+- Squad me
+- Ping
+
+Log:
+- Add logging to all commands

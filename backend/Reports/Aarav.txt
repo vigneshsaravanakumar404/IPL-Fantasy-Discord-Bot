@@ -9,24 +9,24 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 41.50
-  - Runs: 83 x 2 = 166
+  - Average: 28.33
+  - Runs: 85 x 2 = 170
   - Boundaries: 9 x 4 = 36
   - Sixes: 6 x 8 = 48
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 237.14 -> 1000
+  - Strike Rate: 180.85 -> 800
   - Stumpings: 0 x 50 = 0
   - Catches: 5 x 25 = 125
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 1250.0
+  - Batting: 1054.0
  - Bowling: 0
   - Other: 125
-Balls Faced: 35, Overs Bowled: 0.0
+Balls Faced: 47, Overs Bowled: 0.0
 Multipliers
-Total Points: 1375.0, Owner: AARAV
+Total Points: 1179.0, Owner: AARAV
 
 
 
@@ -41,58 +41,58 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 30.50
-  - Runs: 61 x 2 = 122
+  - Average: 20.66
+  - Runs: 62 x 2 = 124
   - Boundaries: 8 x 4 = 32
   - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 119.60 -> 200
+  - Strike Rate: 116.98 -> 200
   - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 362.0
+  - Batting: 364.0
  - Bowling: 0
-  - Other: 0
-Balls Faced: 51, Overs Bowled: 0.0
+  - Other: 25
+Balls Faced: 53, Overs Bowled: 0.0
 Multipliers  - Captain x 2
 
-Total Points: 724.0, Owner: AARAV
+Total Points: 778.0, Owner: AARAV
 
 
 
 Player: AR Patel, Team: AARAV, isBowler: False, isBatsman: False
 Bowling Points:
-  - Average: 46.00
-  - Wickets: 1 x 50 = 50
+  - Average: 33.00
+  - Wickets: 2 x 50 = 100
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
   - 5s: 0 x 500 = 0
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 5.75 -> 250
+  - Economy: 6.00 -> 250
 Batting Points:
-  - Average: 36.00
-  - Runs: 36 x 2 = 72
+  - Average: 43.00
+  - Runs: 43 x 2 = 86
   - Boundaries: 3 x 4 = 12
   - Sixes: 1 x 8 = 8
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 138.46 -> 400
+  - Strike Rate: 126.47 -> 400
   - Stumpings: 0 x 50 = 0
-  - Catches: 0 x 25 = 0
+  - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 492.0
- - Bowling: 300.0
-  - Other: 0
-Balls Faced: 26, Overs Bowled: 8.0
+  - Batting: 506.0
+ - Bowling: 350.0
+  - Other: 25
+Balls Faced: 34, Overs Bowled: 11.0
 Multipliers
-Total Points: 792.0, Owner: AARAV
+Total Points: 881.0, Owner: AARAV
 
 
 
@@ -107,24 +107,24 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 23.00
-  - Runs: 46 x 2 = 92
-  - Boundaries: 4 x 4 = 16
-  - Sixes: 1 x 8 = 8
+  - Average: 32.33
+  - Runs: 97 x 2 = 194
+  - Boundaries: 8 x 4 = 32
+  - Sixes: 4 x 8 = 32
   - Zeros: 0 x -6 = 0
-  - Fifties: 0 x 50 = 0
+  - Fifties: 1 x 50 = 50
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 117.94 -> 200
+  - Strike Rate: 136.61 -> 400
   - Stumpings: 1 x 50 = 50
-  - Catches: 2 x 25 = 50
+  - Catches: 3 x 25 = 75
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 316.0
+  - Batting: 708.0
  - Bowling: 0
-  - Other: 100
-Balls Faced: 39, Overs Bowled: 0.0
+  - Other: 125
+Balls Faced: 71, Overs Bowled: 0.0
 Multipliers
-Total Points: 416.0, Owner: AARAV
+Total Points: 833.0, Owner: AARAV
 
 
 
@@ -139,24 +139,24 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 21.50
-  - Runs: 43 x 2 = 86
-  - Boundaries: 7 x 4 = 28
-  - Sixes: 2 x 8 = 16
+  - Average: 20.33
+  - Runs: 61 x 2 = 122
+  - Boundaries: 9 x 4 = 36
+  - Sixes: 3 x 8 = 24
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 179.16 -> 800
+  - Strike Rate: 169.44 -> 600
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 930.0
+  - Batting: 782.0
  - Bowling: 0
   - Other: 0
-Balls Faced: 24, Overs Bowled: 4.0
+Balls Faced: 36, Overs Bowled: 5.0
 Multipliers
-Total Points: 930.0, Owner: AARAV
+Total Points: 782.0, Owner: AARAV
 
 
 

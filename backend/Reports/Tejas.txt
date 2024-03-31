@@ -9,24 +9,24 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 46.00
-  - Runs: 46 x 2 = 92
-  - Boundaries: 2 x 4 = 8
-  - Sixes: 2 x 8 = 16
+  - Average: 40.00
+  - Runs: 80 x 2 = 160
+  - Boundaries: 3 x 4 = 12
+  - Sixes: 4 x 8 = 32
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 121.05 -> 200
+  - Strike Rate: 125.00 -> 200
   - Stumpings: 0 x 50 = 0
   - Catches: 0 x 25 = 0
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 316.0
+  - Batting: 404.0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 38, Overs Bowled: 2.0
+Balls Faced: 64, Overs Bowled: 2.0
 Multipliers
-Total Points: 366.0, Owner: TEJAS
+Total Points: 454.0, Owner: TEJAS
 
 
 
@@ -41,24 +41,24 @@ Bowling Points:
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
 Batting Points:
-  - Average: 19.50
-  - Runs: 39 x 2 = 78
-  - Boundaries: 0 x 4 = 0
-  - Sixes: 2 x 8 = 16
+  - Average: 28.00
+  - Runs: 84 x 2 = 168
+  - Boundaries: 5 x 4 = 20
+  - Sixes: 4 x 8 = 32
   - Zeros: 0 x -6 = 0
   - Fifties: 0 x 50 = 0
   - Centuries: 0 x 100 = 0
-  - Strike Rate: 125.80 -> 400
+  - Strike Rate: 137.70 -> 400
   - Stumpings: 0 x 50 = 0
   - Catches: 1 x 25 = 25
   - MOM: 0 x 100 = 0
 Sub Totals:
-  - Batting: 494.0
+  - Batting: 620.0
  - Bowling: 0
   - Other: 25
-Balls Faced: 31, Overs Bowled: 0.0
+Balls Faced: 61, Overs Bowled: 0.0
 Multipliers
-Total Points: 519.0, Owner: TEJAS
+Total Points: 645.0, Owner: TEJAS
 
 
 

@@ -1,6 +1,6 @@
 Player: DL Chahar, Team: KAUSHAL, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 33.00
+  - Average: 35.66
   - Wickets: 3 x 50 = 150
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -8,7 +8,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
-  - Economy: 9.00 -> -100
+  - Economy: 8.91 -> -100
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -24,7 +24,7 @@ Sub Totals:
   - Batting: 0
  - Bowling: 50.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 11.0
+Balls Faced: 0, Overs Bowled: 12.0
 Multipliers
 Total Points: 50.0, Owner: KAUSHAL
 
@@ -32,7 +32,7 @@ Total Points: 50.0, Owner: KAUSHAL
 
 Player: A Nortje, Team: KAUSHAL, isBowler: True, isBatsman: False
 Bowling Points:
-  - Average: 48.00
+  - Average: 91.00
   - Wickets: 1 x 50 = 50
   - Dots: 0 x 5 = 0
   - 4s: 0 x 250 = 0
@@ -40,6 +40,7 @@ Bowling Points:
   - 6s: 0 x 1000 = 0
   - Maidens: 0 x 150 = 0
   - Hat-Tricks: 0 x 2000 = 0
+  - Economy: 11.37 -> -500
 Batting Points:
   - Average: 0.00
   - Runs: 0 x 2 = 0
@@ -53,11 +54,11 @@ Batting Points:
   - MOM: 0 x 100 = 0
 Sub Totals:
   - Batting: 0
- - Bowling: 50.0
+ - Bowling: -450.0
   - Other: 0
-Balls Faced: 0, Overs Bowled: 4.0
+Balls Faced: 0, Overs Bowled: 8.0
 Multipliers
-Total Points: 50.0, Owner: KAUSHAL
+Total Points: -450.0, Owner: KAUSHAL
 
 
 

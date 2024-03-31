@@ -1,1 +1,1 @@
-# IPL Fantasy
+# IPL Fantasy Discord Bot

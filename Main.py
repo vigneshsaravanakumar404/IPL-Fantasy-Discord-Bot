@@ -9,7 +9,7 @@ from Functions import (
     get_4_5_plus_wickets,
     combine_stats,
     compute_points,
-    GLOBAL_MAXES,
+    PLAYER_MAXES,
 )
 
 # Variables
@@ -55,6 +55,8 @@ with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
         if len(row_list) > 0:
             DOTS[row_list[1]] = row_list[7]
 print(f" - {round(time() - start, 3):.3f}s")
+
+pprint(DOTS)
 # * Finish
 
 
@@ -112,14 +114,14 @@ for player in DATA:
     DATA[player]["points"] = compute_points(DATA[player])
 
 # Maxes
-for max in GLOBAL_MAXES:
-    category = GLOBAL_MAXES[max][0]
+for max in PLAYER_MAXES:
+    category = PLAYER_MAXES[max][0]
     if max == "0":
-        DATA[GLOBAL_MAXES[max][2]]["points"] -= 1000
-        DATA[GLOBAL_MAXES[max][2]]["category"] = category
-    if len(GLOBAL_MAXES[max]) > 2:
-        DATA[GLOBAL_MAXES[max][2]]["points"] += 1000
-        DATA[GLOBAL_MAXES[max][2]]["category"] = category
+        DATA[PLAYER_MAXES[max][2]]["points"] -= 1000
+        DATA[PLAYER_MAXES[max][2]]["category"] = category
+    if len(PLAYER_MAXES[max]) > 2:
+        DATA[PLAYER_MAXES[max][2]]["points"] += 1000
+        DATA[PLAYER_MAXES[max][2]]["category"] = category
 
 # Team Maxes
 TEAM_MAXES = {}
@@ -154,5 +156,5 @@ DATA = json.dumps(DATA)
 with open("backend\Example JSON\data_combined.json", "w") as file:
     file.write(DATA)
 
-pprint(GLOBAL_MAXES)
+# pprint(PLAYER_MAXES)
 # ! Finish
