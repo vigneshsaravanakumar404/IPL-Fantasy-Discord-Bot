@@ -1,18 +1,11 @@
-Data:
+Computation.py
+- Player
+    - Total for each statistic
+    - Points Scored
+- Team
+    - Total for each statistic
+    - Points Scored
 
-- Seperate Player Reports from computation
-- Generate Team Reports
-- Award Player Maxes
-- Team Total Maxes
-- Ties in maxes
-- Set Wicket keepers as batsmen
-
-Improve Embeds:
-
-- Refresh
-- Squad me
-- Ping
-
-Log:
-
-- Add logging to all commands
+Discord Bot:
+    - Update Data every 5 Minutes
+    - Computation every 5 Minutes
