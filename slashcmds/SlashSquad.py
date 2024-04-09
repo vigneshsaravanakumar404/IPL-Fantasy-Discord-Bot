@@ -6,6 +6,16 @@ from pprint import pprint
 
 
 class SquadGroup(app_commands.Group):
+    """
+    Represents a group of slash commands related to squads.
+
+    Attributes:
+        app_commands.Group: The base class for slash command groups.
+
+    Methods:
+        me: Displays the squad with points per player for the user.
+    """
+
     @app_commands.command(
         name="me", description="displays your squad with points per player"
     )

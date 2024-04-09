@@ -8,7 +8,12 @@ from requests import get
 
 
 def getSeriesIDs():
+    """
+    Retrieves the series IDs of matches from the given API endpoint.
 
+    Returns:
+        list: A list of match IDs.
+    """
     series_data = get(MATCHES_URL, headers=SERIES_HEADER)
     series_data = series_data.json()
 
@@ -24,6 +29,7 @@ def getSeriesIDs():
     return matchIDS
 
 
+# TODO
 def getMatchData(matchID):
 
     match_data = get(

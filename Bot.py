@@ -28,7 +28,17 @@ if __name__ == "__main__":
     # Events
     @client.event
     async def on_ready():
+        """
+        Event handler function that is called when the bot is ready to start receiving events.
+        It initializes the bot, sets its status, loads slash command extensions, initializes slash commands,
+        and sends a notification to the logs channel indicating that the bot is ready.
 
+        Parameters:
+        None
+
+        Returns:
+        None
+        """
         # Pre Initialize
         print(prfx + "Initializing bot..." + Fore.WHITE)
         await client.change_presence(
