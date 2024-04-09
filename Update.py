@@ -1,41 +1,60 @@
-# TODO: Update series ID each day at 12:00 AM
-# TODO: Update day's match at 11:59 PM
-# TODO: Update each match 90 times evenly throughout match start to end + 1 hour (for two game days spread out further)
-# TODO: Store data in each game's file
-
 from Constants import MATCHES_URL, SERIES_HEADER
 from requests import get
-import json
+from json import dump, load
+from datetime import datetime
 
 
-def getSeriesIDs():
+def getMatchIDs(update=False):
     """
     Retrieves the series IDs of matches from the given API endpoint.
 
+    Args:
+        update (bool, optional): Flag indicating whether to update the series data from the API.
+                                Defaults to False.
+
     Returns:
-        list: A list of match IDs.
+        dict: A dictionary containing match IDs as keys and a list of start and end timestamps as values.
     """
-    series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()
 
-    directory_path = "Data"
-    with open(f"{directory_path}/series.json", "w") as f:
-        json.dump(series_data, f)  # Use json.dump to write dictionary to file
+    matchIDS = {}
 
-    matchIDS = []
+    if update:
+        series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()
+
+        directory_path = "Data"
+        with open(f"{directory_path}/series.json", "w") as f:
+            dump(series_data, f)
+        print("Series Data Updated")
+
+    else:
+        with open("Data/series.json", "r") as f:
+            series_data = load(f)
+        print("Series Data Loaded")
+
     for match in series_data["matchDetails"]:
         try:
-            matchIDS.append(
-                match["matchDetailsMap"]["match"][0]["matchInfo"]["matchId"]
-            )
+            matchIDS[match["matchDetailsMap"]["match"][0]["matchInfo"]["matchId"]] = [
+                int(match["matchDetailsMap"]["match"][0]["matchInfo"]["startDate"]),
+                int(match["matchDetailsMap"]["match"][0]["matchInfo"]["startDate"])
+                + 7200000,
+            ]
         except:
             pass
 
-    print("Updated series.json")
     return matchIDS
 
 
 # TODO
 def getMatchData(matchID):
+    """
+    Retrieves match data for a given match ID.
+
+    Args:
+        matchID (str): The ID of the match.
+
+    Returns:
+        dict: The match data in JSON format.
+    """
 
     match_data = get(
         f"https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/{matchID}/hscard",
@@ -46,17 +65,36 @@ def getMatchData(matchID):
     return match_data
 
 
-def update():
+# Call This Function Every 5 Minutes
+def UpdateData():
+    """
+    Updates the data for IPL matches.
 
+    This function retrieves the match IDs for IPL matches and checks if the current time falls within the match start and end time.
+    If the current time is within the match time range, it fetches the match data and saves it as a JSON file.
+
+    Returns:
+        bool: True if any data was updated, False otherwise.
+    """
     directory_path = "Data"
-    matchIDS = getSeriesIDs()
+    updated = 0
+
+    if datetime.now().hour == 23 and datetime.now().minute >= 55:
+        matchIDS = getMatchIDs(update=True)
+    else:
+        matchIDS = getMatchIDs()
 
     for matchID in matchIDS:
-        match_data = getMatchData(matchID)
-        with open(f"{directory_path}/{matchID}.json", "w") as f:
-            json.dump(match_data, f)
-            print(f"Updated {matchID}.json")
+        if (
+            int(datetime.now().timestamp()) >= matchIDS[matchID][0]
+            and int(datetime.now().timestamp()) <= matchIDS[matchID][1]
+        ):
+            match_data = getMatchData(matchID)
+            with open(f"{directory_path}/{matchID}.json", "w") as f:
+                dump(match_data, f)
+            updated += 1
+
+    return updated > 0
 
 
-if __name__ == "__main__":
-    update()
+print(UpdateData())
