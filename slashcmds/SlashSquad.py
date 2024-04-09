@@ -4,12 +4,17 @@ from Constants import USER
 from DataHandler import DataHandler
 from pprint import pprint
 
+
 class SquadGroup(app_commands.Group):
-    @app_commands.command(name="me", description="displays your squad with points per player")
+    @app_commands.command(
+        name="me", description="displays your squad with points per player"
+    )
     async def me(self, interaction):
         data = DataHandler.get_data()[0]
 
-        embed = discord.Embed(title="Your Squad Leaderboard", color=discord.Color.green())
+        embed = discord.Embed(
+            title="Your Squad Leaderboard", color=discord.Color.green()
+        )
         user_id = interaction.user.id
         user_name = USER.get(user_id, "Unknown User")
 
@@ -24,12 +29,26 @@ class SquadGroup(app_commands.Group):
         player_list.sort(key=lambda x: data[x]["points"], reverse=True)
 
         if player_list:
-            squad_info = "\n".join([f"{index + 1}. {data[player]['old_name']} - {data[player]['points']} points" for index, player in enumerate(player_list)])
-            embed.add_field(name=f"{user_name}'s Squad ({squad_points} points)", value=squad_info, inline=False)
+            squad_info = "\n".join(
+                [
+                    f"{index + 1}. {data[player]['old_name']} - {data[player]['points']} points"
+                    for index, player in enumerate(player_list)
+                ]
+            )
+            embed.add_field(
+                name=f"{user_name}'s Squad ({squad_points} points)",
+                value=squad_info,
+                inline=False,
+            )
         else:
-            embed.add_field(name="Your Squad", value="You don't have any players in your squad yet.", inline=False)
+            embed.add_field(
+                name="Your Squad",
+                value="You don't have any players in your squad yet.",
+                inline=False,
+            )
 
         await interaction.response.send_message(embed=embed, ephemeral=True)
+
 
 async def setup(client):
     client.tree.add_command(SquadGroup(name="squad", description="squad commands"))

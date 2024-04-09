@@ -50,13 +50,21 @@ PLAYER_MAXES = {
     "Wkts": [0, []],
     "dots": [0, []],
     "Mdns": [0, []],
-    "Econ": [float('inf'), []],
+    "Econ": [float("inf"), []],
     "Ave": [0, []],
     "Ct": [0, []],
     "St": [0, []],
     "MOM": [0, []],
 }
 TEAM_MAXES = {}
-LEADERBOARD = {"AARAV": 0, "AARNAV": 0, "ABHAYA": 0, "ARYAN": 0,
-                "ISHAAN": 0, "KAUSHAL": 0, "TEJAS": 0, "VIGGY": 0}
+LEADERBOARD = {
+    "AARAV": 0,
+    "AARNAV": 0,
+    "ABHAYA": 0,
+    "ARYAN": 0,
+    "ISHAAN": 0,
+    "KAUSHAL": 0,
+    "TEJAS": 0,
+    "VIGGY": 0,
+}
 DATA = dumps([])

@@ -1,4 +1,4 @@
-Player: MS Dhoni, Team: ARYAN, isBowler: False, isBatsman: False
+rPlayer: MS Dhoni, Team: ARYAN, isBowler: False, isBatsman: False
 Bowling Points:
   - Average: 0.00
   - Wickets: 0 x 50 = 0

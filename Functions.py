@@ -1,5 +1,12 @@
 from bs4 import BeautifulSoup
-from Constants import DATA, FOURFIVE_PLUS_WICKETS_URL, TEAM_URLS, LEADERBOARD, PLAYER_MAXES, TEAM_MAXES
+from Constants import (
+    DATA,
+    FOURFIVE_PLUS_WICKETS_URL,
+    TEAM_URLS,
+    LEADERBOARD,
+    PLAYER_MAXES,
+    TEAM_MAXES,
+)
 import Constants
 from json import loads
 from requests import get
@@ -66,18 +73,32 @@ def format_batter_table(html_data: str):
         player_data[player_name] = {
             "Player": player_name,
             "Mat": int(player_info[1].replace("*", "")) if player_info[1] != "-" else 0,
-            "Inns": int(player_info[2].replace("*", "")) if player_info[2] != "-" else 0,
+            "Inns": (
+                int(player_info[2].replace("*", "")) if player_info[2] != "-" else 0
+            ),
             "NO": int(player_info[3].replace("*", "")) if player_info[3] != "-" else 0,
-            "Runs": int(player_info[4].replace("*", "")) if player_info[4] != "-" else 0,
+            "Runs": (
+                int(player_info[4].replace("*", "")) if player_info[4] != "-" else 0
+            ),
             "BF": int(player_info[5].replace("*", "")) if player_info[5] != "-" else 0,
             "HS": int(player_info[6].replace("*", "")) if player_info[6] != "-" else 0,
-            "Ave": float(player_info[7].replace("*", "")) if player_info[7] != "-" else 0,
-            "SR": float(player_info[8].replace("*", "")) if player_info[8] != "-" else 0,
+            "Ave": (
+                float(player_info[7].replace("*", "")) if player_info[7] != "-" else 0
+            ),
+            "SR": (
+                float(player_info[8].replace("*", "")) if player_info[8] != "-" else 0
+            ),
             "100": int(player_info[9].replace("*", "")) if player_info[9] != "-" else 0,
-            "50": int(player_info[10].replace("*", "")) if player_info[10] != "-" else 0,
+            "50": (
+                int(player_info[10].replace("*", "")) if player_info[10] != "-" else 0
+            ),
             "0": int(player_info[11].replace("*", "")) if player_info[11] != "-" else 0,
-            "4s": int(player_info[12].replace("*", "")) if player_info[12] != "-" else 0,
-            "6s": int(player_info[13].replace("*", "")) if player_info[13] != "-" else 0,
+            "4s": (
+                int(player_info[12].replace("*", "")) if player_info[12] != "-" else 0
+            ),
+            "6s": (
+                int(player_info[13].replace("*", "")) if player_info[13] != "-" else 0
+            ),
         }
 
     return player_data
@@ -105,8 +126,9 @@ def format_bowler_table(html_data: str):
     # Extract table rows
     player_data = {}
     for row in table_body.find_all("tr"):
-        player_info = [cell.text.strip().replace("*", "")
-                       for cell in row.find_all("td")]
+        player_info = [
+            cell.text.strip().replace("*", "") for cell in row.find_all("td")
+        ]
         player_name = player_info[0]
         player_data[player_name] = {
             "Player": player_name,
@@ -294,7 +316,9 @@ def compute_points(player):
     isBowler = player.get("isBowler")
     isBatsman = player.get("isBatsman")
     team = player.get("Team")
-    report = f"Player: {name}, Team: {team}, isBowler: {isBowler}, isBatsman: {isBatsman}\n"
+    report = (
+        f"Player: {name}, Team: {team}, isBowler: {isBowler}, isBatsman: {isBatsman}\n"
+    )
 
     # Bowling Points
     bowling = 0
@@ -333,7 +357,7 @@ def compute_points(player):
 
     # Purple
     purple_bowling = 0
-    econ = player.get("bowling", {}).get("Econ", float('inf'))
+    econ = player.get("bowling", {}).get("Econ", float("inf"))
     overs = player.get("bowling", {}).get("Overs", 0)
     if overs > 5:
         if econ > 11:
@@ -577,8 +601,7 @@ def update_maxes(player):
         None
     """
 
-    batting_stats = ["NO", "Runs", "Ave",
-                     "100", "50", "0", "4s", "6s", "HS"]
+    batting_stats = ["NO", "Runs", "Ave", "100", "50", "0", "4s", "6s", "HS"]
     bowling_stats = ["Wkts", "dots", "Mdns", "Ave"]
     other_stats = ["Ct", "St", "MOM"]
 
@@ -630,7 +653,6 @@ def update_maxes(player):
         current_max = PLAYER_MAXES.get(stat, [0, ""])[0]
         player_stat = int(player.get(stat, 0) or 0)
 
-
         if player_stat > current_max:
             PLAYER_MAXES[stat] = [
                 player_stat,
@@ -640,6 +662,7 @@ def update_maxes(player):
 
     # TODO: Add 1000 points to teams
 
+
 def update():
     # Variables
     FOURFIVE_WICKET_DATA = get_4_5_plus_wickets(FOURFIVE_PLUS_WICKETS_URL)
@@ -648,8 +671,8 @@ def update():
     DATA = dumps([get_team_data(team_url) for team_url in TEAM_URLS])
     EXTRA_DATA = loads(open("backend\Data.json").read())
     DATA = dumps(combine_stats(DATA, FOURFIVE_WICKET_DATA))
-    DATA = loads(DATA) 
-    
+    DATA = loads(DATA)
+
     DOTS = {}
     with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
         soup = BeautifulSoup(file, "html.parser")
@@ -659,8 +682,19 @@ def update():
         for row in table_body.find_all("tr"):
             row_list = []
             for cell in row.find_all("td"):
-                row_list.append(cell.text.strip().replace(
-                    "\n", "").replace("  ", "").replace("PBKS", "").replace("DC", "").replace("CSK", "").replace("MI", "").replace("KKR", "").replace("RR", "").replace("RCB", "").replace("SRH", ""))
+                row_list.append(
+                    cell.text.strip()
+                    .replace("\n", "")
+                    .replace("  ", "")
+                    .replace("PBKS", "")
+                    .replace("DC", "")
+                    .replace("CSK", "")
+                    .replace("MI", "")
+                    .replace("KKR", "")
+                    .replace("RR", "")
+                    .replace("RCB", "")
+                    .replace("SRH", "")
+                )
             if len(row_list) > 0:
                 DOTS[row_list[1]] = row_list[7]
 
@@ -693,8 +727,9 @@ def update():
                     "HT": player["HT"],
                 }
             try:
-                DATA[player["new_name"]]["bowling"]["dots"] = int(DOTS.get(
-                    player["old_name"], 0))
+                DATA[player["new_name"]]["bowling"]["dots"] = int(
+                    DOTS.get(player["old_name"], 0)
+                )
             except:
                 pass
 
@@ -711,15 +746,16 @@ def update():
         if len(PLAYER_MAXES[max]) > 2:
             DATA[PLAYER_MAXES[max][2]]["points"] += 1000
             DATA[PLAYER_MAXES[max][2]]["category"] = category
-    
-    #TODO: Award Global Max Points To Players
-    #TODO: Team Maxes
+
+    # TODO: Award Global Max Points To Players
+    # TODO: Team Maxes
 
     for player in DATA:
         if "Owner" in DATA[player] and DATA[player]["Owner"] in Constants.LEADERBOARD:
             Constants.LEADERBOARD[DATA[player]["Owner"]] += DATA[player]["points"]
 
-    Constants.LEADERBOARD = sorted(Constants.LEADERBOARD.items(), key=lambda x: x[1], reverse=True)
+    Constants.LEADERBOARD = sorted(
+        Constants.LEADERBOARD.items(), key=lambda x: x[1], reverse=True
+    )
 
     return DATA, Constants.LEADERBOARD, PLAYER_MAXES, TEAM_MAXES
-

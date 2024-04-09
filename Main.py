@@ -50,8 +50,19 @@ with open("backend\Example HTMLs\DOTS.html", "r", encoding="utf-8") as file:
     for row in table_body.find_all("tr"):
         row_list = []
         for cell in row.find_all("td"):
-            row_list.append(cell.text.strip().replace(
-                "\n", "").replace("  ", "").replace("PBKS", "").replace("DC", "").replace("CSK", "").replace("MI", "").replace("KKR", "").replace("RR", "").replace("RCB", "").replace("SRH", ""))
+            row_list.append(
+                cell.text.strip()
+                .replace("\n", "")
+                .replace("  ", "")
+                .replace("PBKS", "")
+                .replace("DC", "")
+                .replace("CSK", "")
+                .replace("MI", "")
+                .replace("KKR", "")
+                .replace("RR", "")
+                .replace("RCB", "")
+                .replace("SRH", "")
+            )
         if len(row_list) > 0:
             DOTS[row_list[1]] = row_list[7]
 print(f" - {round(time() - start, 3):.3f}s")
@@ -97,8 +108,9 @@ for owner in EXTRA_DATA:
                 "HT": player["HT"],
             }
         try:
-            DATA[player["new_name"]]["bowling"]["dots"] = int(DOTS.get(
-                player["old_name"], 0))
+            DATA[player["new_name"]]["bowling"]["dots"] = int(
+                DOTS.get(player["old_name"], 0)
+            )
         except:
             pass
 print(f" - {round(time() - start, 3):.3f}s")
@@ -133,15 +145,22 @@ print(f" - {round(time() - start, 3):.3f}s")
 # * Leaderboard
 start = time()
 print("\033[92mLeaderboard\033[0m - 0.000s")
-leaderboard = {"AARAV": 0, "AARNAV": 0, "ABHAYA": 0, "ARYAN": 0,
-               "ISHAAN": 0, "KAUSHAL": 0, "TEJAS": 0, "VIGGY": 0}
+leaderboard = {
+    "AARAV": 0,
+    "AARNAV": 0,
+    "ABHAYA": 0,
+    "ARYAN": 0,
+    "ISHAAN": 0,
+    "KAUSHAL": 0,
+    "TEJAS": 0,
+    "VIGGY": 0,
+}
 
 for player in DATA:
     if "Owner" in DATA[player] and DATA[player]["Owner"] in leaderboard:
         leaderboard[DATA[player]["Owner"]] += DATA[player]["points"]
 
-sorted_leaderboard = sorted(
-    leaderboard.items(), key=lambda x: x[1], reverse=True)
+sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
 rank = 1
 
 print("\n{:<10s} {:<10s} {:<10s}".format("Rank", "Owner", "Points"))
