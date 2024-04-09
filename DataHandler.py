@@ -1,4 +1,4 @@
-from Update import Update
+from Functions.Update import Update
 
 class DataHandler:
     _data = None

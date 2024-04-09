@@ -1,3 +1,8 @@
+#TODO: Update series ID each day at 12:00 AM
+#TODO: Update day's match at 11:59 PM
+#TODO: Update each match 90 times evenly throughout match start to end + 1 hour (for two game days spread out further)
+#TODO: Store data in each game's file
+
 from Constants import MATCHES_URL, SERIES_HEADER
 from requests import get
 
