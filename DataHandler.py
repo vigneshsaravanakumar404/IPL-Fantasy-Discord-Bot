@@ -1,4 +1,4 @@
-from Functions import update
+from Update import Update
 
 class DataHandler:
     _data = None
@@ -7,12 +7,12 @@ class DataHandler:
     @classmethod
     def get_data(cls):
         if cls._data is None:
-            cls._data = update()
+            cls._data = Update()
         return cls._data
 
     @classmethod
     def update_data(cls):
-        cls._data = update()
+        cls._data = Update()
 
     @classmethod
     def last_refresed_time(cls):

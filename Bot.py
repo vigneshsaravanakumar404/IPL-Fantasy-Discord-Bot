@@ -15,8 +15,6 @@ if __name__ == '__main__':
     current_time = datetime.now()
     time_string = current_time.strftime("%H:%M:%S EST")
     prfx = (Back.LIGHTBLACK_EX + Fore.GREEN + time_string + Back.RESET + Fore.WHITE + Style.BRIGHT + " ")
-    DataHandler.update_data()
-    DataHandler.set_last_refreshed_time(current_time)
     print(prfx + "Data loaded successfully!" + Fore.WHITE)
 
 
