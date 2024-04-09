@@ -29,5 +29,5 @@ MATCHES_URL = f"https://cricbuzz-cricket.p.rapidapi.com/series/v1/{SERIES_ID}"
 # Headers
 SERIES_HEADER = {
     "X-RapidAPI-Key": API_KEY,
-    "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com"
+    "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
 }

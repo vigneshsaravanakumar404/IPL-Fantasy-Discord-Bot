@@ -1,4 +1,5 @@
 Data:
+
 - Seperate Player Reports from computation
 - Generate Team Reports
 - Award Player Maxes
@@ -7,9 +8,11 @@ Data:
 - Set Wicket keepers as batsmen
 
 Improve Embeds:
+
 - Refresh
 - Squad me
 - Ping
 
 Log:
+
 - Add logging to all commands

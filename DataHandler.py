@@ -1,5 +1,6 @@
 from Functions.Update import Update
 
+
 class DataHandler:
     _data = None
     last_refreshed_time = None
@@ -17,7 +18,7 @@ class DataHandler:
     @classmethod
     def last_refresed_time(cls):
         return cls.last_refreshed_time
-    
+
     @classmethod
     def set_last_refreshed_time(cls, time):
         cls.last_refreshed_time = time
