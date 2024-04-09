@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91497,
+    "matchDescription": "38th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1713794400000,
+    "matchCompleteTimestamp": 1713807000000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 22, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 64,
+      "name": "Rajasthan Royals",
+      "playerDetails": [],
+      "shortName": "RR"
+    },
+    "team2": {
+      "id": 62,
+      "name": "Mumbai Indians",
+      "playerDetails": [],
+      "shortName": "MI"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 22, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664486
+}

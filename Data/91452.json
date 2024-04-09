@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91452,
+    "matchDescription": "32nd Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1713362400000,
+    "matchCompleteTimestamp": 1713375000000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 17, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 971,
+      "name": "Gujarat Titans",
+      "playerDetails": [],
+      "shortName": "GT"
+    },
+    "team2": {
+      "id": 61,
+      "name": "Delhi Capitals",
+      "playerDetails": [],
+      "shortName": "DC"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 17, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664480
+}

@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91587,
+    "matchDescription": "50th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1714658400000,
+    "matchCompleteTimestamp": 1714671000000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at May 02, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 255,
+      "name": "Sunrisers Hyderabad",
+      "playerDetails": [],
+      "shortName": "SRH"
+    },
+    "team2": {
+      "id": 64,
+      "name": "Rajasthan Royals",
+      "playerDetails": [],
+      "shortName": "RR"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at May 02, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664491
+}

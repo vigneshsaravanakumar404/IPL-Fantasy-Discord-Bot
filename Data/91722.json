@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91722,
+    "matchDescription": "Qualifier 1",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1716300000000,
+    "matchCompleteTimestamp": 1716312600000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at May 21, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 106,
+      "name": "Tbc",
+      "playerDetails": [],
+      "shortName": "TBC"
+    },
+    "team2": {
+      "id": 106,
+      "name": "Tbc",
+      "playerDetails": [],
+      "shortName": "TBC"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at May 21, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664506
+}

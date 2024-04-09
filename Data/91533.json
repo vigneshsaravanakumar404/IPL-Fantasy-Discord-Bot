@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91533,
+    "matchDescription": "43rd Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1714212000000,
+    "matchCompleteTimestamp": 1714224600000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 27, 10:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 61,
+      "name": "Delhi Capitals",
+      "playerDetails": [],
+      "shortName": "DC"
+    },
+    "team2": {
+      "id": 62,
+      "name": "Mumbai Indians",
+      "playerDetails": [],
+      "shortName": "MI"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 27, 10:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664488
+}

@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91650,
+    "matchDescription": "59th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1715349600000,
+    "matchCompleteTimestamp": 1715362200000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at May 10, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 971,
+      "name": "Gujarat Titans",
+      "playerDetails": [],
+      "shortName": "GT"
+    },
+    "team2": {
+      "id": 58,
+      "name": "Chennai Super Kings",
+      "playerDetails": [],
+      "shortName": "CSK"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at May 10, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664498
+}

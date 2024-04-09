@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91564,
+    "matchDescription": "47th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1714399200000,
+    "matchCompleteTimestamp": 1714411800000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 29, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 63,
+      "name": "Kolkata Knight Riders",
+      "playerDetails": [],
+      "shortName": "KKR"
+    },
+    "team2": {
+      "id": 61,
+      "name": "Delhi Capitals",
+      "playerDetails": [],
+      "shortName": "DC"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 29, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664491
+}

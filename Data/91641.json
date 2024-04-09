@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91641,
+    "matchDescription": "57th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1715176800000,
+    "matchCompleteTimestamp": 1715189400000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at May 08, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 255,
+      "name": "Sunrisers Hyderabad",
+      "playerDetails": [],
+      "shortName": "SRH"
+    },
+    "team2": {
+      "id": 966,
+      "name": "Lucknow Super Giants",
+      "playerDetails": [],
+      "shortName": "LSG"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at May 08, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664497
+}

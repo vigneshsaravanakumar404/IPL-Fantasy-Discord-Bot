@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91443,
+    "matchDescription": "31st Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1713276000000,
+    "matchCompleteTimestamp": 1713288600000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 16, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 63,
+      "name": "Kolkata Knight Riders",
+      "playerDetails": [],
+      "shortName": "KKR"
+    },
+    "team2": {
+      "id": 64,
+      "name": "Rajasthan Royals",
+      "playerDetails": [],
+      "shortName": "RR"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 16, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664482
+}

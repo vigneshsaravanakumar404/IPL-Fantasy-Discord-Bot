@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91569,
+    "matchDescription": "48th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1714485600000,
+    "matchCompleteTimestamp": 1714498200000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 30, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 966,
+      "name": "Lucknow Super Giants",
+      "playerDetails": [],
+      "shortName": "LSG"
+    },
+    "team2": {
+      "id": 62,
+      "name": "Mumbai Indians",
+      "playerDetails": [],
+      "shortName": "MI"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 30, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664490
+}

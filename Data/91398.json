@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91398,
+    "matchDescription": "25th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1712844000000,
+    "matchCompleteTimestamp": 1712856600000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 11, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 62,
+      "name": "Mumbai Indians",
+      "playerDetails": [],
+      "shortName": "MI"
+    },
+    "team2": {
+      "id": 59,
+      "name": "Royal Challengers Bengaluru",
+      "playerDetails": [],
+      "shortName": "RCB"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 11, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664477
+}

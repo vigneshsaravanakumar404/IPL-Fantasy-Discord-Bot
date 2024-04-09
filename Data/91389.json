@@ -1,0 +1,44 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91389,
+    "matchDescription": "23rd Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1712671200000,
+    "matchCompleteTimestamp": 1712682000000,
+    "dayNight": false,
+    "year": 2024,
+    "state": "Preview",
+    "status": "Match starts at Apr 09, 14:00 GMT",
+    "tossResults": { "tossWinnerName": "", "decision": "" },
+    "result": { "winningTeam": "", "winByRuns": false, "winByInnings": false },
+    "revisedTarget": { "reason": "" },
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 65,
+      "name": "Punjab Kings",
+      "playerDetails": [],
+      "shortName": "PBKS"
+    },
+    "team2": {
+      "id": 255,
+      "name": "Sunrisers Hyderabad",
+      "playerDetails": [],
+      "shortName": "SRH"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "auto",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 09, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664476
+}

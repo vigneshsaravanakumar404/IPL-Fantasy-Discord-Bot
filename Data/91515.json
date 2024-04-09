@@ -1,0 +1,45 @@
+{
+  "scoreCard": [],
+  "matchHeader": {
+    "matchId": 91515,
+    "matchDescription": "40th Match",
+    "matchFormat": "HUN",
+    "matchType": "league",
+    "complete": false,
+    "domestic": false,
+    "matchStartTimestamp": 1713967200000,
+    "matchCompleteTimestamp": 1713979800000,
+    "dayNight": false,
+    "year": 0,
+    "dayNumber": 0,
+    "state": "Upcoming",
+    "status": "Match starts at Apr 24, 14:00 GMT",
+    "tossResults": {},
+    "result": {},
+    "revisedTarget": {},
+    "playersOfTheMatch": [],
+    "playersOfTheSeries": [],
+    "isMatchNotCovered": false,
+    "team1": {
+      "id": 61,
+      "name": "Delhi Capitals",
+      "playerDetails": [],
+      "shortName": "DC"
+    },
+    "team2": {
+      "id": 971,
+      "name": "Gujarat Titans",
+      "playerDetails": [],
+      "shortName": "GT"
+    },
+    "seriesDesc": "Indian Premier League 2024",
+    "seriesId": 7607,
+    "seriesName": "Indian Premier League 2024",
+    "alertType": "",
+    "livestreamEnabled": false
+  },
+  "isMatchComplete": false,
+  "status": "Match starts at Apr 24, 14:00 GMT",
+  "videos": [],
+  "responseLastUpdated": 1712664486
+}

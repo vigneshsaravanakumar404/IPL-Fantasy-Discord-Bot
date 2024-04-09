@@ -5,6 +5,7 @@
 
 from Constants import MATCHES_URL, SERIES_HEADER
 from requests import get
+import json
 
 
 def getSeriesIDs():
@@ -14,8 +15,11 @@ def getSeriesIDs():
     Returns:
         list: A list of match IDs.
     """
-    series_data = get(MATCHES_URL, headers=SERIES_HEADER)
-    series_data = series_data.json()
+    series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()
+
+    directory_path = "Data"
+    with open(f"{directory_path}/series.json", "w") as f:
+        json.dump(series_data, f)  # Use json.dump to write dictionary to file
 
     matchIDS = []
     for match in series_data["matchDetails"]:
@@ -26,6 +30,7 @@ def getSeriesIDs():
         except:
             pass
 
+    print("Updated series.json")
     return matchIDS
 
 
@@ -33,9 +38,25 @@ def getSeriesIDs():
 def getMatchData(matchID):
 
     match_data = get(
-        f"https://cricbuzz-cricket.p.rapidapi.com/match/v1/{matchID}",
+        f"https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/{matchID}/hscard",
         headers=SERIES_HEADER,
     )
     match_data = match_data.json()
 
     return match_data
+
+
+def update():
+
+    directory_path = "Data"
+    matchIDS = getSeriesIDs()
+
+    for matchID in matchIDS:
+        match_data = getMatchData(matchID)
+        with open(f"{directory_path}/{matchID}.json", "w") as f:
+            json.dump(match_data, f)
+            print(f"Updated {matchID}.json")
+
+
+if __name__ == "__main__":
+    update()
