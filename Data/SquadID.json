@@ -1,0 +1,74 @@
+{
+  "squads": [
+    {
+      "squadType": "T20",
+      "isHeader": true
+    },
+    {
+      "squadId": 43915,
+      "squadType": "Rajasthan Royals",
+      "imageId": 225647,
+      "teamId": 64
+    },
+    {
+      "squadId": 43922,
+      "squadType": "Royal Challengers Bengaluru",
+      "imageId": 225643,
+      "teamId": 59
+    },
+    {
+      "squadId": 43929,
+      "squadType": "Kolkata Knight Riders",
+      "imageId": 225646,
+      "teamId": 63
+    },
+    {
+      "squadId": 43936,
+      "squadType": "Mumbai Indians",
+      "imageId": 225645,
+      "teamId": 62
+    },
+    {
+      "squadId": 43943,
+      "squadType": "Lucknow Super Giants",
+      "imageId": 389444,
+      "teamId": 966
+    },
+    {
+      "squadId": 43950,
+      "squadType": "Gujarat Titans",
+      "imageId": 235085,
+      "teamId": 971
+    },
+    {
+      "squadId": 43957,
+      "squadType": "Punjab Kings",
+      "imageId": 225648,
+      "teamId": 65
+    },
+    {
+      "squadId": 43964,
+      "squadType": "Chennai Super Kings",
+      "imageId": 225641,
+      "teamId": 58
+    },
+    {
+      "squadId": 43971,
+      "squadType": "Delhi Capitals",
+      "imageId": 225644,
+      "teamId": 61
+    },
+    {
+      "squadId": 43978,
+      "squadType": "Sunrisers Hyderabad",
+      "imageId": 225649,
+      "teamId": 255
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "Squads - Indian Premier League 2024 - Cricbuzz | Cricbuzz.com",
+    "webURL": "www.cricbuzz.com/cricket-series/"
+  },
+  "seriesName": "Indian Premier League 2024",
+  "seriesId": 7607
+}

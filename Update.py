@@ -1,7 +1,9 @@
 from Constants import MATCHES_URL, SERIES_HEADER
 from requests import get
 from json import dump, load
-from datetime import datetime
+from datetime import datetime as Datetime
+import datetime
+
 
 
 def getMatchIDs(update=False):
@@ -35,8 +37,8 @@ def getMatchIDs(update=False):
         try:
             matchIDS[match["matchDetailsMap"]["match"][0]["matchInfo"]["matchId"]] = [
                 int(match["matchDetailsMap"]["match"][0]["matchInfo"]["startDate"]),
-                int(match["matchDetailsMap"]["match"][0]["matchInfo"]["startDate"])
-                + 7200000,
+                int(match["matchDetailsMap"]["match"][0]["matchInfo"]["endDate"])
+                + 3600000,
             ]
         except:
             pass
@@ -79,21 +81,26 @@ def UpdateData():
     directory_path = "Data"
     updated = 0
 
-    if datetime.now().hour == 23 and datetime.now().minute >= 55:
+    if Datetime.now().hour == 23 and Datetime.now().minute >= 55:
         matchIDS = getMatchIDs(update=True)
     else:
         matchIDS = getMatchIDs()
 
+    closest_game = 0
     for matchID in matchIDS:
-        if (
-            int(datetime.now().timestamp()) >= matchIDS[matchID][0]
-            and int(datetime.now().timestamp()) <= matchIDS[matchID][1]
-        ):
+        print(datetime.datetime.fromtimestamp(matchIDS[matchID][0]/1000).strftime('%Y-%m-%d %H:%M:%S') + " to " + datetime.datetime.fromtimestamp(matchIDS[matchID][1]/1000).strftime('%Y-%m-%d %H:%M:%S'))
+
+        if (int(Datetime.now().timestamp()) >= matchIDS[matchID][0] and int(Datetime.now().timestamp()) <= matchIDS[matchID][1]):
+
             match_data = getMatchData(matchID)
             with open(f"{directory_path}/{matchID}.json", "w") as f:
                 dump(match_data, f)
             updated += 1
 
+        if matchIDS[matchID][0] - int(Datetime.now().timestamp()) < closest_game:
+            closest_game = matchIDS[matchID][0] - int(Datetime.now().timestamp())
+
+    print(f"Closest Game in {closest_game} Seconds")
     return updated > 0
 
 

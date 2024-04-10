@@ -7,5 +7,9 @@ Computation.py
     - Points Scored
 
 Discord Bot:
-    - Update Data every 5 Minutes
+    - Update Data every 5 Minutes (only the first match that has not been marked finished)
     - Computation every 5 Minutes
+
+Future:
+    - Auto parse squad IDs
+    - Auto parse players
