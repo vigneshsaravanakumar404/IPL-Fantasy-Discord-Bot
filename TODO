@@ -1,4 +1,4 @@
-Computation.py
+Computation.py:
 - Player
     - Total for each statistic
     - Points Scored
@@ -7,9 +7,10 @@ Computation.py
     - Total for each statistic
     - Points Scored
 
-Update.py
-- Schedule when each match updates
-- Run computation after each update
+Update.py:
+- Call Update function every 10 times for the duration of a match
+- Then call once several hours after the match has ended
+- Modlog embed file
 
 Discord Bot:
     - Update Data every 5 Minutes (only the first match that has not been marked finished)
@@ -18,11 +19,3 @@ Discord Bot:
 Future:
     - Auto parse squad IDs
     - Auto parse players
-
-
-
-
-End Product:
-- Player Leaderboards for each player bonus statistic
-    - Auto Updates a message in the leaderboard 
-- Team Leaderboard for each team bonus statistic
