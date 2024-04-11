@@ -3,8 +3,13 @@ Computation.py
     - Total for each statistic
     - Points Scored
 - Team
+    - Store Team Data in JSON file
     - Total for each statistic
     - Points Scored
+
+Update.py
+- Schedule when each match updates
+- Run computation after each update
 
 Discord Bot:
     - Update Data every 5 Minutes (only the first match that has not been marked finished)
@@ -13,3 +18,11 @@ Discord Bot:
 Future:
     - Auto parse squad IDs
     - Auto parse players
+
+
+
+
+End Product:
+- Player Leaderboards for each player bonus statistic
+    - Auto Updates a message in the leaderboard 
+- Team Leaderboard for each team bonus statistic

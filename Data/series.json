@@ -1337,19 +1337,19 @@
               "matchFormat": "T20",
               "startDate": "1712671200000",
               "endDate": "1712683800000",
-              "state": "Preview",
-              "status": "Match starts at Apr 09, 14:00 GMT",
+              "state": "Complete",
+              "status": "Sunrisers Hyderabad won by 2 runs",
               "team1": {
-                "teamId": 65,
-                "teamName": "Punjab Kings",
-                "teamSName": "PBKS",
-                "imageId": 225648
-              },
-              "team2": {
                 "teamId": 255,
                 "teamName": "Sunrisers Hyderabad",
                 "teamSName": "SRH",
                 "imageId": 225649
+              },
+              "team2": {
+                "teamId": 65,
+                "teamName": "Punjab Kings",
+                "teamSName": "PBKS",
+                "imageId": 225648
               },
               "venueInfo": {
                 "id": 851,
@@ -1357,9 +1357,28 @@
                 "city": "Chandigarh",
                 "timezone": "+05:30"
               },
+              "currBatTeamId": 255,
               "seriesStartDt": "1711065600000",
               "seriesEndDt": "1716854400000",
               "isTimeAnnounced": true
+            },
+            "matchScore": {
+              "team1Score": {
+                "inngs1": {
+                  "inningsId": 1,
+                  "runs": 182,
+                  "wickets": 9,
+                  "overs": 20.0
+                }
+              },
+              "team2Score": {
+                "inngs1": {
+                  "inningsId": 2,
+                  "runs": 180,
+                  "wickets": 6,
+                  "overs": 20.0
+                }
+              }
             }
           }
         ],
@@ -1379,8 +1398,8 @@
               "matchFormat": "T20",
               "startDate": "1712757600000",
               "endDate": "1712770200000",
-              "state": "Upcoming",
-              "status": "Match starts at Apr 10, 14:00 GMT",
+              "state": "Complete",
+              "status": "Gujarat Titans won by 3 wkts",
               "team1": {
                 "teamId": 64,
                 "teamName": "Rajasthan Royals",
@@ -1399,9 +1418,28 @@
                 "city": "Jaipur",
                 "timezone": "+05:30"
               },
+              "currBatTeamId": 971,
               "seriesStartDt": "1711065600000",
               "seriesEndDt": "1716854400000",
               "isTimeAnnounced": true
+            },
+            "matchScore": {
+              "team1Score": {
+                "inngs1": {
+                  "inningsId": 1,
+                  "runs": 196,
+                  "wickets": 3,
+                  "overs": 20.0
+                }
+              },
+              "team2Score": {
+                "inngs1": {
+                  "inningsId": 2,
+                  "runs": 199,
+                  "wickets": 7,
+                  "overs": 20.0
+                }
+              }
             }
           }
         ],
@@ -1421,19 +1459,19 @@
               "matchFormat": "T20",
               "startDate": "1712844000000",
               "endDate": "1712856600000",
-              "state": "Upcoming",
-              "status": "Match starts at Apr 11, 14:00 GMT",
+              "state": "Complete",
+              "status": "Mumbai Indians won by 7 wkts",
               "team1": {
-                "teamId": 62,
-                "teamName": "Mumbai Indians",
-                "teamSName": "MI",
-                "imageId": 225645
-              },
-              "team2": {
                 "teamId": 59,
                 "teamName": "Royal Challengers Bengaluru",
                 "teamSName": "RCB",
                 "imageId": 225643
+              },
+              "team2": {
+                "teamId": 62,
+                "teamName": "Mumbai Indians",
+                "teamSName": "MI",
+                "imageId": 225645
               },
               "venueInfo": {
                 "id": 81,
@@ -1441,9 +1479,28 @@
                 "city": "Mumbai",
                 "timezone": "+05:30"
               },
+              "currBatTeamId": 62,
               "seriesStartDt": "1711065600000",
               "seriesEndDt": "1716854400000",
               "isTimeAnnounced": true
+            },
+            "matchScore": {
+              "team1Score": {
+                "inngs1": {
+                  "inningsId": 1,
+                  "runs": 196,
+                  "wickets": 8,
+                  "overs": 20.0
+                }
+              },
+              "team2Score": {
+                "inngs1": {
+                  "inningsId": 2,
+                  "runs": 199,
+                  "wickets": 3,
+                  "overs": 15.3
+                }
+              }
             }
           }
         ],
@@ -1463,7 +1520,7 @@
               "matchFormat": "T20",
               "startDate": "1712930400000",
               "endDate": "1712943000000",
-              "state": "Upcoming",
+              "state": "Preview",
               "status": "Match starts at Apr 12, 14:00 GMT",
               "team1": {
                 "teamId": 966,
@@ -3453,7 +3510,7 @@
       }
     }
   ],
-  "landingPosition": 42,
+  "landingPosition": 46,
   "appIndex": {
     "seoTitle": "Indian Premier League 2024 live scores, schedule and results - Cricbuzz | Cricbuzz.com",
     "webURL": "www.cricbuzz.com/cricket-series/"

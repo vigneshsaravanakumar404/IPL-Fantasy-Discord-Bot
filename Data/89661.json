@@ -1694,36 +1694,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_7yi2iy9p/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
-      "isPremiumFree": false
-    },
-    {
-      "commId": 87502,
-      "matchId": 89661,
-      "inningsId": 2,
-      "infraType": "Content Promotion - Video",
-      "headline": "Khaleel Ahmed to Sam Curran, <b>out</b> Bowled!! Sam Curran swings and misses. The slower ball off-cutter on a length on the stumps, beats the swing and falls on the stumps. A consolation wicket? <b>Sam Curran b Khaleel Ahmed 63(47) [4s-6 6s-1]</b>",
-      "imageId": 389539,
-      "itemId": "1_27njt3ix",
-      "timestamp": 1711201292758,
-      "parsedContent": [],
-      "videoGeo": ["US", "CA"],
-      "batsmanId": "10420",
-      "bowlerId": "10952",
-      "videoType": "Wicket",
-      "isLive": false,
-      "videoId": 80761,
-      "mappingId": "1_27njt3ix",
-      "videoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_nrs36kl5/format/applehttp/protocol/https/a.m3u8",
-      "adTag": "vast-Match-Videos",
-      "categories": [
-        { "ID": 2, "name": "Match Videos", "imageID": 128226 },
-        { "ID": 34, "name": "Premium Videos", "imageID": 384414 }
-      ],
-      "language": "English",
-      "planId": 1,
-      "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_27njt3ix/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_7yi2iy9p/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1752,7 +1723,36 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_27njt3ix/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_27njt3ix/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
+      "isPremiumFree": false
+    },
+    {
+      "commId": 87502,
+      "matchId": 89661,
+      "inningsId": 2,
+      "infraType": "Content Promotion - Video",
+      "headline": "Khaleel Ahmed to Sam Curran, <b>out</b> Bowled!! Sam Curran swings and misses. The slower ball off-cutter on a length on the stumps, beats the swing and falls on the stumps. A consolation wicket? <b>Sam Curran b Khaleel Ahmed 63(47) [4s-6 6s-1]</b>",
+      "imageId": 389539,
+      "itemId": "1_27njt3ix",
+      "timestamp": 1711201292758,
+      "parsedContent": [],
+      "videoGeo": ["US", "CA"],
+      "batsmanId": "10420",
+      "bowlerId": "10952",
+      "videoType": "Wicket",
+      "isLive": false,
+      "videoId": 80761,
+      "mappingId": "1_27njt3ix",
+      "videoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_nrs36kl5/format/applehttp/protocol/https/a.m3u8",
+      "adTag": "vast-Match-Videos",
+      "categories": [
+        { "ID": 2, "name": "Match Videos", "imageID": 128226 },
+        { "ID": 34, "name": "Premium Videos", "imageID": 384414 }
+      ],
+      "language": "English",
+      "planId": 1,
+      "tags": [],
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_27njt3ix/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1781,7 +1781,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_pse4oyz3/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_pse4oyz3/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1810,7 +1810,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_l74r8pm2/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_l74r8pm2/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1839,7 +1839,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_dj5zkz0p/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_dj5zkz0p/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1868,7 +1868,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_isx45n5q/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_isx45n5q/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1897,7 +1897,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_blamb1s9/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_blamb1s9/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1926,7 +1926,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_0rvqtgcn/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_0rvqtgcn/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1955,7 +1955,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_nb7rgocx/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_nb7rgocx/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -1984,7 +1984,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_5nm26h1l/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_5nm26h1l/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2013,7 +2013,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_eiem3cla/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_eiem3cla/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2042,7 +2042,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_vcrrgsrf/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_vcrrgsrf/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2071,7 +2071,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_exkh2ddr/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_exkh2ddr/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2100,7 +2100,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_162di0rj/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_162di0rj/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2129,7 +2129,7 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_9g57ql5e/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_9g57ql5e/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     },
     {
@@ -2158,9 +2158,9 @@
       "language": "English",
       "planId": 1,
       "tags": [],
-      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_9tmf76lw/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXwY7oZb22LESUsGPHeZtKR_AHTOFYlZyNRCjVGyZ4H0B2uCEXd_sma2Y-tD9iesRlkRLHNwRB6yAqIyY4g5--BPquMURCy_zubHqceFnuy4CIg-9OVp5GOKXbY-h_A_A34=",
+      "premiumVideoUrl": "https://cdnapisec.kaltura.com/p/1999781/sp/199978100/playManifest/entryId/1_9tmf76lw/format/applehttp/protocol/https/a.m3u8?ks=djJ8MTk5OTc4MXx1FD-W2dyWDgmyepPUhENK4TXQWhatgIjH3zqig6S57-TCqqvRwBB36jWG3ySWLfDE7zLb-bJnRJzFNqMY9uX81kPPkafxmZR1AkF4fn69mzE-rsF9t5h-kjs8xftZ7wQ=",
       "isPremiumFree": false
     }
   ],
-  "responseLastUpdated": 1712664460
+  "responseLastUpdated": 1712872776
 }
