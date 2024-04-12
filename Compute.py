@@ -1,8 +1,10 @@
 from pprint import pprint
 import json
 import os
+from bs4 import BeautifulSoup
 import prettytable
 import time
+import re
 
 # Varibale
 RUNS, FOURS, SIXES, DUCKS, FIFTIES, CENTURIES, SR, BATTING_AVERAGE, NOS, HS = [], [], [], [], [], [], [], [], [], []
@@ -17,7 +19,7 @@ OUTPUT = {}
 def computePlayerBaseStats():
 
     return None
-    with open ("Data/Output.json", "r") as f:
+    with open ("Final Data/Output.json", "r") as f:
         data = json.load(f)
     
     for player in data:
@@ -43,6 +45,40 @@ def computeTeamBaseStats():
 # TODO
 def computeTeamBonusStats():
     return None
+
+
+def getDots():
+    players = {}
+    with open ("Final Data/Players.json", "r") as f:
+        players = json.load(f)
+    players = {value: key for key, value in players.items()}
+
+    with open("Data\DOTS.html", "r", encoding="utf-8") as file:
+        soup = BeautifulSoup(file, "html.parser")
+        table_body = soup.find("tbody")
+
+        for row in table_body.find_all("tr"):
+            row_list = []
+            for cell in row.find_all("td"):
+                row_list.append(
+                    cell.text.strip()
+                    .replace("\n", "")
+                    .replace("PBKS", "")
+                    .replace("DC", "")
+                    .replace("CSK", "")
+                    .replace("MI", "")
+                    .replace("KKR", "")
+                    .replace("RR", "")
+                    .replace("RCB", "")
+                    .replace("SRH", "")
+                    .replace("GT", "")
+                    .replace("LSG", "")
+                    .replace("Naveen-Ul-Haq", "Naveen-ul-Haq")
+                )
+            if len(row_list) > 0:
+                name = row_list[1].split(" ")
+                name = re.sub(' +', ' ', row_list[1]).replace("M Siddharth", "Manimaran Siddharth").replace("Sai Kishore", "Ravisrinivasan Sai Kishore").replace("Vyshak Vijaykumar", "Vijaykumar Vyshak").replace("Rasikh Salam", "Rasikh Dar Salam").replace("Nitish Kumar Reddy", "Nitish Reddy")
+                OUTPUT[int(players[name])]["bowling"]["dots"] = int(row_list[7])
 
 
 def addMatch(data):
@@ -261,7 +297,7 @@ def addMatch(data):
 
 def computeLeaderboard():
         
-    with open ("Data/Output.json", "r") as f:
+    with open ("Final Data/Output.json", "r") as f:
         data = json.load(f)
     with open("Final Data\Players.json", "r") as f:
         players = json.load(f)
@@ -307,7 +343,6 @@ def computeLeaderboard():
     PLAYER_LEADERBOARD_FIELDING["playerOfTheMatch"].sort(reverse=True)
  
 
-
 def updateComputation():
 
     # Add all matches
@@ -318,8 +353,10 @@ def updateComputation():
                 addMatch(json.load(f))
             except ValueError:
                 pass
+    getDots()
     with open("Final Data/Output.json", "w") as f:
         json.dump(OUTPUT, f, indent=2)
+    
 
     # Compute Leaderboard
     computeLeaderboard()
