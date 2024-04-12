@@ -3,11 +3,14 @@ from bs4 import BeautifulSoup
 from re import sub
 from json import load, dump
 from os import listdir
+from discord import app_commands
+from datetime import datetime
+import discord
 import prettytable
 import time
 
 
-# Varibale
+# Varibales
 RUNS, FOURS, SIXES, DUCKS, FIFTIES, CENTURIES, SR, BATTING_AVERAGE, N, HS = (
     [],
     [],
@@ -41,7 +44,7 @@ PLAYER_LEADERBOARD_BATTING = {
     "100s": CENTURIES,
     "SR": SR,
     "battingAverage": BATTING_AVERAGE,
-    "N": N,
+    "NOs": N,
     "HS": HS,
 }
 PLAYER_LEADERBOARD_BOWLING = {
@@ -57,27 +60,131 @@ PLAYER_LEADERBOARD_BOWLING = {
     "overs": OVERS,
 }
 PLAYER_LEADERBOARD_FIELDING = {"playerOfTheMatch": []}
-OUTPUT = {}
+SCORES = {}
+EMBEDS = {}
 
 
 # TODO
 def computePlayerBaseStats():
 
-    return None
     with open("Final Data/Scores.json", "r") as f:
         data = load(f)
+    with open("Final Data/Players.json", "r") as f:
+        conversions = load(f)
 
+    playerPoints = {}
     for player in data:
 
-        # Batting Points
+        # Data
+        points = 0
         batting = data[player]["batting"]
+        bowling = data[player]["bowling"]
+        playerOfMatch = data[player]["playerOfTheMatch"]
+
+        # Batting Points
+        battingPoints = 0
+        battingPoints += batting["runs"] * 2
+        battingPoints += batting["4s"] * 4
+        battingPoints += batting["6s"] * 8
+        battingPoints += batting["0s"] * -6
+        battingPoints += batting["50s"] * 50
+        battingPoints += batting["100s"] * 100
+
+        if batting["BF"] >= 15:
+            if batting["SR"] > 200:
+                battingPoints += 1000
+            elif batting["SR"] >= 175:
+                battingPoints += 800
+            elif batting["SR"] >= 150:
+                battingPoints += 600
+            elif batting["SR"] >= 125:
+                battingPoints += 400
+            elif batting["SR"] >= 100:
+                battingPoints += 200
+            elif batting["SR"] < 75:
+                battingPoints -= 200
+            elif batting["SR"] < 50:
+                battingPoints -= 300
+            elif batting["SR"] < 25:
+                battingPoints -= 500
+            else:
+                battingPoints -= 100
+
+            if batting["runs"] > 850:
+                battingPoints += 5000
+            elif batting["runs"] >= 800:
+                battingPoints += 4500
+            elif batting["runs"] >= 750:
+                battingPoints += 4000
+            elif batting["runs"] >= 700:
+                battingPoints += 3500
+            elif batting["runs"] >= 650:
+                battingPoints += 3000
+            elif batting["runs"] >= 600:
+                battingPoints += 2500
+            elif batting["runs"] >= 550:
+                battingPoints += 2000
+            elif batting["runs"] >= 500:
+                battingPoints += 1500
+            elif batting["runs"] >= 450:
+                battingPoints += 1000
+            elif batting["runs"] >= 400:
+                battingPoints += 750
+            elif batting["runs"] >= 350:
+                battingPoints += 500
+            elif batting["runs"] >= 300:
+                battingPoints += 250
 
         # Bowling Points
-        bowling = data[player]["bowling"]
+        bowlingPoints = 0
+        bowlingPoints += bowling["wickets"] * 50
+        bowlingPoints += bowling["dots"] * 5
+        bowlingPoints += bowling["4H"] * 250
+        bowlingPoints += bowling["5H"] * 500
+        bowlingPoints += bowling["6H"] * 1000
+        bowlingPoints += bowling["maiden"] * 150
 
-        pprint(batting)
-        pprint(bowling)
-        exit()
+        if bowling["overs"] >= 5:
+            if bowling["economy"] < 5:
+                bowlingPoints += 500
+            elif bowling["economy"] < 6:
+                bowlingPoints += 250
+            elif bowling["economy"] < 8:
+                bowlingPoints += 100
+            elif bowling["economy"] < 9:
+                bowlingPoints -= 100
+            elif bowling["economy"] < 10:
+                bowlingPoints -= 200
+            elif bowling["economy"] < 11:
+                bowlingPoints -= 400
+            else:
+                bowlingPoints -= 500
+
+        if bowling["wickets"] > 35:
+            bowlingPoints += 5000
+        elif bowling["wickets"] > 30:
+            bowlingPoints += 4000
+        elif bowling["wickets"] > 25:
+            bowlingPoints += 3000
+        elif bowling["wickets"] > 20:
+            bowlingPoints += 2000
+        elif bowling["wickets"] > 15:
+            bowlingPoints += 1000
+
+        # TODO: Position Points
+
+        # TODO: Fielding Points
+        fieldingPoints = 0
+        fieldingPoints += playerOfMatch * 100
+
+        points += battingPoints + bowlingPoints + fieldingPoints
+        playerPoints[conversions[player]] = points
+
+    playerPoints = dict(
+        sorted(playerPoints.items(), key=lambda item: item[1], reverse=True)
+    )
+    with open("Final Data\PlayerPoints.json", "w") as f:
+        dump(playerPoints, f, indent=2)
 
 
 # TODO
@@ -133,7 +240,7 @@ def getDots():
                     .replace("Rasikh Salam", "Rasikh Dar Salam")
                     .replace("Nitish Kumar Reddy", "Nitish Reddy")
                 )
-                OUTPUT[int(players[name])]["bowling"]["dots"] = int(row_list[7])
+                SCORES[int(players[name])]["bowling"]["dots"] = int(row_list[7])
 
 
 def addMatch(data):
@@ -148,8 +255,8 @@ def addMatch(data):
                 batId = int(batsmenData["batsmenData"][batter]["batId"])
 
                 # Add Player if not in output
-                if batId not in OUTPUT:
-                    OUTPUT[batId] = {
+                if batId not in SCORES:
+                    SCORES[batId] = {
                         "playerID": -1,
                         "batting": {
                             "runs": 0,
@@ -162,7 +269,7 @@ def addMatch(data):
                             "BF": 0,
                             "battingAverage": -1,
                             "dissmissals": 0,
-                            "N": 0,
+                            "NOs": 0,
                             "HS": 0,
                         },
                         "bowling": {
@@ -189,44 +296,44 @@ def addMatch(data):
                 balls = batsmenData["batsmenData"][batter]["balls"]
 
                 # Update Info
-                OUTPUT[batId]["playerID"] = batId
-                OUTPUT[batId]["batting"]["runs"] += runs
-                OUTPUT[batId]["batting"]["4s"] += fours
-                OUTPUT[batId]["batting"]["6s"] += sixes
-                OUTPUT[batId]["batting"]["BF"] += balls
-                OUTPUT[batId]["batting"]["HS"] = max(
-                    OUTPUT[batId]["batting"]["HS"], runs
+                SCORES[batId]["playerID"] = batId
+                SCORES[batId]["batting"]["runs"] += runs
+                SCORES[batId]["batting"]["4s"] += fours
+                SCORES[batId]["batting"]["6s"] += sixes
+                SCORES[batId]["batting"]["BF"] += balls
+                SCORES[batId]["batting"]["HS"] = max(
+                    SCORES[batId]["batting"]["HS"], runs
                 )
 
                 if runs >= 100:
-                    OUTPUT[batId]["batting"]["100s"] += 1
+                    SCORES[batId]["batting"]["100s"] += 1
                 elif runs >= 50:
-                    OUTPUT[batId]["batting"]["50s"] += 1
+                    SCORES[batId]["batting"]["50s"] += 1
                 if batsmenData["batsmenData"][batter]["outDesc"] == "not out":
-                    OUTPUT[batId]["batting"]["N"] += 1
+                    SCORES[batId]["batting"]["NOs"] += 1
                 else:
-                    OUTPUT[batId]["batting"]["dissmissals"] += 1
+                    SCORES[batId]["batting"]["dissmissals"] += 1
                     if runs == 0 and balls > 0:
-                        OUTPUT[batId]["batting"]["0s"] += 1
+                        SCORES[batId]["batting"]["0s"] += 1
 
-                if OUTPUT[batId]["batting"]["BF"] == 0:
-                    OUTPUT[batId]["batting"]["SR"] = 0
-                    OUTPUT[batId]["batting"]["battingAverage"] = 0
+                if SCORES[batId]["batting"]["BF"] == 0:
+                    SCORES[batId]["batting"]["SR"] = 0
+                    SCORES[batId]["batting"]["battingAverage"] = 0
                 else:
-                    OUTPUT[batId]["batting"]["SR"] = round(
-                        OUTPUT[batId]["batting"]["runs"]
-                        / OUTPUT[batId]["batting"]["BF"]
+                    SCORES[batId]["batting"]["SR"] = round(
+                        SCORES[batId]["batting"]["runs"]
+                        / SCORES[batId]["batting"]["BF"]
                         * 100,
                         3,
                     )
-                    if OUTPUT[batId]["batting"]["dissmissals"] == 0:
-                        OUTPUT[batId]["batting"]["battingAverage"] = (
-                            OUTPUT[batId]["batting"]["runs"] / 1
+                    if SCORES[batId]["batting"]["dissmissals"] == 0:
+                        SCORES[batId]["batting"]["battingAverage"] = (
+                            SCORES[batId]["batting"]["runs"] / 1
                         )
                     else:
-                        OUTPUT[batId]["batting"]["battingAverage"] = round(
-                            OUTPUT[batId]["batting"]["runs"]
-                            / OUTPUT[batId]["batting"]["dissmissals"],
+                        SCORES[batId]["batting"]["battingAverage"] = round(
+                            SCORES[batId]["batting"]["runs"]
+                            / SCORES[batId]["batting"]["dissmissals"],
                             3,
                         )
 
@@ -234,8 +341,8 @@ def addMatch(data):
                 bowlerId = bowlersData["bowlersData"][bowler]["bowlerId"]
 
                 # Add Player if not in output
-                if bowlerId not in OUTPUT:
-                    OUTPUT[bowlerId] = {
+                if bowlerId not in SCORES:
+                    SCORES[bowlerId] = {
                         "playerID": -1,
                         "batting": {
                             "runs": 0,
@@ -248,7 +355,7 @@ def addMatch(data):
                             "BF": 0,
                             "battingAverage": -1,
                             "dissmissals": 0,
-                            "N": 0,
+                            "NOs": 0,
                             "HS": 0,
                         },
                         "bowling": {
@@ -280,48 +387,48 @@ def addMatch(data):
                 maidens = bowlersData["bowlersData"][bowler]["maidens"]
 
                 # Update Info
-                OUTPUT[bowlerId]["playerID"] = bowlerId
-                OUTPUT[bowlerId]["bowling"]["wickets"] += wickets
-                OUTPUT[bowlerId]["bowling"]["dots"] += dots
-                OUTPUT[bowlerId]["bowling"]["runsConceded"] += runs
-                OUTPUT[bowlerId]["bowling"]["overs"] += round(balls / 6, 1)
-                OUTPUT[bowlerId]["bowling"]["economy"] = round(
-                    OUTPUT[bowlerId]["bowling"]["runsConceded"]
-                    / OUTPUT[bowlerId]["bowling"]["overs"],
+                SCORES[bowlerId]["playerID"] = bowlerId
+                SCORES[bowlerId]["bowling"]["wickets"] += wickets
+                SCORES[bowlerId]["bowling"]["dots"] += dots
+                SCORES[bowlerId]["bowling"]["runsConceded"] += runs
+                SCORES[bowlerId]["bowling"]["overs"] += round(balls / 6, 1)
+                SCORES[bowlerId]["bowling"]["economy"] = round(
+                    SCORES[bowlerId]["bowling"]["runsConceded"]
+                    / SCORES[bowlerId]["bowling"]["overs"],
                     3,
                 )
-                OUTPUT[bowlerId]["bowling"]["maiden"] += maidens
+                SCORES[bowlerId]["bowling"]["maiden"] += maidens
 
-                if OUTPUT[bowlerId]["bowling"]["wickets"] == 0:
-                    OUTPUT[bowlerId]["bowling"]["bowlingAverage"] = -1
-                    OUTPUT[bowlerId]["bowling"]["bSR"] = -1
+                if SCORES[bowlerId]["bowling"]["wickets"] == 0:
+                    SCORES[bowlerId]["bowling"]["bowlingAverage"] = -1
+                    SCORES[bowlerId]["bowling"]["bSR"] = -1
                 else:
-                    OUTPUT[bowlerId]["bowling"]["bowlingAverage"] = round(
-                        OUTPUT[bowlerId]["bowling"]["runsConceded"]
-                        / OUTPUT[bowlerId]["bowling"]["wickets"],
+                    SCORES[bowlerId]["bowling"]["bowlingAverage"] = round(
+                        SCORES[bowlerId]["bowling"]["runsConceded"]
+                        / SCORES[bowlerId]["bowling"]["wickets"],
                         3,
                     )
-                    OUTPUT[bowlerId]["bowling"]["bSR"] = round(
-                        OUTPUT[bowlerId]["bowling"]["overs"]
+                    SCORES[bowlerId]["bowling"]["bSR"] = round(
+                        SCORES[bowlerId]["bowling"]["overs"]
                         * 6
-                        / OUTPUT[bowlerId]["bowling"]["wickets"],
+                        / SCORES[bowlerId]["bowling"]["wickets"],
                         3,
                     )
 
                 if wickets >= 4:
-                    OUTPUT[bowlerId]["bowling"]["4H"] += 1
+                    SCORES[bowlerId]["bowling"]["4H"] += 1
                 if wickets >= 5:
-                    OUTPUT[bowlerId]["bowling"]["5H"] += 1
+                    SCORES[bowlerId]["bowling"]["5H"] += 1
                 if wickets >= 6:
-                    OUTPUT[bowlerId]["bowling"]["6H"] += 1
+                    SCORES[bowlerId]["bowling"]["6H"] += 1
 
         # Player of the Match
         if data["matchHeader"]["playersOfTheMatch"] != []:
             playerOfTheMatch = data["matchHeader"]["playersOfTheMatch"][0]["id"]
-            if playerOfTheMatch in OUTPUT:
-                OUTPUT[playerOfTheMatch]["playerOfTheMatch"] += 1
+            if playerOfTheMatch in SCORES:
+                SCORES[playerOfTheMatch]["playerOfTheMatch"] += 0.5
             else:
-                OUTPUT[playerOfTheMatch] = {
+                SCORES[playerOfTheMatch] = {
                     "playerID": -1,
                     "batting": {
                         "runs": 0,
@@ -334,7 +441,7 @@ def addMatch(data):
                         "BF": 0,
                         "battingAverage": -1,
                         "dissmissals": 0,
-                        "N": 0,
+                        "NOs": 0,
                         "HS": 0,
                     },
                     "bowling": {
@@ -353,7 +460,7 @@ def addMatch(data):
                     "fielding": {"catches": 0, "stumpings": 0},
                     "playerOfTheMatch": 0,  #
                 }
-                OUTPUT[playerOfTheMatch]["playerOfTheMatch"] = 1
+                SCORES[playerOfTheMatch]["playerOfTheMatch"] = 0.5
 
 
 def computeLeaderboard():
@@ -397,7 +504,7 @@ def computeLeaderboard():
     PLAYER_LEADERBOARD_BATTING["100s"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["SR"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["battingAverage"].sort(reverse=True)
-    PLAYER_LEADERBOARD_BATTING["N"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["NOs"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["HS"].sort(reverse=True)
 
     PLAYER_LEADERBOARD_BOWLING["wickets"].sort(reverse=True)
@@ -409,7 +516,7 @@ def computeLeaderboard():
     PLAYER_LEADERBOARD_BOWLING["economy"].sort()
     PLAYER_LEADERBOARD_BOWLING["bowlingAverage"].sort()
     PLAYER_LEADERBOARD_BOWLING["bSR"].sort()
-    PLAYER_LEADERBOARD_BOWLING["overs"].sort()
+    PLAYER_LEADERBOARD_BOWLING["overs"].sort(reverse=True)
 
     PLAYER_LEADERBOARD_FIELDING["playerOfTheMatch"].sort(reverse=True)
 
@@ -426,7 +533,7 @@ def updateComputation():
                 pass
     getDots()
     with open("Final Data/Scores.json", "w") as f:
-        dump(OUTPUT, f, indent=2)
+        dump(SCORES, f, indent=2)
 
     # Compute Leaderboard
     computeLeaderboard()
@@ -440,3 +547,4 @@ def updateComputation():
 
 
 updateComputation()
+computePlayerBaseStats()

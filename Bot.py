@@ -4,7 +4,6 @@ from datetime import datetime
 from colorama import Fore, Back, Style
 from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
 from Private import TOKEN
-from DataHandler import DataHandler
 import discord
 
 
@@ -23,7 +22,6 @@ if __name__ == "__main__":
         + Style.BRIGHT
         + " "
     )
-    print(prfx + "Data loaded successfully!" + Fore.WHITE)
 
     # Events
     @client.event
@@ -53,8 +51,9 @@ if __name__ == "__main__":
         )
 
         # Load Slash Command Extensions
-        await client.load_extension("slashcmds.SlashPing")
-        await client.load_extension("slashcmds.SlashSquad")
+        # await client.load_extension("slashcmds.Scorecard")
+        await client.load_extension("slashcmds.Leaderboard")
+        await client.load_extension("slashcmds.UtilityGroup")
 
         # Initilalize Slash Commands
         await client.tree.sync(guild=client.get_guild(IPL_FANTASY_SERVER))
@@ -78,6 +77,7 @@ if __name__ == "__main__":
         embed.add_field(
             name="Latency", value=f"{(client.latency * 1000):.3f} ms", inline=False
         )
+        
 
         await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
             embed=embed

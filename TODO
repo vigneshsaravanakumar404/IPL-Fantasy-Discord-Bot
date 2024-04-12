@@ -1,49 +1,58 @@
 Computation.py:
-- Player
+  - Player
     - Points Scored (computePlayerBaseStats)(computeBonusStats)
-    - Award Catches and Stumpings 
-- Team
+    - Award Catches and Stumpings
+  - Team
     - Store Team Data in JSON file
     - Total for each statistic
     - Points Scored
-- Leaderboard
+  - Leaderboard
     - Remove players that dont meet balls faced or overs bowled criteria
     - Add team leaderboards
-- Documentation
+  - Documentation
 
 Update.py:
-- Call Update function every 10 times for the duration of a match
-- Then call once several hours after the match has ended
-- Modlog embed file
+  - Call Update function every 10 times for the duration of a match
+  - Then call once several hours after the match has ended
+  - Modlog embed file
 
 Discord Bot:
-    - Events
-        - Update Data every 5 Minutes 
-        - Update Computation every 5 Minutes
-        - Republish leaderboards
-        - Update series data at 11:59 PM
-    - Commands
-        - documentation, logging, help for all commands
-        - squad (help command)
-        - squad ranking
-        - squad mine
-        - squad <name>
-        - player (help command)
-        - player ranking
-        - player <name>
-        - leaderboard (help command)
-        - leaderboard <stat>
-        - leaderboard <stat> <team>
-
+  - Events
+    - Update Data every 5 Minutes
+    - Update Computation every 5 Minutes
+    - 11:59 PM Updates
+      - Refresh Series
+      - Publish worm graph 
+  - Commands
+    /* documentation, logging, help for all commands *\
+    - help (general help command)
+    - scorecard
+    - scorecard me
+    - scorecard <player>
+    - scorecard <team>
+    - leaderboard (help command)
+    - leaderboard <stat>
+    - leaderboard <team>
+    - leaderboard <team> <stat>
+    - Utility help
+    - Utility ping
+    - Utility exit
 
 Future:
-- This season
+  - This season
     - Live score in status
     - Daily match listings
     - Season Points worm graph
     - Print last udpated time in each embed
-- Next Season
+    - Table
+    - Historcal Data
+    - Generalize Bot to all servers
+  - Next Season
     - Auto parse squad IDs
     - Auto parse players
     - Draft mode
     - Create leauge
+
+Player:
+- Include position
+- Include team color

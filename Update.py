@@ -1,4 +1,5 @@
 from Constants import MATCHES_URL, SERIES_HEADER
+from Compute import updateComputation
 from requests import get
 from json import dump, load
 from datetime import datetime
@@ -62,5 +63,12 @@ def UpdateData(updateSeries=False):
     return count_updated
 
 
-if __name__ == "__main__":
-    print(f"Updated {UpdateData()} games")
+# TODO: Update modlogs with number of games updated + game IDs
+def Update():
+    updated = 0
+    # updated = UpdateData()
+    print(f"Updated {updated} matches")
+    updateComputation()
+
+
+Update()

@@ -1,7 +1,6 @@
 import discord
 import Constants
 from discord import app_commands
-from DataHandler import DataHandler
 from datetime import datetime
 
 
