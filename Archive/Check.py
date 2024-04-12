@@ -18,4 +18,4 @@ with open(teams, "r") as file:
             if key != "discord":
                 for player in team[key]:
                     if player not in temp:
-                        print(player) # Varun Chakaravarthy
+                        print(player)  # Varun Chakaravarthy

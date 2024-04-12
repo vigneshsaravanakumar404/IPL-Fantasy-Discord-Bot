@@ -9,7 +9,7 @@ def updateSeries():
     """
     Updates the series data by making an API request to the MATCHES_URL and saving the response to a JSON file.
     """
-    series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()    
+    series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()
     with open(f"Data/series.json", "w") as f:
         dump(series_data, f)
 
@@ -40,14 +40,13 @@ def UpdateData(updateSeries=False):
 
     with open("Data/series.json", "r") as f:
         series_data = load(f)["matchDetails"]
-    
 
     count_updated = 0
     for matchDetailsMap in series_data:
-         if "matchDetailsMap" in matchDetailsMap:
-             for match in matchDetailsMap["matchDetailsMap"]["match"]:
-                 
-                start_time = int(match["matchInfo"]["startDate"])/1000
+        if "matchDetailsMap" in matchDetailsMap:
+            for match in matchDetailsMap["matchDetailsMap"]["match"]:
+
+                start_time = int(match["matchInfo"]["startDate"]) / 1000
                 state = match["matchInfo"]["state"]
                 match_id = match["matchInfo"]["matchId"]
 
@@ -59,9 +58,9 @@ def UpdateData(updateSeries=False):
                     updateMatch(match_id)
                     print(f"Updated match {match_id}")
                     count_updated += 1
-        
+
     return count_updated
+
 
 if __name__ == "__main__":
     print(f"Updated {UpdateData()} games")
- 
