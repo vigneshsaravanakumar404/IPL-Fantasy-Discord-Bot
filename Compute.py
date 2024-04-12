@@ -1,13 +1,14 @@
 from pprint import pprint
-import json
-import os
 from bs4 import BeautifulSoup
+from re import sub
+from json import load, dump
+from os import listdir
 import prettytable
 import time
-import re
+
 
 # Varibale
-RUNS, FOURS, SIXES, DUCKS, FIFTIES, CENTURIES, SR, BATTING_AVERAGE, NOS, HS = (
+RUNS, FOURS, SIXES, DUCKS, FIFTIES, CENTURIES, SR, BATTING_AVERAGE, N, HS = (
     [],
     [],
     [],
@@ -40,7 +41,7 @@ PLAYER_LEADERBOARD_BATTING = {
     "100s": CENTURIES,
     "SR": SR,
     "battingAverage": BATTING_AVERAGE,
-    "NOs": NOS,
+    "N": N,
     "HS": HS,
 }
 PLAYER_LEADERBOARD_BOWLING = {
@@ -63,8 +64,8 @@ OUTPUT = {}
 def computePlayerBaseStats():
 
     return None
-    with open("Final Data/Output.json", "r") as f:
-        data = json.load(f)
+    with open("Final Data/Scores.json", "r") as f:
+        data = load(f)
 
     for player in data:
 
@@ -97,7 +98,7 @@ def computeTeamBonusStats():
 def getDots():
     players = {}
     with open("Final Data/Players.json", "r") as f:
-        players = json.load(f)
+        players = load(f)
     players = {value: key for key, value in players.items()}
 
     with open("Data\DOTS.html", "r", encoding="utf-8") as file:
@@ -125,7 +126,7 @@ def getDots():
             if len(row_list) > 0:
                 name = row_list[1].split(" ")
                 name = (
-                    re.sub(" +", " ", row_list[1])
+                    sub(" +", " ", row_list[1])
                     .replace("M Siddharth", "Manimaran Siddharth")
                     .replace("Sai Kishore", "Ravisrinivasan Sai Kishore")
                     .replace("Vyshak Vijaykumar", "Vijaykumar Vyshak")
@@ -161,7 +162,7 @@ def addMatch(data):
                             "BF": 0,
                             "battingAverage": -1,
                             "dissmissals": 0,
-                            "NOs": 0,
+                            "N": 0,
                             "HS": 0,
                         },
                         "bowling": {
@@ -202,7 +203,7 @@ def addMatch(data):
                 elif runs >= 50:
                     OUTPUT[batId]["batting"]["50s"] += 1
                 if batsmenData["batsmenData"][batter]["outDesc"] == "not out":
-                    OUTPUT[batId]["batting"]["NOs"] += 1
+                    OUTPUT[batId]["batting"]["N"] += 1
                 else:
                     OUTPUT[batId]["batting"]["dissmissals"] += 1
                     if runs == 0 and balls > 0:
@@ -247,7 +248,7 @@ def addMatch(data):
                             "BF": 0,
                             "battingAverage": -1,
                             "dissmissals": 0,
-                            "NOs": 0,
+                            "N": 0,
                             "HS": 0,
                         },
                         "bowling": {
@@ -333,7 +334,7 @@ def addMatch(data):
                         "BF": 0,
                         "battingAverage": -1,
                         "dissmissals": 0,
-                        "NOs": 0,
+                        "N": 0,
                         "HS": 0,
                     },
                     "bowling": {
@@ -357,10 +358,10 @@ def addMatch(data):
 
 def computeLeaderboard():
 
-    with open("Final Data/Output.json", "r") as f:
-        data = json.load(f)
+    with open("Final Data/Scores.json", "r") as f:
+        data = load(f)
     with open("Final Data\Players.json", "r") as f:
-        players = json.load(f)
+        players = load(f)
 
     for player in data:
         for stat in PLAYER_LEADERBOARD_BATTING:
@@ -396,7 +397,7 @@ def computeLeaderboard():
     PLAYER_LEADERBOARD_BATTING["100s"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["SR"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["battingAverage"].sort(reverse=True)
-    PLAYER_LEADERBOARD_BATTING["NOs"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["N"].sort(reverse=True)
     PLAYER_LEADERBOARD_BATTING["HS"].sort(reverse=True)
 
     PLAYER_LEADERBOARD_BOWLING["wickets"].sort(reverse=True)
@@ -416,16 +417,16 @@ def computeLeaderboard():
 def updateComputation():
 
     # Add all matches
-    for file in os.listdir("Data"):
+    for file in listdir("Data"):
         with open(f"Data/{file}", "r") as f:
             try:
                 int(file.split(".")[0])
-                addMatch(json.load(f))
+                addMatch(load(f))
             except ValueError:
                 pass
     getDots()
-    with open("Final Data/Output.json", "w") as f:
-        json.dump(OUTPUT, f, indent=2)
+    with open("Final Data/Scores.json", "w") as f:
+        dump(OUTPUT, f, indent=2)
 
     # Compute Leaderboard
     computeLeaderboard()
@@ -435,7 +436,7 @@ def updateComputation():
             "bowling": PLAYER_LEADERBOARD_BOWLING,
             "fielding": PLAYER_LEADERBOARD_FIELDING,
         }
-        json.dump(final, f, indent=2)
+        dump(final, f, indent=2)
 
 
 updateComputation()
