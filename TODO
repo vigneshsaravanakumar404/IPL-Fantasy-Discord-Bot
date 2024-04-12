@@ -45,6 +45,7 @@ Future:
     - Live score in status
     - Daily match listings
     - Season Points worm graph
+    - Print last udpated time in each embed
 - Next Season
     - Auto parse squad IDs
     - Auto parse players

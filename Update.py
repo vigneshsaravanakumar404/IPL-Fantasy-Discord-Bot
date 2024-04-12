@@ -40,7 +40,9 @@ def UpdateData(updateSeries=False):
 
     with open("Data/series.json", "r") as f:
         series_data = load(f)["matchDetails"]
-        
+    
+
+    count_updated = 0
     for matchDetailsMap in series_data:
          if "matchDetailsMap" in matchDetailsMap:
              for match in matchDetailsMap["matchDetailsMap"]["match"]:
@@ -54,5 +56,14 @@ def UpdateData(updateSeries=False):
                 day = datetime.fromtimestamp(start_time).day == datetime.now().day
 
                 if year and month and day:
-                    updateMatch(match_id) #TODO: Log this in modlogs
+                    updateMatch(match_id)
+                    print(f"Updated match {match_id}")
+                    count_updated += 1
+        
+    return count_updated
+
+if __name__ == "__main__":
+    print(f"Updated {UpdateData()} games")
+
+                
  
