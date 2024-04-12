@@ -263,7 +263,7 @@ def computeLeaderboard():
         
     with open ("Data/Output.json", "r") as f:
         data = json.load(f)
-    with open("Data\Players.json", "r") as f:
+    with open("Final Data\Players.json", "r") as f:
         players = json.load(f)
 
 
@@ -314,15 +314,16 @@ def updateComputation():
     for file in os.listdir("Data"):
         with open(f"Data/{file}", "r") as f:
             try:
+                int(file.split(".")[0])
                 addMatch(json.load(f))
             except ValueError:
                 pass
-    with open("Data/Output.json", "w") as f:
+    with open("Final Data/Output.json", "w") as f:
         json.dump(OUTPUT, f, indent=2)
 
     # Compute Leaderboard
     computeLeaderboard()
-    with open("Data/Leaderboard.json", "w") as f:
+    with open("Final Data/Leaderboard.json", "w") as f:
         final = {"batting": PLAYER_LEADERBOARD_BATTING, "bowling": PLAYER_LEADERBOARD_BOWLING, "fielding": PLAYER_LEADERBOARD_FIELDING}
         json.dump(final, f, indent=2)
     

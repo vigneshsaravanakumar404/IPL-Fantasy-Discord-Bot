@@ -1,0 +1,29 @@
+{
+  "batting": {
+    "runs": [],
+    "4s": [],
+    "6s": [],
+    "0s": [],
+    "50s": [],
+    "100s": [],
+    "SR": [],
+    "battingAverage": [],
+    "NOs": [],
+    "HS": []
+  },
+  "bowling": {
+    "wickets": [],
+    "dots": [],
+    "4H": [],
+    "5H": [],
+    "6H": [],
+    "maiden": [],
+    "economy": [],
+    "bowlingAverage": [],
+    "bSR": [],
+    "overs": []
+  },
+  "fielding": {
+    "playerOfTheMatch": []
+  }
+}
