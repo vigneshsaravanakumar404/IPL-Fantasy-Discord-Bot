@@ -1,0 +1,13274 @@
+{
+  "batting": {
+    "runs": [
+      [
+        319,
+        "Virat Kohli"
+      ],
+      [
+        261,
+        "Riyan Parag"
+      ],
+      [
+        255,
+        "Shubman Gill"
+      ],
+      [
+        246,
+        "Sanju Samson"
+      ],
+      [
+        226,
+        "Sai Sudharsan"
+      ],
+      [
+        186,
+        "Heinrich Klaasen"
+      ],
+      [
+        178,
+        "Nicholas Pooran"
+      ],
+      [
+        177,
+        "Abhishek Sharma"
+      ],
+      [
+        176,
+        "Shivam Dube"
+      ],
+      [
+        174,
+        "Tristan Stubbs"
+      ],
+      [
+        170,
+        "Faf du Plessis"
+      ],
+      [
+        161,
+        "Sunil Narine"
+      ],
+      [
+        161,
+        "Ishan Kishan"
+      ],
+      [
+        158,
+        "David Warner"
+      ],
+      [
+        156,
+        "Rohit Sharma"
+      ],
+      [
+        155,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        153,
+        "Rishabh Pant"
+      ],
+      [
+        152,
+        "Shikhar Dhawan"
+      ],
+      [
+        145,
+        "Quinton de Kock"
+      ],
+      [
+        143,
+        "Tilak Varma"
+      ],
+      [
+        143,
+        "Jos Buttler"
+      ],
+      [
+        143,
+        "Dinesh Karthik"
+      ],
+      [
+        137,
+        "Shashank Singh"
+      ],
+      [
+        133,
+        "Travis Head"
+      ],
+      [
+        129,
+        "Hardik Pandya"
+      ],
+      [
+        127,
+        "Aiden Markram"
+      ],
+      [
+        126,
+        "KL Rahul"
+      ],
+      [
+        120,
+        "Sam Curran"
+      ],
+      [
+        119,
+        "Prithvi Shaw"
+      ],
+      [
+        119,
+        "Ajinkya Rahane"
+      ],
+      [
+        118,
+        "Daryl Mitchell"
+      ],
+      [
+        115,
+        "Tim David"
+      ],
+      [
+        115,
+        "Andre Russell"
+      ],
+      [
+        112,
+        "Rachin Ravindra"
+      ],
+      [
+        109,
+        "Prabhsimran Singh"
+      ],
+      [
+        104,
+        "Marcus Stoinis"
+      ],
+      [
+        103,
+        "Rahul Tewatia"
+      ],
+      [
+        102,
+        "Philip Salt"
+      ],
+      [
+        100,
+        "Rajat Patidar"
+      ],
+      [
+        91,
+        "Shreyas Iyer"
+      ],
+      [
+        91,
+        "Abishek Porel"
+      ],
+      [
+        84,
+        "Ravindra Jadeja"
+      ],
+      [
+        83,
+        "Liam Livingstone"
+      ],
+      [
+        81,
+        "Jonny Bairstow"
+      ],
+      [
+        78,
+        "Nitish Reddy"
+      ],
+      [
+        78,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        77,
+        "Jitesh Sharma"
+      ],
+      [
+        77,
+        "David Miller"
+      ],
+      [
+        76,
+        "Wriddhiman Saha"
+      ],
+      [
+        73,
+        "Vijay Shankar"
+      ],
+      [
+        73,
+        "Anuj Rawat"
+      ],
+      [
+        70,
+        "Shahbaz Ahmed"
+      ],
+      [
+        69,
+        "Abdul Samad"
+      ],
+      [
+        68,
+        "Cameron Green"
+      ],
+      [
+        65,
+        "Venkatesh Iyer"
+      ],
+      [
+        64,
+        "Ashutosh Sharma"
+      ],
+      [
+        63,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        63,
+        "Rinku Singh"
+      ],
+      [
+        61,
+        "Mitchell Marsh"
+      ],
+      [
+        59,
+        "Mayank Agarwal"
+      ],
+      [
+        54,
+        "Romario Shepherd"
+      ],
+      [
+        52,
+        "Suryakumar Yadav"
+      ],
+      [
+        51,
+        "Axar Patel"
+      ],
+      [
+        50,
+        "Ramandeep Singh "
+      ],
+      [
+        50,
+        "Naman Dhir"
+      ],
+      [
+        50,
+        "Mahipal Lomror"
+      ],
+      [
+        48,
+        "Krunal Pandya"
+      ],
+      [
+        46,
+        "Dewald Brevis"
+      ],
+      [
+        45,
+        "Ravichandran Ashwin"
+      ],
+      [
+        43,
+        "Sikandar Raza"
+      ],
+      [
+        43,
+        "Shimron Hetmyer"
+      ],
+      [
+        42,
+        "Dhruv Jurel"
+      ],
+      [
+        39,
+        "MS Dhoni"
+      ],
+      [
+        33,
+        "Shai Hope"
+      ],
+      [
+        32,
+        "Glenn Maxwell"
+      ],
+      [
+        31,
+        "Rahul Tripathi"
+      ],
+      [
+        29,
+        "Rashid Khan"
+      ],
+      [
+        29,
+        "Ayush Badoni"
+      ],
+      [
+        28,
+        "Azmatullah Omarzai"
+      ],
+      [
+        27,
+        "Kane Williamson"
+      ],
+      [
+        26,
+        "Deepak Hooda"
+      ],
+      [
+        22,
+        "Devdutt Padikkal"
+      ],
+      [
+        18,
+        "Saurav Chauhan"
+      ],
+      [
+        14,
+        "Shahrukh Khan"
+      ],
+      [
+        14,
+        "Sameer Rizvi "
+      ],
+      [
+        12,
+        "Umesh Yadav"
+      ],
+      [
+        12,
+        "Mohammed Siraj"
+      ],
+      [
+        12,
+        "Darshan Nalkande"
+      ],
+      [
+        9,
+        "Sumit Kumar"
+      ],
+      [
+        9,
+        "Nitish Rana"
+      ],
+      [
+        9,
+        "Jasprit Bumrah"
+      ],
+      [
+        8,
+        "Will Jacks"
+      ],
+      [
+        8,
+        "Shubham Dubey"
+      ],
+      [
+        7,
+        "Mitchell Starc"
+      ],
+      [
+        6,
+        "Jaydev Unadkat"
+      ],
+      [
+        6,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        5,
+        "Spencer Johnson"
+      ],
+      [
+        5,
+        "Pat Cummins"
+      ],
+      [
+        5,
+        "Harpreet Brar"
+      ],
+      [
+        5,
+        "Gerald Coetzee"
+      ],
+      [
+        4,
+        "Noor Ahmad"
+      ],
+      [
+        4,
+        "Matthew Wade"
+      ],
+      [
+        4,
+        "Anrich Nortje"
+      ],
+      [
+        4,
+        "Akash Madhwal"
+      ],
+      [
+        3,
+        "Ricky Bhui"
+      ],
+      [
+        3,
+        "Reece Topley"
+      ],
+      [
+        3,
+        "Piyush Chawla"
+      ],
+      [
+        3,
+        "Lalit Yadav"
+      ],
+      [
+        3,
+        "Anukul Roy"
+      ],
+      [
+        2,
+        "Sharath BR"
+      ],
+      [
+        2,
+        "Mohsin Khan"
+      ],
+      [
+        2,
+        "Jhye Richardson"
+      ],
+      [
+        2,
+        "Akash Deep"
+      ],
+      [
+        1,
+        "Vaibhav Arora"
+      ],
+      [
+        1,
+        "Shams Mulani"
+      ],
+      [
+        1,
+        "Rasikh Dar Salam"
+      ],
+      [
+        1,
+        "Marco Jansen"
+      ],
+      [
+        1,
+        "Kuldeep Yadav"
+      ],
+      [
+        1,
+        "Ishant Sharma"
+      ],
+      [
+        1,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ]
+    ],
+    "4s": [
+      [
+        29,
+        "Virat Kohli"
+      ],
+      [
+        24,
+        "Sanju Samson"
+      ],
+      [
+        23,
+        "Sai Sudharsan"
+      ],
+      [
+        20,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        19,
+        "Travis Head"
+      ],
+      [
+        19,
+        "Shubman Gill"
+      ],
+      [
+        18,
+        "Shikhar Dhawan"
+      ],
+      [
+        17,
+        "Rohit Sharma"
+      ],
+      [
+        17,
+        "Riyan Parag"
+      ],
+      [
+        17,
+        "Faf du Plessis"
+      ],
+      [
+        16,
+        "David Warner"
+      ],
+      [
+        15,
+        "Ishan Kishan"
+      ],
+      [
+        14,
+        "Shashank Singh"
+      ],
+      [
+        14,
+        "Rachin Ravindra"
+      ],
+      [
+        14,
+        "Quinton de Kock"
+      ],
+      [
+        14,
+        "Prithvi Shaw"
+      ],
+      [
+        14,
+        "Prabhsimran Singh"
+      ],
+      [
+        14,
+        "Abhishek Sharma"
+      ],
+      [
+        13,
+        "Jos Buttler"
+      ],
+      [
+        12,
+        "Sunil Narine"
+      ],
+      [
+        12,
+        "Rishabh Pant"
+      ],
+      [
+        11,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        11,
+        "Wriddhiman Saha"
+      ],
+      [
+        11,
+        "Sam Curran"
+      ],
+      [
+        11,
+        "Rahul Tewatia"
+      ],
+      [
+        11,
+        "Jonny Bairstow"
+      ],
+      [
+        11,
+        "Hardik Pandya"
+      ],
+      [
+        11,
+        "Dinesh Karthik"
+      ],
+      [
+        10,
+        "Shivam Dube"
+      ],
+      [
+        10,
+        "Abishek Porel"
+      ],
+      [
+        9,
+        "Tristan Stubbs"
+      ],
+      [
+        9,
+        "Philip Salt"
+      ],
+      [
+        9,
+        "Mitchell Marsh"
+      ],
+      [
+        9,
+        "Andre Russell"
+      ],
+      [
+        9,
+        "Abdul Samad"
+      ],
+      [
+        8,
+        "Nicholas Pooran"
+      ],
+      [
+        8,
+        "KL Rahul"
+      ],
+      [
+        8,
+        "David Miller"
+      ],
+      [
+        8,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        8,
+        "Aiden Markram"
+      ],
+      [
+        7,
+        "Tilak Varma"
+      ],
+      [
+        7,
+        "Ravindra Jadeja"
+      ],
+      [
+        7,
+        "Mayank Agarwal"
+      ],
+      [
+        7,
+        "Heinrich Klaasen"
+      ],
+      [
+        7,
+        "Ajinkya Rahane"
+      ],
+      [
+        6,
+        "Tim David"
+      ],
+      [
+        6,
+        "Rajat Patidar"
+      ],
+      [
+        6,
+        "Cameron Green"
+      ],
+      [
+        6,
+        "Ashutosh Sharma"
+      ],
+      [
+        5,
+        "Vijay Shankar"
+      ],
+      [
+        5,
+        "Venkatesh Iyer"
+      ],
+      [
+        5,
+        "Suryakumar Yadav"
+      ],
+      [
+        5,
+        "Shreyas Iyer"
+      ],
+      [
+        5,
+        "Romario Shepherd"
+      ],
+      [
+        5,
+        "Nitish Reddy"
+      ],
+      [
+        5,
+        "Naman Dhir"
+      ],
+      [
+        5,
+        "Marcus Stoinis"
+      ],
+      [
+        5,
+        "Mahipal Lomror"
+      ],
+      [
+        5,
+        "Liam Livingstone"
+      ],
+      [
+        5,
+        "Daryl Mitchell"
+      ],
+      [
+        5,
+        "Anuj Rawat"
+      ],
+      [
+        4,
+        "Shimron Hetmyer"
+      ],
+      [
+        4,
+        "Rinku Singh"
+      ],
+      [
+        4,
+        "Rashid Khan"
+      ],
+      [
+        4,
+        "MS Dhoni"
+      ],
+      [
+        4,
+        "Krunal Pandya"
+      ],
+      [
+        4,
+        "Kane Williamson"
+      ],
+      [
+        4,
+        "Jitesh Sharma"
+      ],
+      [
+        4,
+        "Dhruv Jurel"
+      ],
+      [
+        4,
+        "Axar Patel"
+      ],
+      [
+        3,
+        "Shahbaz Ahmed"
+      ],
+      [
+        3,
+        "Glenn Maxwell"
+      ],
+      [
+        3,
+        "Devdutt Padikkal"
+      ],
+      [
+        3,
+        "Ayush Badoni"
+      ],
+      [
+        2,
+        "Will Jacks"
+      ],
+      [
+        2,
+        "Sikandar Raza"
+      ],
+      [
+        2,
+        "Shai Hope"
+      ],
+      [
+        2,
+        "Dewald Brevis"
+      ],
+      [
+        2,
+        "Deepak Hooda"
+      ],
+      [
+        2,
+        "Azmatullah Omarzai"
+      ],
+      [
+        1,
+        "Spencer Johnson"
+      ],
+      [
+        1,
+        "Shubham Dubey"
+      ],
+      [
+        1,
+        "Shahrukh Khan"
+      ],
+      [
+        1,
+        "Saurav Chauhan"
+      ],
+      [
+        1,
+        "Ravichandran Ashwin"
+      ],
+      [
+        1,
+        "Ramandeep Singh "
+      ],
+      [
+        1,
+        "Rahul Tripathi"
+      ],
+      [
+        1,
+        "Noor Ahmad"
+      ],
+      [
+        1,
+        "Nitish Rana"
+      ],
+      [
+        1,
+        "Mitchell Starc"
+      ],
+      [
+        1,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ]
+    ],
+    "6s": [
+      [
+        17,
+        "Riyan Parag"
+      ],
+      [
+        17,
+        "Heinrich Klaasen"
+      ],
+      [
+        16,
+        "Abhishek Sharma"
+      ],
+      [
+        15,
+        "Nicholas Pooran"
+      ],
+      [
+        14,
+        "Tristan Stubbs"
+      ],
+      [
+        14,
+        "Sunil Narine"
+      ],
+      [
+        13,
+        "Shivam Dube"
+      ],
+      [
+        12,
+        "Virat Kohli"
+      ],
+      [
+        12,
+        "Ishan Kishan"
+      ],
+      [
+        11,
+        "Dinesh Karthik"
+      ],
+      [
+        10,
+        "Sanju Samson"
+      ],
+      [
+        10,
+        "Rohit Sharma"
+      ],
+      [
+        10,
+        "David Warner"
+      ],
+      [
+        10,
+        "Andre Russell"
+      ],
+      [
+        9,
+        "Tilak Varma"
+      ],
+      [
+        9,
+        "Shubman Gill"
+      ],
+      [
+        9,
+        "Rishabh Pant"
+      ],
+      [
+        8,
+        "Quinton de Kock"
+      ],
+      [
+        7,
+        "Tim David"
+      ],
+      [
+        7,
+        "Shashank Singh"
+      ],
+      [
+        7,
+        "Rajat Patidar"
+      ],
+      [
+        6,
+        "Rachin Ravindra"
+      ],
+      [
+        6,
+        "Nitish Reddy"
+      ],
+      [
+        6,
+        "Marcus Stoinis"
+      ],
+      [
+        6,
+        "Liam Livingstone"
+      ],
+      [
+        6,
+        "Hardik Pandya"
+      ],
+      [
+        6,
+        "Faf du Plessis"
+      ],
+      [
+        5,
+        "Shahbaz Ahmed"
+      ],
+      [
+        5,
+        "Romario Shepherd"
+      ],
+      [
+        5,
+        "Ramandeep Singh "
+      ],
+      [
+        5,
+        "Prithvi Shaw"
+      ],
+      [
+        5,
+        "Prabhsimran Singh"
+      ],
+      [
+        5,
+        "Philip Salt"
+      ],
+      [
+        5,
+        "KL Rahul"
+      ],
+      [
+        5,
+        "Jitesh Sharma"
+      ],
+      [
+        5,
+        "Daryl Mitchell"
+      ],
+      [
+        5,
+        "Ajinkya Rahane"
+      ],
+      [
+        4,
+        "Venkatesh Iyer"
+      ],
+      [
+        4,
+        "Travis Head"
+      ],
+      [
+        4,
+        "Suryakumar Yadav"
+      ],
+      [
+        4,
+        "Shreyas Iyer"
+      ],
+      [
+        4,
+        "Shikhar Dhawan"
+      ],
+      [
+        4,
+        "Rahul Tewatia"
+      ],
+      [
+        4,
+        "Mahipal Lomror"
+      ],
+      [
+        4,
+        "Jos Buttler"
+      ],
+      [
+        4,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        3,
+        "Sam Curran"
+      ],
+      [
+        3,
+        "Sai Sudharsan"
+      ],
+      [
+        3,
+        "Rinku Singh"
+      ],
+      [
+        3,
+        "Ravichandran Ashwin"
+      ],
+      [
+        3,
+        "Naman Dhir"
+      ],
+      [
+        3,
+        "Mitchell Marsh"
+      ],
+      [
+        3,
+        "MS Dhoni"
+      ],
+      [
+        3,
+        "Jonny Bairstow"
+      ],
+      [
+        3,
+        "Dewald Brevis"
+      ],
+      [
+        3,
+        "Ashutosh Sharma"
+      ],
+      [
+        3,
+        "Anuj Rawat"
+      ],
+      [
+        2,
+        "Wriddhiman Saha"
+      ],
+      [
+        2,
+        "Vijay Shankar"
+      ],
+      [
+        2,
+        "Sikandar Raza"
+      ],
+      [
+        2,
+        "Shimron Hetmyer"
+      ],
+      [
+        2,
+        "Shai Hope"
+      ],
+      [
+        2,
+        "Sameer Rizvi "
+      ],
+      [
+        2,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        2,
+        "Mohammed Siraj"
+      ],
+      [
+        2,
+        "Krunal Pandya"
+      ],
+      [
+        2,
+        "Deepak Hooda"
+      ],
+      [
+        2,
+        "David Miller"
+      ],
+      [
+        2,
+        "Cameron Green"
+      ],
+      [
+        2,
+        "Aiden Markram"
+      ],
+      [
+        2,
+        "Abishek Porel"
+      ],
+      [
+        2,
+        "Abdul Samad"
+      ],
+      [
+        1,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        1,
+        "Umesh Yadav"
+      ],
+      [
+        1,
+        "Sumit Kumar"
+      ],
+      [
+        1,
+        "Shahrukh Khan"
+      ],
+      [
+        1,
+        "Saurav Chauhan"
+      ],
+      [
+        1,
+        "Ravindra Jadeja"
+      ],
+      [
+        1,
+        "Rahul Tripathi"
+      ],
+      [
+        1,
+        "Mayank Agarwal"
+      ],
+      [
+        1,
+        "Jaydev Unadkat"
+      ],
+      [
+        1,
+        "Glenn Maxwell"
+      ],
+      [
+        1,
+        "Dhruv Jurel"
+      ],
+      [
+        1,
+        "Darshan Nalkande"
+      ],
+      [
+        1,
+        "Azmatullah Omarzai"
+      ],
+      [
+        1,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ]
+    ],
+    "0s": [
+      [
+        3,
+        "Glenn Maxwell"
+      ],
+      [
+        1,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        1,
+        "Washington Sundar"
+      ],
+      [
+        1,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        1,
+        "Tristan Stubbs"
+      ],
+      [
+        1,
+        "Suryakumar Yadav"
+      ],
+      [
+        1,
+        "Shreyas Iyer"
+      ],
+      [
+        1,
+        "Shashank Singh"
+      ],
+      [
+        1,
+        "Sameer Rizvi "
+      ],
+      [
+        1,
+        "Sam Curran"
+      ],
+      [
+        1,
+        "Rohit Sharma"
+      ],
+      [
+        1,
+        "Ricky Bhui"
+      ],
+      [
+        1,
+        "Ravi Bishnoi"
+      ],
+      [
+        1,
+        "Rashid Khan"
+      ],
+      [
+        1,
+        "Rajat Patidar"
+      ],
+      [
+        1,
+        "Piyush Chawla"
+      ],
+      [
+        1,
+        "Philip Salt"
+      ],
+      [
+        1,
+        "Naman Dhir"
+      ],
+      [
+        1,
+        "Mitchell Starc"
+      ],
+      [
+        1,
+        "Mitchell Marsh"
+      ],
+      [
+        1,
+        "Mayank Dagar"
+      ],
+      [
+        1,
+        "Mahipal Lomror"
+      ],
+      [
+        1,
+        "Kumar Kushagra"
+      ],
+      [
+        1,
+        "Jonny Bairstow"
+      ],
+      [
+        1,
+        "Ishan Kishan"
+      ],
+      [
+        1,
+        "Dewald Brevis"
+      ],
+      [
+        1,
+        "Devdutt Padikkal"
+      ],
+      [
+        1,
+        "Ayush Badoni"
+      ],
+      [
+        1,
+        "Axar Patel"
+      ],
+      [
+        1,
+        "Aiden Markram"
+      ],
+      [
+        1,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "50s": [
+      [
+        3,
+        "Sanju Samson"
+      ],
+      [
+        3,
+        "Riyan Parag"
+      ],
+      [
+        2,
+        "Virat Kohli"
+      ],
+      [
+        2,
+        "Tristan Stubbs"
+      ],
+      [
+        2,
+        "Shubman Gill"
+      ],
+      [
+        2,
+        "Rishabh Pant"
+      ],
+      [
+        2,
+        "Quinton de Kock"
+      ],
+      [
+        2,
+        "Heinrich Klaasen"
+      ],
+      [
+        1,
+        "Venkatesh Iyer"
+      ],
+      [
+        1,
+        "Travis Head"
+      ],
+      [
+        1,
+        "Tilak Varma"
+      ],
+      [
+        1,
+        "Suryakumar Yadav"
+      ],
+      [
+        1,
+        "Sunil Narine"
+      ],
+      [
+        1,
+        "Shivam Dube"
+      ],
+      [
+        1,
+        "Shikhar Dhawan"
+      ],
+      [
+        1,
+        "Shashank Singh"
+      ],
+      [
+        1,
+        "Sam Curran"
+      ],
+      [
+        1,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        1,
+        "Rajat Patidar"
+      ],
+      [
+        1,
+        "Prithvi Shaw"
+      ],
+      [
+        1,
+        "Philip Salt"
+      ],
+      [
+        1,
+        "Nitish Reddy"
+      ],
+      [
+        1,
+        "Nicholas Pooran"
+      ],
+      [
+        1,
+        "Marcus Stoinis"
+      ],
+      [
+        1,
+        "KL Rahul"
+      ],
+      [
+        1,
+        "Ishan Kishan"
+      ],
+      [
+        1,
+        "Faf du Plessis"
+      ],
+      [
+        1,
+        "Dinesh Karthik"
+      ],
+      [
+        1,
+        "David Warner"
+      ],
+      [
+        1,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        1,
+        "Andre Russell"
+      ],
+      [
+        1,
+        "Aiden Markram"
+      ],
+      [
+        1,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "100s": [
+      [
+        1,
+        "Virat Kohli"
+      ],
+      [
+        1,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "SR": [
+      [
+        600.0,
+        "Jaydev Unadkat"
+      ],
+      [
+        337.5,
+        "Romario Shepherd"
+      ],
+      [
+        247.619,
+        "Suryakumar Yadav"
+      ],
+      [
+        227.273,
+        "Mahipal Lomror"
+      ],
+      [
+        212.963,
+        "Andre Russell"
+      ],
+      [
+        208.235,
+        "Abhishek Sharma"
+      ],
+      [
+        200.0,
+        "Sameer Rizvi "
+      ],
+      [
+        200.0,
+        "Noor Ahmad"
+      ],
+      [
+        200.0,
+        "Naman Dhir"
+      ],
+      [
+        200.0,
+        "Mohsin Khan"
+      ],
+      [
+        200.0,
+        "Deepak Hooda"
+      ],
+      [
+        200.0,
+        "Ashutosh Sharma"
+      ],
+      [
+        195.714,
+        "Shashank Singh"
+      ],
+      [
+        193.75,
+        "Heinrich Klaasen"
+      ],
+      [
+        193.333,
+        "Tristan Stubbs"
+      ],
+      [
+        190.667,
+        "Dinesh Karthik"
+      ],
+      [
+        189.412,
+        "Sunil Narine"
+      ],
+      [
+        186.486,
+        "Abdul Samad"
+      ],
+      [
+        185.714,
+        "MS Dhoni"
+      ],
+      [
+        182.955,
+        "Ishan Kishan"
+      ],
+      [
+        175.0,
+        "Shahrukh Khan"
+      ],
+      [
+        175.0,
+        "Rachin Ravindra"
+      ],
+      [
+        173.333,
+        "Nitish Reddy"
+      ],
+      [
+        173.333,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        172.727,
+        "Travis Head"
+      ],
+      [
+        172.0,
+        "Shimron Hetmyer"
+      ],
+      [
+        169.524,
+        "Nicholas Pooran"
+      ],
+      [
+        167.742,
+        "Rohit Sharma"
+      ],
+      [
+        165.517,
+        "Krunal Pandya"
+      ],
+      [
+        162.745,
+        "Liam Livingstone"
+      ],
+      [
+        161.29,
+        "Ramandeep Singh "
+      ],
+      [
+        160.811,
+        "Prithvi Shaw"
+      ],
+      [
+        160.526,
+        "Mitchell Marsh"
+      ],
+      [
+        160.0,
+        "Shivam Dube"
+      ],
+      [
+        158.182,
+        "Riyan Parag"
+      ],
+      [
+        157.692,
+        "Sanju Samson"
+      ],
+      [
+        155.556,
+        "Dhruv Jurel"
+      ],
+      [
+        154.545,
+        "Rishabh Pant"
+      ],
+      [
+        153.571,
+        "Hardik Pandya"
+      ],
+      [
+        153.521,
+        "Prabhsimran Singh"
+      ],
+      [
+        152.632,
+        "Rashid Khan"
+      ],
+      [
+        151.786,
+        "Shubman Gill"
+      ],
+      [
+        150.0,
+        "Rinku Singh"
+      ],
+      [
+        150.0,
+        "Mohammed Siraj"
+      ],
+      [
+        150.0,
+        "Jonny Bairstow"
+      ],
+      [
+        149.351,
+        "Tim David"
+      ],
+      [
+        147.423,
+        "Tilak Varma"
+      ],
+      [
+        147.143,
+        "Rahul Tewatia"
+      ],
+      [
+        146.774,
+        "Abishek Porel"
+      ],
+      [
+        144.444,
+        "Venkatesh Iyer"
+      ],
+      [
+        142.593,
+        "David Miller"
+      ],
+      [
+        142.342,
+        "David Warner"
+      ],
+      [
+        141.778,
+        "Virat Kohli"
+      ],
+      [
+        140.777,
+        "Quinton de Kock"
+      ],
+      [
+        140.541,
+        "Marcus Stoinis"
+      ],
+      [
+        140.0,
+        "Ravindra Jadeja"
+      ],
+      [
+        139.726,
+        "Philip Salt"
+      ],
+      [
+        139.344,
+        "Faf du Plessis"
+      ],
+      [
+        138.889,
+        "Rajat Patidar"
+      ],
+      [
+        137.255,
+        "Shahbaz Ahmed"
+      ],
+      [
+        136.957,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        135.088,
+        "Jitesh Sharma"
+      ],
+      [
+        133.333,
+        "Will Jacks"
+      ],
+      [
+        133.333,
+        "Shubham Dubey"
+      ],
+      [
+        133.333,
+        "Azmatullah Omarzai"
+      ],
+      [
+        132.0,
+        "Shai Hope"
+      ],
+      [
+        131.884,
+        "Shreyas Iyer"
+      ],
+      [
+        131.193,
+        "Jos Buttler"
+      ],
+      [
+        131.034,
+        "Wriddhiman Saha"
+      ],
+      [
+        130.769,
+        "Ajinkya Rahane"
+      ],
+      [
+        129.592,
+        "Aiden Markram"
+      ],
+      [
+        128.571,
+        "Saurav Chauhan"
+      ],
+      [
+        128.571,
+        "Ravichandran Ashwin"
+      ],
+      [
+        128.571,
+        "KL Rahul"
+      ],
+      [
+        127.684,
+        "Sai Sudharsan"
+      ],
+      [
+        126.316,
+        "Sam Curran"
+      ],
+      [
+        125.62,
+        "Shikhar Dhawan"
+      ],
+      [
+        125.532,
+        "Daryl Mitchell"
+      ],
+      [
+        121.429,
+        "Axar Patel"
+      ],
+      [
+        117.949,
+        "Dewald Brevis"
+      ],
+      [
+        117.424,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        115.873,
+        "Anuj Rawat"
+      ],
+      [
+        115.686,
+        "Mayank Agarwal"
+      ],
+      [
+        113.158,
+        "Sikandar Raza"
+      ],
+      [
+        112.308,
+        "Vijay Shankar"
+      ],
+      [
+        109.091,
+        "Darshan Nalkande"
+      ],
+      [
+        107.937,
+        "Cameron Green"
+      ],
+      [
+        100.0,
+        "Vaibhav Arora"
+      ],
+      [
+        100.0,
+        "Shams Mulani"
+      ],
+      [
+        100.0,
+        "Mitchell Starc"
+      ],
+      [
+        100.0,
+        "Marco Jansen"
+      ],
+      [
+        100.0,
+        "Kane Williamson"
+      ],
+      [
+        100.0,
+        "Jhye Richardson"
+      ],
+      [
+        100.0,
+        "Ayush Badoni"
+      ],
+      [
+        100.0,
+        "Anukul Roy"
+      ],
+      [
+        100.0,
+        "Akash Deep"
+      ],
+      [
+        94.118,
+        "Glenn Maxwell"
+      ],
+      [
+        91.176,
+        "Rahul Tripathi"
+      ],
+      [
+        90.0,
+        "Jasprit Bumrah"
+      ],
+      [
+        83.333,
+        "Spencer Johnson"
+      ],
+      [
+        83.333,
+        "Harpreet Brar"
+      ],
+      [
+        81.818,
+        "Nitish Rana"
+      ],
+      [
+        81.481,
+        "Devdutt Padikkal"
+      ],
+      [
+        80.0,
+        "Umesh Yadav"
+      ],
+      [
+        80.0,
+        "Akash Madhwal"
+      ],
+      [
+        75.0,
+        "Lalit Yadav"
+      ],
+      [
+        75.0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        71.429,
+        "Pat Cummins"
+      ],
+      [
+        66.667,
+        "Matthew Wade"
+      ],
+      [
+        66.667,
+        "Anrich Nortje"
+      ],
+      [
+        60.0,
+        "Sumit Kumar"
+      ],
+      [
+        50.0,
+        "Reece Topley"
+      ],
+      [
+        50.0,
+        "Kuldeep Yadav"
+      ],
+      [
+        50.0,
+        "Abhinav Manohar"
+      ],
+      [
+        42.857,
+        "Piyush Chawla"
+      ],
+      [
+        41.667,
+        "Gerald Coetzee"
+      ],
+      [
+        40.0,
+        "Sharath BR"
+      ],
+      [
+        33.333,
+        "Ricky Bhui"
+      ],
+      [
+        33.333,
+        "Ishant Sharma"
+      ],
+      [
+        20.0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0.0,
+        "Washington Sundar"
+      ],
+      [
+        0.0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0.0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0.0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0.0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ]
+    ],
+    "battingAverage": [
+      [
+        178.0,
+        "Nicholas Pooran"
+      ],
+      [
+        137.0,
+        "Shashank Singh"
+      ],
+      [
+        87.0,
+        "Riyan Parag"
+      ],
+      [
+        83.0,
+        "Liam Livingstone"
+      ],
+      [
+        82.0,
+        "Sanju Samson"
+      ],
+      [
+        79.75,
+        "Virat Kohli"
+      ],
+      [
+        78.0,
+        "Nitish Reddy"
+      ],
+      [
+        64.0,
+        "Ashutosh Sharma"
+      ],
+      [
+        62.0,
+        "Heinrich Klaasen"
+      ],
+      [
+        58.0,
+        "Tristan Stubbs"
+      ],
+      [
+        54.0,
+        "Romario Shepherd"
+      ],
+      [
+        51.0,
+        "Shubman Gill"
+      ],
+      [
+        48.0,
+        "Krunal Pandya"
+      ],
+      [
+        47.667,
+        "Dinesh Karthik"
+      ],
+      [
+        44.0,
+        "Shivam Dube"
+      ],
+      [
+        42.0,
+        "Ravindra Jadeja"
+      ],
+      [
+        40.25,
+        "Sunil Narine"
+      ],
+      [
+        39.667,
+        "Prithvi Shaw"
+      ],
+      [
+        38.75,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        38.5,
+        "David Miller"
+      ],
+      [
+        38.333,
+        "Tim David"
+      ],
+      [
+        38.333,
+        "Andre Russell"
+      ],
+      [
+        37.667,
+        "Sai Sudharsan"
+      ],
+      [
+        36.25,
+        "Quinton de Kock"
+      ],
+      [
+        35.75,
+        "Tilak Varma"
+      ],
+      [
+        35.75,
+        "Jos Buttler"
+      ],
+      [
+        35.4,
+        "Abhishek Sharma"
+      ],
+      [
+        33.25,
+        "Travis Head"
+      ],
+      [
+        33.0,
+        "Shai Hope"
+      ],
+      [
+        32.25,
+        "Hardik Pandya"
+      ],
+      [
+        32.2,
+        "Ishan Kishan"
+      ],
+      [
+        31.75,
+        "Aiden Markram"
+      ],
+      [
+        31.6,
+        "David Warner"
+      ],
+      [
+        31.5,
+        "KL Rahul"
+      ],
+      [
+        31.2,
+        "Rohit Sharma"
+      ],
+      [
+        30.6,
+        "Rishabh Pant"
+      ],
+      [
+        30.4,
+        "Shikhar Dhawan"
+      ],
+      [
+        30.333,
+        "Shreyas Iyer"
+      ],
+      [
+        30.333,
+        "Abishek Porel"
+      ],
+      [
+        29.5,
+        "Daryl Mitchell"
+      ],
+      [
+        28.333,
+        "Faf du Plessis"
+      ],
+      [
+        26.0,
+        "Suryakumar Yadav"
+      ],
+      [
+        26.0,
+        "Marcus Stoinis"
+      ],
+      [
+        26.0,
+        "Deepak Hooda"
+      ],
+      [
+        26.0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        25.5,
+        "Philip Salt"
+      ],
+      [
+        25.0,
+        "Mahipal Lomror"
+      ],
+      [
+        24.0,
+        "Sam Curran"
+      ],
+      [
+        23.8,
+        "Ajinkya Rahane"
+      ],
+      [
+        23.0,
+        "Dewald Brevis"
+      ],
+      [
+        22.4,
+        "Rachin Ravindra"
+      ],
+      [
+        21.8,
+        "Prabhsimran Singh"
+      ],
+      [
+        21.667,
+        "Venkatesh Iyer"
+      ],
+      [
+        21.5,
+        "Sikandar Raza"
+      ],
+      [
+        21.5,
+        "Shimron Hetmyer"
+      ],
+      [
+        21.0,
+        "Rinku Singh"
+      ],
+      [
+        20.6,
+        "Rahul Tewatia"
+      ],
+      [
+        19.667,
+        "Mayank Agarwal"
+      ],
+      [
+        19.5,
+        "MS Dhoni"
+      ],
+      [
+        19.0,
+        "Wriddhiman Saha"
+      ],
+      [
+        18.25,
+        "Vijay Shankar"
+      ],
+      [
+        18.25,
+        "Anuj Rawat"
+      ],
+      [
+        17.5,
+        "Shahbaz Ahmed"
+      ],
+      [
+        17.0,
+        "Cameron Green"
+      ],
+      [
+        17.0,
+        "Axar Patel"
+      ],
+      [
+        16.667,
+        "Rajat Patidar"
+      ],
+      [
+        16.667,
+        "Naman Dhir"
+      ],
+      [
+        16.2,
+        "Jonny Bairstow"
+      ],
+      [
+        15.5,
+        "Rahul Tripathi"
+      ],
+      [
+        15.4,
+        "Jitesh Sharma"
+      ],
+      [
+        15.25,
+        "Mitchell Marsh"
+      ],
+      [
+        14.0,
+        "Shahrukh Khan"
+      ],
+      [
+        13.8,
+        "Abdul Samad"
+      ],
+      [
+        13.5,
+        "Kane Williamson"
+      ],
+      [
+        12.6,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        12.5,
+        "Ramandeep Singh "
+      ],
+      [
+        10.5,
+        "Dhruv Jurel"
+      ],
+      [
+        9.0,
+        "Saurav Chauhan"
+      ],
+      [
+        9.0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        9.0,
+        "Nitish Rana"
+      ],
+      [
+        8.0,
+        "Will Jacks"
+      ],
+      [
+        8.0,
+        "Shubham Dubey"
+      ],
+      [
+        7.25,
+        "Rashid Khan"
+      ],
+      [
+        7.25,
+        "Ayush Badoni"
+      ],
+      [
+        7.0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        5.5,
+        "Devdutt Padikkal"
+      ],
+      [
+        5.333,
+        "Glenn Maxwell"
+      ],
+      [
+        4.0,
+        "Matthew Wade"
+      ],
+      [
+        4.0,
+        "Darshan Nalkande"
+      ],
+      [
+        3.5,
+        "Sameer Rizvi "
+      ],
+      [
+        3.5,
+        "Mitchell Starc"
+      ],
+      [
+        3.0,
+        "Sumit Kumar"
+      ],
+      [
+        3.0,
+        "Lalit Yadav"
+      ],
+      [
+        3.0,
+        "Jasprit Bumrah"
+      ],
+      [
+        3.0,
+        "Anukul Roy"
+      ],
+      [
+        2.5,
+        "Spencer Johnson"
+      ],
+      [
+        2.5,
+        "Harpreet Brar"
+      ],
+      [
+        2.4,
+        "Umesh Yadav"
+      ],
+      [
+        2.0,
+        "Sharath BR"
+      ],
+      [
+        2.0,
+        "Mohammed Siraj"
+      ],
+      [
+        2.0,
+        "Jhye Richardson"
+      ],
+      [
+        2.0,
+        "Jaydev Unadkat"
+      ],
+      [
+        2.0,
+        "Akash Madhwal"
+      ],
+      [
+        2.0,
+        "Akash Deep"
+      ],
+      [
+        1.667,
+        "Pat Cummins"
+      ],
+      [
+        1.5,
+        "Ricky Bhui"
+      ],
+      [
+        1.5,
+        "Reece Topley"
+      ],
+      [
+        1.333,
+        "Noor Ahmad"
+      ],
+      [
+        1.2,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        1.0,
+        "Vaibhav Arora"
+      ],
+      [
+        1.0,
+        "Shams Mulani"
+      ],
+      [
+        1.0,
+        "Mohsin Khan"
+      ],
+      [
+        1.0,
+        "Marco Jansen"
+      ],
+      [
+        1.0,
+        "Gerald Coetzee"
+      ],
+      [
+        1.0,
+        "Anrich Nortje"
+      ],
+      [
+        1.0,
+        "Abhinav Manohar"
+      ],
+      [
+        0.75,
+        "Piyush Chawla"
+      ],
+      [
+        0.5,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0.5,
+        "Kuldeep Yadav"
+      ],
+      [
+        0.333,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0.0,
+        "Washington Sundar"
+      ],
+      [
+        0.0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0.0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0.0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0.0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ]
+    ],
+    "NOs": [
+      [
+        4,
+        "Shashank Singh"
+      ],
+      [
+        4,
+        "Krunal Pandya"
+      ],
+      [
+        3,
+        "Shimron Hetmyer"
+      ],
+      [
+        3,
+        "Ravindra Jadeja"
+      ],
+      [
+        3,
+        "Nicholas Pooran"
+      ],
+      [
+        3,
+        "MS Dhoni"
+      ],
+      [
+        3,
+        "Harpreet Brar"
+      ],
+      [
+        3,
+        "Dinesh Karthik"
+      ],
+      [
+        2,
+        "Virat Kohli"
+      ],
+      [
+        2,
+        "Vijay Shankar"
+      ],
+      [
+        2,
+        "Tristan Stubbs"
+      ],
+      [
+        2,
+        "Tim David"
+      ],
+      [
+        2,
+        "Spencer Johnson"
+      ],
+      [
+        2,
+        "Sanju Samson"
+      ],
+      [
+        2,
+        "Romario Shepherd"
+      ],
+      [
+        2,
+        "Riyan Parag"
+      ],
+      [
+        2,
+        "Rashid Khan"
+      ],
+      [
+        2,
+        "Pat Cummins"
+      ],
+      [
+        2,
+        "Mitchell Starc"
+      ],
+      [
+        2,
+        "Liam Livingstone"
+      ],
+      [
+        2,
+        "Jasprit Bumrah"
+      ],
+      [
+        2,
+        "Heinrich Klaasen"
+      ],
+      [
+        2,
+        "Axar Patel"
+      ],
+      [
+        2,
+        "Abishek Porel"
+      ],
+      [
+        1,
+        "Venkatesh Iyer"
+      ],
+      [
+        1,
+        "Vaibhav Arora"
+      ],
+      [
+        1,
+        "Umesh Yadav"
+      ],
+      [
+        1,
+        "Tilak Varma"
+      ],
+      [
+        1,
+        "Shubman Gill"
+      ],
+      [
+        1,
+        "Shubham Dubey"
+      ],
+      [
+        1,
+        "Shreyas Iyer"
+      ],
+      [
+        1,
+        "Shivam Dube"
+      ],
+      [
+        1,
+        "Shams Mulani"
+      ],
+      [
+        1,
+        "Shahbaz Ahmed"
+      ],
+      [
+        1,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        1,
+        "Rinku Singh"
+      ],
+      [
+        1,
+        "Reece Topley"
+      ],
+      [
+        1,
+        "Rahul Tewatia"
+      ],
+      [
+        1,
+        "Noor Ahmad"
+      ],
+      [
+        1,
+        "Nitish Reddy"
+      ],
+      [
+        1,
+        "Naveen-ul-Haq"
+      ],
+      [
+        1,
+        "Marco Jansen"
+      ],
+      [
+        1,
+        "Mahipal Lomror"
+      ],
+      [
+        1,
+        "Jos Buttler"
+      ],
+      [
+        1,
+        "Jaydev Unadkat"
+      ],
+      [
+        1,
+        "Ishant Sharma"
+      ],
+      [
+        1,
+        "Hardik Pandya"
+      ],
+      [
+        1,
+        "Dhruv Jurel"
+      ],
+      [
+        1,
+        "David Miller"
+      ],
+      [
+        1,
+        "Daryl Mitchell"
+      ],
+      [
+        1,
+        "Cameron Green"
+      ],
+      [
+        1,
+        "Ashutosh Sharma"
+      ],
+      [
+        1,
+        "Anukul Roy"
+      ],
+      [
+        1,
+        "Andre Russell"
+      ],
+      [
+        1,
+        "Akash Madhwal"
+      ],
+      [
+        1,
+        "Akash Deep"
+      ],
+      [
+        1,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "HS": [
+      [
+        113,
+        "Virat Kohli"
+      ],
+      [
+        100,
+        "Jos Buttler"
+      ],
+      [
+        89,
+        "Shubman Gill"
+      ],
+      [
+        85,
+        "Sunil Narine"
+      ],
+      [
+        84,
+        "Riyan Parag"
+      ],
+      [
+        82,
+        "Sanju Samson"
+      ],
+      [
+        81,
+        "Quinton de Kock"
+      ],
+      [
+        80,
+        "Heinrich Klaasen"
+      ],
+      [
+        71,
+        "Tristan Stubbs"
+      ],
+      [
+        70,
+        "Shikhar Dhawan"
+      ],
+      [
+        69,
+        "Ishan Kishan"
+      ],
+      [
+        67,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        66,
+        "Prithvi Shaw"
+      ],
+      [
+        64,
+        "Tilak Varma"
+      ],
+      [
+        64,
+        "Nitish Reddy"
+      ],
+      [
+        64,
+        "Nicholas Pooran"
+      ],
+      [
+        64,
+        "Andre Russell"
+      ],
+      [
+        63,
+        "Sam Curran"
+      ],
+      [
+        63,
+        "Abhishek Sharma"
+      ],
+      [
+        62,
+        "Travis Head"
+      ],
+      [
+        61,
+        "Shashank Singh"
+      ],
+      [
+        61,
+        "Faf du Plessis"
+      ],
+      [
+        58,
+        "Marcus Stoinis"
+      ],
+      [
+        58,
+        "KL Rahul"
+      ],
+      [
+        55,
+        "Rishabh Pant"
+      ],
+      [
+        54,
+        "Philip Salt"
+      ],
+      [
+        54,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        53,
+        "Dinesh Karthik"
+      ],
+      [
+        52,
+        "Suryakumar Yadav"
+      ],
+      [
+        52,
+        "David Warner"
+      ],
+      [
+        51,
+        "Shivam Dube"
+      ],
+      [
+        50,
+        "Venkatesh Iyer"
+      ],
+      [
+        50,
+        "Rajat Patidar"
+      ],
+      [
+        50,
+        "Aiden Markram"
+      ],
+      [
+        49,
+        "Rohit Sharma"
+      ],
+      [
+        48,
+        "Anuj Rawat"
+      ],
+      [
+        46,
+        "Rachin Ravindra"
+      ],
+      [
+        46,
+        "Dewald Brevis"
+      ],
+      [
+        45,
+        "Tim David"
+      ],
+      [
+        45,
+        "Sai Sudharsan"
+      ],
+      [
+        45,
+        "Ajinkya Rahane"
+      ],
+      [
+        44,
+        "David Miller"
+      ],
+      [
+        43,
+        "Krunal Pandya"
+      ],
+      [
+        42,
+        "Jonny Bairstow"
+      ],
+      [
+        41,
+        "Abishek Porel"
+      ],
+      [
+        39,
+        "Shreyas Iyer"
+      ],
+      [
+        39,
+        "Romario Shepherd"
+      ],
+      [
+        39,
+        "Hardik Pandya"
+      ],
+      [
+        38,
+        "Liam Livingstone"
+      ],
+      [
+        37,
+        "MS Dhoni"
+      ],
+      [
+        35,
+        "Ramandeep Singh "
+      ],
+      [
+        35,
+        "Prabhsimran Singh"
+      ],
+      [
+        34,
+        "Daryl Mitchell"
+      ],
+      [
+        33,
+        "Shai Hope"
+      ],
+      [
+        33,
+        "Mahipal Lomror"
+      ],
+      [
+        33,
+        "Cameron Green"
+      ],
+      [
+        33,
+        "Ashutosh Sharma"
+      ],
+      [
+        32,
+        "Mayank Agarwal"
+      ],
+      [
+        31,
+        "Ravindra Jadeja"
+      ],
+      [
+        30,
+        "Rahul Tewatia"
+      ],
+      [
+        30,
+        "Naman Dhir"
+      ],
+      [
+        29,
+        "Ravichandran Ashwin"
+      ],
+      [
+        29,
+        "Abdul Samad"
+      ],
+      [
+        28,
+        "Sikandar Raza"
+      ],
+      [
+        28,
+        "Glenn Maxwell"
+      ],
+      [
+        27,
+        "Jitesh Sharma"
+      ],
+      [
+        26,
+        "Rinku Singh"
+      ],
+      [
+        26,
+        "Kane Williamson"
+      ],
+      [
+        26,
+        "Deepak Hooda"
+      ],
+      [
+        25,
+        "Wriddhiman Saha"
+      ],
+      [
+        24,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        24,
+        "Rashid Khan"
+      ],
+      [
+        23,
+        "Mitchell Marsh"
+      ],
+      [
+        22,
+        "Shahbaz Ahmed"
+      ],
+      [
+        21,
+        "Axar Patel"
+      ],
+      [
+        20,
+        "Rahul Tripathi"
+      ],
+      [
+        20,
+        "Dhruv Jurel"
+      ],
+      [
+        20,
+        "Ayush Badoni"
+      ],
+      [
+        17,
+        "Vijay Shankar"
+      ],
+      [
+        17,
+        "Azmatullah Omarzai"
+      ],
+      [
+        14,
+        "Shimron Hetmyer"
+      ],
+      [
+        14,
+        "Shahrukh Khan"
+      ],
+      [
+        14,
+        "Sameer Rizvi "
+      ],
+      [
+        12,
+        "Mohammed Siraj"
+      ],
+      [
+        12,
+        "Darshan Nalkande"
+      ],
+      [
+        10,
+        "Umesh Yadav"
+      ],
+      [
+        9,
+        "Saurav Chauhan"
+      ],
+      [
+        9,
+        "Nitish Rana"
+      ],
+      [
+        9,
+        "Devdutt Padikkal"
+      ],
+      [
+        8,
+        "Will Jacks"
+      ],
+      [
+        8,
+        "Shubham Dubey"
+      ],
+      [
+        8,
+        "Jasprit Bumrah"
+      ],
+      [
+        7,
+        "Sumit Kumar"
+      ],
+      [
+        6,
+        "Mitchell Starc"
+      ],
+      [
+        6,
+        "Jaydev Unadkat"
+      ],
+      [
+        6,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        5,
+        "Spencer Johnson"
+      ],
+      [
+        4,
+        "Noor Ahmad"
+      ],
+      [
+        4,
+        "Matthew Wade"
+      ],
+      [
+        4,
+        "Gerald Coetzee"
+      ],
+      [
+        4,
+        "Anrich Nortje"
+      ],
+      [
+        4,
+        "Akash Madhwal"
+      ],
+      [
+        3,
+        "Ricky Bhui"
+      ],
+      [
+        3,
+        "Reece Topley"
+      ],
+      [
+        3,
+        "Piyush Chawla"
+      ],
+      [
+        3,
+        "Pat Cummins"
+      ],
+      [
+        3,
+        "Lalit Yadav"
+      ],
+      [
+        3,
+        "Anukul Roy"
+      ],
+      [
+        2,
+        "Sharath BR"
+      ],
+      [
+        2,
+        "Mohsin Khan"
+      ],
+      [
+        2,
+        "Jhye Richardson"
+      ],
+      [
+        2,
+        "Harpreet Brar"
+      ],
+      [
+        2,
+        "Akash Deep"
+      ],
+      [
+        1,
+        "Vaibhav Arora"
+      ],
+      [
+        1,
+        "Shams Mulani"
+      ],
+      [
+        1,
+        "Rasikh Dar Salam"
+      ],
+      [
+        1,
+        "Marco Jansen"
+      ],
+      [
+        1,
+        "Kuldeep Yadav"
+      ],
+      [
+        1,
+        "Ishant Sharma"
+      ],
+      [
+        1,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ]
+    ]
+  },
+  "bowling": {
+    "wickets": [
+      [
+        10,
+        "Yuzvendra Chahal"
+      ],
+      [
+        10,
+        "Jasprit Bumrah"
+      ],
+      [
+        9,
+        "Mustafizur Rahman"
+      ],
+      [
+        8,
+        "Mohit Sharma"
+      ],
+      [
+        8,
+        "Gerald Coetzee"
+      ],
+      [
+        8,
+        "Arshdeep Singh"
+      ],
+      [
+        7,
+        "Umesh Yadav"
+      ],
+      [
+        7,
+        "Khaleel Ahmed"
+      ],
+      [
+        7,
+        "Kagiso Rabada"
+      ],
+      [
+        6,
+        "Yash Thakur"
+      ],
+      [
+        6,
+        "Sam Curran"
+      ],
+      [
+        6,
+        "Rashid Khan"
+      ],
+      [
+        6,
+        "Pat Cummins"
+      ],
+      [
+        6,
+        "Nandre Burger"
+      ],
+      [
+        6,
+        "Mayank Yadav"
+      ],
+      [
+        6,
+        "Harshal Patel"
+      ],
+      [
+        6,
+        "Anrich Nortje"
+      ],
+      [
+        5,
+        "Yash Dayal"
+      ],
+      [
+        5,
+        "Vaibhav Arora"
+      ],
+      [
+        5,
+        "Tushar Deshpande"
+      ],
+      [
+        5,
+        "Trent Boult"
+      ],
+      [
+        5,
+        "T Natarajan"
+      ],
+      [
+        5,
+        "Naveen-ul-Haq"
+      ],
+      [
+        5,
+        "Harshit Rana"
+      ],
+      [
+        5,
+        "Andre Russell"
+      ],
+      [
+        4,
+        "Varun Chakaravarthy"
+      ],
+      [
+        4,
+        "Sunil Narine"
+      ],
+      [
+        4,
+        "Ravindra Jadeja"
+      ],
+      [
+        4,
+        "Mukesh Kumar"
+      ],
+      [
+        4,
+        "Mohammed Siraj"
+      ],
+      [
+        4,
+        "Matheesha Pathirana"
+      ],
+      [
+        4,
+        "Jaydev Unadkat"
+      ],
+      [
+        4,
+        "Harpreet Brar"
+      ],
+      [
+        4,
+        "Glenn Maxwell"
+      ],
+      [
+        4,
+        "Deepak Chahar"
+      ],
+      [
+        4,
+        "Azmatullah Omarzai"
+      ],
+      [
+        4,
+        "Axar Patel"
+      ],
+      [
+        4,
+        "Akash Madhwal"
+      ],
+      [
+        3,
+        "Spencer Johnson"
+      ],
+      [
+        3,
+        "Shahbaz Ahmed"
+      ],
+      [
+        3,
+        "Reece Topley"
+      ],
+      [
+        3,
+        "Noor Ahmad"
+      ],
+      [
+        3,
+        "Mohsin Khan"
+      ],
+      [
+        3,
+        "Mayank Markande"
+      ],
+      [
+        3,
+        "Kuldeep Yadav"
+      ],
+      [
+        3,
+        "Kuldeep Sen"
+      ],
+      [
+        3,
+        "Krunal Pandya"
+      ],
+      [
+        3,
+        "Ishant Sharma"
+      ],
+      [
+        3,
+        "Darshan Nalkande"
+      ],
+      [
+        3,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        3,
+        "Avesh Khan"
+      ],
+      [
+        2,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        2,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        2,
+        "Ravi Bishnoi"
+      ],
+      [
+        2,
+        "Rahul Chahar"
+      ],
+      [
+        2,
+        "Piyush Chawla"
+      ],
+      [
+        2,
+        "Moeen Ali"
+      ],
+      [
+        2,
+        "Mitchell Starc"
+      ],
+      [
+        2,
+        "Maheesh Theekshana"
+      ],
+      [
+        2,
+        "Cameron Green"
+      ],
+      [
+        1,
+        "Will Jacks"
+      ],
+      [
+        1,
+        "Shreyas Gopal"
+      ],
+      [
+        1,
+        "Sandeep Sharma"
+      ],
+      [
+        1,
+        "Romario Shepherd"
+      ],
+      [
+        1,
+        "Ravichandran Ashwin"
+      ],
+      [
+        1,
+        "Nitish Reddy"
+      ],
+      [
+        1,
+        "Mitchell Marsh"
+      ],
+      [
+        1,
+        "Mayank Dagar"
+      ],
+      [
+        1,
+        "Marcus Stoinis"
+      ],
+      [
+        1,
+        "Manimaran Siddharth"
+      ],
+      [
+        1,
+        "Kwena Maphaka"
+      ],
+      [
+        1,
+        "Karn Sharma"
+      ],
+      [
+        1,
+        "Hardik Pandya"
+      ],
+      [
+        1,
+        "Daryl Mitchell"
+      ],
+      [
+        1,
+        "Alzarri Joseph"
+      ],
+      [
+        1,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "dots": [
+      [
+        1,
+        "Yash Thakur"
+      ],
+      [
+        1,
+        "Khaleel Ahmed"
+      ],
+      [
+        1,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "4H": [
+      [
+        1,
+        "Yash Thakur"
+      ],
+      [
+        1,
+        "Mustafizur Rahman"
+      ],
+      [
+        1,
+        "Jasprit Bumrah"
+      ],
+      [
+        1,
+        "Gerald Coetzee"
+      ],
+      [
+        1,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "5H": [
+      [
+        1,
+        "Yash Thakur"
+      ],
+      [
+        1,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "6H": [
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Thakur"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Khaleel Ahmed"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "maiden": [
+      [
+        1,
+        "Yash Thakur"
+      ],
+      [
+        1,
+        "Khaleel Ahmed"
+      ],
+      [
+        1,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Trent Boult"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sunil Narine"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sam Curran"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Romario Shepherd"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Riyan Parag"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravindra Jadeja"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Rashid Khan"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Reddy"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mustafizur Rahman"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohit Sharma"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Yadav"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Jasprit Bumrah"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhishek Sharma"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ],
+    "economy": [
+      [
+        3.5,
+        "Rachin Ravindra"
+      ],
+      [
+        5.5,
+        "Krunal Pandya"
+      ],
+      [
+        5.95,
+        "Jasprit Bumrah"
+      ],
+      [
+        6.0,
+        "Ayush Badoni"
+      ],
+      [
+        6.0,
+        "Mayank Yadav"
+      ],
+      [
+        6.486,
+        "Anukul Roy"
+      ],
+      [
+        6.875,
+        "Vaibhav Arora"
+      ],
+      [
+        7.0,
+        "Abhishek Sharma"
+      ],
+      [
+        7.056,
+        "Ravindra Jadeja"
+      ],
+      [
+        7.176,
+        "Harpreet Brar"
+      ],
+      [
+        7.3,
+        "Pat Cummins"
+      ],
+      [
+        7.333,
+        "Yuzvendra Chahal"
+      ],
+      [
+        7.375,
+        "Sunil Narine"
+      ],
+      [
+        7.429,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        7.438,
+        "Axar Patel"
+      ],
+      [
+        7.5,
+        "Matheesha Pathirana"
+      ],
+      [
+        7.583,
+        "Maheesh Theekshana"
+      ],
+      [
+        7.625,
+        "Kuldeep Yadav"
+      ],
+      [
+        7.667,
+        "Moeen Ali"
+      ],
+      [
+        7.75,
+        "Trent Boult"
+      ],
+      [
+        7.857,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        7.889,
+        "Manimaran Siddharth"
+      ],
+      [
+        7.958,
+        "Rashid Khan"
+      ],
+      [
+        8.0,
+        "Keshav Maharaj"
+      ],
+      [
+        8.0,
+        "Mohammad Nabi"
+      ],
+      [
+        8.0,
+        "Mustafizur Rahman"
+      ],
+      [
+        8.0,
+        "Shreyas Gopal"
+      ],
+      [
+        8.056,
+        "Tushar Deshpande"
+      ],
+      [
+        8.062,
+        "Noor Ahmad"
+      ],
+      [
+        8.286,
+        "Sandeep Sharma"
+      ],
+      [
+        8.316,
+        "Yash Dayal"
+      ],
+      [
+        8.421,
+        "Ravichandran Ashwin"
+      ],
+      [
+        8.444,
+        "Glenn Maxwell"
+      ],
+      [
+        8.5,
+        "Khaleel Ahmed"
+      ],
+      [
+        8.65,
+        "Kagiso Rabada"
+      ],
+      [
+        8.667,
+        "Ravi Bishnoi"
+      ],
+      [
+        8.667,
+        "T Natarajan"
+      ],
+      [
+        8.743,
+        "Arshdeep Singh"
+      ],
+      [
+        8.857,
+        "Nandre Burger"
+      ],
+      [
+        9.0,
+        "Daryl Mitchell"
+      ],
+      [
+        9.0,
+        "Harshit Rana"
+      ],
+      [
+        9.0,
+        "Marcus Stoinis"
+      ],
+      [
+        9.0,
+        "Shardul Thakur"
+      ],
+      [
+        9.0,
+        "Suyash Sharma"
+      ],
+      [
+        9.0,
+        "Washington Sundar"
+      ],
+      [
+        9.071,
+        "Sam Curran"
+      ],
+      [
+        9.091,
+        "Reece Topley"
+      ],
+      [
+        9.145,
+        "Deepak Chahar"
+      ],
+      [
+        9.157,
+        "Andre Russell"
+      ],
+      [
+        9.158,
+        "Avesh Khan"
+      ],
+      [
+        9.214,
+        "Spencer Johnson"
+      ],
+      [
+        9.299,
+        "Naveen-ul-Haq"
+      ],
+      [
+        9.375,
+        "Cameron Green"
+      ],
+      [
+        9.375,
+        "Darshan Nalkande"
+      ],
+      [
+        9.385,
+        "Azmatullah Omarzai"
+      ],
+      [
+        9.391,
+        "Mohit Sharma"
+      ],
+      [
+        9.55,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        9.571,
+        "Varun Chakaravarthy"
+      ],
+      [
+        9.875,
+        "Mohsin Khan"
+      ],
+      [
+        10.0,
+        "Jhye Richardson"
+      ],
+      [
+        10.0,
+        "Mukesh Kumar"
+      ],
+      [
+        10.0,
+        "Riyan Parag"
+      ],
+      [
+        10.167,
+        "Akash Madhwal"
+      ],
+      [
+        10.169,
+        "Mayank Dagar"
+      ],
+      [
+        10.25,
+        "Kuldeep Sen"
+      ],
+      [
+        10.278,
+        "Yash Thakur"
+      ],
+      [
+        10.395,
+        "Jaydev Unadkat"
+      ],
+      [
+        10.409,
+        "Mohammed Siraj"
+      ],
+      [
+        10.55,
+        "Harshal Patel"
+      ],
+      [
+        10.556,
+        "Umesh Yadav"
+      ],
+      [
+        10.595,
+        "Gerald Coetzee"
+      ],
+      [
+        11.0,
+        "Mitchell Starc"
+      ],
+      [
+        11.0,
+        "Nitish Reddy"
+      ],
+      [
+        11.0,
+        "Sikandar Raza"
+      ],
+      [
+        11.091,
+        "Ishant Sharma"
+      ],
+      [
+        11.125,
+        "Hardik Pandya"
+      ],
+      [
+        11.154,
+        "Mayank Markande"
+      ],
+      [
+        11.375,
+        "Rahul Chahar"
+      ],
+      [
+        11.4,
+        "Shams Mulani"
+      ],
+      [
+        11.5,
+        "Piyush Chawla"
+      ],
+      [
+        11.515,
+        "Sumit Kumar"
+      ],
+      [
+        11.75,
+        "Shahbaz Ahmed"
+      ],
+      [
+        11.856,
+        "Alzarri Joseph"
+      ],
+      [
+        12.0,
+        "Karn Sharma"
+      ],
+      [
+        12.0,
+        "Will Jacks"
+      ],
+      [
+        12.5,
+        "Luke Wood"
+      ],
+      [
+        12.667,
+        "Romario Shepherd"
+      ],
+      [
+        12.875,
+        "Mitchell Marsh"
+      ],
+      [
+        13.0,
+        "Naman Dhir"
+      ],
+      [
+        13.333,
+        "Marco Jansen"
+      ],
+      [
+        13.438,
+        "Anrich Nortje"
+      ],
+      [
+        14.4,
+        "Rasikh Dar Salam"
+      ],
+      [
+        14.5,
+        "Himanshu Sharma"
+      ],
+      [
+        14.833,
+        "Kwena Maphaka"
+      ],
+      [
+        15.0,
+        "Lalit Yadav"
+      ],
+      [
+        15.0,
+        "Umran Malik"
+      ],
+      [
+        15.714,
+        "Akash Deep"
+      ],
+      [
+        27.0,
+        "Mukesh Choudhary"
+      ],
+      [
+        28.0,
+        "Venkatesh Iyer"
+      ]
+    ],
+    "bowlingAverage": [
+      [
+        9.0,
+        "Marcus Stoinis"
+      ],
+      [
+        9.0,
+        "Mayank Yadav"
+      ],
+      [
+        11.0,
+        "Vaibhav Arora"
+      ],
+      [
+        11.5,
+        "Moeen Ali"
+      ],
+      [
+        11.9,
+        "Jasprit Bumrah"
+      ],
+      [
+        13.2,
+        "Yuzvendra Chahal"
+      ],
+      [
+        13.667,
+        "Kuldeep Sen"
+      ],
+      [
+        14.222,
+        "Mustafizur Rahman"
+      ],
+      [
+        14.4,
+        "Harshit Rana"
+      ],
+      [
+        15.0,
+        "Darshan Nalkande"
+      ],
+      [
+        15.0,
+        "Matheesha Pathirana"
+      ],
+      [
+        15.2,
+        "Andre Russell"
+      ],
+      [
+        17.5,
+        "Mukesh Kumar"
+      ],
+      [
+        18.0,
+        "Daryl Mitchell"
+      ],
+      [
+        18.5,
+        "Yash Thakur"
+      ],
+      [
+        19.0,
+        "Glenn Maxwell"
+      ],
+      [
+        20.0,
+        "Arshdeep Singh"
+      ],
+      [
+        20.333,
+        "Kuldeep Yadav"
+      ],
+      [
+        20.667,
+        "Nandre Burger"
+      ],
+      [
+        20.8,
+        "T Natarajan"
+      ],
+      [
+        21.167,
+        "Sam Curran"
+      ],
+      [
+        22.0,
+        "Krunal Pandya"
+      ],
+      [
+        24.0,
+        "Karn Sharma"
+      ],
+      [
+        24.0,
+        "Will Jacks"
+      ],
+      [
+        24.286,
+        "Khaleel Ahmed"
+      ],
+      [
+        24.333,
+        "Pat Cummins"
+      ],
+      [
+        24.5,
+        "Gerald Coetzee"
+      ],
+      [
+        24.714,
+        "Kagiso Rabada"
+      ],
+      [
+        24.8,
+        "Trent Boult"
+      ],
+      [
+        26.0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        26.333,
+        "Mohsin Khan"
+      ],
+      [
+        27.0,
+        "Mohit Sharma"
+      ],
+      [
+        27.143,
+        "Umesh Yadav"
+      ],
+      [
+        27.5,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        29.0,
+        "Tushar Deshpande"
+      ],
+      [
+        29.2,
+        "Naveen-ul-Haq"
+      ],
+      [
+        29.5,
+        "Sunil Narine"
+      ],
+      [
+        29.75,
+        "Axar Patel"
+      ],
+      [
+        30.5,
+        "Akash Madhwal"
+      ],
+      [
+        30.5,
+        "Azmatullah Omarzai"
+      ],
+      [
+        30.5,
+        "Harpreet Brar"
+      ],
+      [
+        31.333,
+        "Shahbaz Ahmed"
+      ],
+      [
+        31.6,
+        "Yash Dayal"
+      ],
+      [
+        31.75,
+        "Ravindra Jadeja"
+      ],
+      [
+        31.833,
+        "Rashid Khan"
+      ],
+      [
+        32.0,
+        "Shreyas Gopal"
+      ],
+      [
+        33.0,
+        "Nitish Reddy"
+      ],
+      [
+        33.333,
+        "Reece Topley"
+      ],
+      [
+        33.5,
+        "Varun Chakaravarthy"
+      ],
+      [
+        34.75,
+        "Deepak Chahar"
+      ],
+      [
+        35.167,
+        "Harshal Patel"
+      ],
+      [
+        35.833,
+        "Anrich Nortje"
+      ],
+      [
+        39.5,
+        "Jaydev Unadkat"
+      ],
+      [
+        40.667,
+        "Ishant Sharma"
+      ],
+      [
+        43.0,
+        "Noor Ahmad"
+      ],
+      [
+        43.0,
+        "Spencer Johnson"
+      ],
+      [
+        45.5,
+        "Maheesh Theekshana"
+      ],
+      [
+        45.5,
+        "Rahul Chahar"
+      ],
+      [
+        48.333,
+        "Mayank Markande"
+      ],
+      [
+        52.0,
+        "Ravi Bishnoi"
+      ],
+      [
+        52.5,
+        "Cameron Green"
+      ],
+      [
+        55.0,
+        "Akash Deep"
+      ],
+      [
+        57.25,
+        "Mohammed Siraj"
+      ],
+      [
+        57.5,
+        "Piyush Chawla"
+      ],
+      [
+        58.0,
+        "Avesh Khan"
+      ],
+      [
+        58.0,
+        "Sandeep Sharma"
+      ],
+      [
+        63.667,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        71.0,
+        "Manimaran Siddharth"
+      ],
+      [
+        76.0,
+        "Romario Shepherd"
+      ],
+      [
+        77.0,
+        "Mitchell Starc"
+      ],
+      [
+        89.0,
+        "Hardik Pandya"
+      ],
+      [
+        89.0,
+        "Kwena Maphaka"
+      ],
+      [
+        103.0,
+        "Mitchell Marsh"
+      ],
+      [
+        115.0,
+        "Alzarri Joseph"
+      ],
+      [
+        120.0,
+        "Mayank Dagar"
+      ],
+      [
+        160.0,
+        "Ravichandran Ashwin"
+      ]
+    ],
+    "bSR": [
+      [
+        0,
+        "Abdul Samad"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        6.0,
+        "Marcus Stoinis"
+      ],
+      [
+        8.0,
+        "Kuldeep Sen"
+      ],
+      [
+        9.0,
+        "Mayank Yadav"
+      ],
+      [
+        9.0,
+        "Moeen Ali"
+      ],
+      [
+        9.6,
+        "Darshan Nalkande"
+      ],
+      [
+        9.6,
+        "Harshit Rana"
+      ],
+      [
+        9.6,
+        "Vaibhav Arora"
+      ],
+      [
+        9.96,
+        "Andre Russell"
+      ],
+      [
+        10.5,
+        "Mukesh Kumar"
+      ],
+      [
+        10.667,
+        "Mustafizur Rahman"
+      ],
+      [
+        10.8,
+        "Yash Thakur"
+      ],
+      [
+        10.8,
+        "Yuzvendra Chahal"
+      ],
+      [
+        12.0,
+        "Daryl Mitchell"
+      ],
+      [
+        12.0,
+        "Jasprit Bumrah"
+      ],
+      [
+        12.0,
+        "Karn Sharma"
+      ],
+      [
+        12.0,
+        "Matheesha Pathirana"
+      ],
+      [
+        12.0,
+        "Will Jacks"
+      ],
+      [
+        13.5,
+        "Glenn Maxwell"
+      ],
+      [
+        13.725,
+        "Arshdeep Singh"
+      ],
+      [
+        13.875,
+        "Gerald Coetzee"
+      ],
+      [
+        14.0,
+        "Nandre Burger"
+      ],
+      [
+        14.0,
+        "Sam Curran"
+      ],
+      [
+        14.4,
+        "T Natarajan"
+      ],
+      [
+        15.429,
+        "Umesh Yadav"
+      ],
+      [
+        16.0,
+        "Anrich Nortje"
+      ],
+      [
+        16.0,
+        "Kuldeep Yadav"
+      ],
+      [
+        16.0,
+        "Mohsin Khan"
+      ],
+      [
+        16.0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        17.143,
+        "Kagiso Rabada"
+      ],
+      [
+        17.143,
+        "Khaleel Ahmed"
+      ],
+      [
+        17.25,
+        "Mohit Sharma"
+      ],
+      [
+        18.0,
+        "Akash Madhwal"
+      ],
+      [
+        18.0,
+        "Nitish Reddy"
+      ],
+      [
+        18.84,
+        "Naveen-ul-Haq"
+      ],
+      [
+        19.2,
+        "Trent Boult"
+      ],
+      [
+        19.5,
+        "Azmatullah Omarzai"
+      ],
+      [
+        20.0,
+        "Harshal Patel"
+      ],
+      [
+        20.0,
+        "Pat Cummins"
+      ],
+      [
+        21.0,
+        "Akash Deep"
+      ],
+      [
+        21.0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        21.0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        21.0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        21.6,
+        "Tushar Deshpande"
+      ],
+      [
+        22.0,
+        "Ishant Sharma"
+      ],
+      [
+        22.0,
+        "Reece Topley"
+      ],
+      [
+        22.8,
+        "Deepak Chahar"
+      ],
+      [
+        22.8,
+        "Jaydev Unadkat"
+      ],
+      [
+        22.8,
+        "Yash Dayal"
+      ],
+      [
+        24.0,
+        "Axar Patel"
+      ],
+      [
+        24.0,
+        "Krunal Pandya"
+      ],
+      [
+        24.0,
+        "Rahul Chahar"
+      ],
+      [
+        24.0,
+        "Rashid Khan"
+      ],
+      [
+        24.0,
+        "Shreyas Gopal"
+      ],
+      [
+        24.0,
+        "Sunil Narine"
+      ],
+      [
+        25.5,
+        "Harpreet Brar"
+      ],
+      [
+        26.0,
+        "Mayank Markande"
+      ],
+      [
+        27.0,
+        "Ravindra Jadeja"
+      ],
+      [
+        28.0,
+        "Spencer Johnson"
+      ],
+      [
+        30.0,
+        "Piyush Chawla"
+      ],
+      [
+        32.0,
+        "Noor Ahmad"
+      ],
+      [
+        33.0,
+        "Mohammed Siraj"
+      ],
+      [
+        33.6,
+        "Cameron Green"
+      ],
+      [
+        36.0,
+        "Kwena Maphaka"
+      ],
+      [
+        36.0,
+        "Maheesh Theekshana"
+      ],
+      [
+        36.0,
+        "Ravi Bishnoi"
+      ],
+      [
+        36.0,
+        "Romario Shepherd"
+      ],
+      [
+        38.0,
+        "Avesh Khan"
+      ],
+      [
+        40.0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        42.0,
+        "Mitchell Starc"
+      ],
+      [
+        42.0,
+        "Sandeep Sharma"
+      ],
+      [
+        48.0,
+        "Hardik Pandya"
+      ],
+      [
+        48.0,
+        "Mitchell Marsh"
+      ],
+      [
+        54.0,
+        "Manimaran Siddharth"
+      ],
+      [
+        58.2,
+        "Alzarri Joseph"
+      ],
+      [
+        70.8,
+        "Mayank Dagar"
+      ],
+      [
+        114.0,
+        "Ravichandran Ashwin"
+      ]
+    ],
+    "overs": [
+      [
+        0,
+        "Abdul Samad"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jos Buttler"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Sai Sudharsan"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Sanju Samson"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shashank Singh"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shivam Dube"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Virat Kohli"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        1.0,
+        "Abhishek Sharma"
+      ],
+      [
+        1.0,
+        "Ayush Badoni"
+      ],
+      [
+        1.0,
+        "Lalit Yadav"
+      ],
+      [
+        1.0,
+        "Marcus Stoinis"
+      ],
+      [
+        1.0,
+        "Mukesh Choudhary"
+      ],
+      [
+        1.0,
+        "Naman Dhir"
+      ],
+      [
+        1.0,
+        "Riyan Parag"
+      ],
+      [
+        1.0,
+        "Umran Malik"
+      ],
+      [
+        1.0,
+        "Venkatesh Iyer"
+      ],
+      [
+        2.0,
+        "Daryl Mitchell"
+      ],
+      [
+        2.0,
+        "Himanshu Sharma"
+      ],
+      [
+        2.0,
+        "Karn Sharma"
+      ],
+      [
+        2.0,
+        "Keshav Maharaj"
+      ],
+      [
+        2.0,
+        "Luke Wood"
+      ],
+      [
+        2.0,
+        "Rachin Ravindra"
+      ],
+      [
+        2.0,
+        "Sikandar Raza"
+      ],
+      [
+        2.0,
+        "Suyash Sharma"
+      ],
+      [
+        2.0,
+        "Will Jacks"
+      ],
+      [
+        3.0,
+        "Marco Jansen"
+      ],
+      [
+        3.0,
+        "Moeen Ali"
+      ],
+      [
+        3.0,
+        "Mohammad Nabi"
+      ],
+      [
+        3.0,
+        "Nitish Reddy"
+      ],
+      [
+        3.0,
+        "Shardul Thakur"
+      ],
+      [
+        3.0,
+        "Washington Sundar"
+      ],
+      [
+        3.3,
+        "Sumit Kumar"
+      ],
+      [
+        3.5,
+        "Akash Deep"
+      ],
+      [
+        3.7,
+        "Anukul Roy"
+      ],
+      [
+        4.0,
+        "Jhye Richardson"
+      ],
+      [
+        4.0,
+        "Kuldeep Sen"
+      ],
+      [
+        4.0,
+        "Shreyas Gopal"
+      ],
+      [
+        4.8,
+        "Darshan Nalkande"
+      ],
+      [
+        5.0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        5.0,
+        "Shams Mulani"
+      ],
+      [
+        6.0,
+        "Kwena Maphaka"
+      ],
+      [
+        6.0,
+        "Romario Shepherd"
+      ],
+      [
+        7.0,
+        "Mukesh Kumar"
+      ],
+      [
+        7.0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        7.0,
+        "Sandeep Sharma"
+      ],
+      [
+        7.0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        8.0,
+        "Hardik Pandya"
+      ],
+      [
+        8.0,
+        "Harshit Rana"
+      ],
+      [
+        8.0,
+        "Kuldeep Yadav"
+      ],
+      [
+        8.0,
+        "Matheesha Pathirana"
+      ],
+      [
+        8.0,
+        "Mitchell Marsh"
+      ],
+      [
+        8.0,
+        "Mohsin Khan"
+      ],
+      [
+        8.0,
+        "Rahul Chahar"
+      ],
+      [
+        8.0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        8.0,
+        "Vaibhav Arora"
+      ],
+      [
+        8.3,
+        "Andre Russell"
+      ],
+      [
+        9.0,
+        "Glenn Maxwell"
+      ],
+      [
+        9.0,
+        "Manimaran Siddharth"
+      ],
+      [
+        9.0,
+        "Mayank Yadav"
+      ],
+      [
+        9.7,
+        "Alzarri Joseph"
+      ],
+      [
+        10.0,
+        "Piyush Chawla"
+      ],
+      [
+        10.8,
+        "Yash Thakur"
+      ],
+      [
+        11.0,
+        "Ishant Sharma"
+      ],
+      [
+        11.0,
+        "Reece Topley"
+      ],
+      [
+        11.2,
+        "Cameron Green"
+      ],
+      [
+        11.8,
+        "Mayank Dagar"
+      ],
+      [
+        12.0,
+        "Akash Madhwal"
+      ],
+      [
+        12.0,
+        "Krunal Pandya"
+      ],
+      [
+        12.0,
+        "Maheesh Theekshana"
+      ],
+      [
+        12.0,
+        "Ravi Bishnoi"
+      ],
+      [
+        12.0,
+        "T Natarajan"
+      ],
+      [
+        13.0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        13.0,
+        "Mayank Markande"
+      ],
+      [
+        14.0,
+        "Mitchell Starc"
+      ],
+      [
+        14.0,
+        "Nandre Burger"
+      ],
+      [
+        14.0,
+        "Sam Curran"
+      ],
+      [
+        14.0,
+        "Spencer Johnson"
+      ],
+      [
+        14.0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        15.2,
+        "Deepak Chahar"
+      ],
+      [
+        15.2,
+        "Jaydev Unadkat"
+      ],
+      [
+        15.7,
+        "Naveen-ul-Haq"
+      ],
+      [
+        16.0,
+        "Anrich Nortje"
+      ],
+      [
+        16.0,
+        "Axar Patel"
+      ],
+      [
+        16.0,
+        "Mustafizur Rahman"
+      ],
+      [
+        16.0,
+        "Noor Ahmad"
+      ],
+      [
+        16.0,
+        "Sunil Narine"
+      ],
+      [
+        16.0,
+        "Trent Boult"
+      ],
+      [
+        17.0,
+        "Harpreet Brar"
+      ],
+      [
+        18.0,
+        "Ravindra Jadeja"
+      ],
+      [
+        18.0,
+        "Tushar Deshpande"
+      ],
+      [
+        18.0,
+        "Umesh Yadav"
+      ],
+      [
+        18.0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        18.3,
+        "Arshdeep Singh"
+      ],
+      [
+        18.5,
+        "Gerald Coetzee"
+      ],
+      [
+        19.0,
+        "Avesh Khan"
+      ],
+      [
+        19.0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        19.0,
+        "Yash Dayal"
+      ],
+      [
+        20.0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        20.0,
+        "Harshal Patel"
+      ],
+      [
+        20.0,
+        "Jasprit Bumrah"
+      ],
+      [
+        20.0,
+        "Kagiso Rabada"
+      ],
+      [
+        20.0,
+        "Khaleel Ahmed"
+      ],
+      [
+        20.0,
+        "Pat Cummins"
+      ],
+      [
+        22.0,
+        "Mohammed Siraj"
+      ],
+      [
+        23.0,
+        "Mohit Sharma"
+      ],
+      [
+        24.0,
+        "Rashid Khan"
+      ]
+    ]
+  },
+  "fielding": {
+    "playerOfTheMatch": [
+      [
+        4,
+        "Sunil Narine"
+      ],
+      [
+        4,
+        "Mayank Yadav"
+      ],
+      [
+        4,
+        "Abhishek Sharma"
+      ],
+      [
+        2,
+        "Yash Thakur"
+      ],
+      [
+        2,
+        "Virat Kohli"
+      ],
+      [
+        2,
+        "Trent Boult"
+      ],
+      [
+        2,
+        "Shivam Dube"
+      ],
+      [
+        2,
+        "Shashank Singh"
+      ],
+      [
+        2,
+        "Sanju Samson"
+      ],
+      [
+        2,
+        "Sam Curran"
+      ],
+      [
+        2,
+        "Sai Sudharsan"
+      ],
+      [
+        2,
+        "Romario Shepherd"
+      ],
+      [
+        2,
+        "Riyan Parag"
+      ],
+      [
+        2,
+        "Ravindra Jadeja"
+      ],
+      [
+        2,
+        "Rashid Khan"
+      ],
+      [
+        2,
+        "Nitish Reddy"
+      ],
+      [
+        2,
+        "Mustafizur Rahman"
+      ],
+      [
+        2,
+        "Mohit Sharma"
+      ],
+      [
+        2,
+        "Khaleel Ahmed"
+      ],
+      [
+        2,
+        "Jos Buttler"
+      ],
+      [
+        2,
+        "Jasprit Bumrah"
+      ],
+      [
+        2,
+        "Andre Russell"
+      ],
+      [
+        0,
+        "Yuzvendra Chahal"
+      ],
+      [
+        0,
+        "Yashasvi Jaiswal"
+      ],
+      [
+        0,
+        "Yash Dayal"
+      ],
+      [
+        0,
+        "Wriddhiman Saha"
+      ],
+      [
+        0,
+        "Will Jacks"
+      ],
+      [
+        0,
+        "Washington Sundar"
+      ],
+      [
+        0,
+        "Vijaykumar Vyshak"
+      ],
+      [
+        0,
+        "Vijay Shankar"
+      ],
+      [
+        0,
+        "Venkatesh Iyer"
+      ],
+      [
+        0,
+        "Varun Chakaravarthy"
+      ],
+      [
+        0,
+        "Vaibhav Arora"
+      ],
+      [
+        0,
+        "Umran Malik"
+      ],
+      [
+        0,
+        "Umesh Yadav"
+      ],
+      [
+        0,
+        "Tushar Deshpande"
+      ],
+      [
+        0,
+        "Tristan Stubbs"
+      ],
+      [
+        0,
+        "Travis Head"
+      ],
+      [
+        0,
+        "Tim David"
+      ],
+      [
+        0,
+        "Tilak Varma"
+      ],
+      [
+        0,
+        "T Natarajan"
+      ],
+      [
+        0,
+        "Suyash Sharma"
+      ],
+      [
+        0,
+        "Suryakumar Yadav"
+      ],
+      [
+        0,
+        "Sumit Kumar"
+      ],
+      [
+        0,
+        "Spencer Johnson"
+      ],
+      [
+        0,
+        "Sikandar Raza"
+      ],
+      [
+        0,
+        "Shubman Gill"
+      ],
+      [
+        0,
+        "Shubham Dubey"
+      ],
+      [
+        0,
+        "Shreyas Iyer"
+      ],
+      [
+        0,
+        "Shreyas Gopal"
+      ],
+      [
+        0,
+        "Shimron Hetmyer"
+      ],
+      [
+        0,
+        "Shikhar Dhawan"
+      ],
+      [
+        0,
+        "Shardul Thakur"
+      ],
+      [
+        0,
+        "Sharath BR"
+      ],
+      [
+        0,
+        "Shams Mulani"
+      ],
+      [
+        0,
+        "Shai Hope"
+      ],
+      [
+        0,
+        "Shahrukh Khan"
+      ],
+      [
+        0,
+        "Shahbaz Ahmed"
+      ],
+      [
+        0,
+        "Saurav Chauhan"
+      ],
+      [
+        0,
+        "Sandeep Sharma"
+      ],
+      [
+        0,
+        "Sameer Rizvi "
+      ],
+      [
+        0,
+        "Ruturaj Gaikwad"
+      ],
+      [
+        0,
+        "Rohit Sharma"
+      ],
+      [
+        0,
+        "Rishabh Pant"
+      ],
+      [
+        0,
+        "Rinku Singh"
+      ],
+      [
+        0,
+        "Ricky Bhui"
+      ],
+      [
+        0,
+        "Reece Topley"
+      ],
+      [
+        0,
+        "Ravisrinivasan Sai Kishore"
+      ],
+      [
+        0,
+        "Ravichandran Ashwin"
+      ],
+      [
+        0,
+        "Ravi Bishnoi"
+      ],
+      [
+        0,
+        "Rasikh Dar Salam"
+      ],
+      [
+        0,
+        "Ramandeep Singh "
+      ],
+      [
+        0,
+        "Rajat Patidar"
+      ],
+      [
+        0,
+        "Rahul Tripathi"
+      ],
+      [
+        0,
+        "Rahul Tewatia"
+      ],
+      [
+        0,
+        "Rahul Chahar"
+      ],
+      [
+        0,
+        "Rachin Ravindra"
+      ],
+      [
+        0,
+        "Quinton de Kock"
+      ],
+      [
+        0,
+        "Prithvi Shaw"
+      ],
+      [
+        0,
+        "Prabhsimran Singh"
+      ],
+      [
+        0,
+        "Piyush Chawla"
+      ],
+      [
+        0,
+        "Philip Salt"
+      ],
+      [
+        0,
+        "Pat Cummins"
+      ],
+      [
+        0,
+        "Noor Ahmad"
+      ],
+      [
+        0,
+        "Nitish Rana"
+      ],
+      [
+        0,
+        "Nicholas Pooran"
+      ],
+      [
+        0,
+        "Naveen-ul-Haq"
+      ],
+      [
+        0,
+        "Nandre Burger"
+      ],
+      [
+        0,
+        "Naman Dhir"
+      ],
+      [
+        0,
+        "Mukesh Kumar"
+      ],
+      [
+        0,
+        "Mukesh Choudhary"
+      ],
+      [
+        0,
+        "Mohsin Khan"
+      ],
+      [
+        0,
+        "Mohammed Siraj"
+      ],
+      [
+        0,
+        "Mohammad Nabi"
+      ],
+      [
+        0,
+        "Moeen Ali"
+      ],
+      [
+        0,
+        "Mitchell Starc"
+      ],
+      [
+        0,
+        "Mitchell Marsh"
+      ],
+      [
+        0,
+        "Mayank Markande"
+      ],
+      [
+        0,
+        "Mayank Dagar"
+      ],
+      [
+        0,
+        "Mayank Agarwal"
+      ],
+      [
+        0,
+        "Matthew Wade"
+      ],
+      [
+        0,
+        "Matheesha Pathirana"
+      ],
+      [
+        0,
+        "Marcus Stoinis"
+      ],
+      [
+        0,
+        "Marco Jansen"
+      ],
+      [
+        0,
+        "Manimaran Siddharth"
+      ],
+      [
+        0,
+        "Mahipal Lomror"
+      ],
+      [
+        0,
+        "Maheesh Theekshana"
+      ],
+      [
+        0,
+        "MS Dhoni"
+      ],
+      [
+        0,
+        "Luke Wood"
+      ],
+      [
+        0,
+        "Liam Livingstone"
+      ],
+      [
+        0,
+        "Lalit Yadav"
+      ],
+      [
+        0,
+        "Kwena Maphaka"
+      ],
+      [
+        0,
+        "Kumar Kushagra"
+      ],
+      [
+        0,
+        "Kuldeep Yadav"
+      ],
+      [
+        0,
+        "Kuldeep Sen"
+      ],
+      [
+        0,
+        "Krunal Pandya"
+      ],
+      [
+        0,
+        "Keshav Maharaj"
+      ],
+      [
+        0,
+        "Karn Sharma"
+      ],
+      [
+        0,
+        "Kane Williamson"
+      ],
+      [
+        0,
+        "Kagiso Rabada"
+      ],
+      [
+        0,
+        "KL Rahul"
+      ],
+      [
+        0,
+        "Jonny Bairstow"
+      ],
+      [
+        0,
+        "Jitesh Sharma"
+      ],
+      [
+        0,
+        "Jhye Richardson"
+      ],
+      [
+        0,
+        "Jaydev Unadkat"
+      ],
+      [
+        0,
+        "Ishant Sharma"
+      ],
+      [
+        0,
+        "Ishan Kishan"
+      ],
+      [
+        0,
+        "Himanshu Sharma"
+      ],
+      [
+        0,
+        "Heinrich Klaasen"
+      ],
+      [
+        0,
+        "Harshit Rana"
+      ],
+      [
+        0,
+        "Harshal Patel"
+      ],
+      [
+        0,
+        "Harpreet Brar"
+      ],
+      [
+        0,
+        "Hardik Pandya"
+      ],
+      [
+        0,
+        "Glenn Maxwell"
+      ],
+      [
+        0,
+        "Gerald Coetzee"
+      ],
+      [
+        0,
+        "Faf du Plessis"
+      ],
+      [
+        0,
+        "Dinesh Karthik"
+      ],
+      [
+        0,
+        "Dhruv Jurel"
+      ],
+      [
+        0,
+        "Dewald Brevis"
+      ],
+      [
+        0,
+        "Devdutt Padikkal"
+      ],
+      [
+        0,
+        "Deepak Hooda"
+      ],
+      [
+        0,
+        "Deepak Chahar"
+      ],
+      [
+        0,
+        "David Warner"
+      ],
+      [
+        0,
+        "David Miller"
+      ],
+      [
+        0,
+        "Daryl Mitchell"
+      ],
+      [
+        0,
+        "Darshan Nalkande"
+      ],
+      [
+        0,
+        "Cameron Green"
+      ],
+      [
+        0,
+        "Bhuvneshwar Kumar"
+      ],
+      [
+        0,
+        "Azmatullah Omarzai"
+      ],
+      [
+        0,
+        "Ayush Badoni"
+      ],
+      [
+        0,
+        "Axar Patel"
+      ],
+      [
+        0,
+        "Avesh Khan"
+      ],
+      [
+        0,
+        "Ashutosh Sharma"
+      ],
+      [
+        0,
+        "Arshdeep Singh"
+      ],
+      [
+        0,
+        "Anukul Roy"
+      ],
+      [
+        0,
+        "Anuj Rawat"
+      ],
+      [
+        0,
+        "Anrich Nortje"
+      ],
+      [
+        0,
+        "Angkrish Raghuvanshi"
+      ],
+      [
+        0,
+        "Alzarri Joseph"
+      ],
+      [
+        0,
+        "Akash Madhwal"
+      ],
+      [
+        0,
+        "Akash Deep"
+      ],
+      [
+        0,
+        "Ajinkya Rahane"
+      ],
+      [
+        0,
+        "Aiden Markram"
+      ],
+      [
+        0,
+        "Abishek Porel"
+      ],
+      [
+        0,
+        "Abhinav Manohar"
+      ],
+      [
+        0,
+        "Abdul Samad"
+      ]
+    ]
+  }
+}

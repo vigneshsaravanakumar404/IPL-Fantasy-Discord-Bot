@@ -2,8 +2,48 @@ from pprint import pprint
 import json
 import os
 import prettytable
+import time
 
-output = {}
+# Varibale
+RUNS, FOURS, SIXES, DUCKS, FIFTIES, CENTURIES, SR, BATTING_AVERAGE, NOS, HS = [], [], [], [], [], [], [], [], [], []
+WICKETS, DOTS, FOURWICKETS, FIVEWICKETS, SIXWICKETS, MAIDENS, ECONOMY, BOWL_AVERAGE, BSR, OVERS = [], [], [], [], [], [], [], [], [], []
+PLAYER_LEADERBOARD_BATTING = { "runs" : RUNS, "4s" : FOURS, "6s" : SIXES, "0s" : DUCKS, "50s" : FIFTIES, "100s" : CENTURIES, "SR" : SR, "battingAverage" : BATTING_AVERAGE, "NOs" : NOS, "HS" : HS }
+PLAYER_LEADERBOARD_BOWLING = { "wickets" : WICKETS, "dots" : DOTS, "4H" : FOURWICKETS, "5H" : FIVEWICKETS, "6H" : SIXWICKETS, "maiden" : MAIDENS, "economy" : ECONOMY, "bowlingAverage" : BOWL_AVERAGE, "bSR" : BSR , "overs" : OVERS}                                  
+PLAYER_LEADERBOARD_FIELDING = { "playerOfTheMatch": [] }
+OUTPUT = {}
+
+
+# TODO
+def computePlayerBaseStats():
+
+    return None
+    with open ("Data/Output.json", "r") as f:
+        data = json.load(f)
+    
+    for player in data:
+        
+        # Batting Points
+        batting = data[player]["batting"]
+
+        # Bowling Points
+        bowling = data[player]["bowling"]
+
+        pprint(batting)
+        pprint(bowling)
+        exit()
+
+# TODO
+def computeBonusStats():
+    return None
+
+# TODO
+def computeTeamBaseStats():
+    return None
+
+# TODO
+def computeTeamBonusStats():
+    return None
+
 
 def addMatch(data):
 
@@ -18,8 +58,8 @@ def addMatch(data):
 
 
                 # Add Player if not in output
-                if batId not in output:
-                    output[batId] = {
+                if batId not in OUTPUT:
+                    OUTPUT[batId] = {
                         "playerID": -1,
                         "batting": {
                             "runs": 0,
@@ -58,64 +98,53 @@ def addMatch(data):
                 sixes = batsmenData["batsmenData"][batter]["sixes"]
                 balls = batsmenData["batsmenData"][batter]["balls"]
 
-                if batsmenData["batsmenData"][batter]["outDesc"] == "not out":
-                    out = "Not Out"
-                elif batsmenData["batsmenData"][batter]["outDesc"] == "":
-                    out = "Did Not Bat"
-                else:
-                    out = "Out"
+                
 
                 # Update Info
-                output[batId]["playerID"] = batId
-                output[batId]["batting"]["runs"] += runs
-                output[batId]["batting"]["4s"] += fours
-                output[batId]["batting"]["6s"] += sixes
-                output[batId]["batting"]["BF"] += balls
-                output[batId]["batting"]["HS"] = max(
-                    output[batId]["batting"]["HS"], runs
+                OUTPUT[batId]["playerID"] = batId
+                OUTPUT[batId]["batting"]["runs"] += runs
+                OUTPUT[batId]["batting"]["4s"] += fours
+                OUTPUT[batId]["batting"]["6s"] += sixes
+                OUTPUT[batId]["batting"]["BF"] += balls
+                OUTPUT[batId]["batting"]["HS"] = max(
+                    OUTPUT[batId]["batting"]["HS"], runs
                 )
 
                 if runs >= 100:
-                    output[batId]["batting"]["100s"] += 1
+                    OUTPUT[batId]["batting"]["100s"] += 1
                 elif runs >= 50:
-                    output[batId]["batting"]["50s"] += 1
-                if out == "not out":
-                    output[batId]["batting"]["NOs"] += 1
-                elif out == "Out":
-                    output[batId]["batting"]["dissmissals"] += 1
-                elif runs == 0 and balls > 0:
-                    output[batId]["batting"]["0s"] += 1
+                    OUTPUT[batId]["batting"]["50s"] += 1
+                if batsmenData["batsmenData"][batter]["outDesc"] == "not out":
+                    OUTPUT[batId]["batting"]["NOs"] += 1
+                else:
+                    OUTPUT[batId]["batting"]["dissmissals"] += 1
+                    if runs == 0 and balls > 0:
+                        OUTPUT[batId]["batting"]["0s"] += 1                    
                 
 
-                if output[batId]["batting"]["BF"] == 0:
-                    output[batId]["batting"]["SR"] = 0
-                    output[batId]["batting"]["battingAverage"] = 0
+                if OUTPUT[batId]["batting"]["BF"] == 0:
+                    OUTPUT[batId]["batting"]["SR"] = 0
+                    OUTPUT[batId]["batting"]["battingAverage"] = 0
                 else:
-                    output[batId]["batting"]["SR"] = (
-                        round(output[batId]["batting"]["runs"]
-                        / output[batId]["batting"]["BF"]
+                    OUTPUT[batId]["batting"]["SR"] = (
+                        round(OUTPUT[batId]["batting"]["runs"]
+                        / OUTPUT[batId]["batting"]["BF"]
                         * 100, 3)
                     )
-                    if output[batId]["batting"]["dissmissals"] == 0:
-                        output[batId]["batting"]["battingAverage"] = output[batId]["batting"]["runs"] / 1
+                    if OUTPUT[batId]["batting"]["dissmissals"] == 0:
+                        OUTPUT[batId]["batting"]["battingAverage"] = OUTPUT[batId]["batting"]["runs"] / 1
                     else:
-                        output[batId]["batting"]["battingAverage"] = (
-                            round(output[batId]["batting"]["runs"] 
-                            / output[batId]["batting"]["dissmissals"], 3)
-                        )
-
-                # if batId == 11813:
-                #     print(
-                #         f"runs: {runs}, fours: {fours}, sixes: {sixes}, balls: {balls}, not_out: {not_out}"
-                #     )
-                
+                        OUTPUT[batId]["batting"]["battingAverage"] = (
+                            round(OUTPUT[batId]["batting"]["runs"] 
+                            / OUTPUT[batId]["batting"]["dissmissals"], 3)
+                        )           
 
             for bowler in bowlersData["bowlersData"]:
                 bowlerId = bowlersData["bowlersData"][bowler]["bowlerId"]
 
                 # Add Player if not in output
-                if bowlerId not in output:
-                    output[bowlerId] = {
+                if bowlerId not in OUTPUT:
+                    OUTPUT[bowlerId] = {
                         "playerID": -1,
                         "batting": {
                             "runs": 0,
@@ -151,54 +180,51 @@ def addMatch(data):
                 # Get Info
                 wickets = bowlersData["bowlersData"][bowler]["wickets"]
                 dots = bowlersData["bowlersData"][bowler]["dots"]
+
                 runs = bowlersData["bowlersData"][bowler]["runs"]
-                balls = bowlersData["bowlersData"][bowler]["balls"]
+                balls = (bowlersData["bowlersData"][bowler]["balls"] % 10) + (int(bowlersData["bowlersData"][bowler]["balls"] / 10) * 6)
+
                 maidens = bowlersData["bowlersData"][bowler]["maidens"]
 
                 # Update Info
-                output[bowlerId]["playerID"] = bowlerId
-                output[bowlerId]["bowling"]["wickets"] += wickets
-                output[bowlerId]["bowling"]["dots"] += dots
-                output[bowlerId]["bowling"]["runsConceded"] += runs
-                output[bowlerId]["bowling"]["overs"] += round(balls / 6, 1)
-                output[bowlerId]["bowling"]["economy"] = (
-                    round(output[bowlerId]["bowling"]["runsConceded"]
-                    / output[bowlerId]["bowling"]["overs"], 3)
+                OUTPUT[bowlerId]["playerID"] = bowlerId
+                OUTPUT[bowlerId]["bowling"]["wickets"] += wickets
+                OUTPUT[bowlerId]["bowling"]["dots"] += dots
+                OUTPUT[bowlerId]["bowling"]["runsConceded"] += runs
+                OUTPUT[bowlerId]["bowling"]["overs"] += round(balls / 6, 1)
+                OUTPUT[bowlerId]["bowling"]["economy"] = (
+                    round(OUTPUT[bowlerId]["bowling"]["runsConceded"]
+                    / OUTPUT[bowlerId]["bowling"]["overs"], 3)
                 )
-                output[bowlerId]["bowling"]["maiden"] += maidens
+                OUTPUT[bowlerId]["bowling"]["maiden"] += maidens
 
-                if output[bowlerId]["bowling"]["wickets"] == 0:
-                    output[bowlerId]["bowling"]["bowlingAverage"] = -1
-                    output[bowlerId]["bowling"]["bSR"] = -1
+                if OUTPUT[bowlerId]["bowling"]["wickets"] == 0:
+                    OUTPUT[bowlerId]["bowling"]["bowlingAverage"] = -1
+                    OUTPUT[bowlerId]["bowling"]["bSR"] = -1
                 else:
-                    output[bowlerId]["bowling"]["bowlingAverage"] = (
-                        round(output[bowlerId]["bowling"]["runsConceded"]
-                        / output[bowlerId]["bowling"]["wickets"], 3)
+                    OUTPUT[bowlerId]["bowling"]["bowlingAverage"] = (
+                        round(OUTPUT[bowlerId]["bowling"]["runsConceded"]
+                        / OUTPUT[bowlerId]["bowling"]["wickets"], 3)
                     )
-                    output[bowlerId]["bowling"]["bSR"] = (
-                        round(output[bowlerId]["bowling"]["overs"]
-                        / output[bowlerId]["bowling"]["wickets"], 3)
+                    OUTPUT[bowlerId]["bowling"]["bSR"] = (
+                        round(OUTPUT[bowlerId]["bowling"]["overs"] * 6
+                        / OUTPUT[bowlerId]["bowling"]["wickets"], 3)
                     )
-                    print(round(output[bowlerId]["bowling"]["overs"]
-                        / output[bowlerId]["bowling"]["wickets"], 3))
 
                 if wickets >= 4:
-                    output[bowlerId]["bowling"]["4H"] += 1
+                    OUTPUT[bowlerId]["bowling"]["4H"] += 1
                 if wickets >= 5:
-                    output[bowlerId]["bowling"]["5H"] += 1
+                    OUTPUT[bowlerId]["bowling"]["5H"] += 1
                 if wickets >= 6:
-                    output[bowlerId]["bowling"]["6H"] += 1
-
-        # Fielding
-        # TODO: Award Catches and Stumpings
+                    OUTPUT[bowlerId]["bowling"]["6H"] += 1
 
         # Player of the Match
         if data["matchHeader"]["playersOfTheMatch"] != []:
             playerOfTheMatch = data["matchHeader"]["playersOfTheMatch"][0]["id"]
-            if playerOfTheMatch in output:
-                output[playerOfTheMatch]["playerOfTheMatch"] += 1            
+            if playerOfTheMatch in OUTPUT:
+                OUTPUT[playerOfTheMatch]["playerOfTheMatch"] += 1            
             else:
-                output[playerOfTheMatch] = {
+                OUTPUT[playerOfTheMatch] = {
                             "playerID": -1,
                             "batting": {
                                 "runs": 0,
@@ -230,145 +256,74 @@ def addMatch(data):
                             "fielding": {"catches": 0, "stumpings": 0},
                             "playerOfTheMatch": 0,  #
                         }
-                output[playerOfTheMatch]["playerOfTheMatch"] = 1
+                OUTPUT[playerOfTheMatch]["playerOfTheMatch"] = 1
 
 
-# TODO
-def computePlayerBaseStats():
-
-    return None
-    with open ("Data/Output.json", "r") as f:
-        data = json.load(f)
-    
-    for player in data:
-        
-        # Batting Points
-        batting = data[player]["batting"]
-
-        # Bowling Points
-        bowling = data[player]["bowling"]
-
-        pprint(batting)
-        pprint(bowling)
-        exit()
-
-# TODO
 def computeLeaderboard():
-    #TODO: Remove players that dont meet balls faced or overs bowled criteria
-
-    RUNS = []
-    FOURS = []
-    SIXES = []
-    DUCKS = []
-    FIFTIES = []
-    CENTURIES = []
-    SR = []
-    BATTING_AVERAGE = []
-    NOS = []
-    HS = []
-
-    WICKETS = []
-    DOTS = []
-    FOURWICKETS = []
-    FIVEWICKETS = []
-    SIXWICKETS = []
-    MAIDENS = []
-    ECONOMY = []
-    BOWL_AVERAGE = []
-    BSR = []
-
-    LEADERBOARD_BATTING = { "runs" : RUNS, "4s" : FOURS, "6s" : SIXES, "0s" : DUCKS, "50s" : FIFTIES, "100s" : CENTURIES, "SR" : SR, "battingAverage" : BATTING_AVERAGE, "NOs" : NOS, "HS" : HS }
-    LEADERBOARD_BOWLING = { "wickets" : WICKETS, "dots" : DOTS, "4H" : FOURWICKETS, "5H" : FIVEWICKETS, "6H" : SIXWICKETS, "maiden" : MAIDENS, "economy" : ECONOMY, "bowlingAverage" : BOWL_AVERAGE, "bSR" : BSR }                                  
+        
     with open ("Data/Output.json", "r") as f:
         data = json.load(f)
-    
     with open("Data\Players.json", "r") as f:
         players = json.load(f)
 
-    pprint(players["1413"])
 
     for player in data:
-        for stat in LEADERBOARD_BATTING:
+        for stat in PLAYER_LEADERBOARD_BATTING:
             if data[player]["batting"][stat] != -1:
-                LEADERBOARD_BATTING[stat].append([data[player]["batting"][stat], players[str(data[player]["playerID"])]])
+                PLAYER_LEADERBOARD_BATTING[stat].append([data[player]["batting"][stat], players[str(data[player]["playerID"])]])
         
-        for stat in LEADERBOARD_BOWLING:
+        for stat in PLAYER_LEADERBOARD_BOWLING:
             if data[player]["bowling"][stat] != -1:
-                LEADERBOARD_BOWLING[stat].append([data[player]["bowling"][stat], players[str(data[player]["playerID"])]])
+                PLAYER_LEADERBOARD_BOWLING[stat].append([data[player]["bowling"][stat], players[str(data[player]["playerID"])]])
+
+        for stat in PLAYER_LEADERBOARD_FIELDING:
+            if data[player][stat] != -1:
+                PLAYER_LEADERBOARD_FIELDING[stat].append([data[player][stat], players[str(data[player]["playerID"])]])
+        
 
     # Sorting
-    LEADERBOARD_BATTING["runs"].sort(reverse=True)
-    LEADERBOARD_BATTING["4s"].sort(reverse=True)
-    LEADERBOARD_BATTING["6s"].sort(reverse=True)
-    LEADERBOARD_BATTING["0s"].sort(reverse=True)
-    LEADERBOARD_BATTING["50s"].sort(reverse=True)
-    LEADERBOARD_BATTING["100s"].sort(reverse=True)
-    LEADERBOARD_BATTING["SR"].sort(reverse=True)
-    LEADERBOARD_BATTING["battingAverage"].sort(reverse=True)
-    LEADERBOARD_BATTING["NOs"].sort(reverse=True)
-    LEADERBOARD_BATTING["HS"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["runs"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["4s"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["6s"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["0s"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["50s"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["100s"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["SR"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["battingAverage"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["NOs"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BATTING["HS"].sort(reverse=True)
 
-    LEADERBOARD_BOWLING["wickets"].sort(reverse=True)
-    LEADERBOARD_BOWLING["dots"].sort(reverse=True)
-    LEADERBOARD_BOWLING["4H"].sort(reverse=True)
-    LEADERBOARD_BOWLING["5H"].sort(reverse=True)
-    LEADERBOARD_BOWLING["6H"].sort(reverse=True)
-    LEADERBOARD_BOWLING["maiden"].sort(reverse=True)
-    LEADERBOARD_BOWLING["economy"].sort()
-    LEADERBOARD_BOWLING["bowlingAverage"].sort()
-    LEADERBOARD_BOWLING["bSR"].sort()
+    PLAYER_LEADERBOARD_BOWLING["wickets"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["dots"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["4H"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["5H"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["6H"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["maiden"].sort(reverse=True)
+    PLAYER_LEADERBOARD_BOWLING["economy"].sort()
+    PLAYER_LEADERBOARD_BOWLING["bowlingAverage"].sort()
+    PLAYER_LEADERBOARD_BOWLING["bSR"].sort()
+    PLAYER_LEADERBOARD_BOWLING["overs"].sort()
 
-    pprint(LEADERBOARD_BOWLING["bSR"])
-
-
-    # Print the top 10 in each category using prett table
-    output = ""
-    for stat in LEADERBOARD_BATTING:
-        table = prettytable.PrettyTable()
-        table.field_names = [stat, "Player ID"]
-        for entry in LEADERBOARD_BATTING[stat]:
-            table.add_row(entry)
-        print(table, "\n\n\n")
-        output += str(str(table) + "\n\n\n")
-
-    for stat in LEADERBOARD_BOWLING:
-        table = prettytable.PrettyTable()
-        table.field_names = [stat, "Player ID"]
-        for entry in LEADERBOARD_BOWLING[stat]:
-            table.add_row(entry)
-        print(table, "\n\n\n")
-        output += str(str(table) + "\n\n\n")
-
-    with open("Data/Leaderboard.txt", "w") as f:
-        f.write(output)
-    
-
-    
-
-
-# TODO
-def computeBonusStats():
-    return None
-
-# TODO
-def computeTeamBaseStats():
-    return None
-
-# TODO
-def computeTeamBonusStats():
-    return None
+    PLAYER_LEADERBOARD_FIELDING["playerOfTheMatch"].sort(reverse=True)
+ 
 
 
 def updateComputation():
+
+    # Add all matches
     for file in os.listdir("Data"):
         with open(f"Data/{file}", "r") as f:
             try:
                 addMatch(json.load(f))
             except ValueError:
                 pass
-
     with open("Data/Output.json", "w") as f:
-        json.dump(output, f, indent=2)
+        json.dump(OUTPUT, f, indent=2)
 
+    # Compute Leaderboard
+    computeLeaderboard()
+    with open("Data/Leaderboard.json", "w") as f:
+        final = {"batting": PLAYER_LEADERBOARD_BATTING, "bowling": PLAYER_LEADERBOARD_BOWLING, "fielding": PLAYER_LEADERBOARD_FIELDING}
+        json.dump(final, f, indent=2)
+    
 updateComputation()
-computeLeaderboard()

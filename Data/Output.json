@@ -12,7 +12,7 @@
       "BF": 225,
       "battingAverage": 79.75,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 113
     },
     "bowling": {
@@ -75,13 +75,13 @@
       "runs": 100,
       "4s": 6,
       "6s": 7,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 138.889,
       "BF": 72,
-      "battingAverage": 20.0,
-      "dissmissals": 5,
+      "battingAverage": 16.667,
+      "dissmissals": 6,
       "NOs": 0,
       "HS": 50
     },
@@ -110,7 +110,7 @@
       "runs": 32,
       "4s": 3,
       "6s": 1,
-      "0s": 0,
+      "0s": 3,
       "50s": 0,
       "100s": 0,
       "SR": 94.118,
@@ -123,15 +123,15 @@
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 5.033,
+      "economy": 8.444,
       "runsConceded": 76,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 19.0,
-      "bSR": 3.775,
-      "overs": 15.1
+      "bSR": 13.5,
+      "overs": 9.0
     },
     "fielding": {
       "catches": 0,
@@ -152,21 +152,21 @@
       "BF": 63,
       "battingAverage": 17.0,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 33
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 5.676,
+      "economy": 9.375,
       "runsConceded": 105,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 52.5,
-      "bSR": 9.25,
-      "overs": 18.5
+      "bSR": 33.6,
+      "overs": 11.2
     },
     "fielding": {
       "catches": 0,
@@ -220,9 +220,9 @@
       "100s": 0,
       "SR": 190.667,
       "BF": 75,
-      "battingAverage": 71.5,
-      "dissmissals": 2,
-      "NOs": 0,
+      "battingAverage": 47.667,
+      "dissmissals": 3,
+      "NOs": 3,
       "HS": 53
     },
     "bowling": {
@@ -256,22 +256,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 7.273,
+      "economy": 12.0,
       "runsConceded": 24,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.0,
-      "bSR": 3.3,
-      "overs": 3.3
+      "bSR": 12.0,
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -291,22 +291,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 7.325,
+      "economy": 11.856,
       "runsConceded": 115,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 115.0,
-      "bSR": 15.7,
-      "overs": 15.7
+      "bSR": 58.2,
+      "overs": 9.7
     },
     "fielding": {
       "catches": 0,
@@ -320,28 +320,28 @@
       "runs": 0,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 0.0,
       "BF": 1,
       "battingAverage": 0.0,
-      "dissmissals": 1,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 6.283,
+      "economy": 10.169,
       "runsConceded": 120,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 120.0,
-      "bSR": 19.1,
-      "overs": 19.1
+      "bSR": 70.8,
+      "overs": 11.8
     },
     "fielding": {
       "catches": 0,
@@ -360,23 +360,23 @@
       "100s": 0,
       "SR": 150.0,
       "BF": 8,
-      "battingAverage": 12.0,
-      "dissmissals": 1,
+      "battingAverage": 2.0,
+      "dissmissals": 6,
       "NOs": 0,
       "HS": 12
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 6.223,
+      "economy": 10.409,
       "runsConceded": 229,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 57.25,
-      "bSR": 9.2,
-      "overs": 36.8
+      "bSR": 33.0,
+      "overs": 22.0
     },
     "fielding": {
       "catches": 0,
@@ -396,22 +396,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 4.969,
+      "economy": 8.316,
       "runsConceded": 158,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 31.6,
-      "bSR": 6.36,
-      "overs": 31.799999999999997
+      "bSR": 22.8,
+      "overs": 19.0
     },
     "fielding": {
       "catches": 0,
@@ -431,22 +431,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 9,
       "dots": 0,
-      "economy": 4.776,
+      "economy": 8.0,
       "runsConceded": 128,
       "4H": 1,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 14.222,
-      "bSR": 2.978,
-      "overs": 26.8
+      "bSR": 10.667,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -466,22 +466,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 4.527,
+      "economy": 7.583,
       "runsConceded": 91,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 45.5,
-      "bSR": 10.05,
-      "overs": 20.1
+      "bSR": 36.0,
+      "overs": 12.0
     },
     "fielding": {
       "catches": 0,
@@ -500,23 +500,23 @@
       "100s": 0,
       "SR": 140.0,
       "BF": 60,
-      "battingAverage": 84.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 42.0,
+      "dissmissals": 2,
+      "NOs": 3,
       "HS": 31
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 4.219,
+      "economy": 7.056,
       "runsConceded": 127,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 31.75,
-      "bSR": 7.525,
-      "overs": 30.099999999999998
+      "bSR": 27.0,
+      "overs": 18.0
     },
     "fielding": {
       "catches": 0,
@@ -536,22 +536,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 4.817,
+      "economy": 8.056,
       "runsConceded": 145,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 29.0,
-      "bSR": 6.02,
-      "overs": 30.1
+      "bSR": 21.6,
+      "overs": 18.0
     },
     "fielding": {
       "catches": 0,
@@ -571,22 +571,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 5.494,
+      "economy": 9.145,
       "runsConceded": 139,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 34.75,
-      "bSR": 6.325,
-      "overs": 25.3
+      "bSR": 22.8,
+      "overs": 15.2
     },
     "fielding": {
       "catches": 0,
@@ -607,7 +607,7 @@
       "BF": 132,
       "battingAverage": 38.75,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 67
     },
     "bowling": {
@@ -648,7 +648,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 2.059,
+      "economy": 3.5,
       "runsConceded": 7,
       "4H": 0,
       "5H": 0,
@@ -656,7 +656,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.4
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -675,8 +675,8 @@
       "100s": 0,
       "SR": 130.769,
       "BF": 91,
-      "battingAverage": 29.75,
-      "dissmissals": 4,
+      "battingAverage": 23.8,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 45
     },
@@ -712,21 +712,21 @@
       "BF": 94,
       "battingAverage": 29.5,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 34
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 5.455,
+      "economy": 9.0,
       "runsConceded": 18,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 18.0,
-      "bSR": 3.3,
-      "overs": 3.3
+      "bSR": 12.0,
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -747,7 +747,7 @@
       "BF": 110,
       "battingAverage": 44.0,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 51
     },
     "bowling": {
@@ -775,13 +775,13 @@
       "runs": 14,
       "4s": 0,
       "6s": 2,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 200.0,
       "BF": 7,
-      "battingAverage": 7.0,
-      "dissmissals": 2,
+      "battingAverage": 3.5,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 14
     },
@@ -815,9 +815,9 @@
       "100s": 0,
       "SR": 185.714,
       "BF": 21,
-      "battingAverage": 39.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 19.5,
+      "dissmissals": 2,
+      "NOs": 3,
       "HS": 37
     },
     "bowling": {
@@ -880,7 +880,7 @@
       "runs": 61,
       "4s": 9,
       "6s": 3,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 160.526,
@@ -893,15 +893,15 @@
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 7.687,
+      "economy": 12.875,
       "runsConceded": 103,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 103.0,
-      "bSR": 13.4,
-      "overs": 13.4
+      "bSR": 48.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -985,7 +985,7 @@
       "runs": 3,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 33.333,
@@ -1020,14 +1020,14 @@
       "runs": 174,
       "4s": 9,
       "6s": 14,
-      "0s": 0,
+      "0s": 1,
       "50s": 2,
       "100s": 0,
       "SR": 193.333,
       "BF": 90,
       "battingAverage": 58.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 71
     },
     "bowling": {
@@ -1055,28 +1055,28 @@
       "runs": 51,
       "4s": 4,
       "6s": 1,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 121.429,
       "BF": 42,
       "battingAverage": 17.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 21
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 4.44,
+      "economy": 7.438,
       "runsConceded": 119,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 29.75,
-      "bSR": 6.7,
-      "overs": 26.799999999999997
+      "bSR": 24.0,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -1095,15 +1095,15 @@
       "100s": 0,
       "SR": 60.0,
       "BF": 15,
-      "battingAverage": 4.5,
-      "dissmissals": 2,
+      "battingAverage": 3.0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 7
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 7.17,
+      "economy": 11.515,
       "runsConceded": 38,
       "4H": 0,
       "5H": 0,
@@ -1111,7 +1111,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.3
+      "overs": 3.3
     },
     "fielding": {
       "catches": 0,
@@ -1125,14 +1125,14 @@
       "runs": 91,
       "4s": 10,
       "6s": 2,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 146.774,
       "BF": 62,
       "battingAverage": 30.333,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 41
     },
     "bowling": {
@@ -1165,23 +1165,23 @@
       "100s": 0,
       "SR": 50.0,
       "BF": 2,
-      "battingAverage": 1.0,
-      "dissmissals": 1,
+      "battingAverage": 0.5,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 1
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 4.552,
+      "economy": 7.625,
       "runsConceded": 61,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 20.333,
-      "bSR": 4.467,
-      "overs": 13.4
+      "bSR": 16.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -1201,22 +1201,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 7,
       "dots": 1,
-      "economy": 5.075,
+      "economy": 8.5,
       "runsConceded": 170,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 1,
       "bowlingAverage": 24.286,
-      "bSR": 4.786,
-      "overs": 33.5
+      "bSR": 17.143,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -1235,23 +1235,23 @@
       "100s": 0,
       "SR": 33.333,
       "BF": 3,
-      "battingAverage": 1.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 0.333,
+      "dissmissals": 3,
+      "NOs": 1,
       "HS": 1
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 6.667,
+      "economy": 11.091,
       "runsConceded": 122,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 40.667,
-      "bSR": 6.1,
-      "overs": 18.3
+      "bSR": 22.0,
+      "overs": 11.0
     },
     "fielding": {
       "catches": 0,
@@ -1270,23 +1270,23 @@
       "100s": 0,
       "SR": 83.333,
       "BF": 6,
-      "battingAverage": 5.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 2.5,
+      "dissmissals": 2,
+      "NOs": 3,
       "HS": 2
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 4.296,
+      "economy": 7.176,
       "runsConceded": 122,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 30.5,
-      "bSR": 7.1,
-      "overs": 28.4
+      "bSR": 25.5,
+      "overs": 17.0
     },
     "fielding": {
       "catches": 0,
@@ -1306,22 +1306,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 7,
       "dots": 0,
-      "economy": 5.164,
+      "economy": 8.65,
       "runsConceded": 173,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.714,
-      "bSR": 4.786,
-      "overs": 33.5
+      "bSR": 17.143,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -1341,22 +1341,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 6.299,
+      "economy": 10.55,
       "runsConceded": 211,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 35.167,
-      "bSR": 5.583,
-      "overs": 33.5
+      "bSR": 20.0,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -1376,22 +1376,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 6.791,
+      "economy": 11.375,
       "runsConceded": 91,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 45.5,
-      "bSR": 6.7,
-      "overs": 13.4
+      "bSR": 24.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -1411,22 +1411,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 8,
       "dots": 0,
-      "economy": 5.263,
+      "economy": 8.743,
       "runsConceded": 160,
       "4H": 1,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 20.0,
-      "bSR": 3.8,
-      "overs": 30.4
+      "bSR": 13.725,
+      "overs": 18.3
     },
     "fielding": {
       "catches": 0,
@@ -1440,7 +1440,7 @@
       "runs": 120,
       "4s": 11,
       "6s": 3,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 126.316,
@@ -1453,15 +1453,15 @@
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 5.427,
+      "economy": 9.071,
       "runsConceded": 127,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 21.167,
-      "bSR": 3.9,
-      "overs": 23.4
+      "bSR": 14.0,
+      "overs": 14.0
     },
     "fielding": {
       "catches": 0,
@@ -1510,7 +1510,7 @@
       "runs": 81,
       "4s": 11,
       "6s": 3,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 150.0,
@@ -1622,7 +1622,7 @@
       "BF": 51,
       "battingAverage": 83.0,
       "dissmissals": 1,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 38
     },
     "bowling": {
@@ -1650,14 +1650,14 @@
       "runs": 137,
       "4s": 14,
       "6s": 7,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 195.714,
       "BF": 70,
       "battingAverage": 137.0,
       "dissmissals": 1,
-      "NOs": 0,
+      "NOs": 4,
       "HS": 61
     },
     "bowling": {
@@ -1685,7 +1685,7 @@
       "runs": 102,
       "4s": 9,
       "6s": 5,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 139.726,
@@ -1733,15 +1733,15 @@
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 4.403,
+      "economy": 7.375,
       "runsConceded": 118,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 29.5,
-      "bSR": 6.7,
-      "overs": 26.8
+      "bSR": 24.0,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -1762,13 +1762,13 @@
       "BF": 45,
       "battingAverage": 21.667,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 50
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 16.471,
+      "economy": 28.0,
       "runsConceded": 28,
       "4H": 0,
       "5H": 0,
@@ -1776,7 +1776,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -1790,14 +1790,14 @@
       "runs": 91,
       "4s": 5,
       "6s": 4,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 131.884,
       "BF": 69,
       "battingAverage": 30.333,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 39
     },
     "bowling": {
@@ -1865,8 +1865,8 @@
       "100s": 0,
       "SR": 161.29,
       "BF": 31,
-      "battingAverage": 16.667,
-      "dissmissals": 3,
+      "battingAverage": 12.5,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 35
     },
@@ -1902,7 +1902,7 @@
       "BF": 42,
       "battingAverage": 21.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 26
     },
     "bowling": {
@@ -1935,23 +1935,23 @@
       "100s": 0,
       "SR": 212.963,
       "BF": 54,
-      "battingAverage": 57.5,
-      "dissmissals": 2,
-      "NOs": 0,
+      "battingAverage": 38.333,
+      "dissmissals": 3,
+      "NOs": 1,
       "HS": 64
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 5.547,
+      "economy": 9.157,
       "runsConceded": 76,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 15.2,
-      "bSR": 2.74,
-      "overs": 13.7
+      "bSR": 9.96,
+      "overs": 8.3
     },
     "fielding": {
       "catches": 0,
@@ -1965,28 +1965,28 @@
       "runs": 7,
       "4s": 1,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 100.0,
       "BF": 7,
-      "battingAverage": 7.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 3.5,
+      "dissmissals": 2,
+      "NOs": 2,
       "HS": 6
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 6.581,
+      "economy": 11.0,
       "runsConceded": 154,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 77.0,
-      "bSR": 11.7,
-      "overs": 23.4
+      "bSR": 42.0,
+      "overs": 14.0
     },
     "fielding": {
       "catches": 0,
@@ -2006,22 +2006,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 5.373,
+      "economy": 9.0,
       "runsConceded": 72,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 14.4,
-      "bSR": 2.68,
-      "overs": 13.4
+      "bSR": 9.6,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -2041,22 +2041,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 5.726,
+      "economy": 9.571,
       "runsConceded": 134,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 33.5,
-      "bSR": 5.85,
-      "overs": 23.4
+      "bSR": 21.0,
+      "overs": 14.0
     },
     "fielding": {
       "catches": 0,
@@ -2076,14 +2076,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 5.455,
+      "economy": 9.0,
       "runsConceded": 18,
       "4H": 0,
       "5H": 0,
@@ -2091,7 +2091,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.3
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -2105,28 +2105,28 @@
       "runs": 5,
       "4s": 0,
       "6s": 0,
-      "0s": 1,
+      "0s": 0,
       "50s": 0,
       "100s": 0,
       "SR": 71.429,
       "BF": 7,
-      "battingAverage": 5.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 1.667,
+      "dissmissals": 3,
+      "NOs": 2,
       "HS": 3
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 4.358,
+      "economy": 7.3,
       "runsConceded": 146,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.333,
-      "bSR": 5.583,
-      "overs": 33.5
+      "bSR": 20.0,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -2146,22 +2146,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 5.174,
+      "economy": 8.667,
       "runsConceded": 104,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 20.8,
-      "bSR": 4.02,
-      "overs": 20.1
+      "bSR": 14.4,
+      "overs": 12.0
     },
     "fielding": {
       "catches": 0,
@@ -2180,23 +2180,23 @@
       "100s": 0,
       "SR": 137.255,
       "BF": 51,
-      "battingAverage": 23.333,
-      "dissmissals": 3,
-      "NOs": 0,
+      "battingAverage": 17.5,
+      "dissmissals": 4,
+      "NOs": 1,
       "HS": 22
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 7.015,
+      "economy": 11.75,
       "runsConceded": 94,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 31.333,
-      "bSR": 4.467,
-      "overs": 13.399999999999999
+      "bSR": 16.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -2216,22 +2216,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 6.682,
+      "economy": 11.154,
       "runsConceded": 145,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 48.333,
-      "bSR": 7.233,
-      "overs": 21.7
+      "bSR": 26.0,
+      "overs": 13.0
     },
     "fielding": {
       "catches": 0,
@@ -2252,13 +2252,13 @@
       "BF": 1,
       "battingAverage": 1.0,
       "dissmissals": 0,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 1
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 8.0,
+      "economy": 13.333,
       "runsConceded": 40,
       "4H": 0,
       "5H": 0,
@@ -2266,7 +2266,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.0
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -2285,23 +2285,23 @@
       "100s": 0,
       "SR": 75.0,
       "BF": 8,
-      "battingAverage": 6.0,
-      "dissmissals": 1,
+      "battingAverage": 1.2,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 6
     },
     "bowling": {
       "wickets": 3,
       "dots": 1,
-      "economy": 5.701,
+      "economy": 9.55,
       "runsConceded": 191,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 1,
       "bowlingAverage": 63.667,
-      "bSR": 11.167,
-      "overs": 33.5
+      "bSR": 40.0,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -2363,7 +2363,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 4.118,
+      "economy": 7.0,
       "runsConceded": 7,
       "4H": 0,
       "5H": 0,
@@ -2371,7 +2371,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -2420,14 +2420,14 @@
       "runs": 127,
       "4s": 8,
       "6s": 2,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 129.592,
       "BF": 98,
       "battingAverage": 31.75,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 50
     },
     "bowling": {
@@ -2462,7 +2462,7 @@
       "BF": 96,
       "battingAverage": 62.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 80
     },
     "bowling": {
@@ -2495,8 +2495,8 @@
       "100s": 0,
       "SR": 186.486,
       "BF": 37,
-      "battingAverage": 23.0,
-      "dissmissals": 3,
+      "battingAverage": 13.8,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 29
     },
@@ -2525,7 +2525,7 @@
       "runs": 63,
       "4s": 11,
       "6s": 1,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 136.957,
@@ -2567,7 +2567,7 @@
       "BF": 109,
       "battingAverage": 35.75,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 100
     },
     "bowling": {
@@ -2602,7 +2602,7 @@
       "BF": 156,
       "battingAverage": 82.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 82
     },
     "bowling": {
@@ -2637,13 +2637,13 @@
       "BF": 165,
       "battingAverage": 87.0,
       "dissmissals": 3,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 84
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 5.882,
+      "economy": 10.0,
       "runsConceded": 10,
       "4H": 0,
       "5H": 0,
@@ -2651,7 +2651,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -2670,9 +2670,9 @@
       "100s": 0,
       "SR": 172.0,
       "BF": 25,
-      "battingAverage": 43.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 21.5,
+      "dissmissals": 2,
+      "NOs": 3,
       "HS": 14
     },
     "bowling": {
@@ -2705,9 +2705,9 @@
       "100s": 0,
       "SR": 155.556,
       "BF": 27,
-      "battingAverage": 21.0,
-      "dissmissals": 2,
-      "NOs": 0,
+      "battingAverage": 10.5,
+      "dissmissals": 4,
+      "NOs": 1,
       "HS": 20
     },
     "bowling": {
@@ -2740,23 +2740,23 @@
       "100s": 0,
       "SR": 128.571,
       "BF": 35,
-      "battingAverage": 22.5,
-      "dissmissals": 2,
+      "battingAverage": 9.0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 29
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 5.031,
+      "economy": 8.421,
       "runsConceded": 160,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 160.0,
-      "bSR": 31.8,
-      "overs": 31.799999999999997
+      "bSR": 114.0,
+      "overs": 19.0
     },
     "fielding": {
       "catches": 0,
@@ -2776,22 +2776,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 4.957,
+      "economy": 8.286,
       "runsConceded": 58,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 58.0,
-      "bSR": 11.7,
-      "overs": 11.7
+      "bSR": 42.0,
+      "overs": 7.0
     },
     "fielding": {
       "catches": 0,
@@ -2811,22 +2811,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 5.472,
+      "economy": 9.158,
       "runsConceded": 174,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 58.0,
-      "bSR": 10.6,
-      "overs": 31.799999999999997
+      "bSR": 38.0,
+      "overs": 19.0
     },
     "fielding": {
       "catches": 0,
@@ -2846,22 +2846,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 4.644,
+      "economy": 7.75,
       "runsConceded": 124,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.8,
-      "bSR": 5.34,
-      "overs": 26.7
+      "bSR": 19.2,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -2881,22 +2881,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 10,
       "dots": 0,
-      "economy": 4.385,
+      "economy": 7.333,
       "runsConceded": 132,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 13.2,
-      "bSR": 3.01,
-      "overs": 30.099999999999998
+      "bSR": 10.8,
+      "overs": 18.0
     },
     "fielding": {
       "catches": 0,
@@ -2916,22 +2916,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 5.299,
+      "economy": 8.857,
       "runsConceded": 124,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 20.667,
-      "bSR": 3.9,
-      "overs": 23.4
+      "bSR": 14.0,
+      "overs": 14.0
     },
     "fielding": {
       "catches": 0,
@@ -2945,28 +2945,28 @@
       "runs": 0,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 0.0,
       "BF": 1,
       "battingAverage": 0.0,
-      "dissmissals": 1,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 5.2,
+      "economy": 8.667,
       "runsConceded": 104,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 52.0,
-      "bSR": 10.0,
-      "overs": 20.0
+      "bSR": 36.0,
+      "overs": 12.0
     },
     "fielding": {
       "catches": 0,
@@ -2987,21 +2987,21 @@
       "BF": 29,
       "battingAverage": 48.0,
       "dissmissals": 0,
-      "NOs": 0,
+      "NOs": 4,
       "HS": 43
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 3.284,
+      "economy": 5.5,
       "runsConceded": 66,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 22.0,
-      "bSR": 6.7,
-      "overs": 20.099999999999998
+      "bSR": 24.0,
+      "overs": 12.0
     },
     "fielding": {
       "catches": 0,
@@ -3015,7 +3015,7 @@
       "runs": 29,
       "4s": 3,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 100.0,
@@ -3028,7 +3028,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 3.529,
+      "economy": 6.0,
       "runsConceded": 6,
       "4H": 0,
       "5H": 0,
@@ -3036,7 +3036,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -3056,22 +3056,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 6,
       "dots": 1,
-      "economy": 6.343,
+      "economy": 10.278,
       "runsConceded": 111,
       "4H": 1,
       "5H": 1,
       "6H": 0,
       "maiden": 1,
       "bowlingAverage": 18.5,
-      "bSR": 2.917,
-      "overs": 17.5
+      "bSR": 10.8,
+      "overs": 10.8
     },
     "fielding": {
       "catches": 0,
@@ -3091,22 +3091,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 3,
+      "NOs": 1,
       "HS": 0
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 5.659,
+      "economy": 9.299,
       "runsConceded": 146,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 29.2,
-      "bSR": 5.16,
-      "overs": 25.8
+      "bSR": 18.84,
+      "overs": 15.7
     },
     "fielding": {
       "catches": 0,
@@ -3125,23 +3125,23 @@
       "100s": 0,
       "SR": 200.0,
       "BF": 1,
-      "battingAverage": 2.0,
-      "dissmissals": 1,
+      "battingAverage": 1.0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 2
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 5.896,
+      "economy": 9.875,
       "runsConceded": 79,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 26.333,
-      "bSR": 4.467,
-      "overs": 13.4
+      "bSR": 16.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -3225,7 +3225,7 @@
       "runs": 22,
       "4s": 3,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 81.481,
@@ -3302,7 +3302,7 @@
       "BF": 105,
       "battingAverage": 178.0,
       "dissmissals": 1,
-      "NOs": 0,
+      "NOs": 3,
       "HS": 64
     },
     "bowling": {
@@ -3343,15 +3343,15 @@
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 5.294,
+      "economy": 9.0,
       "runsConceded": 9,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 9.0,
-      "bSR": 1.7,
-      "overs": 1.7
+      "bSR": 6.0,
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -3407,7 +3407,7 @@
       "BF": 168,
       "battingAverage": 51.0,
       "dissmissals": 5,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 89
     },
     "bowling": {
@@ -3475,23 +3475,23 @@
       "100s": 0,
       "SR": 133.333,
       "BF": 21,
-      "battingAverage": 14.0,
-      "dissmissals": 2,
+      "battingAverage": 7.0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 17
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 5.622,
+      "economy": 9.385,
       "runsConceded": 122,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 30.5,
-      "bSR": 5.425,
-      "overs": 21.7
+      "bSR": 19.5,
+      "overs": 13.0
     },
     "fielding": {
       "catches": 0,
@@ -3512,7 +3512,7 @@
       "BF": 54,
       "battingAverage": 38.5,
       "dissmissals": 2,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 44
     },
     "bowling": {
@@ -3547,7 +3547,7 @@
       "BF": 65,
       "battingAverage": 18.25,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 2,
       "HS": 17
     },
     "bowling": {
@@ -3580,9 +3580,9 @@
       "100s": 0,
       "SR": 147.143,
       "BF": 70,
-      "battingAverage": 25.75,
-      "dissmissals": 4,
-      "NOs": 0,
+      "battingAverage": 20.6,
+      "dissmissals": 5,
+      "NOs": 1,
       "HS": 30
     },
     "bowling": {
@@ -3610,28 +3610,28 @@
       "runs": 29,
       "4s": 4,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 152.632,
       "BF": 19,
-      "battingAverage": 14.5,
-      "dissmissals": 2,
-      "NOs": 0,
+      "battingAverage": 7.25,
+      "dissmissals": 4,
+      "NOs": 2,
       "HS": 24
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 4.751,
+      "economy": 7.958,
       "runsConceded": 191,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 31.833,
-      "bSR": 6.7,
-      "overs": 40.2
+      "bSR": 24.0,
+      "overs": 24.0
     },
     "fielding": {
       "catches": 0,
@@ -3650,23 +3650,23 @@
       "100s": 0,
       "SR": 80.0,
       "BF": 15,
-      "battingAverage": 12.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 2.4,
+      "dissmissals": 5,
+      "NOs": 1,
       "HS": 10
     },
     "bowling": {
       "wickets": 7,
       "dots": 0,
-      "economy": 6.333,
+      "economy": 10.556,
       "runsConceded": 190,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 27.143,
-      "bSR": 4.286,
-      "overs": 30.0
+      "bSR": 15.429,
+      "overs": 18.0
     },
     "fielding": {
       "catches": 0,
@@ -3686,22 +3686,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 4.444,
+      "economy": 7.429,
       "runsConceded": 52,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 26.0,
-      "bSR": 5.85,
-      "overs": 11.7
+      "bSR": 21.0,
+      "overs": 7.0
     },
     "fielding": {
       "catches": 0,
@@ -3715,28 +3715,28 @@
       "runs": 5,
       "4s": 1,
       "6s": 0,
-      "0s": 1,
+      "0s": 0,
       "50s": 0,
       "100s": 0,
       "SR": 83.333,
       "BF": 6,
-      "battingAverage": 5.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 2.5,
+      "dissmissals": 2,
+      "NOs": 2,
       "HS": 5
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 5.513,
+      "economy": 9.214,
       "runsConceded": 129,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 43.0,
-      "bSR": 7.8,
-      "overs": 23.4
+      "bSR": 28.0,
+      "overs": 14.0
     },
     "fielding": {
       "catches": 0,
@@ -3756,22 +3756,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 6,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 8,
       "dots": 0,
-      "economy": 5.61,
+      "economy": 9.391,
       "runsConceded": 216,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 27.0,
-      "bSR": 4.812,
-      "overs": 38.5
+      "bSR": 17.25,
+      "overs": 23.0
     },
     "fielding": {
       "catches": 0,
@@ -3791,14 +3791,14 @@
       "SR": 100.0,
       "BF": 1,
       "battingAverage": 1.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 1,
+      "NOs": 1,
       "HS": 1
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 6.867,
+      "economy": 11.4,
       "runsConceded": 57,
       "4H": 0,
       "5H": 0,
@@ -3806,7 +3806,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 8.3
+      "overs": 5.0
     },
     "fielding": {
       "catches": 0,
@@ -3825,23 +3825,23 @@
       "100s": 0,
       "SR": 41.667,
       "BF": 12,
-      "battingAverage": 2.5,
-      "dissmissals": 2,
+      "battingAverage": 1.0,
+      "dissmissals": 5,
       "NOs": 0,
       "HS": 4
     },
     "bowling": {
       "wickets": 8,
       "dots": 0,
-      "economy": 6.405,
+      "economy": 10.595,
       "runsConceded": 196,
       "4H": 1,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.5,
-      "bSR": 3.825,
-      "overs": 30.599999999999998
+      "bSR": 13.875,
+      "overs": 18.5
     },
     "fielding": {
       "catches": 0,
@@ -3860,23 +3860,23 @@
       "100s": 0,
       "SR": 90.0,
       "BF": 10,
-      "battingAverage": 9.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 3.0,
+      "dissmissals": 3,
+      "NOs": 2,
       "HS": 8
     },
     "bowling": {
       "wickets": 10,
       "dots": 0,
-      "economy": 3.552,
+      "economy": 5.95,
       "runsConceded": 119,
       "4H": 1,
       "5H": 1,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 11.9,
-      "bSR": 3.35,
-      "overs": 33.5
+      "bSR": 12.0,
+      "overs": 20.0
     },
     "fielding": {
       "catches": 0,
@@ -3890,7 +3890,7 @@
       "runs": 50,
       "4s": 5,
       "6s": 3,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 200.0,
@@ -3903,7 +3903,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 7.647,
+      "economy": 13.0,
       "runsConceded": 13,
       "4H": 0,
       "5H": 0,
@@ -3911,7 +3911,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -3925,28 +3925,28 @@
       "runs": 3,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 42.857,
       "BF": 7,
-      "battingAverage": 1.5,
-      "dissmissals": 2,
+      "battingAverage": 0.75,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 3
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 6.928,
+      "economy": 11.5,
       "runsConceded": 115,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 57.5,
-      "bSR": 8.3,
-      "overs": 16.6
+      "bSR": 30.0,
+      "overs": 10.0
     },
     "fielding": {
       "catches": 0,
@@ -3966,14 +3966,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 7.576,
+      "economy": 12.5,
       "runsConceded": 25,
       "4H": 0,
       "5H": 0,
@@ -3981,7 +3981,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.3
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -4002,21 +4002,21 @@
       "BF": 84,
       "battingAverage": 32.25,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 39
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 6.642,
+      "economy": 11.125,
       "runsConceded": 89,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 89.0,
-      "bSR": 13.4,
-      "overs": 13.399999999999999
+      "bSR": 48.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -4030,7 +4030,7 @@
       "runs": 161,
       "4s": 15,
       "6s": 12,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 182.955,
@@ -4065,7 +4065,7 @@
       "runs": 156,
       "4s": 17,
       "6s": 10,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 167.742,
@@ -4100,7 +4100,7 @@
       "runs": 46,
       "4s": 2,
       "6s": 3,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 117.949,
@@ -4142,7 +4142,7 @@
       "BF": 97,
       "battingAverage": 35.75,
       "dissmissals": 4,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 64
     },
     "bowling": {
@@ -4175,9 +4175,9 @@
       "100s": 0,
       "SR": 149.351,
       "BF": 77,
-      "battingAverage": 57.5,
-      "dissmissals": 2,
-      "NOs": 0,
+      "battingAverage": 38.333,
+      "dissmissals": 3,
+      "NOs": 2,
       "HS": 45
     },
     "bowling": {
@@ -4205,14 +4205,14 @@
       "runs": 50,
       "4s": 5,
       "6s": 4,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 227.273,
       "BF": 22,
       "battingAverage": 25.0,
       "dissmissals": 2,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 33
     },
     "bowling": {
@@ -4246,22 +4246,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 4.478,
+      "economy": 7.5,
       "runsConceded": 60,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 15.0,
-      "bSR": 3.35,
-      "overs": 13.4
+      "bSR": 12.0,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -4315,23 +4315,23 @@
       "100s": 0,
       "SR": 600.0,
       "BF": 1,
-      "battingAverage": 6.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 2.0,
+      "dissmissals": 3,
+      "NOs": 1,
       "HS": 6
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 6.245,
+      "economy": 10.395,
       "runsConceded": 158,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 39.5,
-      "bSR": 6.325,
-      "overs": 25.3
+      "bSR": 22.8,
+      "overs": 15.2
     },
     "fielding": {
       "catches": 0,
@@ -4351,14 +4351,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 8.824,
+      "economy": 15.0,
       "runsConceded": 15,
       "4H": 0,
       "5H": 0,
@@ -4366,7 +4366,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -4386,22 +4386,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 8.9,
+      "economy": 14.833,
       "runsConceded": 89,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 89.0,
-      "bSR": 10.0,
-      "overs": 10.0
+      "bSR": 36.0,
+      "overs": 6.0
     },
     "fielding": {
       "catches": 0,
@@ -4421,22 +4421,22 @@
       "SR": 337.5,
       "BF": 16,
       "battingAverage": 54.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 1,
+      "NOs": 2,
       "HS": 39
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 7.6,
+      "economy": 12.667,
       "runsConceded": 76,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 76.0,
-      "bSR": 10.0,
-      "overs": 10.0
+      "bSR": 36.0,
+      "overs": 6.0
     },
     "fielding": {
       "catches": 0,
@@ -4455,23 +4455,23 @@
       "100s": 0,
       "SR": 66.667,
       "BF": 6,
-      "battingAverage": 4.0,
-      "dissmissals": 1,
+      "battingAverage": 1.0,
+      "dissmissals": 4,
       "NOs": 0,
       "HS": 4
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 8.022,
+      "economy": 13.438,
       "runsConceded": 215,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 35.833,
-      "bSR": 4.467,
-      "overs": 26.8
+      "bSR": 16.0,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -4491,22 +4491,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 5.983,
+      "economy": 10.0,
       "runsConceded": 70,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 17.5,
-      "bSR": 2.925,
-      "overs": 11.7
+      "bSR": 10.5,
+      "overs": 7.0
     },
     "fielding": {
       "catches": 0,
@@ -4520,28 +4520,28 @@
       "runs": 0,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 0.0,
       "BF": 1,
       "battingAverage": 0.0,
-      "dissmissals": 1,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 4.701,
+      "economy": 7.857,
       "runsConceded": 55,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 27.5,
-      "bSR": 5.85,
-      "overs": 11.7
+      "bSR": 21.0,
+      "overs": 7.0
     },
     "fielding": {
       "catches": 0,
@@ -4561,14 +4561,14 @@
       "SR": 100.0,
       "BF": 3,
       "battingAverage": 3.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 1,
+      "NOs": 1,
       "HS": 3
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 4.286,
+      "economy": 6.486,
       "runsConceded": 24,
       "4H": 0,
       "5H": 0,
@@ -4576,7 +4576,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.6
+      "overs": 3.7
     },
     "fielding": {
       "catches": 0,
@@ -4595,8 +4595,8 @@
       "100s": 0,
       "SR": 173.333,
       "BF": 45,
-      "battingAverage": 39.0,
-      "dissmissals": 2,
+      "battingAverage": 26.0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 54
     },
@@ -4631,22 +4631,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 6,
       "dots": 0,
-      "economy": 3.576,
+      "economy": 6.0,
       "runsConceded": 54,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 9.0,
-      "bSR": 2.517,
-      "overs": 15.1
+      "bSR": 9.0,
+      "overs": 9.0
     },
     "fielding": {
       "catches": 0,
@@ -4666,22 +4666,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 4.733,
+      "economy": 7.889,
       "runsConceded": 71,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 71.0,
-      "bSR": 15.0,
-      "overs": 15.0
+      "bSR": 54.0,
+      "overs": 9.0
     },
     "fielding": {
       "catches": 0,
@@ -4695,7 +4695,7 @@
       "runs": 0,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 0.0,
@@ -4708,7 +4708,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 5.4,
+      "economy": 9.0,
       "runsConceded": 27,
       "4H": 0,
       "5H": 0,
@@ -4716,7 +4716,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.0
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -4735,23 +4735,23 @@
       "100s": 0,
       "SR": 200.0,
       "BF": 2,
-      "battingAverage": 4.0,
-      "dissmissals": 1,
-      "NOs": 0,
+      "battingAverage": 1.333,
+      "dissmissals": 3,
+      "NOs": 1,
       "HS": 4
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 4.813,
+      "economy": 8.062,
       "runsConceded": 129,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 43.0,
-      "bSR": 8.933,
-      "overs": 26.8
+      "bSR": 32.0,
+      "overs": 16.0
     },
     "fielding": {
       "catches": 0,
@@ -4770,23 +4770,23 @@
       "100s": 0,
       "SR": 109.091,
       "BF": 11,
-      "battingAverage": 12.0,
-      "dissmissals": 1,
+      "battingAverage": 4.0,
+      "dissmissals": 3,
       "NOs": 0,
       "HS": 12
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 6.081,
+      "economy": 9.375,
       "runsConceded": 45,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 15.0,
-      "bSR": 2.467,
-      "overs": 7.3999999999999995
+      "bSR": 9.6,
+      "overs": 4.8
     },
     "fielding": {
       "catches": 0,
@@ -4840,15 +4840,15 @@
       "100s": 0,
       "SR": 20.0,
       "BF": 5,
-      "battingAverage": 1.0,
-      "dissmissals": 1,
+      "battingAverage": 0.5,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 1
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 8.675,
+      "economy": 14.4,
       "runsConceded": 72,
       "4H": 0,
       "5H": 0,
@@ -4856,7 +4856,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 8.3
+      "overs": 5.0
     },
     "fielding": {
       "catches": 0,
@@ -4875,23 +4875,23 @@
       "100s": 0,
       "SR": 80.0,
       "BF": 5,
-      "battingAverage": 4.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 2.0,
+      "dissmissals": 2,
+      "NOs": 1,
       "HS": 4
     },
     "bowling": {
       "wickets": 4,
       "dots": 0,
-      "economy": 6.07,
+      "economy": 10.167,
       "runsConceded": 122,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 30.5,
-      "bSR": 5.025,
-      "overs": 20.1
+      "bSR": 18.0,
+      "overs": 12.0
     },
     "fielding": {
       "catches": 0,
@@ -4911,8 +4911,8 @@
       "SR": 133.333,
       "BF": 6,
       "battingAverage": 8.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 1,
+      "NOs": 1,
       "HS": 8
     },
     "bowling": {
@@ -4945,23 +4945,23 @@
       "100s": 0,
       "SR": 50.0,
       "BF": 6,
-      "battingAverage": 3.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "battingAverage": 1.5,
+      "dissmissals": 2,
+      "NOs": 1,
       "HS": 3
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 5.435,
+      "economy": 9.091,
       "runsConceded": 100,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 33.333,
-      "bSR": 6.133,
-      "overs": 18.4
+      "bSR": 22.0,
+      "overs": 11.0
     },
     "fielding": {
       "catches": 0,
@@ -4981,22 +4981,22 @@
       "SR": 100.0,
       "BF": 1,
       "battingAverage": 1.0,
-      "dissmissals": 0,
-      "NOs": 0,
+      "dissmissals": 1,
+      "NOs": 1,
       "HS": 1
     },
     "bowling": {
       "wickets": 5,
       "dots": 0,
-      "economy": 4.104,
+      "economy": 6.875,
       "runsConceded": 55,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 11.0,
-      "bSR": 2.68,
-      "overs": 13.4
+      "bSR": 9.6,
+      "overs": 8.0
     },
     "fielding": {
       "catches": 0,
@@ -5058,7 +5058,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 6.667,
+      "economy": 11.0,
       "runsConceded": 22,
       "4H": 0,
       "5H": 0,
@@ -5066,7 +5066,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.3
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -5087,7 +5087,7 @@
       "BF": 32,
       "battingAverage": 64.0,
       "dissmissals": 1,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 33
     },
     "bowling": {
@@ -5121,22 +5121,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 2,
       "dots": 0,
-      "economy": 4.6,
+      "economy": 7.667,
       "runsConceded": 23,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 11.5,
-      "bSR": 2.5,
-      "overs": 5.0
+      "bSR": 9.0,
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -5156,14 +5156,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 15.882,
+      "economy": 27.0,
       "runsConceded": 27,
       "4H": 0,
       "5H": 0,
@@ -5171,7 +5171,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -5192,21 +5192,21 @@
       "BF": 45,
       "battingAverage": 78.0,
       "dissmissals": 1,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 64
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 6.6,
+      "economy": 11.0,
       "runsConceded": 33,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 33.0,
-      "bSR": 5.0,
-      "overs": 5.0
+      "bSR": 18.0,
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -5261,14 +5261,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 8.788,
+      "economy": 14.5,
       "runsConceded": 29,
       "4H": 0,
       "5H": 0,
@@ -5276,7 +5276,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.3
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -5290,7 +5290,7 @@
       "runs": 52,
       "4s": 5,
       "6s": 4,
-      "0s": 0,
+      "0s": 1,
       "50s": 1,
       "100s": 0,
       "SR": 247.619,
@@ -5331,14 +5331,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 2,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 4.8,
+      "economy": 8.0,
       "runsConceded": 24,
       "4H": 0,
       "5H": 0,
@@ -5346,7 +5346,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.0
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -5373,7 +5373,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 5.97,
+      "economy": 10.0,
       "runsConceded": 40,
       "4H": 0,
       "5H": 0,
@@ -5381,7 +5381,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 6.7
+      "overs": 4.0
     },
     "fielding": {
       "catches": 0,
@@ -5408,7 +5408,7 @@
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 8.824,
+      "economy": 15.0,
       "runsConceded": 15,
       "4H": 0,
       "5H": 0,
@@ -5416,7 +5416,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 1.7
+      "overs": 1.0
     },
     "fielding": {
       "catches": 0,
@@ -5430,7 +5430,7 @@
       "runs": 0,
       "4s": 0,
       "6s": 0,
-      "0s": 0,
+      "0s": 1,
       "50s": 0,
       "100s": 0,
       "SR": 0.0,
@@ -5506,14 +5506,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 5.4,
+      "economy": 9.0,
       "runsConceded": 27,
       "4H": 0,
       "5H": 0,
@@ -5521,7 +5521,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 5.0
+      "overs": 3.0
     },
     "fielding": {
       "catches": 0,
@@ -5541,22 +5541,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 3,
       "dots": 0,
-      "economy": 6.119,
+      "economy": 10.25,
       "runsConceded": 41,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 13.667,
-      "bSR": 2.233,
-      "overs": 6.7
+      "bSR": 8.0,
+      "overs": 4.0
     },
     "fielding": {
       "catches": 0,
@@ -5576,14 +5576,14 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 0,
       "dots": 0,
-      "economy": 4.848,
+      "economy": 8.0,
       "runsConceded": 16,
       "4H": 0,
       "5H": 0,
@@ -5591,7 +5591,7 @@
       "maiden": 0,
       "bowlingAverage": -1,
       "bSR": -1,
-      "overs": 3.3
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -5723,15 +5723,15 @@
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 7.273,
+      "economy": 12.0,
       "runsConceded": 24,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 24.0,
-      "bSR": 3.3,
-      "overs": 3.3
+      "bSR": 12.0,
+      "overs": 2.0
     },
     "fielding": {
       "catches": 0,
@@ -5752,21 +5752,21 @@
       "BF": 2,
       "battingAverage": 2.0,
       "dissmissals": 0,
-      "NOs": 0,
+      "NOs": 1,
       "HS": 2
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 10.0,
+      "economy": 15.714,
       "runsConceded": 55,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 55.0,
-      "bSR": 5.5,
-      "overs": 5.5
+      "bSR": 21.0,
+      "overs": 3.5
     },
     "fielding": {
       "catches": 0,
@@ -5786,22 +5786,22 @@
       "SR": 0,
       "BF": 0,
       "battingAverage": 0,
-      "dissmissals": 0,
+      "dissmissals": 1,
       "NOs": 0,
       "HS": 0
     },
     "bowling": {
       "wickets": 1,
       "dots": 0,
-      "economy": 4.776,
+      "economy": 8.0,
       "runsConceded": 32,
       "4H": 0,
       "5H": 0,
       "6H": 0,
       "maiden": 0,
       "bowlingAverage": 32.0,
-      "bSR": 6.7,
-      "overs": 6.7
+      "bSR": 24.0,
+      "overs": 4.0
     },
     "fielding": {
       "catches": 0,
