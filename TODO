@@ -32,8 +32,8 @@ Discord Bot:
     - scorecard <team>
     - leaderboard (help command)
     - leaderboard <stat>
-    - leaderboard <team>
-    - leaderboard <team> <stat>
+    - leaderboard <team> (include leader's discord icon)
+    - leaderboard <team> <stat> (include owner's discord icon)
     - Utility help
     - Utility ping
     - Utility exit
@@ -56,3 +56,8 @@ Future:
 Player:
 - Include position
 - Include team color
+
+On Event:
+- When messag mentiosn rcb react with 
+
+replace refresed time with when the data was last updated

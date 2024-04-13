@@ -547,4 +547,3 @@ def updateComputation():
 
 
 updateComputation()
-computePlayerBaseStats()
