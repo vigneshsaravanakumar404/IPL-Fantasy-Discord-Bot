@@ -26,35 +26,61 @@ class LeaderboardGroup(app_commands.Group):
 
         # Function to generate embeds for pagination
         async def get_page(page: int):
+
+            leaderboard_list = []
+            start = (page - 1) * group
+            end = min(start + group, length)
+            count = start + 1
+            max_name_length = max(
+                len(player[::-1][0].split()[0][0] + player[::-1][0].split()[-1])
+                for player in leaderboard_data["batting"]["runs"][start:end]
+            )
+
+            for player in leaderboard_data["batting"]["runs"][start:end]:
+
+                initial = player[::-1][0].split()[0][0]
+                lastName = player[::-1][0].split()[-1]
+                player_name = initial + ". " + lastName
+                player_runs = str(player[::-1][1])
+                player_rank = str(count) + ")" + ((3 - len(str(count))) * " ")
+                extra_spaces = " " * (max_name_length - len(player_name) + 2)
+
+                leaderboard_list.append(
+                    f"{player_rank} {player_name}{extra_spaces}  {player_runs}\n"
+                )
+                count += 1
+
             emb = Embed(
                 title="Runs Leaderboard",
                 colour=0xEC1C24,
-                description=f"Page {page} of {total_pages}",
+                description=f"Page {page} of {total_pages}\n```"
+                + "".join(leaderboard_list)
+                + "```",
             )
 
-            start_index = (page - 1) * group
-            end_index = min(start_index + group, length)
+            # emb.add_field(
+            #     name="#",
+            #     value="\n".join(str(i + 1) for i in range(start_index, end_index)),
+            #     inline=True,
+            # )
+            # emb.add_field(
+            #     name="Player",
+            #     value="\n".join(
+            #         leaderboard_data["batting"]["runs"][i][1][0]
+            #         + ". "
+            #         + leaderboard_data["batting"]["runs"][i][1].split()[-1]
+            #         for i in range(start_index, end_index)
+            #     ),
+            #     inline=True,
+            # )
 
-            emb.add_field(
-                name="Rank",
-                value="\n".join(str(i + 1) for i in range(start_index, end_index)),
-                inline=True,
-            )
-            emb.add_field(
-                name="Player",
-                value="\n".join(
-                    leaderboard_data["batting"]["runs"][i][1]
-                    for i in range(start_index, end_index)
-                ),
-                inline=True,
-            )
-            emb.add_field(
-                name="Runs",
-                value="\n".join(
-                    str(leaderboard_data["batting"]["runs"][i][0])
-                    for i in range(start_index, end_index)
-                ),
-            )
+            # emb.add_field(
+            #     name="Runs",
+            #     value="\n".join(
+            #         str(leaderboard_data["batting"]["runs"][i][0])
+            #         for i in range(start_index, end_index)
+            #     ),
+            # )
 
             emb.set_author(
                 name="IPL Fantasy",
