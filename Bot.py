@@ -1,16 +1,17 @@
+from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
+from discord import Intents, Game, Embed, Color
+from colorama import Fore, Back, Style
 from discord.ext import commands
 from datetime import datetime
-from colorama import Fore, Back, Style
-from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
+from os import system, name
 from Private import TOKEN
-import sys
-import discord
-
+from sys import exc_info
 
 if __name__ == "__main__":
 
     # Initialize
-    client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
+    system("cls" if name == "nt" else "clear")
+    client = commands.Bot(command_prefix="!", intents=Intents.all())
     current_time = datetime.now()
     time_string = current_time.strftime("%H:%M:%S EST")
     prfx = (
@@ -40,7 +41,7 @@ if __name__ == "__main__":
         # Pre Initialize
         print(prfx + "Initializing bot..." + Fore.WHITE)
         await client.change_presence(
-            activity=discord.Game(f"Latency: {(client.latency * 1000):.3f} ms")
+            activity=Game(f"Latency: {(client.latency * 1000):.3f} ms")
         )
         print(
             prfx
@@ -70,9 +71,7 @@ if __name__ == "__main__":
         )
         print(prfx + f"Latency: {(client.latency * 1000):.3f} ms")
 
-        embed = discord.Embed(
-            title=f"{client.user.name} is ready!", color=discord.Color.gold()
-        )
+        embed = Embed(title=f"{client.user.name} is ready!", color=Color.gold())
         embed.set_author(name=client.user.display_name, icon_url=client.user.avatar.url)
         embed.add_field(
             name="Latency", value=f"{(client.latency * 1000):.3f} ms", inline=False
@@ -156,7 +155,7 @@ if __name__ == "__main__":
         print(prfx + f"An error occurred in event {event}:")
         print(prfx + f"Args: {args}")
         print(prfx + f"Kwargs: {kwargs}")
-        print(prfx + f"Error: {sys.exc_info()}")
+        print(prfx + f"Error: {exc_info()}")
         # TODO: Test + logging
 
     client.run(TOKEN)

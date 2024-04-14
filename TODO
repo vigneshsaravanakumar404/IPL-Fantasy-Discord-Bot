@@ -26,12 +26,11 @@ Discord Bot:
   - Commands
     /* documentation, logging, help for all commands *\
     - help (general help command)
-    - scorecard
+    - scorecard (help command)
     - scorecard me
     - scorecard <player>
     - scorecard <team>
     - leaderboard (help command)
-    - leaderboard <stat>
     - leaderboard <team> (include leader's discord icon)
     - leaderboard <team> <stat> (include owner's discord icon)
     - Utility help

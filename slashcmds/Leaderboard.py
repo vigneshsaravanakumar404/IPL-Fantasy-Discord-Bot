@@ -54,7 +54,16 @@ class LeaderboardGroup(app_commands.Group):
         ]
     )
     async def bowling(self, interaction, stats: app_commands.Choice[str]):
+        """
+        Displays the leaderboard for a specific bowling statistic.
 
+        Parameters:
+        - interaction: The interaction object representing the user's interaction with the command.
+        - stats: The chosen bowling statistic to display the leaderboard for.
+
+        Returns:
+        None
+        """
         # Parse Variables
         leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
         length = len(leaderboard_data["bowling"][stats.value])
@@ -64,7 +73,16 @@ class LeaderboardGroup(app_commands.Group):
 
         # Function to generate embeds for pagination
         async def get_page(page: int):
+            """
+            Generates the leaderboard embed for a specific page.
 
+            Parameters:
+            - page: The page number to generate the leaderboard for.
+
+            Returns:
+            - emb: The leaderboard embed for the specified page.
+            - total_pages: The total number of pages in the leaderboard.
+            """
             # Parse Variables
             start = (page - 1) * GROUP
             end = min(start + GROUP, length)
@@ -75,7 +93,6 @@ class LeaderboardGroup(app_commands.Group):
             leaderboard_list = []
 
             for player in leaderboard_data["bowling"][stats.value][start:end]:
-
                 # Parse Variables
                 initial = player[::-1][0].split()[0][0]
                 lastName = truncate_last_name(player[::-1][0].split()[-1])
@@ -93,7 +110,7 @@ class LeaderboardGroup(app_commands.Group):
             emb = Embed(
                 title=f"{stats.name.capitalize()} Leaderboard",
                 colour=0xEC1C24,
-                description=f"Page {page} of {total_pages}\n\n```"
+                description=f"Page {page} of {total_pages}\n```"
                 + "".join(leaderboard_list)
                 + "```",
             )
@@ -101,7 +118,7 @@ class LeaderboardGroup(app_commands.Group):
                 name="IPL Fantasy",
                 icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
             )
-            emb.set_thumbnail(url=icon)
+            emb.set_image(url=icon)
             emb.set_footer(text="Last Updated")
             emb.timestamp = datetime.fromtimestamp(
                 load(open("Final Data\LastRefresedh.json", "r"))["time"]
@@ -129,6 +146,16 @@ class LeaderboardGroup(app_commands.Group):
         ]
     )
     async def batting(self, interaction, stats: app_commands.Choice[str]):
+        """
+        Displays the leaderboard for a specific batting statistic.
+
+        Parameters:
+        - interaction: The interaction object representing the user's interaction with the command.
+        - stats: The batting statistic to display the leaderboard for.
+
+        Returns:
+        None
+        """
 
         # Parse Variables
         leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
@@ -139,6 +166,16 @@ class LeaderboardGroup(app_commands.Group):
 
         # Function to generate embeds for pagination
         async def get_page(page: int):
+            """
+            Generates the leaderboard embed for a specific page.
+
+            Parameters:
+            - page: The page number to generate the leaderboard for.
+
+            Returns:
+            - emb: The leaderboard embed for the specified page.
+            - total_pages: The total number of pages in the leaderboard.
+            """
 
             # Parse Variables
             start = (page - 1) * GROUP
@@ -168,7 +205,7 @@ class LeaderboardGroup(app_commands.Group):
             emb = Embed(
                 title=f"{stats.name.capitalize()} Leaderboard",
                 colour=0xEC1C24,
-                description=f"Page {page} of {total_pages}\n\n```"
+                description=f"Page {page} of {total_pages}\n```"
                 + "".join(leaderboard_list)
                 + "```",
             )
