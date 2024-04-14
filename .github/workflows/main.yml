@@ -3,7 +3,7 @@ name: Deploy Discord Bot
 on:
   push:
     branches:
-      - clean
+      - clean-version
 
 jobs:
   deploy:
