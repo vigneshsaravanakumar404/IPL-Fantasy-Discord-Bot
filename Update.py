@@ -66,9 +66,13 @@ def UpdateData(updateSeries=False):
 # TODO: Update modlogs with number of games updated + game IDs
 def Update():
     updated = 0
-    # updated = UpdateData()
+    updated = UpdateData()
     print(f"Updated {updated} matches")
     updateComputation()
+
+    with open("Final Data\LastRefresedh.json", "w") as f:
+        # Write the unix
+        dump({"time": datetime.now().timestamp()}, f)
 
 
 Update()

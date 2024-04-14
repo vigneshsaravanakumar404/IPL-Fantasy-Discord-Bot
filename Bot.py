@@ -1,9 +1,9 @@
 from discord.ext import commands
-from discord.ext import commands
 from datetime import datetime
 from colorama import Fore, Back, Style
 from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
 from Private import TOKEN
+import sys
 import discord
 
 
@@ -156,6 +156,7 @@ if __name__ == "__main__":
         print(prfx + f"An error occurred in event {event}:")
         print(prfx + f"Args: {args}")
         print(prfx + f"Kwargs: {kwargs}")
+        print(prfx + f"Error: {sys.exc_info()}")
         # TODO: Test + logging
 
     client.run(TOKEN)

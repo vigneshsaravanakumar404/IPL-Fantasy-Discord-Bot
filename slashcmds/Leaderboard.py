@@ -1,4 +1,5 @@
 # import discord
+from Pagination import Pagination
 from discord import app_commands, Embed
 from datetime import datetime
 from json import load
@@ -13,68 +14,61 @@ from json import load
 class LeaderboardGroup(app_commands.Group):
 
     @app_commands.command(name="runs", description="Displays the runs leaderboard")
-    async def runs(self, interaction, limit: int = 100):
-
+    async def runs(self, interaction):
         # Parse Variables
         leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
-        lenght = len(leaderboard_data["batting"]["runs"])
+        length = len(leaderboard_data["batting"]["runs"])
 
-        if limit < 0:
-            start = lenght + limit
-            end = lenght
-        else:
-            start = 0
-            end = limit
-
+        group = 10
+        total_pages = (length + group - 1) // group
         leader_name = leaderboard_data["batting"]["runs"][0][1].replace(" ", "%20")
         icon = f"https://scores.iplt20.com/ipl/playerimages/{leader_name}.png?v=4"
-        max_name_length = max(
-            len(player[::-1][0].split()[0][0] + player[::-1][0].split()[-1])
-            for player in leaderboard_data["batting"]["runs"][start:end]
-        )
-        count = start + 1
-        leaderboard_list = []
 
-        for player in leaderboard_data["batting"]["runs"][start:end]:
-
-            # Parse Variables
-            initial = player[::-1][0].split()[0][0]
-            lastName = player[::-1][0].split()[-1]
-            player_name = initial + ". " + lastName
-            player_runs = str(player[::-1][1])
-            player_rank = str(count) + ")" + ((3 - len(str(count))) * " ")
-            extra_spaces = " " * (max_name_length - len(player_name) + 2)
-
-            leaderboard_list.append(
-                f"{player_rank} {player_name}{extra_spaces}  {player_runs}\n"
-            )
-            count += 1
-
-        # Create Embeds
-        title_embed = Embed(
-            title="Runs Leaderboard",
-            colour=0xEC1C24,
-            description=f"Showing top {limit} players",
-        )
-        title_embed.set_author(
-            name="IPL Fantasy",
-            icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
-        )
-        title_embed.set_thumbnail(url=icon)
-
-        # Other Embeds
-        embeds = []
-        for i in range(0, len(leaderboard_list), 50):
-            embed = Embed(
+        # Function to generate embeds for pagination
+        async def get_page(page: int):
+            emb = Embed(
+                title="Runs Leaderboard",
                 colour=0xEC1C24,
-                description="```" + "".join(leaderboard_list[i : i + 50]) + "```",
+                description=f"Page {page} of {total_pages}",
             )
-            embeds.append(embed)
 
-        # Send Embeds
-        await interaction.response.send_message(embed=title_embed)
-        for embed in embeds:
-            await interaction.channel.send(embed=embed)
+            start_index = (page - 1) * group
+            end_index = min(start_index + group, length)
+
+            emb.add_field(
+                name="Rank",
+                value="\n".join(str(i + 1) for i in range(start_index, end_index)),
+                inline=True,
+            )
+            emb.add_field(
+                name="Player",
+                value="\n".join(
+                    leaderboard_data["batting"]["runs"][i][1]
+                    for i in range(start_index, end_index)
+                ),
+                inline=True,
+            )
+            emb.add_field(
+                name="Runs",
+                value="\n".join(
+                    str(leaderboard_data["batting"]["runs"][i][0])
+                    for i in range(start_index, end_index)
+                ),
+            )
+
+            emb.set_author(
+                name="IPL Fantasy",
+                icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
+            )
+            # emb.set_thumbnail(url=icon)
+            emb.set_footer(text="Last Updated")
+            with open("Final Data\LastRefresedh.json", "r") as f:
+                emb.timestamp = datetime.fromtimestamp(load(f)["time"])
+
+            return emb, total_pages
+
+        # Create Pagination view and navigate
+        await Pagination(interaction, get_page).navegate()
 
     @app_commands.command(name="help", description="displays the help message")
     async def help(self, interaction):

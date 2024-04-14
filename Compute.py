@@ -3,11 +3,7 @@ from bs4 import BeautifulSoup
 from re import sub
 from json import load, dump
 from os import listdir
-from discord import app_commands
-from datetime import datetime
-import discord
 import prettytable
-import time
 
 
 # Varibales
@@ -240,7 +236,8 @@ def getDots():
                     .replace("Rasikh Salam", "Rasikh Dar Salam")
                     .replace("Nitish Kumar Reddy", "Nitish Reddy")
                 )
-                SCORES[int(players[name])]["bowling"]["dots"] = int(row_list[7])
+                name = int(players[name.rstrip()])
+                SCORES[name]["bowling"]["dots"] = int(row_list[7])
 
 
 def addMatch(data):
