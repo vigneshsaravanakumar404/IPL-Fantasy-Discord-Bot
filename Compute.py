@@ -321,7 +321,7 @@ def addMatch(data):
                         SCORES[batId]["batting"]["runs"]
                         / SCORES[batId]["batting"]["BF"]
                         * 100,
-                        3,
+                        1,
                     )
                     if SCORES[batId]["batting"]["dissmissals"] == 0:
                         SCORES[batId]["batting"]["battingAverage"] = (
@@ -331,7 +331,7 @@ def addMatch(data):
                         SCORES[batId]["batting"]["battingAverage"] = round(
                             SCORES[batId]["batting"]["runs"]
                             / SCORES[batId]["batting"]["dissmissals"],
-                            3,
+                            1,
                         )
 
             for bowler in bowlersData["bowlersData"]:
@@ -388,11 +388,13 @@ def addMatch(data):
                 SCORES[bowlerId]["bowling"]["wickets"] += wickets
                 SCORES[bowlerId]["bowling"]["dots"] += dots
                 SCORES[bowlerId]["bowling"]["runsConceded"] += runs
-                SCORES[bowlerId]["bowling"]["overs"] += round(balls / 6, 1)
+                SCORES[bowlerId]["bowling"]["overs"] += round(
+                    float(f"{int(balls / 6)}.{balls % 6}"), 1
+                )
                 SCORES[bowlerId]["bowling"]["economy"] = round(
                     SCORES[bowlerId]["bowling"]["runsConceded"]
                     / SCORES[bowlerId]["bowling"]["overs"],
-                    3,
+                    2,
                 )
                 SCORES[bowlerId]["bowling"]["maiden"] += maidens
 
@@ -403,13 +405,13 @@ def addMatch(data):
                     SCORES[bowlerId]["bowling"]["bowlingAverage"] = round(
                         SCORES[bowlerId]["bowling"]["runsConceded"]
                         / SCORES[bowlerId]["bowling"]["wickets"],
-                        3,
+                        1,
                     )
                     SCORES[bowlerId]["bowling"]["bSR"] = round(
                         SCORES[bowlerId]["bowling"]["overs"]
                         * 6
                         / SCORES[bowlerId]["bowling"]["wickets"],
-                        3,
+                        1,
                     )
 
                 if wickets >= 4:

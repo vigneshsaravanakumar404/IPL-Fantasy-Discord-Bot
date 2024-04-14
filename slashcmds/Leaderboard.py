@@ -5,145 +5,186 @@ from datetime import datetime
 from json import load
 
 
-# TODO: add logging
+# TODO: Add logging
 # TODO: Deal with ties
-# TODO: correct last updated time
 # TODO: Add owner
+
+# Variables
+TRUNCATE_LIMIT = 9
+GROUP = 10
+
+
+def truncate_last_name(last_name: str) -> str:
+    return (
+        (last_name[: TRUNCATE_LIMIT - 2] + "..")
+        if len(last_name) > TRUNCATE_LIMIT
+        else last_name
+    )
+
+
+def maxNameLength(data: list) -> int:
+    return min(
+        TRUNCATE_LIMIT + 1,
+        max(
+            len(player[::-1][0].split()[0][0] + player[::-1][0].split()[-1])
+            for player in data
+        ),
+    )
 
 
 class LeaderboardGroup(app_commands.Group):
 
-    @app_commands.command(name="runs", description="Displays the runs leaderboard")
-    async def runs(self, interaction):
+    @app_commands.command(
+        name="bowling",
+        description="Displays the leaderboard for a specific bowling statistic",
+    )
+    @app_commands.describe(stats="Statistics to choose from")
+    @app_commands.choices(
+        stats=[
+            app_commands.Choice(name="Wickets", value="wickets"),
+            app_commands.Choice(name="Dots", value="dots"),
+            app_commands.Choice(name="4-Wicket Haul", value="4H"),
+            app_commands.Choice(name="5-Wicket Haul", value="5H"),
+            app_commands.Choice(name="6-Wicket Haul", value="6H"),
+            app_commands.Choice(name="Maiden", value="maiden"),
+            app_commands.Choice(name="Economy", value="economy"),
+            app_commands.Choice(name="Bowling Average", value="bowlingAverage"),
+            app_commands.Choice(name="Bowling Strike Rate", value="bSR"),
+            app_commands.Choice(name="Overs", value="overs"),
+        ]
+    )
+    async def bowling(self, interaction, stats: app_commands.Choice[str]):
+
         # Parse Variables
         leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
-        length = len(leaderboard_data["batting"]["runs"])
-
-        group = 10
-        total_pages = (length + group - 1) // group
-        leader_name = leaderboard_data["batting"]["runs"][0][1].replace(" ", "%20")
+        length = len(leaderboard_data["bowling"][stats.value])
+        total_pages = (length + GROUP - 1) // GROUP
+        leader_name = leaderboard_data["bowling"][stats.value][0][1].replace(" ", "%20")
         icon = f"https://scores.iplt20.com/ipl/playerimages/{leader_name}.png?v=4"
 
         # Function to generate embeds for pagination
         async def get_page(page: int):
 
-            leaderboard_list = []
-            start = (page - 1) * group
-            end = min(start + group, length)
+            # Parse Variables
+            start = (page - 1) * GROUP
+            end = min(start + GROUP, length)
             count = start + 1
-            max_name_length = max(
-                len(player[::-1][0].split()[0][0] + player[::-1][0].split()[-1])
-                for player in leaderboard_data["batting"]["runs"][start:end]
+            max_name_length = maxNameLength(
+                leaderboard_data["bowling"][stats.value][start:end]
             )
+            leaderboard_list = []
 
-            for player in leaderboard_data["batting"]["runs"][start:end]:
+            for player in leaderboard_data["bowling"][stats.value][start:end]:
 
+                # Parse Variables
                 initial = player[::-1][0].split()[0][0]
-                lastName = player[::-1][0].split()[-1]
+                lastName = truncate_last_name(player[::-1][0].split()[-1])
                 player_name = initial + ". " + lastName
-                player_runs = str(player[::-1][1])
-                player_rank = str(count) + ")" + ((3 - len(str(count))) * " ")
+                player_stat = str(player[::-1][1])
+                player_rank = str(count) + ((3 - len(str(count))) * " ")
                 extra_spaces = " " * (max_name_length - len(player_name) + 2)
 
                 leaderboard_list.append(
-                    f"{player_rank} {player_name}{extra_spaces}  {player_runs}\n"
+                    f"{player_rank} {player_name}{extra_spaces}  {player_stat}\n"
                 )
                 count += 1
 
+            # generate embeds
             emb = Embed(
-                title="Runs Leaderboard",
+                title=f"{stats.name.capitalize()} Leaderboard",
                 colour=0xEC1C24,
-                description=f"Page {page} of {total_pages}\n```"
+                description=f"Page {page} of {total_pages}\n\n```"
                 + "".join(leaderboard_list)
                 + "```",
             )
-
-            # emb.add_field(
-            #     name="#",
-            #     value="\n".join(str(i + 1) for i in range(start_index, end_index)),
-            #     inline=True,
-            # )
-            # emb.add_field(
-            #     name="Player",
-            #     value="\n".join(
-            #         leaderboard_data["batting"]["runs"][i][1][0]
-            #         + ". "
-            #         + leaderboard_data["batting"]["runs"][i][1].split()[-1]
-            #         for i in range(start_index, end_index)
-            #     ),
-            #     inline=True,
-            # )
-
-            # emb.add_field(
-            #     name="Runs",
-            #     value="\n".join(
-            #         str(leaderboard_data["batting"]["runs"][i][0])
-            #         for i in range(start_index, end_index)
-            #     ),
-            # )
-
             emb.set_author(
                 name="IPL Fantasy",
                 icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
             )
-            # emb.set_thumbnail(url=icon)
+            emb.set_thumbnail(url=icon)
             emb.set_footer(text="Last Updated")
-            with open("Final Data\LastRefresedh.json", "r") as f:
-                emb.timestamp = datetime.fromtimestamp(load(f)["time"])
+            emb.timestamp = datetime.fromtimestamp(
+                load(open("Final Data\LastRefresedh.json", "r"))["time"]
+            )
 
             return emb, total_pages
 
-        # Create Pagination view and navigate
         await Pagination(interaction, get_page).navegate()
 
-    @app_commands.command(name="help", description="displays the help message")
-    async def help(self, interaction):
-        embed = Embed(
-            title="IPLFantasy Bot",
-            description="A Discord bot that displays IPL statistics",
-            colour=0x009688,
-            timestamp=datetime.now(),
-        )
-        embed.set_author(
-            name="IPLFantasy",
-            icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
-        )
-        embed.set_footer(
-            text="Vignesh Saravanakumar",
-            icon_url="https://lh3.googleusercontent.com/a/ACg8ocKII8LPTqmYUAgEyzvcZCeAd1_sZKoj2giIvs8Zhw-Y9cyvolbt=s360-c-no",
-        )
+    @app_commands.command(
+        name="batting",
+        description="Displays the leaderboard for a specific batting statistic",
+    )
+    @app_commands.describe(stats="Statistics to choose from")
+    @app_commands.choices(
+        stats=[
+            app_commands.Choice(name="Runs", value="runs"),
+            app_commands.Choice(name="4s", value="4s"),
+            app_commands.Choice(name="6s", value="6s"),
+            app_commands.Choice(name="50s", value="50s"),
+            app_commands.Choice(name="100s", value="100s"),
+            app_commands.Choice(name="Ducks", value="0s"),
+            app_commands.Choice(name="Batting Average", value="battingAverage"),
+            app_commands.Choice(name="Batting Strike Rate", value="SR"),
+        ]
+    )
+    async def batting(self, interaction, stats: app_commands.Choice[str]):
 
-        embed.add_field(
-            name="Commands",
-            value="`/help` - displays this help message\n\n"
-            "**Commands for batting statistics:**\n"
-            "`/runs`\n"
-            "`/0s`\n"
-            "`/4s`\n"
-            "`/6s`\n"
-            "`/50s`\n"
-            "`/100s`\n"
-            "`/sr`\n"
-            "`/batting-average`\n"
-            "`/not-outs`\n"
-            "`/high-score`\n\n"
-            "**Commands for bowling statistics:**\n"
-            "`/wickets`\n"
-            "`/dots`\n"
-            "`/4-wicket-haul`\n"
-            "`/5-wicket-haul`\n"
-            "`/6-wicket-haul`\n"
-            "`/maiden`\n"
-            "`/economy`\n"
-            "`/bowling-average`\n"
-            "`/bowling-strike-rate`\n"
-            "`/overs`\n\n"
-            "**Other commands:**\n"
-            "`/player-of-the-match`",
-            inline=False,
-        )
+        # Parse Variables
+        leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
+        length = len(leaderboard_data["batting"][stats.value])
+        total_pages = (length + GROUP - 1) // GROUP
+        leader_name = leaderboard_data["batting"][stats.value][0][1].replace(" ", "%20")
+        icon = f"https://scores.iplt20.com/ipl/playerimages/{leader_name}.png?v=4"
 
-        await interaction.response.send_message(embed=embed)
+        # Function to generate embeds for pagination
+        async def get_page(page: int):
+
+            # Parse Variables
+            start = (page - 1) * GROUP
+            end = min(start + GROUP, length)
+            count = start + 1
+            max_name_length = maxNameLength(
+                leaderboard_data["batting"][stats.value][start:end]
+            )
+            leaderboard_list = []
+
+            for player in leaderboard_data["batting"][stats.value][start:end]:
+
+                # Parse Variables
+                initial = player[::-1][0].split()[0][0]
+                lastName = truncate_last_name(player[::-1][0].split()[-1])
+                player_name = initial + ". " + lastName
+                player_stat = str(player[::-1][1])
+                player_rank = str(count) + ((3 - len(str(count))) * " ")
+                extra_spaces = " " * (max_name_length - len(player_name) + 2)
+
+                leaderboard_list.append(
+                    f"{player_rank} {player_name}{extra_spaces}  {player_stat}\n"
+                )
+                count += 1
+
+            # generate embeds
+            emb = Embed(
+                title=f"{stats.name.capitalize()} Leaderboard",
+                colour=0xEC1C24,
+                description=f"Page {page} of {total_pages}\n\n```"
+                + "".join(leaderboard_list)
+                + "```",
+            )
+            emb.set_author(
+                name="IPL Fantasy",
+                icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
+            )
+            emb.set_thumbnail(url=icon)
+            emb.set_footer(text="Last Updated")
+            emb.timestamp = datetime.fromtimestamp(
+                load(open("Final Data\LastRefresedh.json", "r"))["time"]
+            )
+
+            return emb, total_pages
+
+        await Pagination(interaction, get_page).navegate()
 
 
 async def setup(client):
