@@ -1,9 +1,7 @@
-from pprint import pprint
 from bs4 import BeautifulSoup
 from re import sub
 from json import load, dump
 from os import listdir
-import prettytable
 
 
 # Varibales
