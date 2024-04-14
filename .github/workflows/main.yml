@@ -25,5 +25,6 @@ jobs:
           password: LEwJ7g:rR6-n7PH
           port: 22
           script: |
+            cd "${{ github.workspace }}"
             git pull origin main
             python Bot.py
