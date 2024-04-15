@@ -56,7 +56,10 @@ if __name__ == "__main__":
             and now.time() >= datetime.time(10, 10)
             and now.time() <= datetime.time(14, 0)
         ):
-            Update()
+
+            await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
+                embed=Update()
+            )
 
     @tasks.loop(minutes=20)
     async def update__live_match_sunday():
@@ -70,7 +73,9 @@ if __name__ == "__main__":
             and now.time() >= datetime.time(6, 0)
             and now.time() <= datetime.time(14, 0)
         ):
-            Update()
+            await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
+                embed=Update()
+            )
 
     @tasks.loop(hours=1)
     async def update_series():
@@ -80,7 +85,9 @@ if __name__ == "__main__":
         """
         now = datetime.datetime.now()
         if datetime.time(18, 0) <= now.time() < datetime.time(19, 0):
-            Update(updateSeries=True)
+            await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
+                embed=Update()
+            )
 
     # Events
     @client.event
@@ -197,7 +204,28 @@ if __name__ == "__main__":
 
         await client.get_channel(LOGS_CHANNEL).send(embed=embed)
 
-    # TODO: add on_message_delete
+    @client.event
+    async def on_message_delete(message):
+
+        embed = Embed(title="Message Deleted", color=Color.gold())
+        embed.set_author(
+            name=message.author.display_name, icon_url=message.author.avatar.url
+        )
+        embed.add_field(name="Content", value=message.content, inline=False)
+        embed.set_footer(
+            text=f"Deleted at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            icon_url=client.user.avatar.url,
+        )
+
+        attachments = [attachment.url for attachment in message.attachments]
+        if attachments:
+            embed.add_field(
+                name="Attachments Deleted",
+                value="\n".join([f"- {attachment}" for attachment in attachments]),
+                inline=False,
+            )
+
+        await client.get_channel(LOGS_CHANNEL).send(embed=embed)
 
     @client.event
     async def on_reaction_add(reaction, user):
