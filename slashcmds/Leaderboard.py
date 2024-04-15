@@ -67,7 +67,7 @@ class LeaderboardGroup(app_commands.Group):
         """
         # Parse Variables
         script_dir = path.dirname(path.abspath(__file__))
-        data_dir = path.join(script_dir, "Final Data")
+        data_dir = path.join(script_dir, "slashcmds", "Final\ Data")  # Escape the space
         file_path = path.join(data_dir, "Leaderboard.json")
 
         leaderboard_data = load(open(file_path, "r"))
@@ -163,6 +163,7 @@ class LeaderboardGroup(app_commands.Group):
         """
 
         # Parse Variables
+
         leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
         length = len(leaderboard_data["batting"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
