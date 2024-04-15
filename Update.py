@@ -1,9 +1,15 @@
+# How to update
+# - ps aux | grep Bot.py
+# - kill PID
+# - git pull
+# - nohup python Bot.py &
+
 from Constants import MATCHES_URL, SERIES_HEADER
 from Compute import updateComputation
-from requests import get
-from json import dump, load
 from datetime import datetime
+from json import dump, load
 from pprint import pprint
+from requests import get
 
 
 def updateSeries():
@@ -27,7 +33,6 @@ def updateMatch(matchID):
         dump(match_data, f)
 
 
-#! Function is called every 10 minutes during match active times. Then one last time 1 hour after active times
 def UpdateData(updateSeries=False):
     """
     UpdateData function updates the data for IPL matches.
@@ -64,15 +69,15 @@ def UpdateData(updateSeries=False):
 
 
 # TODO: Update modlogs with number of games updated + game IDs
-def Update():
-    updated = 0
-    updated = UpdateData()
+def Update(updateSeries=False):
+
+    if updateSeries:
+        updated = UpdateData(updateSeries=True)
+    else:
+        updated = UpdateData()
+
     print(f"Updated {updated} matches")
     updateComputation()
 
     with open("Final Data\LastRefresedh.json", "w") as f:
-        # Write the unix
         dump({"time": datetime.now().timestamp()}, f)
-
-
-Update()

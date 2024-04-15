@@ -5,6 +5,7 @@ from discord.ext import commands, tasks
 from datetime import datetime
 from os import system, name
 from Private import TOKEN
+from Update import Update
 from sys import exc_info
 
 if __name__ == "__main__":
@@ -24,12 +25,62 @@ if __name__ == "__main__":
         + " "
     )
 
-    # Async Tasks 
-    @tasks.loop(seconds=60)  # Change seconds to the interval you want
+    # Async Tasks
+    @tasks.loop(seconds=60)
     async def update_ping():
+        """
+        A task that updates the bot's presence with the current latency.
+
+        This task runs every 60 seconds and updates the bot's presence with the current latency.
+        The latency is displayed in milliseconds and rounded to 3 decimal places.
+
+        Parameters:
+            None
+
+        Returns:
+            None
+        """
         await client.change_presence(
             activity=Game(f"Latency: {(client.latency * 1000):.3f} ms")
         )
+
+    @tasks.loop(minutes=10)
+    async def update_live_match():
+        """
+        A task that runs every 10 minutes to check if it's a weekday between 10:10 AM and 2:00 PM.
+        If the conditions are met, it calls the Update() function.
+        """
+        now = datetime.datetime.now()
+        if (
+            now.weekday() < 5
+            and now.time() >= datetime.time(10, 10)
+            and now.time() <= datetime.time(14, 0)
+        ):
+            Update()
+
+    @tasks.loop(minutes=20)
+    async def update__live_match_sunday():
+        """
+        A task that runs every 20 minutes to check if it's a Sunday between 6:00 AM and 2:00 PM.
+        If the conditions are met, it calls the Update() function.
+        """
+        now = datetime.datetime.now()
+        if (
+            now.weekday() == 6  # Sunday
+            and now.time() >= datetime.time(6, 0)
+            and now.time() <= datetime.time(14, 0)
+        ):
+            Update()
+
+    @tasks.loop(hours=1)
+    async def update_series():
+        """
+        A task that runs every hour and checks if it's between 6 PM and 7 PM.
+        If it is, it calls the Update function with the updateSeries parameter set to True.
+        """
+        now = datetime.datetime.now()
+        if datetime.time(18, 0) <= now.time() < datetime.time(19, 0):
+            Update(updateSeries=True)
 
     # Events
     @client.event
@@ -60,6 +111,9 @@ if __name__ == "__main__":
 
         # Load Async Tasks
         update_ping.start()
+        update_live_match.start()
+        update_series.start()
+        update__live_match_sunday.start()
 
         # Load Slash Commands
         # await client.load_extension("slashcmds.Scorecard")
