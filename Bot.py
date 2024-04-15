@@ -2,7 +2,7 @@ from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
 from discord import Intents, Game, Embed, Color
 from colorama import Fore, Back, Style
 from discord.ext import commands, tasks
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 from os import system, name
 from Private import TOKEN
 from Update import Update
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     # Initialize
     system("cls" if name == "nt" else "clear")
     client = commands.Bot(command_prefix="!", intents=Intents.all())
-    current_time = datetime.now()
+    current_time = datetime.now() + timedelta(hours=5)
     time_string = current_time.strftime("%H:%M:%S EST")
     prfx = (
         Back.LIGHTBLACK_EX
@@ -50,7 +50,7 @@ if __name__ == "__main__":
         A task that runs every 10 minutes to check if it's Monday-Thursday between 10:10 AM and 2:00 PM.
         If the conditions are met, it calls the Update() function.
         """
-        now = datetime.now()
+        now = datetime.now() + timedelta(hours=5)
         if (
             now.weekday() < 6
             and now.time() >= time(10, 10)
@@ -67,7 +67,7 @@ if __name__ == "__main__":
         A task that runs every 20 minutes to check if it's a Sunday between 6:00 AM and 2:00 PM.
         If the conditions are met, it calls the Update() function.
         """
-        now = datetime.now()
+        now = datetime.now() + timedelta(hours=5)
         if (
             now.weekday() == 6  # Sunday
             and now.time() >= time(6, 0)
@@ -83,7 +83,7 @@ if __name__ == "__main__":
         A task that runs every hour and checks if it's between 6 PM and 7 PM.
         If it is, it calls the Update function with the updateSeries parameter set to True.
         """
-        now = datetime.now()
+        now = datetime.now() + timedelta(hours=5)
         if time(18, 0) <= now.time() < time(19, 0):
             await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
                 embed=Update()
