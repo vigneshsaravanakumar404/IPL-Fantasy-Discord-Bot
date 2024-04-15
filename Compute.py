@@ -210,7 +210,10 @@ def getDots():
         players = load(f)
     players = {value: key for key, value in players.items()}
 
-    with open("Data\DOTS.html", "r", encoding="utf-8") as file:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Data")
+    file_path = path.join(data_dir, "DOTS.html")
+    with open(file_path, "r", encoding="utf-8") as file:
         soup = BeautifulSoup(file, "html.parser")
         table_body = soup.find("tbody")
 

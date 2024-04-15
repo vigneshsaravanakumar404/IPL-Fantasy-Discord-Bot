@@ -4,4 +4,4 @@
 - ps aux | grep Bot.py
 - kill PID
 - git pull
-- nohup python Bot.py &
+- nohup python Bot.py 
