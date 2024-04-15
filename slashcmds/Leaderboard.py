@@ -3,6 +3,7 @@ from Pagination import Pagination
 from discord import app_commands, Embed
 from datetime import datetime
 from json import load
+from os import path
 
 
 # TODO: Add logging
@@ -65,7 +66,11 @@ class LeaderboardGroup(app_commands.Group):
         None
         """
         # Parse Variables
-        leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
+        script_dir = path.dirname(path.abspath(__file__))
+        data_dir = path.join(script_dir, "Final Data")
+        file_path = path.join(data_dir, "Leaderboard.json")
+
+        leaderboard_data = load(open(file_path, "r"))
         length = len(leaderboard_data["bowling"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
         leader_name = leaderboard_data["bowling"][stats.value][0][1].replace(" ", "%20")
