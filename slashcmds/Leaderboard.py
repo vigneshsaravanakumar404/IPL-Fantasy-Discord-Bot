@@ -65,13 +65,11 @@ class LeaderboardGroup(app_commands.Group):
         Returns:
         None
         """
-        # Parse Variables
-        script_dir = (
-            "/root/IPL-Fantasy-Discord-Bot"  # You can hardcode the path if needed
-        )
-        data_dir = path.join(script_dir, "Final Data")
-        file_path = path.join(data_dir, "Leaderboard.json")
 
+        # Parse Variables
+        file_path = path.join(
+            path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"), "Leaderboard.json"
+        )
         leaderboard_data = load(open(file_path, "r"))
         length = len(leaderboard_data["bowling"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
@@ -127,9 +125,11 @@ class LeaderboardGroup(app_commands.Group):
             )
             emb.set_image(url=icon)
             emb.set_footer(text="Last Updated")
-            emb.timestamp = datetime.fromtimestamp(
-                load(open("Final Data\LastRefresedh.json", "r"))["time"]
+            file_path = path.join(
+                path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"),
+                "LastRefresedh.json",
             )
+            emb.timestamp = datetime.fromtimestamp(load(open(file_path, "r"))["time"])
 
             return emb, total_pages
 
@@ -165,8 +165,10 @@ class LeaderboardGroup(app_commands.Group):
         """
 
         # Parse Variables
-
-        leaderboard_data = load(open("Final Data\Leaderboard.json", "r"))
+        file_path = path.join(
+            path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"), "Leaderboard.json"
+        )
+        leaderboard_data = load(open(file_path, "r"))
         length = len(leaderboard_data["batting"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
         leader_name = leaderboard_data["batting"][stats.value][0][1].replace(" ", "%20")
@@ -223,9 +225,11 @@ class LeaderboardGroup(app_commands.Group):
             )
             emb.set_thumbnail(url=icon)
             emb.set_footer(text="Last Updated")
-            emb.timestamp = datetime.fromtimestamp(
-                load(open("Final Data\LastRefresedh.json", "r"))["time"]
+            file_path = path.join(
+                path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"),
+                "LastRefresedh.json",
             )
+            emb.timestamp = datetime.fromtimestamp(load(open(file_path, "r"))["time"])
 
             return emb, total_pages
 
