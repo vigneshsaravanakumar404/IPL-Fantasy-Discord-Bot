@@ -24,7 +24,7 @@ if __name__ == "__main__":
         + " "
     )
 
-    # Async Tasks
+    # Async Tasks 
     @tasks.loop(seconds=60)  # Change seconds to the interval you want
     async def update_ping():
         await client.change_presence(
