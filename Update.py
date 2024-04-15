@@ -111,3 +111,6 @@ def Update(updateSeries=False):
     embed.set_footer(text="Updated")
 
     return embed
+
+
+Update()
