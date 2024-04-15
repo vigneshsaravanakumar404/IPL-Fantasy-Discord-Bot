@@ -25,6 +25,7 @@ jobs:
           password: LEwJ7g:rR6-n7PH
           port: 22
           script: |
+            ls
             cd /home/runner/work/IPL-Fantasy-Discord-Bot/IPL-Fantasy-Discord-Bot
             git pull origin main
             python Bot.py
