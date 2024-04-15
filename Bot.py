@@ -53,8 +53,8 @@ if __name__ == "__main__":
         now = datetime.now()
         if (
             now.weekday() < 5
-            and now.time() >= datetime.time(10, 10)
-            and now.time() <= datetime.time(14, 0)
+            and now.time() >= time(10, 10)
+            and now.time() <= time(14, 0)
         ):
 
             await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
@@ -70,8 +70,8 @@ if __name__ == "__main__":
         now = datetime.now()
         if (
             now.weekday() == 6  # Sunday
-            and now.time() >= datetime.time(6, 0)
-            and now.time() <= datetime.time(14, 0)
+            and now.time() >= time(6, 0)
+            and now.time() <= time(14, 0)
         ):
             await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
                 embed=Update()
