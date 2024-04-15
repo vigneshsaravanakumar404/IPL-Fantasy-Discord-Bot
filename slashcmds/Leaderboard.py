@@ -165,10 +165,15 @@ class LeaderboardGroup(app_commands.Group):
         """
 
         # Parse Variables
-        file_path = path.join(
-            path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"), "Leaderboard.json"
+        script_dir = (
+            "/root/IPL-Fantasy-Discord-Bot"  # You can hardcode the path if needed
         )
-        leaderboard_data = load(open(file_path, "r"))
+        data_dir = path.join(script_dir, "Final Data")
+        file_path = path.join(data_dir, "Leaderboard.json")
+
+        # Load the JSON data from the file
+        with open(file_path, "r") as json_file:
+            leaderboard_data = load(json_file)
         length = len(leaderboard_data["batting"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
         leader_name = leaderboard_data["batting"][stats.value][0][1].replace(" ", "%20")
