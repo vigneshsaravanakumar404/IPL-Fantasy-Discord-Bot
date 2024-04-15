@@ -20,11 +20,11 @@ jobs:
       - name: Deploy to DigitalOcean
         uses: appleboy/ssh-action@master
         with:
-          host: 192.241.155.120
+          host: 192.241.155.120 
           username: root
           password: LEwJ7g:rR6-n7PH
           port: 22
           script: |
-            cd "${{ github.workspace }}"
+            cd "${{ github.repository }}"
             git pull origin main
             python Bot.py
