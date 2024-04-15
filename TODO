@@ -39,8 +39,9 @@ Discord Bot:
 
 replace refresed time with when the data was last updated
 update dot balls using file
-choose attractive color scheme
 type hinting
+dont check message edits on messages by the bot
+
 
 
 Future:
@@ -61,3 +62,4 @@ Future:
 Player:
 - Include position
 - Include team color
+

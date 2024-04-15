@@ -47,12 +47,12 @@ if __name__ == "__main__":
     @tasks.loop(minutes=10)
     async def update_live_match():
         """
-        A task that runs every 10 minutes to check if it's a weekday between 10:10 AM and 2:00 PM.
+        A task that runs every 10 minutes to check if it's Monday-Thursday between 10:10 AM and 2:00 PM.
         If the conditions are met, it calls the Update() function.
         """
         now = datetime.now()
         if (
-            now.weekday() < 5
+            now.weekday() < 6
             and now.time() >= time(10, 10)
             and now.time() <= time(14, 0)
         ):
