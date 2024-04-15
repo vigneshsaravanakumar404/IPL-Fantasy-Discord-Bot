@@ -1,7 +1,7 @@
 from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
 from discord import Intents, Game, Embed, Color
 from colorama import Fore, Back, Style
-from discord.ext import commands
+from discord.ext import commands, tasks
 from datetime import datetime
 from os import system, name
 from Private import TOKEN
@@ -23,6 +23,13 @@ if __name__ == "__main__":
         + Style.BRIGHT
         + " "
     )
+
+    # Async Tasks
+    @tasks.loop(seconds=60)  # Change seconds to the interval you want
+    async def update_ping():
+        await client.change_presence(
+            activity=Game(f"Latency: {(client.latency * 1000):.3f} ms")
+        )
 
     # Events
     @client.event
@@ -51,12 +58,13 @@ if __name__ == "__main__":
             + Fore.WHITE
         )
 
-        # Load Slash Command Extensions
+        # Load Async Tasks
+        update_ping.start()
+
+        # Load Slash Commands
         # await client.load_extension("slashcmds.Scorecard")
         await client.load_extension("slashcmds.Leaderboard")
         await client.load_extension("slashcmds.UtilityGroup")
-
-        # Initilalize Slash Commands
         await client.tree.sync(guild=client.get_guild(IPL_FANTASY_SERVER))
         await client.tree.sync()
 
@@ -108,7 +116,34 @@ if __name__ == "__main__":
         elif "SRH" in message.content:
             await message.add_reaction("<:SRH:1228474814407114854>")
 
-    # TODO: add on_message_edit, on_message_delete,
+    @client.event
+    async def on_message_edit(before, after):
+
+        embed = Embed(title="Message Edited", color=Color.gold())
+        embed.set_author(
+            name=after.author.display_name, icon_url=after.author.avatar.url
+        )
+        embed.add_field(name="Before", value=before.content, inline=False)
+        embed.add_field(name="After", value=after.content, inline=False)
+        embed.set_footer(
+            text=f"Edited at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            icon_url=client.user.avatar.url,
+        )
+
+        before_attachments = [attachment.url for attachment in before.attachments]
+        after_attachments = [attachment.url for attachment in after.attachments]
+        if before_attachments != after_attachments:
+            embed.add_field(
+                name="Attachments Edited",
+                value="\n".join(
+                    [f"- {attachment}" for attachment in before_attachments]
+                ),
+                inline=False,
+            )
+
+        await client.get_channel(LOGS_CHANNEL).send(embed=embed)
+
+    # TODO: add on_message_delete
 
     @client.event
     async def on_reaction_add(reaction, user):

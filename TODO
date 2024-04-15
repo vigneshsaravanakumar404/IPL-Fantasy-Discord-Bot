@@ -37,6 +37,12 @@ Discord Bot:
     - Utility ping
     - Utility exit
 
+replace refresed time with when the data was last updated
+update dot balls using file
+choose attractive color scheme
+type hinting
+
+
 Future:
   - This season
     - Live score in status
@@ -55,11 +61,3 @@ Future:
 Player:
 - Include position
 - Include team color
-
-On Event:
-- When messag mentiosn rcb react with 
-
-replace refresed time with when the data was last updated
-update dot balls using file
-choose attractive color scheme
-type hinting
