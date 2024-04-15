@@ -152,6 +152,15 @@ if __name__ == "__main__":
 
     @client.event
     async def on_message(message):
+        """
+        Event handler for when a message is received.
+
+        Parameters:
+        - message (discord.Message): The message object received.
+
+        Returns:
+        - None
+        """
         if message.author == client.user:
             return
         elif "RCB" in message.content:
@@ -179,7 +188,21 @@ if __name__ == "__main__":
 
     @client.event
     async def on_message_edit(before, after):
+        """
+        Event handler for when a message is edited.
 
+        Parameters:
+        - before (discord.Message): The message before it was edited.
+        - after (discord.Message): The message after it was edited.
+
+        Returns:
+        - None
+
+        This function creates an embed with information about the edited message and sends it to a specified channel.
+        It includes the author's display name, the content of the message before and after the edit, and the timestamps.
+        If any attachments were edited, it also includes a list of the attachments.
+
+        """
         embed = Embed(title="Message Edited", color=Color.gold())
         embed.set_author(
             name=after.author.display_name, icon_url=after.author.avatar.url
@@ -206,7 +229,18 @@ if __name__ == "__main__":
 
     @client.event
     async def on_message_delete(message):
+        """
+        Event handler for when a message is deleted.
 
+        Args:
+            message (discord.Message): The deleted message object.
+
+        Returns:
+            None
+
+        Raises:
+            None
+        """
         embed = Embed(title="Message Deleted", color=Color.gold())
         embed.set_author(
             name=message.author.display_name, icon_url=message.author.avatar.url
@@ -229,30 +263,64 @@ if __name__ == "__main__":
 
     @client.event
     async def on_reaction_add(reaction, user):
+        """
+        Event handler for when a reaction is added to a message.
+
+        Parameters:
+        - reaction: The reaction that was added.
+        - user: The user who added the reaction.
+
+        Returns:
+        - None
+
+        Description:
+        This function is called whenever a reaction is added to a message. It checks if the user who added the reaction is not the bot itself. If the reaction is the RCB emoji, it adds two more reactions to the message: 🟰 and 🗑️.
+        """
         if user == client.user:
             return
         if reaction.emoji == "<:RCB:1228474812100513792>":
             await reaction.message.add_reaction("🟰")
             await reaction.message.add_reaction("🗑️")
 
-    # TODO: add logging
     @client.event
     async def on_reaction_remove(reaction, user):
+        """
+        Event handler for when a reaction is removed from a message.
+
+        Parameters:
+        - reaction: The Reaction object representing the removed reaction.
+        - user: The User object representing the user who removed the reaction.
+
+        Returns:
+        None
+
+        """
         if user == client.user:
             return
         if reaction.emoji == "<:RCB:1228474812100513792>":
             await reaction.message.remove_reaction("🟰", client.user)
             await reaction.message.remove_reaction("🗑️", client.user)
+        else:
+            embed = Embed(title="Reaction Removed", color=Color.gold())
+            embed.set_author(name=user.display_name, icon_url=user.avatar.url)
+            embed.add_field(name="Emoji", value=reaction.emoji, inline=False)
+            embed.add_field(
+                name="Message", value=reaction.message.content, inline=False
+            )
+
+            await client.get_channel(LOGS_CHANNEL).send(embed=embed)
 
     @client.event
     async def on_error(event, *args, **kwargs):
         """
-        Event handler function that is called when an error occurs during an event.
+        Event handler for handling errors that occur in the client.
 
         Parameters:
-        event (str): The event that caused the error.
-        *args: The arguments passed to the event.
-        **kwargs: The keyword arguments passed to the event.
+        - event: The event where the error occurred.
+        - args: Additional arguments passed to the event.
+        - kwargs: Additional keyword arguments passed to the event.
+
+        Prints the error details and sends an error message to a designated channel.
 
         Returns:
         None
@@ -273,6 +341,21 @@ if __name__ == "__main__":
         print(prfx + f"Args: {args}")
         print(prfx + f"Kwargs: {kwargs}")
         print(prfx + f"Error: {exc_info()}")
-        # TODO: Test + logging
+
+        embed = Embed(
+            title="An error occurred",
+            color=Color.red(),
+            timestamp=datetime.now(),
+        )
+        embed.set_author(name="IPL Fantasy")
+        embed.add_field(name="Event", value=event, inline=False)
+        embed.add_field(name="Args", value=str(args), inline=False)
+        embed.add_field(name="Kwargs", value=str(kwargs), inline=False)
+        embed.add_field(name="Error", value=str(exc_info()), inline=False)
+        embed.set_thumbnail(url=client.user.avatar.url)
+
+        await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
+            embed=embed
+        )
 
     client.run(TOKEN)
