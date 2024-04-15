@@ -60,17 +60,22 @@ class LeaderboardGroup(app_commands.Group):
 
         Parameters:
         - interaction: The interaction object representing the user's interaction with the command.
-        - stats: The chosen bowling statistic to display the leaderboard for.
+        - stats: The bowling statistic to display the leaderboard for.
 
         Returns:
         None
         """
 
         # Parse Variables
-        file_path = path.join(
-            path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"), "Leaderboard.json"
+        script_dir = (
+            "/root/IPL-Fantasy-Discord-Bot"  # You can hardcode the path if needed
         )
-        leaderboard_data = load(open(file_path, "r"))
+        data_dir = path.join(script_dir, "Final Data")
+        file_path = path.join(data_dir, "Leaderboard.json")
+
+        # Load the JSON data from the file
+        with open(file_path, "r") as json_file:
+            leaderboard_data = load(json_file)
         length = len(leaderboard_data["bowling"][stats.value])
         total_pages = (length + GROUP - 1) // GROUP
         leader_name = leaderboard_data["bowling"][stats.value][0][1].replace(" ", "%20")
@@ -88,6 +93,7 @@ class LeaderboardGroup(app_commands.Group):
             - emb: The leaderboard embed for the specified page.
             - total_pages: The total number of pages in the leaderboard.
             """
+
             # Parse Variables
             start = (page - 1) * GROUP
             end = min(start + GROUP, length)
@@ -98,6 +104,7 @@ class LeaderboardGroup(app_commands.Group):
             leaderboard_list = []
 
             for player in leaderboard_data["bowling"][stats.value][start:end]:
+
                 # Parse Variables
                 initial = player[::-1][0].split()[0][0]
                 lastName = truncate_last_name(player[::-1][0].split()[-1])
@@ -123,7 +130,7 @@ class LeaderboardGroup(app_commands.Group):
                 name="IPL Fantasy",
                 icon_url="https://www.iplfantasycricket.com/static/media/Logo.72a128e06e97279fce9e.png",
             )
-            emb.set_image(url=icon)
+            emb.set_thumbnail(url=icon)
             emb.set_footer(text="Last Updated")
             file_path = path.join(
                 path.join("/root/IPL-Fantasy-Discord-Bot", "Final Data"),
