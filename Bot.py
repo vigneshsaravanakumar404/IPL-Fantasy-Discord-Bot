@@ -2,7 +2,7 @@ from Constants import IPL_FANTASY_SERVER, LOGS_CHANNEL
 from discord import Intents, Game, Embed, Color
 from colorama import Fore, Back, Style
 from discord.ext import commands, tasks
-from datetime import datetime
+from datetime import datetime, time
 from os import system, name
 from Private import TOKEN
 from Update import Update
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         If it is, it calls the Update function with the updateSeries parameter set to True.
         """
         now = datetime.now()
-        if datetime.time(18, 0) <= now.time() < datetime.time(19, 0):
+        if time(18, 0) <= now.time() < time(19, 0):
             await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
                 embed=Update()
             )
