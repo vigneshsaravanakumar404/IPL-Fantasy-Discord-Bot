@@ -1,8 +1,6 @@
 import discord
 from discord import app_commands
 from Constants import USER
-from DataHandler import DataHandler
-from pprint import pprint
 
 
 class SquadGroup(app_commands.Group):

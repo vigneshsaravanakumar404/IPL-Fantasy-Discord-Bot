@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from re import sub
 from json import load, dump
-from os import listdir
+from os import listdir, path
 
 
 # Varibales
@@ -61,9 +61,11 @@ EMBEDS = {}
 # TODO
 def computePlayerBaseStats():
 
-    with open("Final Data/Scores.json", "r") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    with open(path.join(data_dir, "Scores.json"), "r") as f:
         data = load(f)
-    with open("Final Data/Players.json", "r") as f:
+    with open(path.join(data_dir, "Players.json"), "r") as f:
         conversions = load(f)
 
     playerPoints = {}
@@ -177,7 +179,10 @@ def computePlayerBaseStats():
     playerPoints = dict(
         sorted(playerPoints.items(), key=lambda item: item[1], reverse=True)
     )
-    with open("Final Data\PlayerPoints.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    file_path = path.join(data_dir, "PlayerPoints.json")
+    with open(file_path, "w") as f:
         dump(playerPoints, f, indent=2)
 
 
@@ -198,7 +203,10 @@ def computeTeamBonusStats():
 
 def getDots():
     players = {}
-    with open("Final Data/Players.json", "r") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    file_path = path.join(data_dir, "Players.json")
+    with open(file_path, "r") as f:
         players = load(f)
     players = {value: key for key, value in players.items()}
 
@@ -462,9 +470,11 @@ def addMatch(data):
 
 def computeLeaderboard():
 
-    with open("Final Data/Scores.json", "r") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    with open(path.join(data_dir, "Scores.json"), "r") as f:
         data = load(f)
-    with open("Final Data\Players.json", "r") as f:
+    with open(path.join(data_dir, "Players.json"), "r") as f:
         players = load(f)
 
     for player in data:
@@ -529,12 +539,18 @@ def updateComputation():
             except ValueError:
                 pass
     getDots()
-    with open("Final Data/Scores.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    file_path = path.join(data_dir, "Scores.json")
+    with open(file_path, "w") as f:
         dump(SCORES, f, indent=2)
 
     # Compute Leaderboard
     computeLeaderboard()
-    with open("Final Data/Leaderboard.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    file_path = path.join(data_dir, "Leaderboard.json")
+    with open(file_path, "w") as f:
         final = {
             "batting": PLAYER_LEADERBOARD_BATTING,
             "bowling": PLAYER_LEADERBOARD_BOWLING,
