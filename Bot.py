@@ -246,6 +246,8 @@ if __name__ == "__main__":
             name=message.author.display_name, icon_url=message.author.avatar.url
         )
         embed.add_field(name="Content", value=message.content, inline=False)
+        embed.add_field(name="Reactions", value=message.reactions, inline=False)
+        embed.add_field(name="Channel", value=message.channel.name, inline=False)
         embed.set_footer(
             text=f"Deleted at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             icon_url=client.user.avatar.url,
