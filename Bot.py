@@ -203,6 +203,10 @@ if __name__ == "__main__":
         If any attachments were edited, it also includes a list of the attachments.
 
         """
+        # check if the author of the message is the bot
+        if before.author == client.user:
+            return
+
         embed = Embed(title="Message Edited", color=Color.gold())
         embed.set_author(
             name=after.author.display_name, icon_url=after.author.avatar.url
