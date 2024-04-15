@@ -50,7 +50,7 @@ if __name__ == "__main__":
         A task that runs every 10 minutes to check if it's a weekday between 10:10 AM and 2:00 PM.
         If the conditions are met, it calls the Update() function.
         """
-        now = datetime.datetime.now()
+        now = datetime.now()
         if (
             now.weekday() < 5
             and now.time() >= datetime.time(10, 10)
@@ -67,7 +67,7 @@ if __name__ == "__main__":
         A task that runs every 20 minutes to check if it's a Sunday between 6:00 AM and 2:00 PM.
         If the conditions are met, it calls the Update() function.
         """
-        now = datetime.datetime.now()
+        now = datetime.now()
         if (
             now.weekday() == 6  # Sunday
             and now.time() >= datetime.time(6, 0)
@@ -83,7 +83,7 @@ if __name__ == "__main__":
         A task that runs every hour and checks if it's between 6 PM and 7 PM.
         If it is, it calls the Update function with the updateSeries parameter set to True.
         """
-        now = datetime.datetime.now()
+        now = datetime.now()
         if datetime.time(18, 0) <= now.time() < datetime.time(19, 0):
             await client.get_guild(IPL_FANTASY_SERVER).get_channel(LOGS_CHANNEL).send(
                 embed=Update()
