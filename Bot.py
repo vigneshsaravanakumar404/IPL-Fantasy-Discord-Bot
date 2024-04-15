@@ -117,10 +117,10 @@ if __name__ == "__main__":
         )
 
         # Load Async Tasks
-        update_ping.start()
-        update_live_match.start()
-        update_series.start()
-        update__live_match_sunday.start()
+        # update_ping.start()
+        # update_live_match.start()
+        # update_series.start()
+        # update__live_match_sunday.start()
 
         # Load Slash Commands
         # await client.load_extension("slashcmds.Scorecard")
