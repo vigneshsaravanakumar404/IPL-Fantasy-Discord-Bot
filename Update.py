@@ -1,16 +1,10 @@
-# How to update
-# - ps aux | grep Bot.py
-# - kill PID
-# - git pull
-# - nohup python Bot.py &
-
 from Constants import MATCHES_URL, SERIES_HEADER
 from Compute import updateComputation
 from datetime import datetime
 from json import dump, load
 from discord import Embed
-from pprint import pprint
 from requests import get
+from os import path
 
 
 def updateSeries():
@@ -18,7 +12,10 @@ def updateSeries():
     Updates the series data by making an API request to the MATCHES_URL and saving the response to a JSON file.
     """
     series_data = get(MATCHES_URL, headers=SERIES_HEADER).json()
-    with open(f"Data/series.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Data")
+    file_path = path.join(data_dir, "series.json")
+    with open(file_path, "w") as f:
         dump(series_data, f)
 
 
@@ -30,7 +27,10 @@ def updateMatch(matchID):
         f"https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/{matchID}/hscard",
         headers=SERIES_HEADER,
     ).json()
-    with open(f"Data/{matchID}.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Data")
+    file_path = path.join(data_dir, f"{matchID}.json")
+    with open(file_path, "w") as f:
         dump(match_data, f)
 
 
@@ -69,8 +69,16 @@ def UpdateData(updateSeries=False):
     return count_updated
 
 
-# TODO: Update modlogs with number of games updated + game IDs
 def Update(updateSeries=False):
+    """
+    Updates the series data, computed data, and last refreshed time.
+
+    Args:
+        updateSeries (bool, optional): Whether to update the series data. Defaults to False.
+
+    Returns:
+        discord.Embed: An embed object containing information about the updated matches and series data.
+    """
 
     # Update the Series Data
     if updateSeries:
@@ -83,7 +91,10 @@ def Update(updateSeries=False):
     updateComputation()
 
     # Update the Last Refreshed Time
-    with open("Final Data\LastRefresedh.json", "w") as f:
+    script_dir = "/root/IPL-Fantasy-Discord-Bot"
+    data_dir = path.join(script_dir, "Final Data")
+    file_path = path.join(data_dir, "LastRefresedh.json")
+    with open(file_path, "w") as f:
         dump({"time": datetime.now().timestamp()}, f)
 
     embed = Embed(

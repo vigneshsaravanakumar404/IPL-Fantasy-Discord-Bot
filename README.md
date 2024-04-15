@@ -1,3 +1,7 @@
 # IPL Fantasy Discord Bot
 
-\::CSK:\:DC:\:GT:\:KKR:\:LSG:\:MI:\:PBKS:\:RCB:\:RR:\:SRH:
+# How to update
+- ps aux | grep Bot.py
+- kill PID
+- git pull
+- nohup python Bot.py &
